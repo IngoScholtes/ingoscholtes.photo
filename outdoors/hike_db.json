@@ -1,5 +1,5 @@
 {
-    "2018_sihlbrugg": {
+    "2018/sihlbrugg": {
         "title": "Hirzl Höchli",
         "location": "Zurich, Switzerland",
         "year": "2018",
@@ -8,7 +8,7 @@
         "ascend": 234,
         "maxalt": 754,
         "walking time": "1h 12m",
-        "track": "2018_sihlbrugg.kml",
+        "track": "track.kml",
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,

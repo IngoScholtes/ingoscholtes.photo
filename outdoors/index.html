@@ -111,7 +111,7 @@
     var hike_id = getQueryParams(document.location.search)["hike_id"];
     console.log(hike_id);
 
-    $.getJSON("hike_db.json", function(hike_db) {    
+    $.getJSON("hike_db.json", function(hike_db) {
         var tour = hike_db[hike_id];
         console.log(tour);
         console.log(tour['title']);
@@ -120,7 +120,7 @@
             $("#"+key).text(tour[key]);
         //populate galleries        
         for (var img in tour["images"])
-            addImageTile(img[0], img[1], "", "album");
+            addImageTile(hike_id + "/" + img[0], img[1], "", "album");
         showMap(tour["map_latitude"], tour["map_longitude"], tour["map_zoom"], tour["track"], "map");
 
     });
