@@ -113,6 +113,7 @@
 
     $.getJSON("hike_db.json", function(hike_db) {    
         var tour = hike_db[hike_id];
+        console.log(tour);
         console.log(tour['title']);
         // set fields 
         for  (var key in tour)
