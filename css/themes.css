@@ -1,0 +1,210 @@
+/* CSS Document */
+
+.themes{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 0px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.separator{
+	width: 100%;
+	background-color: #FFFFFF;
+	min-height:50px;
+	clear: both;
+}
+
+.themes .imageTile {
+	position: relative;
+	float: none;
+	margin: 0px;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	align-content: center
+	line-height: normal;
+	padding: 0px;
+	border: none;	
+	cursor: pointer;
+}
+
+.pictureOverlay
+{
+	background-color: rgba(0,0,0,0.92);
+	position: fixed;	
+	 -webkit-animation: myfirst 0.5s linear 0s; /* Chrome, Safari, Opera */
+     animation: myfirst 0.5s linear 0s; /* Standard syntax */
+	width:100%;  
+	height:100%;
+	top: 0%;
+	left: 0%;	
+	right: 0%;	
+	bottom: 0%;	
+	z-index: 99;
+	text-align:center;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadein {
+    0%   {opacity:0; background-color: rgba(0,0,0,0);}  
+    100% {opacity:1; background-color: rgba(0,0,0,0.92);}
+}
+
+/* Standard syntax */
+@keyframes fadein {
+    0%   {opacity:0; background-color: rgba(0,0,0,0);}  
+    100% {opacity:1; background-color: rgba(0,0,0,0.92);}
+}
+
+
+.pictureOverlayInfo {
+	position:fixed;
+	background-color: rgba(0,0,0,0.92);
+    color: 	#FFF;	
+	display:block;	
+	height: 40px;
+	width: 100%;
+	vertical-align:bottom;
+	margin:auto;
+	bottom: 0%;
+	z-index:-1;
+	text-align: middle;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	 -webkit-animation: myfirst 0.5s linear 0s; /* Chrome, Safari, Opera */
+     animation: myfirst 0.5s linear 0s; /* Standard syntax */
+}
+
+.buyOverlay {
+	position:absolute;
+	background-color: rgba(0,0,0,0);
+    color: 	#FFF;	
+	right: 05px;
+	display:block;	
+	height: 40px;
+	width: 120px;	
+	vertical-align:center;	
+	margin:auto;
+	z-index:0;
+	bottom: 0%;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	 -webkit-animation: myfirst 0.5s linear 0s; /* Chrome, Safari, Opera */
+     animation: myfirst 0.5s linear 0s; /* Standard syntax */
+}
+
+.fivehundredpixOverlay {
+	position:fixed;
+	background-color: rgba(0,0,0,0);
+    color: 	#FFF;	
+	display:block;	
+	height: 40px;
+	width: 80px;
+	vertical-align:center;
+	margin:auto;
+	z-index:1;
+	bottom: 0%;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	 -webkit-animation: myfirst 0.5s linear 0s; /* Chrome, Safari, Opera */
+     animation: myfirst 0.5s linear 0s; /* Standard syntax */
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.pictureOverlayImg {
+	margin:auto;
+	text-align: center;	
+	vertical-align:middle;
+	width:auto;
+	max-width: 100%;
+	max-height:80%;
+	 -webkit-animation: fadein 0.3s linear 0s; /* Chrome, Safari, Opera */
+     animation: fadein 0.3s linear 0s; /* Standard syntax */
+}
+
+.themes .imageTile .image {
+	width: 100%;
+	margin: 0px;	
+	align: center;
+	line-height: 0pt;
+}
+
+
+.themes .imageTile .image img {
+	width: 100%;
+}
+
+
+.imageTile:hover .hoverFooter{ visibility:visible; 
+	 -webkit-animation: fadein 0.1s linear 0s; /* Chrome, Safari, Opera */
+     animation: fadein 0.1s linear 0s; /* Standard syntax */
+}
+
+
+.imageTile:hover .buyFooter{ visibility:visible; 
+	 -webkit-animation: fadein 0.1s linear 0s; /* Chrome, Safari, Opera */
+     animation: fadein 0.1s linear 0s; /* Standard syntax */
+}
+
+.buylink {
+		text-align: right;
+		color: white;
+		text-decoration: none;
+}
+
+.themes .hoverFooter {
+	position:absolute;
+	text-align: center;
+	padding-top:10px;
+	padding-right:0px;
+	padding-left:0px;
+	font-size: 10pt;
+	bottom:0px;
+	height:30px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.65);
+	color: #FFF;
+	border-top: none;
+	font-weight: bold;
+	visibility:hidden;
+	z-index: 2;
+}
+
+.themes .buyFooter {
+	position:absolute;
+	text-align: center;
+	width: 20px;
+	height: 30px;
+	bottom: 0px;
+	right:5px;
+	background-color: rgba(0,0,0,0);
+	color: #FFF;
+	border-top: none;
+	visibility:hidden;
+	z-index: 3;	
+}
+
+
+.themes .footer {
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0,0,0,0.85);
+	color: #FFF;
+	border-top: none;
+	font-weight: bold;
+	font-size: 10pt;
+	line-height: normal;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+}

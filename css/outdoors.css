@@ -1,0 +1,47 @@
+/* CSS Document */
+
+.travelreport ul
+{
+	list-style-type: none;
+	font-size: 12px;	
+	border-top-color:#000;
+	border-top-style:solid;
+	border-top-width: thin;
+	border-bottom-color:#000;
+	border-bottom-style:solid;
+	border-bottom-width: thin;	
+	width: 200px;
+	height: 110px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.travelreport p
+{
+	font-size: 14px;
+}
+
+.travelreport ul li
+{
+	text-align: left;
+	float: left;
+	list-style: none;
+	width:100px;
+	margin-bottom: 0px;
+}
+
+.travelreport h5
+{
+	font-weight:bold;
+	margin-top: 10px;
+	clear: right;
+
+}
+
+.travelreport h4
+{
+	font-weight:bold;
+	margin-top: 10px;
+	clear: both;
+
+}
