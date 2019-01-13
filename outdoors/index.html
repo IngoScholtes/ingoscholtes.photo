@@ -112,9 +112,9 @@
     $.getJSON('hike_db.json', function(hike_db) {
         var tour = hike_db[getQueryParams(document.location.search)['hike_id']];
         // set fields 
-        for  ((key,value) in tour)
+        for  (var key in tour)
         {
-            $("#"+key).text(value);
+            $("#"+key).text(tour[key]);
         }
         //populate galleries        
         for (img in tour['images'])
