@@ -121,8 +121,8 @@
         //populate galleries        
         for (var img in tour["images"])
         {
-            console.log(hike_id + "/" + img[0]);
-            addImageTile(hike_id + "/" + img[0], img[1], "", "album");
+            console.log(hike_id + "/" + img);
+            addImageTile(hike_id + "/" + img, tour[images][img], "", "album");
         }
         showMap(tour["map_latitude"], tour["map_longitude"], tour["map_zoom"], hike_id + "/" + tour["track"], "map");
 
