@@ -80,8 +80,8 @@
         <article class="travelreport" style="margin-top:10px;">
                 <ul style="height:75px;">                
                     <li>Distance</li><li>5.6 km</li>
-                    <li>Total ascend:</li><li>234 m</li>  
-					<li>Max. altitude:</li><li>754 m</li>   
+                    <li>Total ascend:</li><li id="ascend">m</li>  
+					<li>Max. altitude:</li><li id="maxalt">754 m</li>   
                     <li>Walking time:</li><li>1h 12m</li>
                 </ul>
                
@@ -89,14 +89,19 @@
                 <center>
                 	<div id="map" style="height:400px"></div>
                 </center>             
-            <p>Spectacular hike in the Sardona area, on a beautiful autumn day.</p>
+            <p id="hike_text">Spectacular hike in the Sardona area, on a beautiful autumn day.</p>
             <div class="album" id="album"></div>
         </article>
 
 	<script defer>
     $.getJSON('hike_db.json', function(hike_db) {
         var tour = hike_db['2018_sihlbrugg'];
-        //populate galleries
+        // set fields 
+        foreach (key in tour)
+        {
+            $(key) = tour[key];
+        }
+        //populate galleries        
         foreach (img in tour['images'])
             addImageTile(img[0], img[1], '', 'album');
         showMap(tour['map_latitude'], tour['map_longitude'], tour['map_zoom'], tour['track'], 'map');
