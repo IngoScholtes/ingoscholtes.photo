@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+
+<link type="text/css" href="../StyleSheets/ModuleStyleSheets.css" rel="StyleSheet" />
+<link type="text/css" href="../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../css/layout.css" rel="stylesheet" />
+<script src="../js/slider.js"></script>
+<script>
+		$(document).ready(function(){
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<script  type="text/javascript">
+$.getJSON('hike_db.json', function(hike_db) {
+    console.log(hike_db['2018_sihlbrugg']['title']);
+});
+</script>
+
+<link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../js/outdoors.js" type="text/javascript"></script>
+<link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../js/tripmaps.js" type="text/javascript"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+<title>Ingo Scholtes | Hirzel H&ouml;chli</title>
+</head>
+<body>
+        <nav class="small top">
+        <a class="expand-menu" href="#"></a>
+        <div class="clear"></div>
+        <script type="text/javascript" src="../CatalystScripts/Java_DynMenusSelectedCSS.js?vs=b261.r522377-phase1"></script>
+        <div id="cat_1337216_divs"><ul id="nav_1337216"><li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/themepacks">Themes</a></li><li><a href="/outdoors">Outdoors</a></li><li><a href="/contact">Contact</a></li></ul></div>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_1337216');</script>
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+        <script type="text/javascript" src="../CatalystScripts/Java_DynMenusSelectedCSS.js?vs=b261.r522377-phase1"></script>
+        <div id="cat_1336130_divs"><ul id="nav_1336130"><li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/themepacks">Themepacks</a></li><li><a href="/outdoors">Outdoors</a></li><li><a href="/contact">Contact</a></li></ul></div>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script>
+        </nav>
+        </div>
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+		
+		<section class="container">
+		<h3>Hirzl H&ouml;chli, Zurich</h3>
+        <h5>November 2018</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:75px;">                
+                    <li>Distance</li><li>5.6 km</li>
+                    <li>Total ascend:</li><li>234 m</li>  
+					<li>Max. altitude:</li><li>754 m</li>   
+                    <li>Walking time:</li><li>1h 12m</li>
+                </ul>
+               
+                <p>Those interested in following the tour themselves can find detailed <a href="2018_sihlbrugg.kml">GPS track data here</a>.</p>                
+                <center>
+                	<div id="map" style="height:400px"></div>
+                </center>             
+            <p>Spectacular hike in the Sardona area, on a beautiful autumn day.</p>
+            <div class="album" id="album"></div>
+        </article>
+
+	<script defer>
+
+	//populate galleries
+	addImageTile('2018/sihlbrugg/DSC_4807.jpg', 'Linth Valley', '', 'album');
+	addImageTile('2018/sihlbrugg/DSC_4836.jpg', 'Fessis Seeli', '', 'album');	
+	addImageTile('2018/sihlbrugg/DSC_4857.jpg', 'Close and far', '', 'album');
+		
+	addImageTile('2018/sihlbrugg/DSC_4911.jpg', 'Close and far', '', 'album');
+	addImageTile('2018/sihlbrugg/DSC_5044-HDR.jpg', 'Close and far', '', 'album');
+	addImageTile('2018/sihlbrugg/DSC_5059-HDR.jpg', 'Close and far', '', 'album');
+	
+	showMap(47.01687, 9.12647, 13, '2018/sihlbrugg/track.kml', 'map');
+	
+</script>       
+	</section>
+        <footer>
+        <div class="container">
+        <hr />
+        <div class="nine columns">
+        <nav>
+        <script type="text/javascript" src="../CatalystScripts/Java_DynMenusSelectedCSS.js?vs=b261.r522377-phase1"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1336130_divs"><ul id="nav_1336130"><li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/themepacks">Themepacks</a></li><li><a href="/outdoors">Outdoors</a></li><li><a href="/contact">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script><!-- Dynamic Menu End CSS Output -->
+        </nav>
+        </div>
+        <div class="three columns">
+        &copy; 2018 Ingo Scholtes
+        </div>
+        </div>
+        </footer>
+        <script type="text/javascript" src="../js/retina.js"></script>
+</body>
+</html>

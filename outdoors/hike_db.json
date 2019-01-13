@@ -1,0 +1,25 @@
+{
+    "2018_sihlbrugg": {
+        "title": "Hirz Höchli",
+        "location": "Zurich, Switzerland",
+        "year": "2018",
+        "month": "November",
+        "distance": 5.6,
+        "ascend": 234,
+        "maxalt": 754,
+        "walking time": "1h 12m",
+        "track": "2018_sihlbrugg.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "images": [
+            ["DSC_4807.jpg", "Linth Valley"],
+            ["DSC_4836.jpg", "Layers"],
+            ["DSC_4857.jpg", "Close and far"],
+            ["DSC_4911.jpg", "Close and far"],
+            ["DSC_5044-HDR.jpg", "Close and far"],
+            ["DSC_5059-HDR.jpg", "Close and far"]
+        ],
+        "coverimage": 1
+        }
+}
