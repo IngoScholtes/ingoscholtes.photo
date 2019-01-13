@@ -109,17 +109,20 @@
         return params;
     }
 
-    $.getJSON('hike_db.json', function(hike_db) {
-        var tour = hike_db[getQueryParams(document.location.search)['hike_id']];
+    $.getJSON("hike_db.json", function(hike_db) {
+        var hike_id = getQueryParams(document.location.search)["hike_id"];
+        console.log(hike_id);
+        var tour = hike_db[hike_id];
+        console.log(tour['title']);
         // set fields 
         for  (var key in tour)
         {
             $("#"+key).text(tour[key]);
         }
         //populate galleries        
-        for (img in tour['images'])
-            addImageTile(img[0], img[1], '', 'album');
-        showMap(tour['map_latitude'], tour['map_longitude'], tour['map_zoom'], tour['track'], 'map');
+        for (var img in tour["images"])
+            addImageTile(img[0], img[1], "", "album");
+        showMap(tour["map_latitude"], tour["map_longitude"], tour["map_zoom"], tour["track"], "map");
 
     });
 </script>       
