@@ -28,12 +28,6 @@
 		});
 </script>
 
-<script  type="text/javascript">
-$.getJSON('hike_db.json', function(hike_db) {
-    console.log(hike_db['2018_sihlbrugg']['title']);
-});
-</script>
-
 <link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
 <script src="../js/outdoors.js" type="text/javascript"></script>
 <link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
@@ -100,18 +94,14 @@ $.getJSON('hike_db.json', function(hike_db) {
         </article>
 
 	<script defer>
+    $.getJSON('hike_db.json', function(hike_db) {
+        var tour = hike_db['2018_sihlbrugg'];
+        //populate galleries
+        foreach (img in tour['images'])
+            addImageTile(img[0], img[1], '', 'album');
+        showMap(tour['map_latitude'], tour['map_longitude'], tour['map_zoom'], tour['track'], 'map');
 
-	//populate galleries
-	addImageTile('2018/sihlbrugg/DSC_4807.jpg', 'Linth Valley', '', 'album');
-	addImageTile('2018/sihlbrugg/DSC_4836.jpg', 'Fessis Seeli', '', 'album');	
-	addImageTile('2018/sihlbrugg/DSC_4857.jpg', 'Close and far', '', 'album');
-		
-	addImageTile('2018/sihlbrugg/DSC_4911.jpg', 'Close and far', '', 'album');
-	addImageTile('2018/sihlbrugg/DSC_5044-HDR.jpg', 'Close and far', '', 'album');
-	addImageTile('2018/sihlbrugg/DSC_5059-HDR.jpg', 'Close and far', '', 'album');
-	
-	showMap(47.01687, 9.12647, 13, '2018/sihlbrugg/track.kml', 'map');
-	
+    });
 </script>       
 	</section>
         <footer>
