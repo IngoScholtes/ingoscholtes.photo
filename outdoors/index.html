@@ -96,7 +96,7 @@
 
 	<script defer>
     $.getJSON('hike_db.json', function(hike_db) {
-        var tour = hike_db['2018_sihlbrugg'];
+        var tour = hike_db[json_encode($_POST)['hike_id']];
         // set fields 
         foreach (key in tour)
         {
