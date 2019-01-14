@@ -14,7 +14,7 @@
         "map_latitude": 47.04,
         "map_longitude": 8.5,
         "map_zoom": 13,
-        "text": "This was a short but steep winter hike on prepared winter hiking trails leading up to the summit of Rigi.",
+        "text": "A short but steep winter hike on prepared winter hiking trails leading up to the summit of Rigi.",
         "coverimage": "DSC_5333.jpg",
         "images": {
             "DSC_5159.jpg": "Clouds",
@@ -37,6 +37,7 @@
         "map_latitude": 46.38951,
         "map_longitude": 8.06118,
         "map_zoom": 13,
+        "text": "A winter hike in the Aletsch arena in Wallis.",
         "coverimage": "DSC_7036.jpg",
         "images": {
             "DSC_5542.jpg": "The Summit",
@@ -62,6 +63,7 @@
         "map_latitude": 47.02461,
         "map_longitude": 8.73,
         "map_zoom": 13,
+        "text": "A spontaneous test tour on cross blades, a mix between snow shoes and cross-country skis.",
         "coverimage": "DSC_8698.jpg",
         "images": {
             "DSC_8698.jpg": "Grosser Mythen",
@@ -70,6 +72,65 @@
             "DSC_9250.jpg": "Church",
             "DSC_9326.jpg": "The Path",
             "DSC_9595.jpg": "Mountain Light"
+        }
+    },
+    "2018/oeschinensee": {
+        "title": "Oeschinensee",
+        "location": "Bern, Switzerland",
+        "year": "2018",
+        "month": "July",
+        "category": "T3",
+        "distance": 12.5,
+        "ascend": 430,
+        "maxalt": 1988,
+        "time_h": 3,
+        "time_m": 21,
+        "track": "track.kml",
+        "map_latitude": 46.49929,
+        "map_longitude": 7.7173,
+        "map_zoom": 13,
+        "text": "A hike around the marvelous Oeschinensee near Kandersteg in the Bernese Alps.",
+        "coverimage": "DSC_1751.jpg",
+        "images": {
+            "DSC_1751.jpg": "Tree, Lake, Mountain",
+            "DSC_1808.jpg": "Glacier",
+            "DSC_2015.jpg": "Azure",
+            "DSC_1755-Pano.jpg": "Oeschinensee",
+            "DSC_2212.jpg": "Trail",
+            "DSC_2026.jpg": "Rockface",
+            "DSC_2346.jpg": "Mountain Trail",
+            "DSC_3286.jpg": "Oeschinensee",
+            "DSC_2783-Pano.jpg": "Descent",
+            "DSC_3481.jpg": "A glimpse of Yosemite",
+            "DSC_3564.jpg": "Mountain Light",
+            "DSC_1711.jpg": "Dead Tree",
+            "DSC_2507.jpg": "Lookout"
+        }
+    },
+    "2018/saentis": {
+        "title": "Säntis",
+        "location": "Appenzell, Switzerland",
+        "year": "2018",
+        "month": "September",
+        "category": "T4",
+        "distance": 10.8,
+        "ascend": 1154,
+        "maxalt": 2501,
+        "time_h": 3,
+        "time_m": 31,
+        "track": "track.kml",
+        "map_latitude": 47.2688,
+        "map_longitude": 9.3913,
+        "map_zoom": 13,
+        "text": "A demanding mountain hike up to the highest peak in the Alpstein massif.",
+        "coverimage": "DSC_8454.jpg",
+        "images": {
+            "DSC_8454.jpg": "Alpstein",
+            "DSC_7978.jpg": "Saentis Mountain",
+            "DSC_9036-HDR.jpg": "Path",
+            "DSC_9224.jpg": "Peak",
+            "DSC_9298.jpg": "Trail",
+            "DSC_0189.jpg": "Wall"
         }
     },
     "2018/fessisseeli": {
@@ -87,6 +148,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
+        "text": "Spectacular hike in the Unesco World Heritage area Sardona, on a beautiful autumn day.",
         "coverimage": "DSC_8698.jpg",
         "images": {
             "DSC_1885.jpg": "Linth Valley",
@@ -97,31 +159,6 @@
             "DSC_2778-HDR-Pano.jpg": "Mountain Panorama"
         }
     },    
-    "2018/saentis": {
-        "title": "Säntis",
-        "location": "Appenzell, Switzerland",
-        "year": "2018",
-        "month": "September",
-        "category": "T4",
-        "distance": 10.8,
-        "ascend": 1154,
-        "maxalt": 2501,
-        "time_h": 3,
-        "time_m": 31,
-        "track": "track.kml",
-        "map_latitude": 47.2688,
-        "map_longitude": 9.3913,
-        "map_zoom": 13,
-        "coverimage": "DSC_8454.jpg",
-        "images": {
-            "DSC_8454.jpg": "Alpstein",
-            "DSC_7978.jpg": "Saentis Mountain",
-            "DSC_9036-HDR.jpg": "Path",
-            "DSC_9224.jpg": "Peak",
-            "DSC_9298.jpg": "Trail",
-            "DSC_0189.jpg": "Wall"
-        }
-    },
     "2018/sihlbrugg": {
         "title": "Hirzl Höchli",
         "location": "Zurich, Switzerland",
@@ -137,6 +174,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
+        "text": "A very short but beautiful afternoon stroll along paved roads.",
         "coverimage": "DSC_4807.jpg",
         "images": {
             "DSC_4807.jpg": "Linth Valley",
