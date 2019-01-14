@@ -106,7 +106,7 @@
 
         return params;
     }
-    var hike_id = getQueryParams(document.location.search)["hike_id"];
+    var hike_id = getQueryParams(document.location.search)["id"];
     console.log(hike_id);
 
     $.getJSON("hike_db.json", function(hike_db) {
