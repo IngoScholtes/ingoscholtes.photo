@@ -133,6 +133,32 @@
             "DSC_0189.jpg": "Wall"
         }
     },
+    "2018/braunwald": {
+        "title": "Braundwald Panorama Trail",
+        "location": "Glarus, Switzerland",
+        "year": "2018",
+        "month": "October",
+        "category": "T3",
+        "distance": 15.6,
+        "ascend": 748,
+        "maxalt": 1896,
+        "time_h": 4,
+        "time_m": 30,
+        "track": "track.kml",
+        "map_latitude": 46.95378,
+        "map_longitude": 8.99725,
+        "map_zoom": 13,
+        "text": "A perfect hike for sunny autumn days with colorful trees.",
+        "coverimage": "DSC_8698.jpg",
+        "images": {
+            "DSC_1624.jpg": "Autumn Colors",
+            "DJI_0200.jpg": "Mountain Valley",
+            "DSC_0440.jpg": "Braunwald",
+            "DSC_0891.jpg": "Eggstoecke",
+            "DSC_0891-Pano.jpg": "Eggstoecke",
+            "DSC_1601.jpg": "Evening Light"
+        }
+    }, 
     "2018/fessisseeli": {
         "title": "Fessis Seeli",
         "location": "Glarus, Switzerland",
