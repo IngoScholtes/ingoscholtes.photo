@@ -1,4 +1,28 @@
 {
+    "2018/rotenfluh": {
+        "title": "Crossblade tour Rotenfluh",
+        "location": "Schwyz, Switzerland",
+        "year": "2018",
+        "month": "February",
+        "distance": 6.0,
+        "ascend": 517,
+        "maxalt": 1570,
+        "time_h": 2,
+        "time_m": 20,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "coverimage": "DSC_4807.jpg",
+        "images": {
+            "DSC_8698.jpg": "Grosser Mythen",
+            "DSC_8811-Pano.jpg": "Lake Lucerne",
+            "DSC_8954.jpg": "Mythen Summit",
+            "DSC_9250.jpg": "Church",
+            "DSC_9326.jpg": "The Path",
+            "DSC_9595.jpg": "Mountain Light"
+        }
+    },
     "2018/sihlbrugg": {
         "title": "Hirzl Höchli",
         "location": "Zurich, Switzerland",
