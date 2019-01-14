@@ -204,6 +204,32 @@
             "DSC_7851.jpg": "Fälensee"
         }
     },
+    "2018/nesslau": {
+        "title": "Thurweg: Nesslau - Wattwil",
+        "location": "St. Gallen, Switzerland",
+        "year": "2018",
+        "month": "May",
+        "category": "T2",
+        "distance": 17.7,
+        "ascend": 263,
+        "maxalt": 758,
+        "time_h": 4,
+        "time_m": 25,
+        "track": "track.kml",
+        "map_latitude": 47.2588,
+        "map_longitude": 9.13469,
+        "map_zoom": 11,
+        "text": "",
+        "coverimage": "DSC_6337.jpg",
+        "images": {
+            "DSC_6337.jpg": "Thur Gorge",
+            "DSC_6132.jpg": "River bank",
+            "DSC_6233.jpg": "River bank",
+            "DSC_6342.jpg": "Stone",
+            "DSC_6344.jpg": "Thur Gorge",
+            "DSC_6096.jpg": "Thurweg"
+        }
+    },
     "2018/oeschinensee": {
         "title": "Oeschinensee",
         "location": "Bern, Switzerland",
