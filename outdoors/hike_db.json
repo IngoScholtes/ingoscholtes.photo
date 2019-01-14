@@ -289,6 +289,29 @@
             "DSC_5055-HDR.jpg": "Seealpsee"
         }
     },
+    "2018/klosterfahr": {
+        "title": "Kloster Fahr",
+        "location": "Zurich, Switzerland",
+        "year": "2018",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 11.0,
+        "ascend": 250,
+        "maxalt": 540,
+        "time_h": 2,
+        "time_m": 27,
+        "track": "track.kml",
+        "map_latitude": 47.40115,
+        "map_longitude": 8.48631,
+        "map_zoom": 13,
+        "text": "A short afternoon walk to Kloster Fahr monastery, returning to Zurich via the valley of the river Limmat.",
+        "coverimage": "DSC_4988.jpg",
+        "images": {
+            "DSC_6365.jpg": "Zurich Valley",
+            "DSC_6429.jpg": "Kloster Fahr",
+            "DSC_6433.jpg": "Limmat"            
+        }
+    },
     "2018/saentis": {
         "title": "Säntis",
         "location": "Appenzell, Switzerland",
@@ -366,7 +389,33 @@
             "DSC_3954.jpg": "Cloud Inversion",
             "DSC_2778-HDR-Pano.jpg": "Mountain Panorama"
         }
-    },    
+    },
+    "2018/hummel": {
+        "title": "Hummel",
+        "location": "Schwyz, Switzerland",
+        "year": "2018",
+        "month": "November",
+        "category": "T2",
+        "distance": 11.5,
+        "ascend": 556,
+        "maxalt": 1269,
+        "time_h": 2,
+        "time_m": 32,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_4472.jpg",
+        "images": {
+            "DSC_4472.jpg": "Linth Valley",
+            "DSC_4489.jpg": "Layers",
+            "DSC_4624-HDR.jpg": "Close and far",
+            "DSC_4691-HDR.jpg": "Close and far",
+            "DSC_4700.jpg": "Close and far",
+            "DSC_4676-HDR.jpg": "Close and far"
+        }
+    },
     "2018/sihlbrugg": {
         "title": "Hirzl Höchli",
         "location": "Zurich, Switzerland",
