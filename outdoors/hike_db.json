@@ -74,6 +74,32 @@
             "DSC_9595.jpg": "Mountain Light"
         }
     },
+    "2018/walensee": {
+        "title": "Walensee Nordufer",
+        "location": "St. Gallen, Switzerland",
+        "year": "2018",
+        "month": "April",
+        "category": "T2",
+        "distance": 11.7,
+        "ascend": 898,
+        "maxalt": 922,
+        "time_h": 3,
+        "time_m": 34,
+        "track": "track.kml",
+        "map_latitude": 47.13493,
+        "map_longitude": 9.17583,
+        "map_zoom": 13,
+        "text": "This is a perfect tour for early spring, when there is still snow in the mountains. The north shore of Walensee is blessed by a very mild climate and springtime arrives early. A highlight of this tour is a visit of the Seerenbachf&auml;lle, Switzerland's highest waterfall with a total height of 585 meters.",
+        "coverimage": "DSC_0880.jpg",
+        "images": {
+            "DSC_0498.jpg": "Quinten",
+            "DSC_0880.jpg": "Waterfall",
+            "DSC_0985.jpg": "Rinquelle",
+            "DSC_0928.jpg": "Cascade",
+            "DSC_1077.jpg": "Seerenbachfälle",
+            "DSC_1156.jpg": "Amden"
+        }
+    },
     "2018/oeschinensee": {
         "title": "Oeschinensee",
         "location": "Bern, Switzerland",
