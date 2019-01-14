@@ -23,30 +23,30 @@
             "DSC_9595.jpg": "Mountain Light"
         }
     },
-    "2018/sihlbrugg": {
-        "title": "Hirzl Höchli",
-        "location": "Zurich, Switzerland",
+    "2018/fessisseeli": {
+        "title": "Fessis Seeli",
+        "location": "Glarus, Switzerland",
         "year": "2018",
-        "month": "November",
-        "distance": 5.6,
-        "ascend": 234,
-        "maxalt": 754,
-        "time_h": 1,
-        "time_m": 12,
+        "month": "October",
+        "distance": 12.3,
+        "ascend": 965,
+        "maxalt": 2269,
+        "time_h": 4,
+        "time_m": 45,
         "track": "track.kml",
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "coverimage": "DSC_4807.jpg",
+        "coverimage": "DSC_8698.jpg",
         "images": {
-            "DSC_4807.jpg": "Linth Valley",
-            "DSC_4836.jpg": "Layers",
-            "DSC_4857.jpg": "Close and far",
-            "DSC_4911.jpg": "Close and far",
-            "DSC_5044-HDR.jpg": "Close and far",
-            "DSC_5059-HDR.jpg": "Close and far"
+            "DSC_1885.jpg": "Linth Valley",
+            "DJI_0234.jpg": "Fessis Seeli",
+            "DSC_2417-HDR.jpg": "Vorder Glaernisch",
+            "DSC_3180-Pano-Bearbeitet.jpg": "Fessis Seeli",
+            "DSC_3954.jpg": "Cloud Inversion",
+            "DSC_2778-HDR-Pano.jpg": "Mountain Panorama"
         }
-    },
+    },    
     "2018/saentis": {
         "title": "Säntis",
         "location": "Appenzell, Switzerland",
@@ -69,6 +69,30 @@
             "DSC_9224.jpg": "Peak",
             "DSC_9298.jpg": "Trail",
             "DSC_0189.jpg": "Wall"
+        }
+    },
+    "2018/sihlbrugg": {
+        "title": "Hirzl Höchli",
+        "location": "Zurich, Switzerland",
+        "year": "2018",
+        "month": "November",
+        "distance": 5.6,
+        "ascend": 234,
+        "maxalt": 754,
+        "time_h": 1,
+        "time_m": 12,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "coverimage": "DSC_4807.jpg",
+        "images": {
+            "DSC_4807.jpg": "Linth Valley",
+            "DSC_4836.jpg": "Layers",
+            "DSC_4857.jpg": "Close and far",
+            "DSC_4911.jpg": "Close and far",
+            "DSC_5044-HDR.jpg": "Close and far",
+            "DSC_5059-HDR.jpg": "Close and far"
         }
     }
 }
