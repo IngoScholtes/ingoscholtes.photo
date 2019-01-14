@@ -74,6 +74,29 @@
             "DSC_9595.jpg": "Mountain Light"
         }
     },
+    "2018/steinhauerweg": {
+        "title": "Steinhauerweg",
+        "location": "Britten, Germany",
+        "year": "2018",
+        "month": "March",
+        "category": "T1",
+        "distance": 11.9,
+        "ascend": 319,
+        "maxalt": 0,
+        "time_h": 3,
+        "time_m": 19,
+        "track": "track.kml",
+        "map_latitude": 49.52,
+        "map_longitude": 6.6453,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_0309.jpg",
+        "images": {
+            "DSC_0309.jpg": "Creek",
+            "DSC_0317.jpg": "Forest",
+            "DSC_0346.jpg": "Forest Trail"
+        }
+    },
     "2018/walensee": {
         "title": "Walensee Nordufer",
         "location": "St. Gallen, Switzerland",
@@ -152,6 +175,35 @@
             "DSC_3138.jpg": "Reuss Delta"
         }
     },
+    "2018/faelensee": {
+        "title": "Fälensee",
+        "location": "Appenzellerland, Switzerland",
+        "year": "2018",
+        "month": "May",
+        "category": "T2",
+        "distance": 13.7,
+        "ascend": 335,
+        "maxalt": 1601,
+        "time_h": 3,
+        "time_m": 28,
+        "track": "track.kml",
+        "map_latitude": 47.2604,
+        "map_longitude": 9.46237,
+        "map_zoom": 12,
+        "text": "",
+        "coverimage": "DSC_7851.jpg",
+        "images": {
+            "DSC_7047.jpg": "Hoher Kasten",
+            "DSC_7224.jpg": "Staubern",
+            "DSC_7310.jpg": "Chrüzberg",
+            "DSC_7382.jpg": "Alpstein",
+            "DSC_7479.jpg": "Sämtisersee",
+            "DSC_7587.jpg": "Mountain River",
+            "DSC_7626.jpg": "Trail",
+            "DSC_7687.jpg": "Spring Flowers",
+            "DSC_7851.jpg": "Fälensee"
+        }
+    },
     "2018/oeschinensee": {
         "title": "Oeschinensee",
         "location": "Bern, Switzerland",
@@ -209,6 +261,32 @@
             "DSC_4350.jpg": "Path to Summit",
             "DSC_4397.jpg": "Swiss Flag",
             "DSC_4631.jpg": "Trail"
+        }
+    },
+    "2018/mesmer": {
+        "title": "Mesmer",
+        "location": "Appenzellerland, Switzerland",
+        "year": "2018",
+        "month": "August",
+        "category": "T3",
+        "distance": 13.4,
+        "ascend": 537,
+        "maxalt": 1744,
+        "time_h": 3,
+        "time_m": 39,
+        "track": "track.kml",
+        "map_latitude": 47.2712,
+        "map_longitude": 9.42095,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_4988.jpg",
+        "images": {
+            "DSC_4478.jpg": "Passage",
+            "DSC_4650.jpg": "Mountain Inn",
+            "DSC_4699.jpg": "Marmot",
+            "DSC_4988.jpg": "Seealpsee",
+            "DSC_5025-HDR.jpg": "Seealpsee",
+            "DSC_5055-HDR.jpg": "Seealpsee"
         }
     },
     "2018/saentis": {
