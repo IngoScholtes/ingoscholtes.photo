@@ -1,4 +1,27 @@
 {
+    "2018/rigi": {
+        "title": "Rigi",
+        "location": "Schwyz, Switzerland",
+        "year": "2018",
+        "month": "January",
+        "category": "Winter Hike",
+        "distance": 5.5,
+        "ascend": 549,
+        "maxalt": 1789,
+        "time_h": 1,
+        "time_m": 45,
+        "track": "track.kml",
+        "map_latitude": 47.04,
+        "map_longitude": 8.5,
+        "map_zoom": 13,
+        "text": "This was a short but steep winter hike on prepared winter hiking trails leading up to the summit of Rigi.",
+        "coverimage": "DSC_5333.jpg",
+        "images": {
+            "DSC_5159.jpg": "Clouds",
+            "DSC_4775.jpg": "Summit",
+            "DSC_5333.jpg": "Blue Hour"          
+        }
+    },
     "2018/bettmeralp": {
         "title": "Bettmeralp",
         "location": "Wallis, Switzerland",
