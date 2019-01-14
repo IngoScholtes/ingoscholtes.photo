@@ -107,6 +107,32 @@
             "DSC_2507.jpg": "Lookout"
         }
     },
+    "2018/mythen": {
+        "title": "Grosser Mythen",
+        "location": "Schwyz, Switzerland",
+        "year": "2018",
+        "month": "July",
+        "category": "T3",
+        "distance": 6.7,
+        "ascend": 766,
+        "maxalt": 1899,
+        "time_h": 2,
+        "time_m": 4,
+        "track": "track.kml",
+        "map_latitude": 47.03445,
+        "map_longitude": 8.69646,
+        "map_zoom": 13,
+        "text": "A hike around the marvelous Oeschinensee near Kandersteg in the Bernese Alps.",
+        "coverimage": "DSC_4125.jpg",
+        "images": {
+            "DSC_4125.jpg": "Grosser Mythen",
+            "DSC_4270.jpg": "Tree",
+            "DSC_4309.jpg": "Stairs",
+            "DSC_4350.jpg": "Path to Summit",
+            "DSC_4397.jpg": "Swiss Flag",
+            "DSC_4631.jpg": "Trail"
+        }
+    },
     "2018/saentis": {
         "title": "Säntis",
         "location": "Appenzell, Switzerland",
@@ -149,7 +175,7 @@
         "map_longitude": 8.99725,
         "map_zoom": 13,
         "text": "A perfect hike for sunny autumn days with colorful trees.",
-        "coverimage": "DSC_8698.jpg",
+        "coverimage": "DSC_1624.jpg",
         "images": {
             "DSC_1624.jpg": "Autumn Colors",
             "DJI_0200.jpg": "Mountain Valley",
