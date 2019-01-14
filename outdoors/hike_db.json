@@ -100,6 +100,58 @@
             "DSC_1156.jpg": "Amden"
         }
     },
+    "2018/swisspath1": {
+        "title": "Weg der Schweiz: Flüelen - Brunnen",
+        "location": "Uri, Switzerland",
+        "year": "2018",
+        "month": "April",
+        "category": "T2",
+        "distance": 18.4,
+        "ascend": 727,
+        "maxalt": 813,
+        "time_h": 4,
+        "time_m": 59,
+        "track": "track.kml",
+        "map_latitude": 46.94993,
+        "map_longitude": 8.62301,
+        "map_zoom": 11,
+        "text": "",
+        "coverimage": "DSC_1606.jpg",
+        "images": {
+            "DSC_1606.jpg": "Springtime",
+            "DSC_1444.jpg": "Sisikon",
+            "DSC_1950.jpg": "Lake Lucerne",
+            "DSC_1710.jpg": "Sisikon from above",
+            "DSC_1991.jpg": "Urnersee",
+            "DSC_1999.jpg": "Pilatus"
+        }
+    },
+    "2018/swisspath2": {
+        "title": "Weg der Schweiz: Seelisberg - Flüelen",
+        "location": "Uri, Switzerland",
+        "year": "2018",
+        "month": "April",
+        "category": "T2",
+        "distance": 17.5,
+        "ascend": 239,
+        "maxalt": 569,
+        "time_h": 4,
+        "time_m": 4,
+        "track": "track.kml",
+        "map_latitude": 46.94993,
+        "map_longitude": 8.62301,
+        "map_zoom": 11,
+        "text": "",
+        "coverimage": "DSC_2712.jpg",
+        "images": {
+            "DSC_2712.jpg": "Bauen",
+            "DSC_2372.jpg": "Springtime",
+            "DSC_2715.jpg": "Lake Lucerne",
+            "DSC_2928.jpg": "Bristen",
+            "DSC_2963.jpg": "Swan",
+            "DSC_3138.jpg": "Reuss Delta"
+        }
+    },
     "2018/oeschinensee": {
         "title": "Oeschinensee",
         "location": "Bern, Switzerland",
