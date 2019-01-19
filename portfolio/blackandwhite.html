@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+    <head>
+        <!-- Basic Page Needs
+	================================================== -->
+        <meta charset="utf-8" />
+        <!-- InstanceBeginEditable name="doctitle" --><title>Ingo Scholtes | Black and White</title><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+        
+        <script src="/js/simpleGallery.js" type="text/javascript"></script>
+        <link href="/css/simpleGallery.css" rel="stylesheet" type="text/css" />
+    <!-- InstanceEndEditable -->
+        <meta name="description" />
+        <meta name="author" />
+        <!-- Mobile Specific Metas
+	================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- CSS
+	================================================== -->
+        <link href="//fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+        <link href="/css/base.css" rel="stylesheet" />
+        <link href="/css/skeleton.css" rel="stylesheet" />
+        <link href="/css/layout.css" rel="stylesheet" />
+        <!-- JS
+	================================================== -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/js/slider.js"></script>
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script>
+		$(document).ready(function(){
+			
+			// Code for Mobile Menu, shows up on small screen resolutions
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			// --
+			
+			// Script to init slider. You can edit it from "/js/slider.js"
+			$('.slider').startSlider();
+			// --				
+			
+    		var logout = '{module_logout}';
+			if(logout !== '')
+			{
+				$('nav.top.small ul').append('<li>{module_logout}</li>');
+				$('nav.top.main ul').append('<li>{module_logout}</li>');
+			}
+			
+		});
+	</script>
+    </head>
+    <body>
+        <!-- Primary Page Layout
+	================================================== -->
+        <nav class="small top">
+        <form name="catsearchform24316" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
+            <div class="search-box">
+            <input name="CAT_Search" id="CAT_Search" type="text" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        <a class="expand-menu" href="#"></a>
+        <div class="clear"></div>
+        {module_menu,1337216}
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="four columns">
+        <form name="catsearchform24316" class="big-search" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
+            <div class="search-box">
+            <input name="CAT_Search" id="CAT_Search" type="text" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        </div>
+        </section><!-- end .container -->
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+        <!-- end .main -->
+        <!-- InstanceBeginEditable name="ContentArea" -->
+        <section class="container">
+        <h3>Black and White</h3>
+        <p>As much as I prefer to shoot landscapes in color, I must admit that the reduction to black and white can add a unique, graphic quality also to landscape photography. Some scenes naturally appear almost monochromatic and this impression can be heightened by a conversion to grayscales. In other situations, colors can be distracting or even counter the photographic vision. Below are some examples for images that, in my view, benefit from a monochromatic portrayal.</p>
+        <div class="album" id="galleryRoot">
+        </div>
+        <script type="text/javascript">
+			addImageTile('img/DSC_9098.jpg', 'Tavignano', 'Corsica, France', 'galleryRoot', false);
+			addImageTile('img/DSC_5676.jpg', 'Storm', 'New Brighton, UK', 'galleryRoot', false);
+			addImageTile('img/DSC_8102.jpg', 'Web', 'Switzerland', 'galleryRoot', false);
+			
+			addImageTile('img/Venice-Pano.jpg', 'Venice Panorama', 'Venice, Italy', 'galleryRoot', true);
+			addImageTile('img/DSC_6635.jpg', 'Skulls and Bones', '', 'galleryRoot', false);
+			
+			addImageTile('img/DSC_4844.jpg', 'Cliffs', 'Pembrokeshire, Wales, UK', 'galleryRoot', false);
+			addImageTile('img/DSC_7305.jpg', 'Glacier Ice', 'Aletsch, Wallis, Switzerland', 'galleryRoot', false);
+			addImageTile('img/DSC_3436.jpg', 'Mountain Lake', 'Appoenzell, Switzerland', 'galleryRoot', false);
+		</script>
+        </section>
+    <!-- InstanceEndEditable -->
+        <footer>
+        <div class="container">
+        <hr />
+        <div class="nine columns">
+        <nav>
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="three columns">
+        &copy; 2018 Ingo Scholtes
+        </div>
+        </div>
+        </footer>
+        <!-- Script for retina images -->
+        <script type="text/javascript" src="/js/retina.js"></script>
+        <!-- End Document
+================================================== -->
+    </body>
+<!-- InstanceEnd --></html>
