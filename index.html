@@ -14,26 +14,24 @@
                                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
                 <![endif]-->
                 <script>
-                                $(document).ready(function(){
-                                        
-                                        // Code for Mobile Menu, shows up on small screen resolutions
-                                        $('.expand-menu').click(function(e){
-                                                e.preventDefault();
-                                                $(this).toggleClass('open');
-                                                if($('nav.small.top ul').is(':hidden')){
-                                                        $('nav.small.top ul').slideDown();
-                                                }else{
-                                                        $('nav.small.top ul').slideUp();
-                                                }
-                                                
-                                        });
-                                        // --
-                                        
-                                        // Script to init slider. You can edit it from "/js/slider.js"
-                                        $('.slider').startSlider();
-                                        // --				
-                                        
+                        $(document).ready(function(){                                
+                                // Code for Mobile Menu, shows up on small screen resolutions
+                                $('.expand-menu').click(function(e){
+                                        e.preventDefault();
+                                        $(this).toggleClass('open');
+                                        if($('nav.small.top ul').is(':hidden')){
+                                                $('nav.small.top ul').slideDown();
+                                        }else{
+                                                $('nav.small.top ul').slideUp();
+                                        }
                                 });
+                                // --
+                                
+                                // Script to init slider. You can edit it from "/js/slider.js"
+                                $('.slider').startSlider();
+                                // --				
+                                
+                        });
                         </script>
                 <meta charset="utf-8" />
                 <meta name="description" />
@@ -61,7 +59,6 @@
                 </div>
                 </div>
                 </header>
-
         <section class="container">
         <div class="six columns">
         <article>
