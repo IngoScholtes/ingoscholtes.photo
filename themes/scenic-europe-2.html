@@ -2,7 +2,7 @@
 <html lang="en">
     <head>		
         <title>Ingo Scholtes | Scenic Europe 2</title>
-        <script src="../web_test/js/simpleGallery.js" type="text/javascript"></script>
+        <script src="../js/simpleGallery.js" type="text/javascript"></script>
 		<link href="../css/themes.css" rel="stylesheet" type="text/css" />        
         <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
         <link href="../css/base.css" rel="stylesheet" />
@@ -16,9 +16,9 @@
         <![endif]-->
         <script>
 			$(document).ready(function(){
-				$("#menu_small").load("../menu.html");
-                $("#menu_main").load("../menu.html");
-				$("#menu_footer").load("../menu.html");
+				$("#nav_menu_small").load("../menu.html");
+                $("#nav_menu_main").load("../menu.html");
+				$("#nav_menu_footer").load("../menu.html");
 
 				// Code for Mobile Menu, shows up on small screen resolutions
 				$('.expand-menu').click(function(e){
@@ -42,15 +42,15 @@
     <body>
         <nav class="small top">
 			<a class="expand-menu" href="#"></a>
-			<div class="clear"></div>			
-			<div id="menu_small"></div>
-			<script type="text/javascript">catSetSelectedCSSItem('nav_1337216');</script>
+			<div class="clear"></div>
+			<ul id="nav_menu_small"></ul>
+			<script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
         </nav>
         <section class="container">
         <div class="eight columns">
         <nav class="main top">
-			<div id="menu_main"></div>
-			<script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script>
+			<ul id="nav_menu_main"></ul>
+			<script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
         </nav>
         </div>
         <div class="four columns">
@@ -151,8 +151,8 @@
 			<hr />
 			<div class="nine columns">
 			<nav>
-				<div id="menu_footer"></div>
-				<script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script>
+				<ul id="nav_menu_footer"></ul>
+				<script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
 			</nav>
 			</div>
 			<div class="three columns">
