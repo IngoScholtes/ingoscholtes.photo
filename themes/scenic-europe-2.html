@@ -20,7 +20,6 @@
                 $("#nav_menu_main").load("../menu.html");
 				$("#nav_menu_footer").load("../menu.html");
 
-				// Code for Mobile Menu, shows up on small screen resolutions
 				$('.expand-menu').click(function(e){
 					e.preventDefault();
 					$(this).toggleClass('open');
@@ -28,8 +27,7 @@
 						$('nav.small.top ul').slideDown();
 					}else{
 						$('nav.small.top ul').slideUp();
-					}
-					
+					}					
 				});
 				$('.slider').startSlider();
 			});

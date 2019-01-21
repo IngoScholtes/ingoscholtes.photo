@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <!-- BC_OBNW -->
 <head>
 <title>Ingo Scholtes | Contact</title>
-<link type="text/css" href="StyleSheets/ModuleStyleSheets.css" rel="StyleSheet" />
+<link type="text/css" href="css/ModuleStyleSheets.css" rel="StyleSheet" />
 <script type="text/javascript">var jslang='DE';</script>
 <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
 <link href="css/base.css" rel="stylesheet" />
@@ -12,10 +10,13 @@
 <link href="css/layout.css" rel="stylesheet" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/menu.js"></script>
 <script>
-		$(document).ready(function(){
-			
-			// Code for Mobile Menu, shows up on small screen resolutions
+		$(document).ready(function(){			
+			$("#nav_menu_small").load("menu.html");
+            $("#nav_menu_main").load("menu.html");
+            $("#nav_menu_footer").load("menu.html");
+
 			$('.expand-menu').click(function(e){
 				e.preventDefault();
 				$(this).toggleClass('open');
@@ -26,47 +27,33 @@
 				}
 				
 			});
-			// --
-			
-			// Script to init slider. You can edit it from "/js/slider.js"
+
 			$('.slider').startSlider();
-			// --				
-			
 		});
 	</script>
-<!-- Basic Page Needs
-	================================================== -->
 <meta charset="utf-8" />
 <meta name="description" />
 <meta name="author" />
-<!-- Mobile Specific Metas
-	================================================== -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<!-- CSS
-	================================================== -->
-<!-- JS
-	================================================== -->
 <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+<![endif]-->
 </head>
 <body>
-
-    
-        <!-- Primary Page Layout
-	================================================== -->
         <nav class="small top">
-        <a class="expand-menu" href="contact.html#"></a>
-        <div class="clear"></div>
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js%3Fvs=b261.r522377-phase1"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1337216_divs"><ul id="nav_1337216"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="themepacks.html">Themes</a></li><li><a href="outdoors.html">Outdoors</a></li><li><a href="contact.html">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1337216');</script><!-- Dynamic Menu End CSS Output -->
+            <a class="expand-menu" href="contact.html#"></a>
+            <div class="clear"></div>
+            <ul id="nav_menu_small"></ul>
+            <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
         </nav>
         <section class="container">
         <div class="eight columns">
         <nav class="main top">
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js%3Fvs=b261.r522377-phase1"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1336130_divs"><ul id="nav_1336130"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="themepacks.html">Themepacks</a></li><li><a href="outdoors.html">Outdoors</a></li><li><a href="contact.html">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script><!-- Dynamic Menu End CSS Output -->
+            <ul id="nav_menu_main"></ul>
+            <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
         </nav>
         </div>
-        </section><!-- end .container -->
+        </section>
         <header class="main">
         <div class="container">
         <div class="twelve columns">
@@ -75,24 +62,10 @@
         </div>
         </div>
         </header>
-        <!-- end .main -->
-        
-
 
         <section class="container">
         <div class="four columns">
-        <h3>Contact me</h3>
-        <form name="catwebformform46472" class="contact-form" onsubmit="return checkWholeForm46472(this)" action="http://www.ingoscholtes.photo/FormProcessv2.aspx?WebFormID=54308&amp;OID=9017918&amp;OTYPE=1&amp;EID=0&amp;CID=0" enctype="multipart/form-data" method="post">
-            <input name="Title" type="hidden" value="N/A" />
-            <label>YOUR NAME</label>
-            <input name="FirstName" required="required" type="text" />
-            <input name="LastName" type="hidden" />
-            <label>YOUR EMAIL</label>
-            <input name="EmailAddress" required="required" type="email" />
-            <label>YOUR MESSAGE</label>
-            <textarea name="CAT_Custom_280609" required="required"></textarea>
-            <input type="submit" value="Submit &rarr;" />
-        </form>
+        <h3>Contact me</h3>        
         </div>
         <div class="six columns">
 		<p>Follow me on Twitter <a href="https://twitter.com/ingo_s">@ingo_s</a></p>
@@ -100,17 +73,15 @@
         <p>The content on this website is protected under copyright law. It must not be copied, altered, or commercially used without written consent of the owner.</p>
         </div>
         </section>
-        <!-- end .container -->
     
-
-
         <footer>
         <div class="container">
         <hr />
         <div class="nine columns">
-        <nav>
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1336130_divs"><ul id="nav_1336130"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="themepacks.html">Themepacks</a></li><li><a href="outdoors.html">Outdoors</a></li><li><a href="contact.html">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script><!-- Dynamic Menu End CSS Output -->
-        </nav>
+            <nav>
+                <ul id="nav_menu_footer"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+            </nav>
         </div>
         <div class="three columns">
         &copy; 2018 Ingo Scholtes
@@ -119,8 +90,5 @@
         </footer>
         <!-- Script for retina images -->
         <script type="text/javascript" src="js/retina.js"></script>
-        <!-- End Document
-================================================== -->
-    
 </body>
 </html>

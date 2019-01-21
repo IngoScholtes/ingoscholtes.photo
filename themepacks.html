@@ -14,7 +14,9 @@
 <script src="js/slider.js"></script>
 <script>
 		$(document).ready(function(){
-			
+			$("#menu_small").load("menu.html");
+                        $("#menu_main").load("menu.html");
+
 			// Code for Mobile Menu, shows up on small screen resolutions
 			$('.expand-menu').click(function(e){
 				e.preventDefault();
@@ -26,28 +28,17 @@
 				}
 				
 			});
-			// --
 			
 			// Script to init slider. You can edit it from "/js/slider.js"
-			$('.slider').startSlider();
-			// --				
-			
+			$('.slider').startSlider();                        
 		});
 	</script>
 <script src="js/simpleGallery.js" type="text/javascript"></script>
 <link href="css/simpleGallery.css" rel="stylesheet" type="text/css" />
-<!-- Basic Page Needs
-	================================================== -->
 <meta charset="utf-8" />
 <meta name="description" />
 <meta name="author" />
-<!-- Mobile Specific Metas
-	================================================== -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<!-- CSS
-	================================================== -->
-<!-- JS
-	================================================== -->
 <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -60,12 +51,26 @@
         <nav class="small top">
         <a class="expand-menu" href="themepacks.html#"></a>
         <div class="clear"></div>
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1337216_divs"><ul id="nav_1337216"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="themepacks.html">Themes</a></li><li><a href="outdoors.html">Outdoors</a></li><li><a href="contact.html">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1337216');</script><!-- Dynamic Menu End CSS Output -->
+        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js"></script>
+        <div id="menu_small"></div>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
         </nav>
         <section class="container">
         <div class="eight columns">
         <nav class="main top">
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1336130_divs"><ul id="nav_1336130"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="themepacks.html">Themepacks</a></li><li><a href="outdoors.html">Outdoors</a></li><li><a href="contact.html">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script><!-- Dynamic Menu End CSS Output -->
+        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js">
+        </script>
+        <div id="menu_main">
+                <ul id="nav_menu_main">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="themepacks.html">Themepacks</a></li>
+                        <li><a href="outdoors.html">Outdoors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </div>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
         </nav>
         </div>
         </section><!-- end .container -->
