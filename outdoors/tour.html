@@ -113,15 +113,12 @@
 
     $.getJSON("hike_db.json", function(hike_db) {
         var tour = hike_db[hike_id];
-        console.log(tour);
-        console.log(tour['title']);
         // set fields 
         for  (var key in tour)
             $("#"+key).text(tour[key]);
         //populate galleries        
         for (var img in tour["images"])
         {
-            console.log(hike_id + "/" + img);
             addImageTile(hike_id + "/" + img, tour["images"][img], "", "album");
         }
         showMap(tour["map_latitude"], tour["map_longitude"], tour["map_zoom"], hike_id + "/" + tour["track"], "map");
