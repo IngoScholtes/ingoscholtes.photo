@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <!-- BC_OBNW -->
 <head>
 <title>Ingo Scholtes | Windows Themes</title>
 <link type="text/css" href="StyleSheets/ModuleStyleSheets.css" rel="StyleSheet" />
@@ -12,12 +10,13 @@
 <link href="css/layout.css" rel="stylesheet" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/menu.js"></script>
 <script>
 		$(document).ready(function(){
-			$("#menu_small").load("menu.html");
-                        $("#menu_main").load("menu.html");
+			$("#nav_menu_small").load("menu.html");
+                        $("#nav_menu_main").load("menu.html");
+                        $("#nav_menu_footer").load("menu.html");
 
-			// Code for Mobile Menu, shows up on small screen resolutions
 			$('.expand-menu').click(function(e){
 				e.preventDefault();
 				$(this).toggleClass('open');
@@ -28,8 +27,6 @@
 				}
 				
 			});
-			
-			// Script to init slider. You can edit it from "/js/slider.js"
 			$('.slider').startSlider();                        
 		});
 	</script>
@@ -40,40 +37,24 @@
 <meta name="author" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 <body>
-
-    
-        <!-- Primary Page Layout
-	================================================== -->
         <nav class="small top">
-        <a class="expand-menu" href="themepacks.html#"></a>
-        <div class="clear"></div>
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js"></script>
-        <div id="menu_small"></div>
-        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
-        </nav>
-        <section class="container">
-        <div class="eight columns">
-        <nav class="main top">
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js">
-        </script>
-        <div id="menu_main">
-                <ul id="nav_menu_main">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="themepacks.html">Themepacks</a></li>
-                        <li><a href="outdoors.html">Outdoors</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </div>
-        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
-        </nav>
-        </div>
-        </section><!-- end .container -->
+                <a class="expand-menu" href="themepacks.html#"></a>
+                        <div class="clear"></div>
+                        <ul id="nav_menu_small"></ul>
+                        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+                </nav>
+                <section class="container">
+                <div class="eight columns">
+                <nav class="main top">
+                        <ul id="nav_menu_main"></ul>
+                        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+                </nav>
+                </div>
+        </section>
         <header class="main">
         <div class="container">
         <div class="twelve columns">
@@ -82,9 +63,6 @@
         </div>
         </div>
         </header>
-        <!-- end .main -->
-        
-
 
         <section class="container">
         <div class="twelve columns">
@@ -100,15 +78,14 @@
 			addGalleryTile('themes/img/DSC_0956.jpg', 'Scenes from Yosemite', 'Scenes from Yosemite', 'themes/scenes-from-yosemite.html');			  			
 		  </script>
         </section>
-    
-
 
         <footer>
         <div class="container">
         <hr />
         <div class="nine columns">
         <nav>
-        <script type="text/javascript" src="CatalystScripts/Java_DynMenusSelectedCSS.js%3Fvs=b261.r522377-phase1"></script><!-- Dynamic Menu Begin CSS Output --><div id="cat_1336130_divs"><ul id="nav_1336130"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="themepacks.html">Themepacks</a></li><li><a href="outdoors.html">Outdoors</a></li><li><a href="contact.html">Contact</a></li></ul></div><script type="text/javascript">catSetSelectedCSSItem('nav_1336130');</script><!-- Dynamic Menu End CSS Output -->
+                <ul id="nav_menu_footer"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
         </nav>
         </div>
         <div class="three columns">
@@ -118,8 +95,5 @@
         </footer>
         <!-- Script for retina images -->
         <!-- script type="text/javascript" src="js/retina.js"></script> -->
-        <!-- End Document
-================================================== -->
-    
 </body>
 </html>
