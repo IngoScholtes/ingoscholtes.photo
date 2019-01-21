@@ -1,94 +1,59 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
-    <head>
-        <!-- Basic Page Needs
-	================================================== -->
-        <meta charset="utf-8" />
-        <!-- InstanceBeginEditable name="doctitle" --><title>Ingo Scholtes | Portfolio</title><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
-
-
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ingo Scholtes | Scottish Highlands</title>
+    <script src="../js/simpleGallery.js" type="text/javascript"></script>
+    <link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+    <meta name="description" />
+    <meta name="author" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/skeleton.css" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="..//js/slider.js"></script>
+    <script src="../js/menu.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+    $(document).ready(function(){
         
-        <script src="/js/simpleGallery.js" type="text/javascript"></script>
-        <link href="/css/simpleGallery.css" rel="stylesheet" type="text/css" />
-    
-<!-- InstanceEndEditable -->
-        <meta name="description" />
-        <meta name="author" />
-        <!-- Mobile Specific Metas
-	================================================== -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <!-- CSS
-	================================================== -->
-        <link href="//fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
-        <link href="/css/base.css" rel="stylesheet" />
-        <link href="/css/skeleton.css" rel="stylesheet" />
-        <link href="/css/layout.css" rel="stylesheet" />
-        <!-- JS
-	================================================== -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="/js/slider.js"></script>
-        <!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <script>
-		$(document).ready(function(){
-			
-			// Code for Mobile Menu, shows up on small screen resolutions
-			$('.expand-menu').click(function(e){
-				e.preventDefault();
-				$(this).toggleClass('open');
-				if($('nav.small.top ul').is(':hidden')){
-					$('nav.small.top ul').slideDown();
-				}else{
-					$('nav.small.top ul').slideUp();
-				}
-				
-			});
-			// --
-			
-			// Script to init slider. You can edit it from "/js/slider.js"
-			$('.slider').startSlider();
-			// --				
-			
-    		var logout = '{module_logout}';
-			if(logout !== '')
-			{
-				$('nav.top.small ul').append('<li>{module_logout}</li>');
-				$('nav.top.main ul').append('<li>{module_logout}</li>');
-			}
-			
-		});
-	</script>
-    </head>
-    <body>
-        <!-- Primary Page Layout
-	================================================== -->
+        $("#nav_menu_small").load("../menu.html");
+        $("#nav_menu_main").load("../menu.html");
+        $("#nav_menu_footer").load("../menu.html");
+        
+        $('.expand-menu').click(function(e){
+            e.preventDefault();
+            $(this).toggleClass('open');
+            if($('nav.small.top ul').is(':hidden')){
+                $('nav.small.top ul').slideDown();
+            }else{
+                $('nav.small.top ul').slideUp();
+            }
+            
+        });
+        $('.slider').startSlider();        
+    });
+</script>
+</head>
+<body>
         <nav class="small top">
-        <form name="catsearchform24316" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
-            <div class="search-box">
-            <input name="CAT_Search" id="CAT_Search" type="text" />
-            <input class="cat_button" type="submit" value="Search" />
+                <a class="expand-menu" href="portfolio.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+            </nav>
+            <section class="container">
+            <div class="eight columns">
+            <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+            </nav>
             </div>
-        </form>
-        <a class="expand-menu" href="#"></a>
-        <div class="clear"></div>
-        {module_menu,1337216}
-        </nav>
-        <section class="container">
-        <div class="eight columns">
-        <nav class="main top">
-        {module_menu,1336130}
-        </nav>
-        </div>
-        <div class="four columns">
-        <form name="catsearchform24316" class="big-search" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
-            <div class="search-box">
-            <input name="CAT_Search" id="CAT_Search" type="text" />
-            <input class="cat_button" type="submit" value="Search" />
-            </div>
-        </form>
-        </div>
-        </section><!-- end .container -->
+        </section>
         <header class="main">
         <div class="container">
         <div class="twelve columns">
@@ -97,8 +62,7 @@
         </div>
         </div>
         </header>
-        <!-- end .main -->
-        <!-- InstanceBeginEditable name="ContentArea" -->
+
         <section class="container">
         <h3>Scottish Highlands</h3>
         <p>The Scottish Highlands have a special place among the photographers' dream locations in Europe. The unique combination of vast landscapes, myths and legends that date back to the dawn of European civilisation, ever changing weather and light conditions, and one of the lowest population densities in Europe offer unique opportunities for the adventurous photographer. So far, I have visited Scotland three times: In 2013, I trekked across the Hebridean <a href="/outdoors/skyetrail/">Isle of Skye</a>, in 2015 I hiked along the <a href="/outdoors/westhighlandway">West Highland Way</a>, and in 2016 I did an overnight expedition to <a href="/outdoors/lochcoruisk">Loch Coruisk</a> in the heart of the Cuillin mountains. Each time I came back with unforgettable impressions, some of which I want to share with you below.</p>
@@ -122,23 +86,21 @@
 		</script>
         </section>
     
-<!-- InstanceEndEditable -->
         <footer>
-        <div class="container">
-        <hr />
-        <div class="nine columns">
-        <nav>
-        {module_menu,1336130}
-        </nav>
-        </div>
-        <div class="three columns">
-        &copy; 2018 Ingo Scholtes
-        </div>
-        </div>
-        </footer>
-        <!-- Script for retina images -->
-        <script type="text/javascript" src="/js/retina.js"></script>
-        <!-- End Document
-================================================== -->
-    </body>
-<!-- InstanceEnd --></html>
+                        <div class="container">
+                        <hr />
+                        <div class="nine columns">
+                        <nav>
+                                <ul id="nav_menu_footer"></ul>
+                                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+                        </nav>
+                        </div>
+                        <div class="three columns">
+                        &copy; 2018 Ingo Scholtes
+                        </div>
+                        </div>
+                        </footer>
+                        <!-- Script for retina images -->
+                        <!-- <script type="text/javascript" src="/js/retina.js"></script> -->
+                    </body>
+                </html>
