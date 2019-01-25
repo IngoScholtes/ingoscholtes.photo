@@ -338,6 +338,27 @@
             "DSC_6433.jpg": "Limmat"            
         }
     },
+    "2018/reppischtal": {
+        "title": "Reppischtal",
+        "location": "Zurich, Switzerland",
+        "year": "2018",
+        "month": "September",
+        "category": "Easy Hike",
+        "distance": 11.2,
+        "ascend": 237,
+        "maxalt": 612,
+        "time_h": 2,
+        "time_m": 43,
+        "track": "2018_reppischtal.kml",
+        "map_latitude": 47.40115,
+        "map_longitude": 8.48631,
+        "map_zoom": 13,
+        "text": "A short afternoon walk in the woods close to Zurich.",
+        "coverimage": "DSC_7831.jpg",
+        "images": {
+            "DSC_7831.jpg": "Wood path"     
+        }
+    },
     "2018/saentis": {
         "title": "Säntis",
         "location": "Appenzell, Switzerland",
