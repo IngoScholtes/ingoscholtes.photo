@@ -1,4 +1,29 @@
 {
+    "2017/friherrenberg": {
+        "title": "Friherrenberg",
+        "location": "Schwyz, Switzerland",
+        "year": "2017",
+        "month": "November",
+        "category": "Easy Hike",
+        "distance": 7.2,
+        "ascend": 254,
+        "maxalt": 1107,
+        "time_h": 1,
+        "time_m": 34,
+        "track": "friherrenberg.kml",
+        "map_latitude": 47.11526,
+        "map_longitude": 8.77254,
+        "map_zoom": 13,
+        "text": "A short afternoon hike in the area of Einsiedeln with great views of the Alps",
+        "coverimage": "DSC_3755.jpg",
+        "images": {
+            "DSC_3755.jpg": "Einsiedeln Monastery",
+            "DSC_3769-HDR.jpg": "Autumn Colors",
+            "DSC_3785.jpg": "Sihlsee",
+            "DJI_0016-Pano.jpg": "Einsiedeln Panorama",
+            "DSC_3817-HDR.jpg": "Alpine View"
+        }
+    },
     "2018/rigi": {
         "title": "Rigi",
         "location": "Schwyz, Switzerland",
@@ -175,6 +200,32 @@
             "DSC_3138.jpg": "Reuss Delta"
         }
     },
+    "2018/nesslau": {
+        "title": "Thurweg: Nesslau - Wattwil",
+        "location": "St. Gallen, Switzerland",
+        "year": "2018",
+        "month": "May",
+        "category": "T2",
+        "distance": 17.7,
+        "ascend": 263,
+        "maxalt": 758,
+        "time_h": 4,
+        "time_m": 25,
+        "track": "track.kml",
+        "map_latitude": 47.2588,
+        "map_longitude": 9.13469,
+        "map_zoom": 11,
+        "text": "",
+        "coverimage": "DSC_6337.jpg",
+        "images": {
+            "DSC_6337.jpg": "Thur Gorge",
+            "DSC_6132.jpg": "River bank",
+            "DSC_6233.jpg": "River bank",
+            "DSC_6342.jpg": "Stone",
+            "DSC_6344.jpg": "Thur Gorge",
+            "DSC_6096.jpg": "Thurweg"
+        }
+    },
     "2018/faelensee": {
         "title": "Fälensee",
         "location": "Appenzellerland, Switzerland",
@@ -202,32 +253,6 @@
             "DSC_7626.jpg": "Trail",
             "DSC_7687.jpg": "Spring Flowers",
             "DSC_7851.jpg": "Fälensee"
-        }
-    },
-    "2018/nesslau": {
-        "title": "Thurweg: Nesslau - Wattwil",
-        "location": "St. Gallen, Switzerland",
-        "year": "2018",
-        "month": "May",
-        "category": "T2",
-        "distance": 17.7,
-        "ascend": 263,
-        "maxalt": 758,
-        "time_h": 4,
-        "time_m": 25,
-        "track": "track.kml",
-        "map_latitude": 47.2588,
-        "map_longitude": 9.13469,
-        "map_zoom": 11,
-        "text": "",
-        "coverimage": "DSC_6337.jpg",
-        "images": {
-            "DSC_6337.jpg": "Thur Gorge",
-            "DSC_6132.jpg": "River bank",
-            "DSC_6233.jpg": "River bank",
-            "DSC_6342.jpg": "Stone",
-            "DSC_6344.jpg": "Thur Gorge",
-            "DSC_6096.jpg": "Thurweg"
         }
     },
     "2018/oeschinensee": {
