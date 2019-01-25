@@ -1,4 +1,32 @@
 {
+    "2017/oberblegisee": {
+        "title": "Oberblegisee",
+        "location": "Glarus, Switzerland",
+        "year": "2017",
+        "month": "October",
+        "category": "T2",
+        "distance": 10.9,
+        "ascend": 436,
+        "maxalt": 1497,
+        "time_h": 2,
+        "time_m": 50,
+        "track": "oberblegisee2017.kml",
+        "map_latitude": 46.9524,
+        "map_longitude": 9.01855,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_0691.jpg",
+        "images": {
+            "DJI_0012.jpg": "Mountains",
+            "DSC_0399.jpg": "Ortstock",
+            "DSC_0484.jpg": "Rock face",
+            "DSC_0486.jpg": "Oberblegisee",
+            "DSC_0691.jpg": "Bösbächistock",
+            "DSC_0698.jpg": "Bösbächistock East Face",
+            "DSC_0886-Pano.jpg": "Oberblegisee",
+            "DSC_0850.jpg": "Glarner Alps"
+        }
+    },
     "2017/friherrenberg": {
         "title": "Friherrenberg",
         "location": "Schwyz, Switzerland",
