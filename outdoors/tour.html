@@ -120,7 +120,7 @@
         //populate galleries        
         for (var img in tour["images"])
         {
-            if (img.includes('Pano'))
+            if (img.includes("Pano"))
                 addImageTile(hike_id + "/" + img, tour["images"][img], "", "album", panoranmic=True);
             else
                 addImageTile(hike_id + "/" + img, tour["images"][img], "", "album");
