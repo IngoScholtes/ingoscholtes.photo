@@ -1,7 +1,7 @@
 {
     "2011/wageten": {
         "title": "Wageten",
-        "location": "Glarus",
+        "location": "Glarus, Switzerland",
         "year": "2011",
         "month": "October",
         "category": "NA",
@@ -27,7 +27,7 @@
     },
     "2011/planggenstock": {
         "title": "Planggenstock",
-        "location": "Glarus",
+        "location": "Glarus, Switzerland",
         "year": "2011",
         "month": "October",
         "category": "NA",
@@ -52,8 +52,8 @@
         }
     },
     "2012/dreibuendenstein": {
-        "title": "Snowshoe Hike Dreib\u00fcndenstein",
-        "location": "Graub\u00fcnden",
+        "title": "Snowshoe Hike Dreib&uuml;ndenstein",
+        "location": "Graub&uuml;nden, Switzerland",
         "year": "2012",
         "month": "January",
         "category": "NA",
@@ -76,7 +76,7 @@
     },
     "2012/sihlsprung": {
         "title": "Sihlsprung",
-        "location": "Zug",
+        "location": "Zug, Switzerland",
         "year": "2012",
         "month": "March",
         "category": "NA",
@@ -102,7 +102,7 @@
     },
     "2012/laegeren": {
         "title": "Laegeren",
-        "location": "Z\u00c3\u00bcrich",
+        "location": "Z&uuml;rich, Switzerland",
         "year": "2012",
         "month": "July",
         "category": "NA",
@@ -125,7 +125,7 @@
     },
     "2012/innerthal": {
         "title": "Innerthal",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2012",
         "month": "September",
         "category": "NA",
@@ -148,7 +148,7 @@
     },
     "2012/federispitz": {
         "title": "Federispitz",
-        "location": "St. Gallen",
+        "location": "St. Gallen, Switzerland",
         "year": "2012",
         "month": "October",
         "category": "NA",
@@ -173,7 +173,7 @@
     },
     "2013/hasliberg": {
         "title": "Hasliberg",
-        "location": "Bern",
+        "location": "Bern, Switzerland",
         "year": "2013",
         "month": "March",
         "category": "NA",
@@ -196,7 +196,7 @@
     },
     "2013/adlisberg": {
         "title": "Adlisberg",
-        "location": "Z\u00fcrich",
+        "location": "Z&uuml;rich, Switzerland",
         "year": "2013",
         "month": "July",
         "category": "NA",
@@ -219,7 +219,7 @@
     },
     "2013/stanserhorn": {
         "title": "Stanserhorn",
-        "location": "Nidwalden",
+        "location": "Nidwalden, Switzerland",
         "year": "2013",
         "month": "October",
         "category": "NA",
@@ -245,7 +245,7 @@
     },
     "2014/hummel": {
         "title": "Hummel",
-        "location": "Einsiedeln",
+        "location": "Schwyz, Switzerland",
         "year": "2014",
         "month": "February",
         "category": "NA",
@@ -271,7 +271,7 @@
     },
     "2014/mostelberg": {
         "title": "Mostelberg",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2014",
         "month": "May",
         "category": "NA",
@@ -296,8 +296,8 @@
         }
     },
     "2014/kloental": {
-        "title": "Kl\u00f6ntal",
-        "location": "Glarus",
+        "title": "Kl&ouml;ntal",
+        "location": "Glarus, Switzerland",
         "year": "2014",
         "month": "September",
         "category": "NA",
@@ -323,7 +323,7 @@
     },
     "2015/albiskette": {
         "title": "Alsbiskette",
-        "location": "Z\u00fcrich",
+        "location": "Z&ouml;rich, Switzerland",
         "year": "2015",
         "month": "January",
         "category": "NA",
@@ -349,7 +349,7 @@
     },
     "2015/rigi": {
         "title": "Rigi",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2015",
         "month": "February",
         "category": "NA",
@@ -375,7 +375,7 @@
     },
     "2015/sihlwald": {
         "title": "Sihlwald",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2015",
         "month": "February",
         "category": "NA",
@@ -398,7 +398,7 @@
     },
     "2015/rotenfluh": {
         "title": "Winter Hike Rotenfluh",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2015",
         "month": "March",
         "category": "NA",
@@ -424,7 +424,7 @@
     },
     "2015/etzl": {
         "title": "Etzl",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2015",
         "month": "March",
         "category": "NA",
@@ -449,8 +449,8 @@
         }
     },
     "2015/tuerlersee": {
-        "title": "T\u00fcrlersee",
-        "location": "Z\u00fcrich",
+        "title": "T&uuml;rlersee",
+        "location": "Z&uuml;rich, Switzerland",
         "year": "2015",
         "month": "April",
         "category": "NA",
@@ -476,7 +476,7 @@
     },
     "2015/mythen": {
         "title": "Grosser Mythen",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2015",
         "month": "July",
         "category": "NA",
@@ -502,7 +502,7 @@
     },
     "2015/roggenstock": {
         "title": "Roggenstock",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2015",
         "month": "August",
         "category": "NA",
@@ -531,7 +531,7 @@
     },
     "2015/altberg": {
         "title": "Altberg",
-        "location": "Z\u00fcrich",
+        "location": "Z&uuml;rich, Switzerland",
         "year": "2015",
         "month": "October",
         "category": "NA",
@@ -554,10 +554,10 @@
     },
     "2015/leistchamm": {
         "title": "Leistchamm",
-        "location": "St. Gallen",
+        "location": "St. Gallen, Switzerland",
         "year": "2015",
         "month": "November",
-        "category": "NA",
+        "category": "Mountain Trail - T3",
         "distance": 11.1,
         "ascend": 954,
         "maxalt": 2101,
@@ -583,10 +583,10 @@
     },
     "2015/mattstock": {
         "title": "Mattstock",
-        "location": "St. Gallen",
+        "location": "St. Gallen, Switzerland",
         "year": "2015",
         "month": "November",
-        "category": "NA",
+        "category": "Mountain Trail - T3",
         "distance": 11.2,
         "ascend": 728,
         "maxalt": 1936,
@@ -613,10 +613,10 @@
     },
     "2016/fronalpstock": {
         "title": "Fronalpstock",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2016",
         "month": "January",
-        "category": "NA",
+        "category": "Snowshoe Trail",
         "distance": 5.3,
         "ascend": 784,
         "maxalt": 1922,
@@ -642,7 +642,7 @@
     },
     "2016/eglisau": {
         "title": "Wine trail Eglisau",
-        "location": "Switzerland",
+        "location": "Schaffhausen, Switzerland",
         "year": "2016",
         "month": "March",
         "category": "NA",
@@ -671,7 +671,7 @@
     },
     "2016/rothenturm": {
         "title": "Moor trail Rothenturm",
-        "location": "Switzerland",
+        "location": "Schwyz, Switzerland",
         "year": "2016",
         "month": "April",
         "category": "NA",
@@ -701,8 +701,8 @@
         }
     },
     "2016/tuefelschilen": {
-        "title": "T\u00fcfels Chilen and Schauenberg",
-        "location": "Switzerland",
+        "title": "T&uuml;fels Chilen and Schauenberg",
+        "location": "Z&uuml;rich, Switzerland",
         "year": "2016",
         "month": "April",
         "category": "NA",
@@ -736,7 +736,7 @@
     },
     "2016/cimetta": {
         "title": "Cimetta",
-        "location": "Ticino",
+        "location": "Ticino, Switzerland",
         "year": "2016",
         "month": "April",
         "category": "NA",
@@ -765,7 +765,7 @@
     },
     "2016/chatzensee": {
         "title": "Chatzensee",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2016",
         "month": "June",
         "category": "NA",
@@ -793,11 +793,11 @@
         }
     },
     "2016/5lakehike": {
-        "title": "5 Lake hike",
-        "location": "St. Gallen",
+        "title": "Five Lake hike",
+        "location": "St. Gallen, Switzerland",
         "year": "2016",
         "month": "July",
-        "category": "NA",
+        "category": "Mountain Trail - T3",
         "distance": 11.2,
         "ascend": 610,
         "maxalt": 2505,
@@ -828,7 +828,7 @@
     },
     "2016/oberblegisee": {
         "title": "Oberblegisee",
-        "location": "Glarus",
+        "location": "Glarus, Switzerland",
         "year": "2016",
         "month": "August",
         "category": "NA",
@@ -860,7 +860,7 @@
     },
     "2016/gulmen": {
         "title": "Gulmen",
-        "location": "St. Gallen",
+        "location": "St. Gallen, Switzerland",
         "year": "2016",
         "month": "October",
         "category": "NA",
@@ -889,7 +889,7 @@
     },
     "2016/hundwileren": {
         "title": "Hundwileren",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2016",
         "month": "October",
         "category": "NA",
@@ -915,7 +915,7 @@
     },
     "2016/zugerberg": {
         "title": "Zugerberg",
-        "location": "Zug",
+        "location": "Zug, Switzerland",
         "year": "2016",
         "month": "November",
         "category": "NA",
@@ -941,7 +941,7 @@
     },
     "2017/albishorn": {
         "title": "Albishorn",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2017",
         "month": "January",
         "category": "NA",
@@ -964,7 +964,7 @@
     },
     "2017/pfannenstiel": {
         "title": "Pfannenstiel",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2017",
         "month": "January",
         "category": "NA",
@@ -987,7 +987,7 @@
     },
     "2017/flumserberg": {
         "title": "Flumserberg",
-        "location": "St. Gallen",
+        "location": "St. Gallen, Switzerland",
         "year": "2017",
         "month": "January",
         "category": "NA",
@@ -1012,7 +1012,7 @@
     },
     "2017/irchel": {
         "title": "Irchel",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2017",
         "month": "February",
         "category": "NA",
@@ -1035,7 +1035,7 @@
     },
     "2017/gumen": {
         "title": "Gumen",
-        "location": "Glarus",
+        "location": "Glarus, Switzerland",
         "year": "2017",
         "month": "February",
         "category": "NA",
@@ -1061,7 +1061,7 @@
     },
     "2017/rigi": {
         "title": "Rigi",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2017",
         "month": "February",
         "category": "NA",
@@ -1087,7 +1087,7 @@
     },
     "2017/bachtel": {
         "title": "Bachtel",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2017",
         "month": "March",
         "category": "NA",
@@ -1113,7 +1113,7 @@
     },
     "2017/thurauen": {
         "title": "Thurauen",
-        "location": "Zurich",
+        "location": "Zurich, Switzerland",
         "year": "2017",
         "month": "March",
         "category": "NA",
@@ -1136,7 +1136,7 @@
     },
     "2017/menzingen": {
         "title": "Menzingen",
-        "location": "Zug",
+        "location": "Zug, Switzerland",
         "year": "2017",
         "month": "April",
         "category": "NA",
@@ -1162,7 +1162,7 @@
     },
     "2017/emmenuferweg": {
         "title": "Emmenuferweg",
-        "location": "Lucerne",
+        "location": "Lucerne, Switzerland",
         "year": "2017",
         "month": "April",
         "category": "NA",
@@ -1185,7 +1185,7 @@
     },
     "2017/entlebuch": {
         "title": "Moorpfad Entlebuch",
-        "location": "Lucerne",
+        "location": "Lucerne, Switzerland",
         "year": "2017",
         "month": "April",
         "category": "NA",
@@ -1210,8 +1210,8 @@
         }
     },
     "2017/waldstaetterweg": {
-        "title": "Waldst\u00e4tterweg",
-        "location": "Schwyz",
+        "title": "Waldst&auml;tterweg",
+        "location": "Schwyz, Switzerland",
         "year": "2017",
         "month": "April",
         "category": "NA",
@@ -1239,8 +1239,8 @@
         }
     },
     "2017/alpenpanoramaweg": {
-        "title": "Alpenpanoramaweg Unter\u00e4geri",
-        "location": "Zug",
+        "title": "Alpenpanoramaweg Unter&auml;geri",
+        "location": "Zug, Switzerland",
         "year": "2017",
         "month": "May",
         "category": "NA",
@@ -1266,7 +1266,7 @@
     },
     "2017/hochstuckli": {
         "title": "Hochstuckli",
-        "location": "Schwyz",
+        "location": "Schwyz, Switzerland",
         "year": "2017",
         "month": "May",
         "category": "NA",
@@ -1291,8 +1291,8 @@
         }
     },
     "2017/aescher": {
-        "title": "\u00c4scher Ebenalp",
-        "location": "Appenzellerland",
+        "title": "&Auml;scher Ebenalp",
+        "location": "Appenzellerland, Switzerland",
         "year": "2017",
         "month": "June",
         "category": "NA",
@@ -1321,7 +1321,7 @@
     },
     "2017/thurwies": {
         "title": "Thurwies",
-        "location": "St. Gallen",
+        "location": "St. Gallen, Switzerland",
         "year": "2017",
         "month": "July",
         "category": "NA",
@@ -1405,7 +1405,7 @@
         "location": "Schwyz, Switzerland",
         "year": "2018",
         "month": "January",
-        "category": "Winter Hike",
+        "category": "Winter Hiking Trail",
         "distance": 5.5,
         "ascend": 549,
         "maxalt": 1789,
