@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link type="text/css" href="../../../css/ModuleStyleSheets.css" rel="styleSheet" />
+<link type="text/css" href="../../../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/layout.css" rel="stylesheet" />
+<script src="../../../js/slider.js"></script>
+<script src="../../../js/menu.js"></script>
+<script>
+		$(document).ready(function(){
+            $("#nav_menu_small").load("../../../menu.html");
+            $("#nav_menu_main").load("../../../menu.html");
+            $("#nav_menu_footer").load("../../../menu.html");
+
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<link href="../../../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/outdoors.js" type="text/javascript"></script>
+<link href="../../../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../../../js/tripmaps.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Ingo Scholtes | Tour Details</title>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="../../../outdoors.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+        </nav>
+        </div>
+
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+
+		<section class="container">
+		<h3>Waldst&auml;tterweg: Alpnachstad - Beckenried, Nidwalden, Switzerland</h3>
+        <h5>April 2018</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:90px;">                
+                    <li>Distance</li><li>37.7 km</li>
+                    <li>Ascend:</li><li>1223 m</li>
+					<li>Max. altitude:</li><li>1124 m</li>
+                    <li>Walking time:</li><li>10h 05m</li>
+                    <li>Days:</li><li>2</li>
+                </ul>
+			<p></p>
+                <p>Those interested in following the tour themselves can find detailed <a href="2018_buergenstock.kml">GPS track data here</a>.</p>
+                
+                <center>
+                	<div id="map" style="height:400px"></div>
+                </center>
+             
+        	<h5>Day 1: From Alpnachstad to B&uuml;rgenstock</h5>
+             <ul>
+             	<li>Start:</li><li>Alpnachstad</li>
+             	<li>End:</li><li>B&uuml;rgenstock</li>                
+            	<li>Distance:</li><li>20.1 km</li>
+                <li>Walking time:</li><li>5h 20m</li>
+                <li>Ascend:</li><li>877 m</li>
+                <li>Max. altitude</li><li>960 m</li>
+            </ul>
+			
+             <p></p>
+            
+            <div class="album" id="day1"></div>      
+            
+        	<h5>Day 2: From B&uuml;rgenstock to Beckenried</h5>
+            <ul>
+                <li>Start:</li><li>B&uuml;rgenstock</li>
+             	<li>End:</li><li>Beckenried</li>
+            	<li>Distance:</li><li>17.6 km</li>
+                <li>Walking time:</li><li>4h 45m </li>
+                <li>Ascend:</li><li>346 m</li>
+                <li>Max. altitude:</li><li>1124 m</li>        
+            </ul>      
+            
+              <p></p>
+            
+            <div class="album" id="day2"></div>        
+        </article>                             
+
+<script defer>
+
+	//populate galleries
+	addImageTile('DSC_3176.jpg', 'Alpnachersee', '', 'day1');
+	addImageTile('DSC_3435.jpg', 'Path', '', 'day1');
+	addImageTile('DSC_3388.jpg', 'Towards Ennetmoos', '', 'day1');
+	addImageTile('DSC_3589.jpg', 'Pilatus', '', 'day1');
+	addImageTile('DSC_3667.jpg', 'Fürigen', '', 'day1');
+	addImageTile('DSC_3748.jpg', 'Schiltgrat', '', 'day1');	
+	
+	addImageTile('DSC_3943.jpg', 'Küssnacht', '', 'day2');
+	addImageTile('DSC_3892.jpg', 'Morning Light', '', 'day2');
+	addImageTile('DSC_4169-HDR-Pano-Bearbeitet.jpg', 'Felsenweg Bürgenstock', '', 'day2');
+	addImageTile('DSC_4248-Pano.jpg', 'Hammetschwand View', '', 'day2');			
+	addImageTile('DSC_4558.jpg', 'View from Chänzeli', '', 'day2');
+	addImageTile('DSC_4418.jpg', 'Path to Bürgenstock Summit', '', 'day2'); 
+	
+	showMap(46.96856,8.39285, 12, '2018_buergenstock.kml', 'map');
+</script>       
+</section>
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+    <ul id="nav_menu_footer"></ul>
+    <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2018 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- <script type="text/javascript" src="../js/retina.js"></script> -->
+</body>
+</html>
