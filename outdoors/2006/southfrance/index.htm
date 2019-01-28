@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link type="text/css" href="../css/ModuleStyleSheets.css" rel="styleSheet" />
+<link type="text/css" href="../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../css/layout.css" rel="stylesheet" />
+<script src="../js/slider.js"></script>
+<script src="../js/menu.js"></script>
+<script>
+		$(document).ready(function(){
+            $("#nav_menu_small").load("../menu.html");
+            $("#nav_menu_main").load("../menu.html");
+            $("#nav_menu_footer").load("../menu.html");
+
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../js/outdoors.js" type="text/javascript"></script>
+<link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../js/tripmaps.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Ingo Scholtes | Tour Details</title>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="outdoors.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+        </nav>
+        </div>
+
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+	
+		<section class="container">
+		<h3>Bike Tour through the South of France</h3>
+        <h5>September 2006</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:110px;">                
+                    <li>Distance</li><li>653 km</li>
+                    <li>Total Ascend</li><li>6500 m (approx.)</li>
+                    <li>Start:</li><li>Toulon</li>
+                    <li>End:</li><li>Pierrelatte</li>
+                    <li>Days on Bike: </li><li>9 </li>                    
+                    <li>Days on Canoe: </li><li>2 </li>                 
+                </ul>
+                <p>Following a much shorter tour through the Lorraine, in 2006 some colleagues and myself had decided to explore the South of France by bike and tent. This tour from the French C&ocirc;te d'Azur to the Massif Central was my very first experience of a longer trek and I have phantastic memories about this trip. We started on the little island of &Icirc;le de Porquerolles in the Mediterranean, continuing to the heart of the Provence, cycling up to the summit of Mont Ventoux, and finally continuing to the Ard&egrave;che canyon, which we exlored for two days on a canoe. Carrying more than 20 kg of camping equipment over more than 650 km on bike this turned out to be a memorable, but exhausting experience.</p>
+                <p>Please note that the track data provided below for visual reference have <strong>not</strong> been recorded by a GPS device. They have been reconstructed on a digital map. They should thus <strong>not</strong> be used as a reference for own tours.</p>
+
+				<center>
+                <div id="map" style="width: 100%; height: 400px; background: white"></div>
+                </center>
+
+             
+        	<h5>Day 1: &Icirc;le d'Hy&egrave;re and Porquerolles</h5> 
+             <ul style="height:95px">
+             	<li>Start:</li><li>Toulon</li>
+             	<li>Via:</li><li>Porquerolles</li>                
+             	<li>End:</li><li>Giens</li>                 
+            	<li>Distance:</li><li>52 km</li>
+                <li>Totals Ascend:</li><li>450 m (approx.)</li>
+            </ul>
+
+			<p>The first stage took us from our starting point, the train station in Toulon to a campsite on the peninsula &Icirc;le d'Hy&egrave;re which extends into the Mediterranean sea. From there, a small ferry took us to the picturesque &Icirc;le de Porquerolles, which we explored by bike. We returned to the main land and spent the night on a campsite in Giens.</p>
+            			
+            <div class="album" id="day1"></div>         
+
+        	<h5>Day 2: Mediterranean coast</h5> 
+             <ul style="height:75px">
+             	<li>Start:</li><li>Giens</li>
+             	<li>End:</li><li>La Ciotat</li>                 
+            	<li>Distance:</li><li>64 km</li>
+                <li>Total Ascend:</li><li>450 m (approx.)</li>
+            </ul>
+            
+            <p>On the second day, we first followed the road back to Toulon, from where we continued along beautiful scenic coastal roads to La Ciotat, a little town located directly by the sea. Here we pitched our tents and spent the night on a campsite directly by the Mediterranean sea.</p>
+            
+            <div class="album" id="day2"></div>
+            
+        	<h5>Day 3: The gate to the Provence</h5> 
+             <ul style="height:75px">
+             	<li>Start:</li><li>La Ciotat</li>
+             	<li>End:</li><li>Aix-en-Provence</li>
+            	<li>Distance:</li><li>65 km</li>
+                <li>Total Ascend:</li><li>720 m (approx.)</li>
+            </ul>
+            
+               <p>On the third day, we headed north towards the Provence. We first had to climb some mountains, which provided us with a nice scenic view back to the Mediterranean sea. We then continued to Aix-en-Provence, a nice little town famous for its typical Provence character. Here, we spent the night at a campsite close to a little river.</p>
+            
+			<div class="album" id="day3"></div>
+            
+        	<h5>Day 4: Provence and Avignon </h5> 
+             <ul style="height:75px">
+             	<li>Start:</li><li>Aix-en-Provence</li>
+             	<li>End:</li><li>Avignon</li>                 
+            	<li>Distance:</li><li>90 km</li>
+                <li>Total Ascend:</li><li>120 m (approx.)</li>
+            </ul>
+            
+ 			<p>The next day offered 90 kilometers of rather flat roads en route to Avignon, a medieval city located at the banks of the Rhone. We cross beautiful farmlands and finally arrive at the city. Here we pitch our tents on a campsite situated on a little island in the middle of the Rhone. In the evening, we stroll through the city and enjoy the medieval spirit in the area around the Palais du Papes, an old palace which used to be the seat of the popes of Avignon.</p>
+            
+			<div class="album" id="day4"></div>
+            
+        	<h5>Day 5: Pont du Gard</h5> 
+             <ul style="height:95px">
+             	<li>Start:</li><li>Avignon</li>
+             	<li>Via:</li><li>Pont du Gard</li>                
+             	<li>End:</li><li>Avignon</li>                 
+            	<li>Distance:</li><li>56 km</li>
+                <li>Total Ascend:</li><li>330 m (approx.)</li>
+            </ul>
+
+            <p>On the fifth day, we left our tents in Avignon, while doing a tour to the Pont du Gard, a famous aqueduct about 30 kilometers west of Avignon. We explore the area around the impressive Roman building and return to Avignon in the evening.</p>
+            
+            <div class="album" id="day5"></div>
+
+            <h5>Day 6: At the doorstep</h5> 
+             <ul style="height:75px">
+             	<li>Start:</li><li>Avignon</li>
+             	<li>End:</li><li>Malauc&egrave;ne</li>
+            	<li>Distance:</li><li>73 km</li>
+                <li>Total Ascend:</li><li>460 m (approx.)</li>
+            </ul>
+
+            <p>We pack our tents, leave Avignon and head to the north towards Mont Ventoux. Our plan for the next day is to cycle up to the summit of the lonely mountain, which is famous among cyclists around the world thanks to the Tour de France. We approach the area around the mountain, which slowly appears at the horizon like a warning of the great efforts to come. Passing through farmland with oolive trees, in the evening we arrive at a campsite in Malauc&egrave;ne which will serve as our basecamp for the next day.</p>
+            
+              <div class="album" id="day6"></div>
+            
+            <h5>Day 7: The Mont Ventoux</h5> 
+             <ul style="height:110px">
+             	<li>Start:</li><li>Malauc&egrave;ne</li>
+             	<li>Via:</li><li>Mont Ventoux (1912 m)</li>                <li>End:</li><li>Malauc&egrave;ne</li>
+            	<li>Distance:</li><li>72 km</li>
+                <li>Total Ascend:</li><li>2500 m (approx.)</li>
+            </ul>
+            
+             <p>We start early for the summit, which thrones more than 1600 meters above our tents. We follow the winding road up, when at a height of 600 meters a technical problem appeared. The gear shift of Markus broke and we could not continue. We thus went back to the little town of Malauc&egrave;ne, but could not find technical assistance. We continued to the neighboring town of Vaison-La-Romaine, but also here we could not find help. We eventually helped ourselves, fixing the problem by removing the gearshift on Markus' bike altogether. We now finally started our ascend towards the summit. After more than 20 kilometers of a continuous ascend totaling to more than 1600 meters, we finally reached the summit at 1912 meters. Happily, we cycled down and returned to our tents.</p>
+            
+            <div class="album" id="day7"></div>
+            
+            <h5>Day 8: To the Massif Centrale</h5> 
+             <ul style="height:75px">
+             	<li>Start:</li><li>Malauc&egrave;ne</li>
+             	<li>End:</li><li>Vallon-Pont-d'Arc</li>
+            	<li>Distance:</li><li>110 km</li>
+                <li>Total Ascend:</li><li>830 m (approx.)</li>
+            </ul>
+            
+            <p>On the eight day of our tour, we headed west crossing the Rhone towards the Massif Centrale. We followed winding roads through the mountains towards our target Vallon-Pont-d'Arc in the middle of the Ard&egrave;che canyons. We pitched our tents right next to the banks of the river Ard&egrave;che. Here we will stay for three nights, and we will use the opportunity to explore the canyon. On the ninth day, Alex and myself pause and explore the nearby river by foot, while Markus and JJ explore the windy roads along the canyon by bike.</p>
+            
+            <div class="album" id="day8"></div>
+            
+            <h5>Day 10: Gorges de Ard&egrave;che</h5> 
+             <ul style="height:55px">
+             	<li>Start:</li><li>Vallon-Pont-d'Arc</li>
+             	<li>End:</li><li>Gournier</li>
+            	<li>Distance:</li><li>15 km (via canoe)</li>
+            </ul>
+
+            <p>On day 10, we packed our sleeping bags, rented two canoes and explored the Ard&egrave;che canyon by boat. After a wonderful day of rafting, in the evening we arrive at the bivac site of Gournier, where we spend the night under clear skies in the middle of a herd of wild boars.</p>
+            
+            <div class="album" id="day10"></div>
+
+            <h5>Day 11: Gorges de Ard&egrave;che</h5> 
+             <ul style="height:55px">
+             	<li>Start:</li><li>Gournier</li>
+             	<li>End:</li><li>Sauze</li>
+            	<li>Distance:</li><li>15 km (via canoe)</li>
+            </ul>
+            
+			<p>On day 11 we continue our exploration of the canyon on our canoes. Starting from the banks of the river at the Gournier bivac site in the morning, we again spent the day on the water, admiring the large cliffs of the canyon. We finally arrive in Sauze, where we return our canoes and take a shuttle bus back to our basecamp in Vallon-Pont-d'Arc.</p>
+            
+            <div class="album" id="day11"></div>
+            
+            <h5>Day 12: The finish line</h5> 
+             <ul style="height:75px">
+             	<li>Start:</li><li>Vallon-Pont-d'Arc</li>
+             	<li>End:</li><li>Pierrelatte</li>
+            	<li>Distance:</li><li>41 km</li>
+                <li>Total Ascend:</li><li>620 m (approx.)</li>
+            </ul>
+
+			<p>The twelfth and final stage of our tour leads us from Vallon-Pont-d'Arc back to the banks of the river Rhone. A last time, we enjoy the great views of the canyon and the wild forests around it. When we arrive at the descend towards the Rhone, we enjoy a last view of the Mont Ventoux at the horizon. In Pierrelatte, we finally enter the train taking us back home. A marvelous tour has reached its end. Certainly not the last one.</p>
+            
+            <div class="album" id="day12"></div>
+
+        </article>
+        
+ <script type="text/javascript">
+ 
+ 	// Populate galleries
+	addImageTile('DSC_0989.jpg', 'Porquerolles', 'We enjoy a refreshing bath in the sea', 'day1');	 																							
+	addImageTile('_DSC1055.jpg', 'Porquerolles', 'The cliffs offer great views of the sea', 'day1');	
+	addImageTile('_DSC1113.jpg', 'Porquerolles harbour', 'The boat arrives at a little harbour village', 'day1');	
+	
+	addImageTile('_DSC1145.jpg', 'Scenic roads', 'We follow the coast on scenic roads', 'day2');	
+	addImageTile('_DSC1143.jpg', 'Mediterranean', 'We enjoy numerous nice views of the coast', 'day2');	
+	addImageTile('_DSC1138.jpg', 'Seascapes', 'We enjoy numerous nice views of the coast', 'day2');	
+
+	addImageTile('_DSC1169.jpg', 'View back to the sea', 'We see the sea a last time for our tour', 'day3');	 	
+	addImageTile('_DSC1165.jpg', 'Campsite', 'In the morning, we pack our tents in La Ciotat', 'day3');	
+	addImageTile('_DSC1174.jpg', 'Aix-en-Provence', 'We spend the evening in the scenic town of Aix-en-Provence', 'day3');
+		
+	addImageTile('_DSC1202.jpg', "Provence farm", 'We pass through typical Provence farmland', 'day4');
+	addImageTile('_DSC1231.jpg', "Pont dAvignon", 'The famous bridge reaches into the Rhone river', 'day4');
+	addImageTile('_DSC1259.jpg', "Palais du Papes", 'The formal palace of the popes in Avignon', 'day4');
+	
+	addImageTile('_DSC1368.jpg', "Pont du Gard", 'We visit a Roman aqueduct', 'day5');
+	addImageTile('_DSC1382.jpg', "River Gard", 'The river Gard flows in a rocky riverbed', 'day5');
+	addImageTile('_DSC1388.jpg', "Pont du Gard", 'We admire impressive Roman engineering', 'day5');
+		
+	addImageTile('_DSC1417.jpg', "Mont Ventoux", 'We get a first glimpse of the mountain in the distance', 'day6');	
+	addImageTile('_DSC1431.jpg', "Olive tree", 'We seek shadow under olive trees', 'day6');	
+	addImageTile('_DSC1452_1.jpg', "Provence farm", 'An old farm glows in the last sunlight', 'day6');	    
+	
+	addImageTile('_DSC1463.jpg', "Vaison-la-Romaine", 'Vaison-la-Romaine seems like it was carved out of stone', 'day7');	
+	addImageTile('_DSC1484.jpg', "Mont Ventoux summit", 'The summit of Mont Ventoux is cold and windy', 'day7');	
+	addImageTile('_DSC1565.jpg', "Ascend", 'More than 20 km of ascends up to 20 % need to be mastered to reach the summit', 'day7');	
+		
+	addImageTile('DSC_1575.jpg', "Vaison-la-Romaine", 'We again pass by Vaison-la-Romaine', 'day8');	
+	addImageTile('_DSC1601.jpg', "Moon over the canyon", 'The moon rises above the cliffs of the Ardeche canyon', 'day8');	
+	addImageTile('_DSC1626.jpg', "Riverbed", "The riverbed of the Ardeche river", 'day8');	
+		
+	addImageTile('DSC_9433.jpg', "Pont dArc", "The Pont dArc is a 50 m high natural rock arc", 'day10');	
+	addImageTile('_DSC1662.jpg', "Pont dArc", "The Pont dArc marks the entrance to the wilderness", 'day10');	
+	addImageTile('_DSC1754.jpg', "Rafting", 'We spend a fun day with rapids and white water', 'day10');	
+
+	addImageTile('_DSC1765.jpg', "Gournier Bivac Site", 'After one day of paddling, we spent the night at this remote bivac site near the river bank', 'day11');		
+	addImageTile('_DSC1777.jpg', "Cathedral", 'Rock formations rise into the sky like cathedrals', 'day11');	
+	addImageTile('_DSC1775.jpg', "Ardeche Canyon", 'Close to the end of the canyon, the rocky cliffs reach less high', 'day11');	
+
+	addImageTile('_DSC1793.jpg', "The Big Bend", 'The road close to the canyon offers scenic views over the river', 'day12');		
+	addImageTile('_DSC1807.jpg', "Vast emptyness", 'Extended forests grow in the Massif Central', 'day12');	
+	addImageTile('_DSC1812.jpg', "A final view", 'Before we reach the train station in Pierrelatte, we get a last glimpse of Mont Ventoux', 'day12');	
+
+	// Populate map
+	showMap(43.7,5.25939, 8, 'southfrance.kml', 'map');
+	
+</script>       
+</section>
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+    <ul id="nav_menu_footer"></ul>
+    <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2018 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- <script type="text/javascript" src="../js/retina.js"></script> -->
+</body>
+</html>

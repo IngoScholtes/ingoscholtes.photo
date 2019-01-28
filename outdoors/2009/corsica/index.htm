@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+    <head>
+        <!-- Basic Page Needs
+	================================================== -->
+        <meta charset="utf-8" />
+        <!-- InstanceBeginEditable name="doctitle" --><title>Ingo Scholtes | Corsica</title><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+		<link href="/css/outdoors.css" rel="stylesheet" type="text/css" />
+        <script src="/js/outdoors.js" type="text/javascript"></script>
+		<link href="/css/simpleGallery.css" rel="stylesheet" type="text/css" />
+		<script src="/js/simpleGallery.js" type="text/javascript"></script>
+		
+		<script src="/js/tripmaps.js" type="text/javascript"></script>   
+		
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+		<script type="text/javascript"  charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>		
+    <!-- InstanceEndEditable -->
+        <meta name="description" />
+        <meta name="author" />
+        <!-- Mobile Specific Metas
+	================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- CSS
+	================================================== -->
+        <link href="//fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+        <link href="/css/base.css" rel="stylesheet" />
+        <link href="/css/skeleton.css" rel="stylesheet" />
+        <link href="/css/layout.css" rel="stylesheet" />
+        <!-- JS
+	================================================== -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/js/slider.js"></script>
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script>
+		$(document).ready(function(){
+			
+			// Code for Mobile Menu, shows up on small screen resolutions
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			// --
+			
+			// Script to init slider. You can edit it from "/js/slider.js"
+			$('.slider').startSlider();
+			// --				
+			
+    		var logout = '{module_logout}';
+			if(logout !== '')
+			{
+				$('nav.top.small ul').append('<li>{module_logout}</li>');
+				$('nav.top.main ul').append('<li>{module_logout}</li>');
+			}
+			
+		});
+	</script>
+    </head>
+    <body>
+        <!-- Primary Page Layout
+	================================================== -->
+        <nav class="small top">
+        <form name="catsearchform24316" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
+            <div class="search-box">
+            <input name="CAT_Search" id="CAT_Search" type="text" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        <a class="expand-menu" href="#"></a>
+        <div class="clear"></div>
+        {module_menu,1337216}
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="four columns">
+        <form name="catsearchform24316" class="big-search" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
+            <div class="search-box">
+            <input name="CAT_Search" id="CAT_Search" type="text" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        </div>
+        </section><!-- end .container -->
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+        <!-- end .main -->
+        <!-- InstanceBeginEditable name="ContentArea" -->		
+		<section class="container">
+		<h3>Bike Tour around Corsica, France</h3>
+        <h5>September 2009</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:75px;">         
+                    <li>Distance</li><li>854.5 km</li>
+                    <li>Total Ascend:</li><li>10988 m</li>                    
+                    <li>Travel time:</li><li>46 h 07 min</li>                 
+                    <li>Days on Bike: </li><li>10 </li>                 
+                </ul>
+                <p>Some close friends and me developed the tradition to go on an extended bike trekking tour every three years. In 2003 and 2006 we had two memorable tours through the Lorraine, as well as from the French C&oacute;te d'Azur to the Massif Central. Cycling around Corsica, in 2009 we decided to go one step beyond what we had done before. As starting point, we chose Ajaccio, where we arrived with our bikes after a 10 hour train ride to Marseille, followed by another 6 hour boat trip. It proved well worth the effort, since there is certainly no better way to explore the island than by bike and tent. Below, you can find some information and pictures about the individual stages which I hope serve to give you an impression about what turned out to be a phantastic tour.</p>
+                <p>Those interested in following the tour themselves (either in reality or virtually via Google Earth) can find detailed <a href="corsica.kml">GPS track data here</a>.</p>
+
+			<center>
+            <div id="map" style="width: 100%; height: 400px; background: white"></div>
+			</center>
+
+             
+        	<h5>Day 1: Calanches di Piana</h5> 
+             <ul>
+             	<li>Start:</li><li>Ajaccio</li>
+             	<li>End:</li><li>Marine de Porto</li>                 
+            	<li>Distance:</li><li>80.1 km</li>
+                <li>Travel time:</li><li>4 h 22 min</li>
+                <li>Ascend:</li><li>1356 m</li>
+                <li>Highest point:</li><li>492 m</li>
+            </ul>
+
+			<p>The first stage took us from our starting point, a campsite just outside Ajaccio, to a campsite in the picturesque bay of Porto right in the Calanches de Piana. The windy and hilly roads through the Calanches offered breathtaking views over the sea and the red-colored mountains and cliffs. However this came at the price of a dangerously narrow road directly adjacent to cliffs that drop several hundred meters into the sea. Our decision to circle the island in clock-wise direction turned out to be crucial, since this meant that we were on the mountain-facing rather than on the sea-facing side of the road.</p>
+            			
+            <div class="album" id="day1"></div>         
+
+            
+        	<h5>Day 2: Golfe de Gal&eacute;ria and Fangu valley</h5>
+            <ul>
+                <li>Start:</li><li>Marine de Porto</li>
+             	<li>End:</li><li>Golfe de Calvi</li>     
+            	<li>Distance:</li><li>90.6 km</li>
+                <li>Travel time:</li><li>5 h 08 min</li>
+                <li>Ascend:</li><li>1222 m</li>
+                <li>Highest point:</li><li>420 m</li>        
+            </ul>
+            
+            <p>The second day of our tour took us from the bay of Porto via the Golfe de Girolata and the Fango valley to the Medieval town of Calvi. Strong head winds and rough roads between Fango valley and Calvi made this leg more exhausting than it may seem given the distance and elevation. After arriving at Calvi, we spent the night on a campsite situated in a beautiful Pine tree grove close by the beach in the bay of Calvi.</p>
+            
+            <div class="album" id="day2"></div>
+            <p></p>
+            
+        	<h5>Day 3: I'le Rousse and D&eacute;sert des Agriates</h5>
+             <ul>
+				<li>Start:</li><li>Golfe de Calvi</li>
+             	<li>End:</li><li>Farinole</li>
+            	<li>Distance:</li><li>87.8 km</li>
+                <li>Travel time:</li><li>4 h 45 min</li>
+                <li>Ascend:</li><li>1280 m</li>
+                <li>Highest point:</li><li>364 m</li>              
+            </ul>
+            
+               <p>On the third day, we followed the road along the Northern coast towards Cap Corse. We had crossed the city of L'Ile Rousse and had passed by the desert beaches of the Desert des Agriates, before we followed the road up into the mountains. For the night, we found a campsite in Farinole where we could pitch our tents directly by the beach, enjoying a marvelous sunset.</p>
+            
+			<div class="album" id="day3"></div>
+            
+        	<h5>Day 4: Around Cap Corse</h5>
+            <ul>
+	            <li>Start:</li><li>Farinole</li>
+             	<li>End:</li><li>&Eacute;tang de Biguglia</li>               
+            	<li>Distance:</li><li>108.5 km</li>
+                <li>Travel time:</li><li>5 h 41 min</li>
+                <li>Ascend:</li><li>1396 m</li>
+                <li>Highest point:</li><li>366 m</li>              
+            </ul>          
+            
+ 			<p>With more than 100 kilometers and close to 1400 meters of ascend, the fourth stage around Cap Corse was the most exhausting of the whole tour. However, following the road around the island's nortern-most cape provided us with beautiful impressions of the mountains and the wild sea beneath the road. We eventually crossed Bastia and pitched our tents on another exceptionally beautiful campsite at the extended white sand beaches south of Bastia.</p>
+            
+			<div class="album" id="day4"></div>
+            
+        	<h5>Day 5: The East Coast</h5>
+             <ul>
+             	<li>Start:</li><li>&Eacute;tang de Biguglia</li>
+             	<li>End:</li><li>Al&eacute;ria</li>            
+            	<li>Distance:</li><li>74.6 km</li>
+                <li>Travel time:</li><li>2 h 59 min</li>
+                <li>Ascend:</li><li>572 m</li>
+                <li>Highest point:</li><li>62 m</li>              
+            </ul>
+
+            <p>With less than 75 kilometers and an ascend of less than 600 meters, the fifth stage leading southwards along the east coast allowed us to relax a bit. We enjoyed the nice beaches, stopping now and then to take a bath, and eventually arrived at a campsite close to Al&eacute;ria.</p>
+            
+            <div class="album" id="day5"></div>
+
+            
+        	<h5>Day 6: Corte and Tavignano Valley</h5>
+             <ul>
+             	<li>Start:</li><li>Al&eacute;ria</li>
+             	<li>End:</li><li>Al&eacute;ria</li>    
+            	<li>Distance:</li><li>105.1 km</li>
+                <li>Travel time:</li><li>4 h 37 min</li>
+                <li>Ascend:</li><li>896 m</li>
+                <li>Highest point:</li><li>487 m</li>              
+            </ul>                        
+
+            <p>On the sixth day, we explored the old capital of Corte located in the central mountains of the island. Rather than packing our tents, we left them pitched in Al&eacute;ria to where we would return in the evening. The fact that we did't have to carry heavy luggage allowed for a speedy climb along the Tavignano river up into the mountains, where we explored the old citadel of Corte. The way back developed into a fast-paced descend of more than 50 kilometers, which we managed in a bit more than one hour.</p>
+            
+              <div class="album" id="day6"></div>
+            
+        	<h5>Day 7: East Coast Plain</h5>
+            <ul>
+            	<li>Start:</li><li>Al&eacute;ria</li>
+             	<li>End:</li><li>Porto-Vecchio</li>   
+            	<li>Distance:</li><li>78.8 km</li>
+                <li>Travel time:</li><li>3 h 17 min</li>
+                <li>Ascend:</li><li>689 m</li>
+                <li>Highest point:</li><li>94 m</li>              
+            </ul>
+            
+             <p>Following the long trip to Corte, we had another relaxed stage along the East coast from Al&eacute;ria to Porto-Vecchio. The terrain was rather flat, so we arrived early at a campsite in the bay of Porto-Vecchio. This left plenty of time to conclude the day by swimming and cooking.</p>
+            
+            <div class="album" id="day7"></div>
+            
+        	<h5>Day 8: Plage de Palombaggia</h5>
+            <ul>
+            	<li>Start:</li><li>Porto-Vecchio</li>
+             	<li>End:</li><li>Bonifaciu</li> 
+            	<li>Distance:</li><li>54.1 km</li>
+                <li>Travel time:</li><li>3 h 10 min</li>
+                <li>Ascend:</li><li>802 m</li>
+                <li>Highest point:</li><li>103 m</li>              
+            </ul>
+            
+            <p>Another easy stage along the East Coast awaited us on day eight. The short stage left us enough time to explore the area around Palombaggia, where we found spectacularly beautiful beaches with white sand, rocks, pine trees and a rich marine life. After a couple of hours, we continued to a campsite high in the cliffs close to the Corsica's sourthern most town Bonifaciu, where we spent the night.</p>
+            
+            <div class="album" id="day8"></div>
+            
+        	<h5>Day 9: Hike to Bonifaciu</h5>
+             <ul>
+             	<li>Start:</li><li>Bonifaciu</li>
+             	<li>End:</li><li>Bonifaciu</li> 
+            	<li>Distance:</li><li>13.2 km</li>
+                <li>Travel time:</li><li>3 h 02 min</li>
+                <li>Ascend:</li><li>281 m</li>
+                <li>Highest point:</li><li>104 m</li>              
+            </ul>
+
+            <p>On the ninth day, the bikes finally got some rest as we decided to hike to the old town of Bonifaciu. Unfortunately, the weather worsened and a tornado passed by the campsite, delaying our hike. When the storm had lost strength, we started our hike to Bonifaciu. However we started too early and were soon caught in a thunderstorm high in the exposed cliffs above the sea. Never have I eperienced such a strong thunderstorm. Indeed, we were almost struck by a lightning which hit a pole less than 20 meters from us. Running for our lives, we found shelter in the garage of a nearby house. After the thunderstorm had finally passed, we continued to Bonifaciu where we spent the rest of the day before returning to our camp.</p>
+            
+            <div class="album" id="day9"></div>
+
+            
+        	<h5>Day 10: Sart&egrave;ne</h5>
+            <ul>
+            	<li>Start:</li><li>Bonifaciu</li>
+             	<li>End:</li><li>Propriano</li> 
+            	<li>Distance:</li><li>81.1 km</li>
+                <li>Travel time:</li><li>4 h 44 min</li>
+                <li>Ascend:</li><li>1282 m</li>
+                <li>Highest point:</li><li>309 m</li>              
+            </ul>
+            
+			<p>The tenth stage led us back to the north. We left Bonifaciu and followed the road into the mountains where we passed the village of Sart&egrave;ne. After a hard day of biking in unstable weather, we finally arrived at a campsite in Propriano, where we were welcomed by a spectacular sunset.</p>
+            
+            <div class="album" id="day10"></div>
+            
+        	<h5>Day 11: Closing the Circle</h5>
+            <ul>
+            	<li>Start:</li><li>Propriano</li>
+             	<li>End:</li><li>Ajaccio</li> 
+            	<li>Distance:</li><li>80.6 km</li>
+                <li>Travel time:</li><li>4 h 21 min</li>
+                <li>Ascend:</li><li>1225 m</li>
+                <li>Highest point:</li><li>306 m</li>              
+            </ul>
+
+			<p>The eleventh and final stage of our tour closed the circle, leading from Propriano to Ajaccio. We spent the night on the same campsite in Ajaccio that we had started from eleven days before. The next day we took the ferry back to Marseille. We bid farewell to Corsica, looking back onto a phantastic adventure on an island that can rightfully claim to possess a unique character.</p>
+            
+            <div class="album" id="day11"></div>
+
+        </article>
+        
+ <script defer>
+ 
+ 	// Populate galleries
+	addImageTile('DSC_6560.jpg', 'Calanches de Piana', 'The road between Ajaccio and Porto offers breath-taking views', 'day1');	 																							
+	addImageTile('DSC_7864.jpg', 'Calanches de Piana', 'Bizarre rock formations in the Calanches de Piana', 'day1');	
+	addImageTile('DSC_7912.jpg', 'Marine de Porto', 'Beach with Genovese tower close to our campsite in Marine de Porto', 'day1');	
+	
+	addImageTile('DSC_8208.jpg', 'Golfe de Girolata', 'Day 2 offers nice views onto the west coast of Corsica', 'day2');	
+	addImageTile('DSC_8225.jpg', 'Mountain roads', 'A typical Corsical mountain road', 'day2');	
+	addImageTile('DSC_8234.jpg', 'Calvi', 'We arrive at Calvi shortly before sunset', 'day2');	
+	
+	addImageTile('DSC_8320.jpg', 'Mountain road', 'The roads become hilly towards Cap Corse', 'day3');	
+	addImageTile('DSC_8602.jpg', 'Sunset in Farinole', 'We enjoy this sunset directly in front ouf our tents in Farinole', 'day3');
+	addImageTile('DSC_8493.jpg', 'Sunset in Farinole', 'Other travellers have piled up these stones at a beach in Farinole', 'day3');	 
+		
+	addImageTile('DSC_8728.jpg', "Cap Corse", 'Cap Corse provides numerous nice view points like this', 'day4');
+	addImageTile('DSC_8620.jpg', "Nonza", 'The old village of Nonza is home to less than 75 inhabitants', 'day4');
+	addImageTile('DSC_8812.jpg', "Moulin Mattei", 'Moulin Mattei at Cap Corse', 'day4');
+	
+	addImageTile('DSC_8901.jpg', "Aleria beach", 'A stranded tree trunk at Aleria beach', 'day5');
+	addImageTile('DSC_8981.jpg', "Distant mountains", 'Looking to the west, we glimpse the distant mountains that we had passed a couple of days earlier.', 'day5');
+	addImageTile('DSC_8899.jpg', "East coast", 'The East coast offers endless beaches like this', 'day5');
+		
+	addImageTile('DSC_9098.jpg', "Pont Genois", 'We cross the Tavignano via this old Genovese bridge', 'day6');	
+	addImageTile('DSC_9174.jpg', "Corte", 'Corte, the old capital of Corsica', 'day6');	
+	addImageTile('DSC_9194.jpg', "Citadel", 'A rock pinnacle is home to the old citadel of Corte', 'day6');	    
+	
+	addImageTile('DSC_9221.jpg', "Flat roads", 'The roads along the East Coast are flat', 'day7');	
+	addImageTile('DSC_9228.jpg', "Bay of Porto-Vecchio", 'We arrive at the bay of Porto-Vecchio', 'day7');	
+	addImageTile('DSC_9235.jpg', "Campsite", 'Again, we pitch our tents directly by the sea', 'day7');	
+		
+	addImageTile('DSC_9368.jpg', "Palombaggia Beach", 'Round and smooth stones decorate the beach of Palombaggia', 'day8');	
+	addImageTile('DSC_9332.jpg', "Bay of Palombaggia", 'Palombaggia, a paradise for swimming and snorkling at the East coast', 'day8');	
+	addImageTile('DSC_9391.jpg', "Marple Stones", "Some of the stoned at Palombaggia look like marples", 'day8');	
+	
+	addImageTile('DSC_9535.jpg', "Tornardo", 'Dark skies and a tornardo mark the beginning of day 9', 'day9');	
+	addImageTile('DSC_9565.jpg', "Bonifaciu", 'Bonifacio is situated on top of white chalk cliffs', 'day9');	
+	addImageTile('DSC_9673.jpg', "Path to Bonifaciu", 'A stone foot path leads to the old town', 'day9');	
+	
+	addImageTile('DSC_9965.jpg', "Aftermath", 'Aftermath of forest fires close to Sartene', 'day10');	
+	addImageTile('DSC_9993.jpg', "Ashes and mountains", 'Mountain landscape close to Sartene', 'day10');	
+	addImageTile('DSC_0021.jpg', "Sunset in Propriano", 'A beautiful sunset awaits us in Propriano', 'day10');	
+	
+	addImageTile('DSC_0309.jpg', "Old fort", 'An old fort guards the bay of Ajaccio', 'day11');	
+	addImageTile('DSC_0147.jpg', "Ajaccio", 'Palm trees at a beach in Ajaccio', 'day11');	
+	addImageTile('DSC_0423.jpg', "Farewell Corsica", 'The island disappears in the distance', 'day11');	
+
+	// Populate map
+	showMap(42.23118, 9.04762, 7, 'corsica.kml', 'map');	
+</script>       
+	</section>
+    <!-- InstanceEndEditable -->
+        <footer>
+        <div class="container">
+        <hr />
+        <div class="nine columns">
+        <nav>
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="three columns">
+        &copy; 2018 Ingo Scholtes
+        </div>
+        </div>
+        </footer>
+        <!-- Script for retina images -->
+        <script type="text/javascript" src="/js/retina.js"></script>
+        <!-- End Document
+================================================== -->
+    </body>
+<!-- InstanceEnd --></html>
