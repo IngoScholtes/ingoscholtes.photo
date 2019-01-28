@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+    <head>
+        <!-- Basic Page Needs
+	================================================== -->
+        <meta charset="utf-8" />
+        <!-- InstanceBeginEditable name="doctitle" --><title>Ingo Scholtes | Alpstein</title><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+		<link href="/css/outdoors.css" rel="stylesheet" type="text/css" />
+        <script src="/js/outdoors.js" type="text/javascript"></script>
+		<link href="/css/simpleGallery.css" rel="stylesheet" type="text/css" />
+		<script src="/js/simpleGallery.js" type="text/javascript"></script>
+		
+		<script src="/js/tripmaps.js" type="text/javascript"></script>   
+		
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+		<script type="text/javascript"  charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+    <!-- InstanceEndEditable -->
+        <meta name="description" />
+        <meta name="author" />
+        <!-- Mobile Specific Metas
+	================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- CSS
+	================================================== -->
+        <link href="//fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+        <link href="/css/base.css" rel="stylesheet" />
+        <link href="/css/skeleton.css" rel="stylesheet" />
+        <link href="/css/layout.css" rel="stylesheet" />
+        <!-- JS
+	================================================== -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/js/slider.js"></script>
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script>
+		$(document).ready(function(){
+			
+			// Code for Mobile Menu, shows up on small screen resolutions
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			// --
+			
+			// Script to init slider. You can edit it from "/js/slider.js"
+			$('.slider').startSlider();
+			// --				
+			
+    		var logout = '{module_logout}';
+			if(logout !== '')
+			{
+				$('nav.top.small ul').append('<li>{module_logout}</li>');
+				$('nav.top.main ul').append('<li>{module_logout}</li>');
+			}
+			
+		});
+	</script>
+    </head>
+    <body>
+        <!-- Primary Page Layout
+	================================================== -->
+        <nav class="small top">
+        <form name="catsearchform24316" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
+            <div class="search-box">
+            <input name="CAT_Search" id="CAT_Search" type="text" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        <a class="expand-menu" href="#"></a>
+        <div class="clear"></div>
+        {module_menu,1337216}
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="four columns">
+        <form name="catsearchform24316" class="big-search" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" method="post">
+            <div class="search-box">
+            <input name="CAT_Search" id="CAT_Search" type="text" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        </div>
+        </section><!-- end .container -->
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+        <!-- end .main -->
+        <!-- InstanceBeginEditable name="ContentArea" -->		
+		<section class="container">
+		<h3>Hiking through Alpstein, Appenzell</h3>
+        <h5>October 2017</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:90px;">                
+                    <li>Distance</li><li>20.0 km</li>
+                    <li>Ascend:</li><li>1468 m</li>
+					<li>Max. altitude:</li><li>1810 m</li>
+                    <li>Walking time:</li><li>6h 03m</li>
+                    <li>Days:</li><li>2</li>
+                </ul>
+			<p>Fresh snowfall at the end of October gave this short two-day hike in the Alpstein area a surprisingly Alpine character. After our tour was cut short by a storm the day before, we enjoyed cold but sunny weather and clear skies. We spent a memorable night in the <a href="http://www.staubern.ch/">Stauberen mountain inn</a> before continuing to the summit of <a href="http://www.hoherkasten.ch/">Hoher Kasten</a> on the next day.</p>
+                <p>Those interested in following the tour themselves can find detailed <a href="alpstein.kml">GPS track data here</a>.</p>
+                
+                <center>
+                	<div id="map" style="height:400px"></div>
+                </center>
+             
+        	<h5>Day 1: From Br&uuml;lisau to Stauberen</h5>
+             <ul>
+             	<li>Start:</li><li>Br&uuml;lisau</li>
+             	<li>End:</li><li>Stauberen</li>                
+            	<li>Distance:</li><li>14.7 km</li>
+                <li>Walking time:</li><li>4h 30m</li>
+                <li>Ascend:</li><li>1086 m</li>
+                <li>Max. altitude</li><li>1810 m</li>
+            </ul>
+			
+             <p>Starting our hike in Br&uuml;lisau, we ascend through Br&uuml;eltobel towards the Plattenb&ouml;deli inn, where we see first patches of snow. We then continue along the banks of S&auml;mtisersee until we reach Bollenwees near F&auml;lensee. From here, we reach the Saxerl&uuml;cke and walk the ridge until we arrive at the Stauberen mountain inn, where we spend the night.</p>
+            
+            <div class="album" id="day1"></div>      
+            
+        	<h5>Day 2: From Stauberen to Hoher Kasten</h5>
+            <ul>
+                <li>Start:</li><li>Stauberen</li>
+             	<li>End:</li><li>Hoher Kasten</li>     
+            	<li>Distance:</li><li>5.3 km</li>
+                <li>Walking time:</li><li>1h 33m </li>
+                <li>Ascend:</li><li>382 m</li>
+                <li>Max. altitude:</li><li>1777 m</li>        
+            </ul>      
+            
+              <p>The second day of our trip starts with a remarkable sunrise, casting breathtaking colours over the Alpstein mountains. We have plenty of time for today's short route, so after enjoying sunrise and breakfast we are up for a late start of our hike. After approximately two hours, we arrive at the summit of Hoher Kasten, where we admire the spectacular view of the Alpstein area and the S&auml;mtisersee below.</p>
+            
+            <div class="album" id="day2"></div>        
+        </article>                             
+
+<script defer>
+
+	//populate galleries
+	addImageTile('DSC_0998.jpg', 'Brüelitobel', '', 'day1');
+	addImageTile('DSC_1350.jpg', 'Fälensee', '', 'day1');
+	addImageTile('DSC_1704.jpg', 'Evening light', '', 'day1');
+	addImageTile('DSC_0026.jpg', 'Alpstein sunset', '', 'day1');
+	addImageTile('DSC_1885.jpg', 'Sunset silhouette', '', 'day1');
+	addImageTile('DSC_1898.jpg', 'Stauberen moonlight', '', 'day1');	
+	
+	addImageTile('DSC_1937.jpg', 'Alpine sunrise', '', 'day2');
+	addImageTile('DSC_1951.jpg', 'Alpine sunrise', '', 'day2');
+	addImageTile('DSC_2718.jpg', 'Morning light', '', 'day2');
+	addImageTile('DSC_3203.jpg', 'Final ascend', '', 'day2');
+	addImageTile('DSC_3353.jpg', 'Misty valley', '', 'day2');
+	addImageTile('DSC_3592-HDR-Bearbeitet.jpg', 'Alpstein', '', 'day2');
+	
+	showMap(47.26788,9.46506, 12, 'alpstein.kml', 'map');
+	
+</script>   
+	</section>
+    <!-- InstanceEndEditable -->
+        <footer>
+        <div class="container">
+        <hr />
+        <div class="nine columns">
+        <nav>
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="three columns">
+        &copy; 2018 Ingo Scholtes
+        </div>
+        </div>
+        </footer>
+        <!-- Script for retina images -->
+        <script type="text/javascript" src="/js/retina.js"></script>
+        <!-- End Document
+================================================== -->
+    </body>
+<!-- InstanceEnd --></html>
