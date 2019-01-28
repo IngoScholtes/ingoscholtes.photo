@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link type="text/css" href="../../../css/ModuleStyleSheets.css" rel="styleSheet" />
+<link type="text/css" href="../../../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/layout.css" rel="stylesheet" />
+<script src="../../../js/slider.js"></script>
+<script src="../../../js/menu.js"></script>
+<script>
+		$(document).ready(function(){
+            $("#nav_menu_small").load("../../../menu.html");
+            $("#nav_menu_main").load("../../../menu.html");
+            $("#nav_menu_footer").load("../../../menu.html");
+
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<link href="../../../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/outdoors.js" type="text/javascript"></script>
+<link href="../../../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../../../js/tripmaps.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Ingo Scholtes | Tour Details</title>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="../../../outdoors.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+        </nav>
+        </div>
+
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>	
+		<section class="container">
+		<h3>Hiking through Valle Verzasca, Ticino</h3>
+        <h5>March 2013</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:75px;">                
+                    <li>Distance</li><li>35.1 km</li>
+                    <li>Total Ascend:</li><li>1036 m</li>                    
+                    <li>Travel time:</li><li>8h 38m</li>
+                    <li>Days:</li><li>2</li>                
+                </ul>
+                <p>As a preparation for our longer tour along the Skye Trail, in March 2013 a colleague and I decided to test our equipment on a two-day hike in Ticino. We decided to cross the valley of the Verzasca river, a beautiful and rather isolated mountain area just north of Lago Maggiore. </p>
+                <p>Those interested in following the tour themselves can find detailed <a href="verzasca.kml">GPS track data here</a>.</p>
+                
+                <center>
+                	<div id="map" style="height:400px"></div>
+                </center>
+             
+        	<h5>Day 1: From Sonogno to Lavertezzo</h5>
+             <ul>
+             	<li>Start:</li><li>Sonogno</li>
+             	<li>End:</li><li>Lavertezzo</li>                
+            	<li>Distance:</li><li>18.5 km</li>
+                <li>Travel time:</li><li>4h 31m</li>
+                <li>Ascend:</li><li>461 m</li>
+                <li>Highest point:</li><li>938 m</li>
+            </ul>
+			
+             <p>On the first day, we took a bus from the train station in Tenero to Sonogno in the mountains of Valle Verzasca. From there we followed the trail close to the river until Lavertezzo, which is situated near some picturesque cascades of the Verzasca river. We spent the night in a cottage house high above the river.</p>
+            
+            <div class="album" id="day1"></div>      
+            
+        	<h5>Day 2: From Lavertezzo to Tenero</h5>
+            <ul>
+                <li>Start:</li><li>Lavertezzo</li>
+             	<li>End:</li><li>Tenero</li>     
+            	<li>Distance:</li><li>16.6 km</li>
+                <li>Travel time:</li><li>4h 07m </li>
+                <li>Ascend:</li><li>575 m</li>
+                <li>Highest point:</li><li>889 m</li>        
+            </ul>      
+            
+              <p>The second stage takes us along the river from Lavertezzo towards Lago Maggiore. The trail follows the river until Corippo. From there it winds up into the foggy forests. A beautiful trail takes us along ruins of cottage houses and picturesque villages, before we finally arrive at Tenero.</p>
+            
+            <div class="album" id="day2"></div>        
+        </article>                             
+
+	<script defer>
+
+	//populate galleries
+	addImageTile('DSC_3939.jpg', 'River bed', 'In early spring, the low water level provides us with interesting views of the river bed', 'day1');	 	
+	addImageTile('DSC_4385.jpg', 'Water fall', 'Water, streams and cascades are ubiquitous in Valle Verzasca', 'day1');	
+	addImageTile('DSC_4433.jpg', 'Stone bridge', 'Stone Bridge in Lavertezzo', 'day1'); 	
+	addImageTile('DSC_4471.jpg', 'Verzasca', 'Colorful stones cover the bed of the Verzasca river', 'day1'); 	
+	addImageTile('DSC_4559.jpg', 'Dusk in Lavertezzo', 'Dusk falls onto the mountains near Lavertezzo', 'day1'); 	
+	addImageTile('DSC_4549.jpg', 'Cottage houses', 'This type of stone house is typical for the valleys of Ticino', 'day1'); 
+	
+	addImageTile('DSC_4895.jpg', 'Salamander', 'In the moist and cold forests, a number of still-stiff fire salamanders cross our path', 'day2');	 	
+	addImageTile('DSC_4977.jpg', 'Snow and fog', 'On the second day we cross higher areas still covered in snow', 'day2');	 	
+	addImageTile('DSC_4998.jpg', 'Deserted house', 'The high, foggy forests contain old, deserted cottage houses', 'day2');
+	addImageTile('DSC_5089.jpg', 'Spring', 'Despite the cold weather, we spot first signs of springtime', 'day2');
+	addImageTile('DSC_4774.jpg', 'Bridge', 'A stone bridge close to Mergoscia', 'day2');
+	addImageTile('DSC_5151.jpg', 'Pam trees', 'After two cold days, palm trees welcome us at Lago Maggiore', 'day2');
+	
+	showMap(46.27895, 8.90844, 10, 'verzasca.kml', 'map');
+	
+</script>       
+</section>
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+    <ul id="nav_menu_footer"></ul>
+    <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2018 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- <script type="text/javascript" src="../js/retina.js"></script> -->
+</body>
+</html>
