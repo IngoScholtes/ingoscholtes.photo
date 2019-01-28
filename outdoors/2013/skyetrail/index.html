@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link type="text/css" href="../../../css/ModuleStyleSheets.css" rel="styleSheet" />
+<link type="text/css" href="../../../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/layout.css" rel="stylesheet" />
+<script src="../../../js/slider.js"></script>
+<script src="../../../js/menu.js"></script>
+<script>
+		$(document).ready(function(){
+            $("#nav_menu_small").load("../../../menu.html");
+            $("#nav_menu_main").load("../../../menu.html");
+            $("#nav_menu_footer").load("../../../menu.html");
+
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<link href="../../../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/outdoors.js" type="text/javascript"></script>
+<link href="../../../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../../../js/tripmaps.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Ingo Scholtes | Tour Details</title>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="../../../outdoors.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+        </nav>
+        </div>
+
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+        
+		<section class="container">
+		<h3>The Skye Trail, Scotland</h3>
+        <h5>April 2013</h5>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul style="height:75px;">                
+                    <li>Distance</li><li>140 km</li>
+                    <li>Total Ascend:</li><li>4585 m</li>                    
+                    <li>Walking time:</li><li>34h 43m</li>                                
+                    <li>Days:</li><li>8</li>                                                    
+                </ul>
+                <p>Following a spontaneous idea, in spring 2013 a colleague and I developed the plan to spend our remaining holidays from the previous year doing a trekking tour in Scotland. Quickly, the Isle of Skye caught our interest and we eventually decided for the Skye Trail, a 140 km hiking trail crossing the Isle of Skye from north to south. On its way the trail passes some of Scotland's most spectacular landscapes and thus sets the scene for what can easily be counted among Europe's most beautiful treks.</p>
+                <p>Those interested in following the tour themselves can find detailed <a href="skyetrail.kml">GPS track data here</a>.</p>
+                 <center>
+        <div id="map" style="width:100%; height:400px"></div>
+        </center>
+        
+        <h5>Day 1: Start in Uig</h5>
+             <ul>
+             	<li>Start:</li><li>Uig</li>
+             	<li>End:</li><li>Camas Mor</li>                
+            	<li>Distance:</li><li>11.7 km</li>
+                <li>Walking time:</li><li>2h 29m</li>
+                <li>Ascend:</li><li>262 m</li>
+                <li>Highest point:</li><li>117 m</li>
+            </ul>
+            
+            <p>Via Glasgow airport, we had arrived by bus in Dornie, near Eilean Donan Castle, the evening before. On the first day of our tour, we then took the bus to Uig on the Isle of Skye, from where we started our trek on the Skye trail. The first rather short stage led us northward along the coast to Camas Mor. Here, we found a (closed) campsite beautifully located directly by the sea. Luckily the owner alowed us to stay, so that we could spend the first night listening to the sound of crushing waves.</p>
+            
+            <div class="album" id="day1"></div>      
+            
+        <h5>Day 2: Around the Northern Coast</h5>
+            <ul>
+                <li>Start:</li><li>Camas Mor</li>
+             	<li>End:</li><li>Flodigarry</li>     
+            	<li>Distance:</li><li>16.0 km</li>
+                <li>Walking time:</li><li>3h 32m </li>
+                <li>Ascend:</li><li>509 m</li>
+                <li>Highest point:</li><li>115 m</li>        
+            </ul>  
+            
+            <p>The second day started with a storm and heavy rain, so we had to get packed in the wet. We then set out eastward along the coast, passing by Duntulm castle on the northern coast. The road then takes us south to Flodigarry, where we want to spent the night in a hostel. Here we prepare for the next strenous stage across the Trotternish Ridge.</p>
+            
+            <div class="album" id="day2"></div>  
+            
+		<h5>Day 3: The Trotternish Ridge</h5>
+            <ul>
+                <li>Start:</li><li>Flodigarry</li>
+             	<li>End:</li><li>Torvaig</li>     
+            	<li>Distance:</li><li>27.4 km</li>
+                <li>Walking time:</li><li>9h 16m </li>
+                <li>Ascend:</li><li>1775 m</li>
+                <li>Highest point:</li><li>670 m</li>        
+            </ul>  
+            
+            <p>On the third day we set out early, making our way to the entrance of the Trotternish Ridge, a mountaineous and deserted area formed by a massive (ongoing) landslip. This stage is the most exhausting of the whole tour, leading a total of more than 27 kilometers over mountaineous, pathless and swampy ground with a total ascend of more than 1700 meters. In other words: more than a half-marathon without a trail, combined with a decent mountain climb and backpacking more than 25 kilos. We were thus happy when we were finally able to climb down the ridge shortly before sunset, passing by the famous Old Man of Storr. We then pitched our tents at the campsite of Torvaig.</p> 
+            
+            <div class="album" id="day3"></div>  
+        
+        <h5>Day 4: Exploring Portree Bay</h5>
+            <ul>
+                <li>Start:</li><li>Torvaig</li>
+             	<li>End:</li><li>Portree</li>     
+            	<li>Distance:</li><li>5.0 km</li>
+                <li>Walking time:</li><li>1h 08m </li>
+                <li>Ascend:</li><li>99 m</li>
+                <li>Highest point:</li><li>86 m</li>        
+            </ul>    
+            
+            <p>Following the previous strenous day, the fourth stage only leads us to Portree, where we explore the town and the bay both on foot and by boat. We enjoy the picturesque little town with its small harbour, cozy fishin restaurants and pubs. We further take a boat trip to the nests of sea eagles living in the area.</p>
+            
+            <div class="album" id="day4"></div>  
+            
+		 <h5>Day 5: Through the Braes</h5>
+            <ul>
+                <li>Start:</li><li>Portree</li>
+             	<li>End:</li><li>Sligachan</li>     
+            	<li>Distance:</li><li>21.3 km</li>
+                <li>Walking time:</li><li>4h 46m </li>
+                <li>Ascend:</li><li>421 m</li>
+                <li>Highest point:</li><li>92 m</li>        
+            </ul>    
+            
+            <p>The fifth day took us from Portree, through the Braes, a rural area with cottage houses and a beautiful sea side. We then turned westwards, following a trail along Loch Sligachan. We finally arrived in the Sligachan hotel, where we spent the night preparing for the next stages that would take us through the Cuilins.</p>
+            
+            <div class="album" id="day5"></div>   
+            
+		 <h5>Day 6: The Cuilins</h5>
+            <ul>
+                <li>Start:</li><li>Sligachan</li>
+             	<li>End:</li><li>Camasunary Bay</li>     
+            	<li>Distance:</li><li>14.8 km</li>
+                <li>Walking time:</li><li>3h 34 </li>
+                <li>Ascend:</li><li>295 m</li>
+                <li>Highest point:</li><li>100 m</li>        
+            </ul>   
+            
+            <p>The sixth stage led from the Sligachan hotel into uninhabited and remote mountain land. We followed the river Sligachan through the beautiful Glen Sligachan valley. The trail is lined by the Cuilin mountains, before we finally arrived at the sea in Camasunary bay. Here we spent a shockingly cold night in a bothie, i.e. a mountain hat specially maintained for hikers seeking shelter.</p>
+            
+            <div class="album" id="day6"></div>    
+            
+          <h5>Day 7: The Southern Cape</h5>
+            <ul>
+                <li>Start:</li><li>Camasunary Bay</li>
+             	<li>End:</li><li>Torrin</li>     
+            	<li>Distance:</li><li>23.4 km</li>
+                <li>Walking time:</li><li>5h 27 </li>
+                <li>Ascend:</li><li>731 m</li>
+                <li>Highest point:</li><li>143 m</li>        
+            </ul>    
+            
+            <p>We got up frozen after a cold night to find that fresh snow had fallen on the Cuilin peaks around us. Despite the chill, we enjoyed a beautiful and calm morning by the sea before setting of towards Elgol. We arrived there following a dangerously slippery trail along the cliffs. We then continued along the road to Torrin, where we spent the night in a guesthouse.</p>
+            
+            <div class="album" id="day7"></div>    
+            
+           <h5>Day 8: Arriving in Broadford</h5>
+            <ul>
+                <li>Start:</li><li>Torrin</li>
+             	<li>End:</li><li>Broadford</li>     
+            	<li>Distance:</li><li>20.4 km</li>
+                <li>Walking time:</li><li>4h 31 </li>
+                <li>Ascend:</li><li>493 m</li>
+                <li>Highest point:</li><li>186 m</li>        
+            </ul>     
+            
+            <p>The final stage first led us along the sourthern coast towards Loch Eishort. The trail then turned north through remote woodland, before we finally spotted the first signs pointing towards our destination of Broadford. A memorable trek had come to its end and we will never forget the fascinating sights offered by the beautiful Isle of Skye.</p>
+            
+            <div class="album" id="day8"></div>                                           
+            
+        </article>
+        
+<script type="text/javascript">
+
+	//populate galleries
+	addImageTile('DSC_6352.jpg', 'Fallen churn', 'Ruins of a church close to Camas Mor', 'day1');	 	
+	addImageTile('DSC_6474.jpg', 'Camas Mor Beach', 'We pitched our tents directly by this beautiful beach', 'day1');	 	
+	addImageTile('DSC_6562.jpg', 'Shelter', 'Seeking rest after the first stage', 'day1');
+	
+	addImageTile('Panorama_Duntulm.jpg', 'Duntulm Castle', 'The ruins of Duntulm castle at the northern coast', 'day2', panoramic=true);	 	
+	addImageTile('DSC_7038.jpg', 'Sea View', 'The second day brings bumerous views like this', 'day2');
+	addImageTile('DSC_7090.jpg', 'Rocks', 'Rock pinnacles in the Scottish sea', 'day2');	
+	addImageTile('DSC_6867.jpg', 'Duntulm Castle', 'Castle ruins close to the northernmost point of Skye', 'day2');	
+	addImageTile('DSC_7300.jpg', 'Flodigarry Hostel', 'View from the terrace of Flodigarry hostel', 'day2');	 	 
+	
+	addImageTile('DSC_7710.jpg', 'Cuith-Raing', 'The first part of the trail led through these bizarre rock formations of the Cuith-Raing', 'day3');	 	
+	addImageTile('DSC_8050.jpg', 'Trotternish Ridge', 'A look ahead todays stage through the Trotternish', 'day3');	 	
+	addImageTile('DSC_7660.jpg', 'Trotternish', 'A massive landslip continuous to form the Trotternish Ridge', 'day3');		
+	addImageTile('Panorama_Quiraing.jpg', 'Path through Cuith-Raing', 'The trail through the Cuith-Raing', 'day3', panoramic=true); 
+	addImageTile('DSC_8304-Bearbeitet.jpg', 'The Old Man of Storr', 'The Old Man of Storr marks the end of todays stage', 'day3');	
+		 	
+	addImageTile('Panorama_Portree.jpg', 'Portree Overview', 'A small tower provides a nice overview over Portree', 'day4', panoramic=true);	
+	addImageTile('DSC_8790.jpg', 'Sea Eagle', 'The bay of Portree is home to sea eagles', 'day4');
+	addImageTile('DSC_8468.jpg', 'Sea Gull', 'sea gulls of impressive size inhabit the bay', 'day4');
+	addImageTile('DSC_8590.jpg', 'Portree park', 'A small park in Portree', 'day4');
+	addImageTile('DSC_8496.jpg', 'Portree harbour', 'The pitturesque harbour of Portree is home to hotels, restaurants and pubs', 'day4');
+	
+	addImageTile('DSC_9171.jpg', 'Loch Sligachan', 'Rain awaits us on our way towards Glen Sligachan', 'day5');
+	addImageTile('DSC_9231.jpg', 'Cuilins', 'The first hills of the Cuilins welcome us', 'day5');	 	
+	addImageTile('DSC_9241.jpg', 'Loch Sligachan', 'Loch Sligachan lies protected by surrounding hills', 'day5');	 	
+	addImageTile('Panorama_SligachanBridge.jpg', 'Sligachan Bridge', 'This stone bridge directly next to the hotel marks the beginning of Sligachan valley', 'day5', panoramic=true); 
+	addImageTile('DSC_9247.jpg', 'Trail to the Cuilins', 'Sligachan hotel and the Cuilins wait in the distance', 'day5');
+	
+	addImageTile('DSC_9292.jpg', 'The Cuilins', 'In late April, the peaks of the Cuilins were still topped by snow', 'day6');		 		 		
+	addImageTile('Panorama_GlenSligachan.jpg', 'Sligachan valley', 'The wild valley of the Sligachan rivers sets the scene for the sixth stage', 'day6', panoramic=true); 
+	addImageTile('DSC_9591.jpg', 'Trail through the Cuilins', 'A nicely marked trail makes it easy to not get lost', 'day6');	
+	addImageTile('DSC_9580.jpg', 'Swamps', 'Rain and rivers occasionally turn the trail into a swamp', 'day6');
+	addImageTile('DSC_9616.jpg', 'Camasunary Bay', 'Finally, the mountains give way to a view on the sea', 'day6');
+	
+	addImageTile('DSC_9768.jpg', 'Camasunary Bay', 'A cold night is followed by a chilly and calm morning', 'day7');	 	
+	addImageTile('DSC_9795.jpg', 'Cascades', 'On our way to Elgol we pass by some cascades', 'day7');	 	
+	addImageTile('DSC_9723.jpg', 'Grassland', 'Camasunary bay is covered by an extended grassy plain ', 'day7');
+	
+	
+	addImageTile('DSC_0036.jpg', 'Sheep and Mountains', 'Two rather typical sights for the Isle of Skye', 'day8');	 	
+	addImageTile('Panorama_Broadford.jpg', 'Trail to Broadford', 'The trail towards Broadford provides a final view onto the Cuilins', 'day8', panoramic=true);
+	
+	showMap(57.30702, -6.29439, 8, 'skyetrail.kml', 'map');
+</script>       
+</section>
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+    <ul id="nav_menu_footer"></ul>
+    <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2018 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- <script type="text/javascript" src="../js/retina.js"></script> -->
+</body>
+</html>
