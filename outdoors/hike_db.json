@@ -1,4 +1,137 @@
 {
+    "2011/capocacchia": {
+        "title": "Capo Cacchia",
+        "location": "Sardinia, Italy",
+        "year": "2011",
+        "month": "July",
+        "category": "Easy Hike",
+        "distance": 8.4,
+        "ascend": 226,
+        "maxalt": 122,
+        "time_h": 1,
+        "time_m": 56,
+        "track": "capocacchia.kml",
+        "map_latitude": 40.57418,
+        "map_longitude": 8.16572,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "NA",
+        "images": {
+            "DSC_6308.jpg": "Capo Cacchia",
+            "DSC_6744.jpg": "Path",
+            "DSC_6915.jpg": "Three"
+        }
+    },
+    "2011/capodorso": {
+        "title": "Capo d'Orso",
+        "location": "Sardinia, Italy",
+        "year": "2011",
+        "month": "July",
+        "category": "Easy Hike",
+        "time_m": 25,
+        "track": "capodorso.kml",
+        "map_latitude": 41.17577,
+        "map_longitude": 9.39259,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_4953.jpg": "Palau Lighthouse",
+            "DSC_5145.jpg": "Capo dOrso",
+            "DSC_5070.jpg": "Beach"
+        }
+    },
+    "2011/caprera": {
+        "title": "Isola di Caprera",
+        "location": "Sardinia, Italy",
+        "year": "2011",
+        "month": "July",
+        "category": "Easy Hike",
+        "distance": 11.9,
+        "ascend": 149,
+        "maxalt": 39,
+        "time_h": 2,
+        "time_m": 39,
+        "track": "caprera.kml",
+        "map_latitude": 41.20546,
+        "map_longitude": 9.44629,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "NA",
+        "images": {
+            "DSC_5648.jpg": "Isola d Caprera",
+            "DSC_5523.jpg": "Path",
+            "DSC_5491.jpg": "Beach"
+        }
+    },
+    "2011/felsenweg": {
+        "title": "Felsenweg",
+        "location": "Hunsrück, Germany",
+        "year": "2011",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 15.4,
+        "ascend": 540,
+        "maxalt": 0,
+        "time_h": 3,
+        "time_m": 47,
+        "track": "felsenweg.kml",
+        "map_latitude": 49.54575,
+        "map_longitude": 6.73278,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_3285.jpg": "Spring flowers",
+            "DSC_3374.jpg": "Fallen tree",
+            "DSC_3380.jpg": "Trees"
+        }
+    },
+    "2011/kastelerfelsenpfad": {
+        "title": "Kasteler Felsenpfad",
+        "location": "Hunsrück, Germany",
+        "year": "2011",
+        "month": "March",
+        "category": "Mountain Hike - T3",
+        "distance": 8.5,
+        "ascend": 489,
+        "maxalt": 0,
+        "time_h": 2,
+        "time_m": 9,
+        "track": "kastelerfelsenpfad.kml",
+        "map_latitude": 49.56501,
+        "map_longitude": 6.55963,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_2270.jpg": "Outlook",
+            "Panorama6.jpg": "Panorama"
+        }
+    },
+    "2011/waldsaumweg": {
+        "title": "Waldsaumweg",
+        "location": "Hunsrück, Germany",
+        "year": "2011",
+        "month": "March",
+        "category": "Easy Hike",
+        "distance": 10.8,
+        "ascend": 330,
+        "maxalt": 0,
+        "time_h": 2,
+        "time_m": 29,
+        "track": "waldsaumweg.kml",
+        "map_latitude": 49.50569,
+        "map_longitude": 6.70833,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_2596.jpg": "Path",
+            "DSC_2498.jpg": "Frogs",
+            "DSC_2533.jpg": "Creek"
+        }
+    },
     "2011/wageten": {
         "title": "Wageten",
         "region": "Glarus",
