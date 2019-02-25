@@ -1,7 +1,8 @@
 {
     "2014/fardelamola": {
         "title": "Far de la Mola",
-        "location": "Formentera, Spain",
+        "region": "Formentera",
+        "country": "Spain",
         "year": "2014",
         "month": "October",
         "category": "Easy Hike",
@@ -24,7 +25,8 @@
     },
     "2014/mirrorlaketrail": {
         "title": "Mirror Lake Trail",
-        "location": "Yosemite, CA, USA",
+        "region": "California",
+        "country": "USA",
         "year": "2014",
         "month": "June",
         "category": "Easy Hike",
@@ -47,7 +49,8 @@
     },
     "2014/misttrail": {
         "title": "Mist Trail",
-        "location": "Yosemite, CA, USA",
+        "region": "California",
+        "country": "USA",
         "year": "2014",
         "month": "June",
         "category": "Mountain Hike - T2",
@@ -70,7 +73,8 @@
     },
     "2014/oceanviewtrail": {
         "title": "Ocean View Trail",
-        "location": "California, USA",
+        "region": "California",
+        "country": "USA",
         "year": "2014",
         "month": "June",
         "category": "Easy Hike",
@@ -92,8 +96,9 @@
         }
     },
     "2014/oppiggraetweg": {
-        "title": "Oppig-Gr\u00e4t-Weg",
-        "location": "Hunsrück, Germany",
+        "title": "Oppig-Grät-Weg",
+        "region": "Hunsrück",
+        "country": "Germany",
         "year": "2014",
         "month": "March",
         "category": "Easy Hike",
@@ -119,7 +124,8 @@
     },
     "2014/panoramatrail": {
         "title": "Panorama Trail",
-        "location": "Yosemite, CA, USA",
+        "region": "California",
+        "country": "USA",
         "year": "2014",
         "month": "June",
         "category": "Mountain Hike - T2",
@@ -145,7 +151,8 @@
     },
     "2014/plajailletes": {
         "title": "Plaja de ses Illetes",
-        "location": "Formentera, Spain",
+        "region": "Formentera",
+        "country": "Spain",
         "year": "2014",
         "month": "October",
         "category": "Easy Hike",
@@ -168,7 +175,8 @@
     },
     "2012/ruwerhochwaldschleife": {
         "title": "Ruwer-Hochwald-Schleife",
-        "location": "Hunsrück, Germany",
+        "region": "Hunsrück",
+        "country": "Germany",
         "year": "2012",
         "month": "April",
         "category": "Easy Hike",
@@ -191,7 +199,8 @@
     },
     "2013/bergener": {
         "title": "Der Bergener",
-        "location": "Hunsrück, Germany",
+        "region": "Hunsrück",
+        "country": "Germany",
         "year": "2013",
         "month": "March",
         "category": "Easy Hike",
@@ -214,7 +223,8 @@
     },
     "2013/capodortu": {
         "title": "Capo d'Ortu",
-        "location": "Corsica, France",
+        "region": "Corsica",
+        "country": "France",
         "year": "2013",
         "month": "June",
         "category": "Mountain Hike - T3",
@@ -240,7 +250,8 @@
     },
     "2013/spelunca": {
         "title": "Gorges de Spelunca",
-        "location": "Corsica, France",
+        "region": "Corsica",
+        "country": "France",
         "year": "2013",
         "month": "June",
         "category": "Mountain Hike - T3",
@@ -266,7 +277,8 @@
     },
     "2011/capocacchia": {
         "title": "Capo Cacchia",
-        "location": "Sardinia, Italy",
+        "region": "Sardinia",
+        "country": "Italy",
         "year": "2011",
         "month": "July",
         "category": "Easy Hike",
@@ -289,7 +301,8 @@
     },
     "2011/capodorso": {
         "title": "Capo d'Orso",
-        "location": "Sardinia, Italy",
+        "region": "Sardinia",
+        "country": "Italy",
         "year": "2011",
         "month": "July",
         "category": "Easy Hike",
@@ -308,7 +321,8 @@
     },
     "2011/caprera": {
         "title": "Isola di Caprera",
-        "location": "Sardinia, Italy",
+        "region": "Sardinia",
+        "country": "Italy",
         "year": "2011",
         "month": "July",
         "category": "Easy Hike",
@@ -331,7 +345,8 @@
     },
     "2011/felsenweg": {
         "title": "Felsenweg",
-        "location": "Hunsrück, Germany",
+        "region": "Hunsrück",
+        "country": "Germany",
         "year": "2011",
         "month": "April",
         "category": "Easy Hike",
@@ -354,7 +369,8 @@
     },
     "2011/kastelerfelsenpfad": {
         "title": "Kasteler Felsenpfad",
-        "location": "Hunsrück, Germany",
+        "region": "Hunsrück",
+        "country": "Germany",
         "year": "2011",
         "month": "March",
         "category": "Mountain Hike - T3",
@@ -376,7 +392,8 @@
     },
     "2011/waldsaumweg": {
         "title": "Waldsaumweg",
-        "location": "Hunsrück, Germany",
+        "region": "Hunsrück",
+        "country": "Germany",
         "year": "2011",
         "month": "March",
         "category": "Easy Hike",
