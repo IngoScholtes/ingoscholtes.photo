@@ -122,6 +122,33 @@
             "DSC_5271.jpg": "Path"
         }
     },
+    "2015/koenigsfeldschleife": {
+        "title": "Königsfeldschleife",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2015",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 14.0,
+        "ascend": 465,
+        "maxalt": 542,
+        "time_h": 3,
+        "time_m": 27,
+        "track": "koenigsfeldschleife.kml",
+        "map_latitude": 49.71288,
+        "map_longitude": 6.93581,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "NA",
+        "images": {
+            "DSC_0409.jpg": "St. Anna Chapel, Rascheid",
+            "DSC_0486.jpg": "Forest Floor",
+            "DSC_0500.jpg": "Forest Trail",
+            "DSC_0523.jpg": "Trail",
+            "DSC_0569.jpg": "Cascade",
+            "DSC_0411.jpg": "Chapel"
+        }
+    },
     "2014/panoramatrail": {
         "title": "Panorama Trail",
         "region": "California",
