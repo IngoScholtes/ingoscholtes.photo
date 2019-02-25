@@ -26,7 +26,7 @@
 	text-align: left;
 	float: left;
 	list-style: none;
-	width:150px;
+	width:200px;
 	margin-bottom: 0px;
 }
 
@@ -35,7 +35,6 @@
 	font-weight:bold;
 	margin-top: 10px;
 	clear: right;
-
 }
 
 .travelreport h4
@@ -43,5 +42,4 @@
 	font-weight:bold;
 	margin-top: 10px;
 	clear: both;
-
 }
