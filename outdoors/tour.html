@@ -81,14 +81,13 @@
         <h4 id="region">, <span id="country"></span></h4>
         <h5><span id="month"></span> <span id="year"></span></h5>
         <article class="travelreport" style="margin-top:10px;">
-                <ul style="height:75;">                
+                <ul style="height:75;">
+                    <li>Category:</li><li><span id="category"></span></li>
                     <li>Distance</li><li><span id="distance"></span></div> km</li>
-                    <li>Trail Type:</li><li><span id="category"></span></li>
-                    <li>Total ascend:</li><li><span id="ascend"></span>m</li>
-					<li>Max. altitude:</li><li><span id="maxalt"></span>m</li>
+                    <li>Total ascend:</li><li><span id="ascend"></span> m</li>
+					<li>Max. altitude:</li><li><span id="maxalt"></span> m</li>
                     <li>Walking time:</li><li><span id="time_h"></span>h <span id="time_m"></span>m</li>
                 </ul>
-               
                 <p>Download <a id="track" href="">GPS track</a>.</p>
                 <div id="map" style="height:400px"></div>
             <p id="hike_text"></p>
@@ -117,7 +116,7 @@
         // set fields 
         for  (var key in tour)
             if (key == 'track')
-                $("#"+key).attr("href", tour[key]);
+                $("#"+key).attr("href", hike_id + "/" + tour["track"]);
             else
                 $("#"+key).text(tour[key]);
         //populate galleries
