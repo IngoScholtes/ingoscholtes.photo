@@ -1978,6 +1978,33 @@
             "DSC_0850.jpg": "Glarner Alps"
         }
     },
+    "2017/tavelsjoberget": {
+        "title": "Tavelsjöberget",
+        "region": "Tavelsjö",
+        "country": "Sweden",
+        "year": "2017",
+        "month": "October",
+        "category": "Easy Hike",
+        "distance": 4.1,
+        "ascend": 153,
+        "maxalt": 255,
+        "time_h": 1,
+        "time_m": 6,
+        "track": "tavelsjoberget.kml",
+        "map_latitude": 64.02,
+        "map_longitude": 20.0,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_9701-HDR.jpg",
+        "images": {
+            "DSC_9701-HDR.jpg": "Boreal Forest",
+            "DSC_9523.jpg": "Frozen Pool",
+            "DSC_9905-HDR.jpg": "Forest",
+            "DSC_9599.jpg": "Tavelsjö Lake",
+            "DSC_9731.jpg": "Forest floor",
+            "DSC_9668-HDR.jpg": "Forest light"
+        }
+    },
     "2017/friherrenberg": {
         "title": "Friherrenberg",
         "region": "Schwyz",
