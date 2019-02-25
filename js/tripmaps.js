@@ -8,8 +8,9 @@ function switchMapType(map, platform) {
   	var terrainMap = aerialMapTileService.createTileLayer(
 		'maptile',
 		'terrain.day',
-		256,
-		'png8'
+		pixelRatio === 1 ? 256 : 512,
+		'png8',
+		{ppi: pixelRatio === 1 ? undefined : 320}
 	);
   	map.setBaseLayer(terrainMap);
 }
