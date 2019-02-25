@@ -1654,7 +1654,7 @@
         }
     },
     "2017/waldstaetterweg": {
-        "title": "Waldstätterweg",
+        "title": "Waldstätterweg: Vitznau to Brunnen",
         "region": "Schwyz",
         "country": "Switzerland",
         "year": "2017",
@@ -2404,7 +2404,51 @@
         "text": "A short afternoon hike in the Uetliberg area.",
         "coverimage": "DSC_1467.jpg",
         "images": {
-            "DSC_1467.jpg": "Frozen Cascade"           
+            "DSC_1467.jpg": "Frozen Cascade"
+        }
+    },
+    "2019/schaffhausen": {
+        "title": "Schaffhausen",
+        "region": "Schaffhausen",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 15.1,
+        "ascend": 260,
+        "maxalt": 423,
+        "time_h": 3,
+        "time_m": 55,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A hike along the long distance hiking trail Via Rhenana, passing by the famous waterfall of Schaffhausen.",
+        "coverimage": "DSC_1467.jpg",
+        "images": {
+            "DSC_1467.jpg": "Frozen Cascade"
+        }
+    },
+    "2019/vitznau": {
+        "title": "Waldstätterweg: Küssnacht to Vitznau",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "February",
+        "category": "Mountain Hike - T2",
+        "distance": 19.5,
+        "ascend": 635,
+        "maxalt": 797,
+        "time_h": 5,
+        "time_m": 5,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A hike through the Riviera of Lake Lucerne at the south face of the Rigi massif.",
+        "coverimage": "DSC_1467.jpg",
+        "images": {
+            "DSC_1467.jpg": "Frozen Cascade"
         }
     }
 }
