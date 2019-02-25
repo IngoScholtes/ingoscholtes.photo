@@ -149,6 +149,33 @@
             "DSC_0411.jpg": "Chapel"
         }
     },
+    "2016/schluchtenpfad": {
+        "title": "Schluchtenpfad",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2016",
+        "month": "March",
+        "category": "Easy Hike",
+        "distance": 11.1,
+        "ascend": 478,
+        "maxalt": 361,
+        "time_h": 2,
+        "time_m": 54,
+        "track": "schluchtenpfad.kml",
+        "map_latitude": 49.46629,
+        "map_longitude": 6.75433,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_5116.jpg": "Path",
+            "DSC_4974.jpg": "Holloway",
+            "DSC_5159.jpg": "Fairytale Forest",
+            "DSC_5109.jpg": "Resting",
+            "DSC_5074.jpg": "Fields",
+            "DSC_5245.jpg": "Gorge"
+        }
+    },
     "2016/hochwaldpfad": {
         "title": "Hochwaldpfad",
         "region": "Hunsrück",
