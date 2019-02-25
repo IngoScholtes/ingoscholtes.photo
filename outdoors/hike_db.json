@@ -149,6 +149,30 @@
             "DSC_0411.jpg": "Chapel"
         }
     },
+    "2016/hochwaldpfad": {
+        "title": "Hochwaldpfad",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2016",
+        "month": "December",
+        "category": "Easy Hike",
+        "distance": 14.3,
+        "ascend": 380,
+        "maxalt": 496,
+        "time_h": 3,
+        "time_m": 51,
+        "track": "hochwaldpfad.kml",
+        "map_latitude": 49.5654,
+        "map_longitude": 6.81749,
+        "map_zoom": 13,
+        "text": "This nice afternoon hike took us through thick and pristine forests and through the beautiful Wahnbachtal near Weiskirchen. It passes through an extended forest area at the border between the states of Rheinland-Pfalz and Saarland, which is home to wild cats. We did this tour in winter, however I expect this to be particularly nice in spring time.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_8110.jpg": "Cascade",
+            "DSC_7964.jpg": "Moss",
+            "DSC_7994.jpg": "Mossy tree"
+        }
+    },
     "2014/panoramatrail": {
         "title": "Panorama Trail",
         "region": "California",
