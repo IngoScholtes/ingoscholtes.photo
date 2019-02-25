@@ -89,7 +89,7 @@
                     <li>Walking time:</li><li><span id="time_h"></span>h <span id="time_m"></span>m</li>
                 </ul>
                
-                <p>Those interested in following the tour themselves can find detailed <a href="2018_sihlbrugg.kml">GPS track data here</a>.</p>                
+                <p>Download <a id="track" href="">GPS track</a>.</p>
                 <div id="map" style="height:400px"></div>
             <p id="hike_text"></p>
             <div class="album" id="album"></div>
@@ -116,8 +116,11 @@
         var tour = hike_db[hike_id];
         // set fields 
         for  (var key in tour)
-            $("#"+key).text(tour[key]);
-        //populate galleries        
+            if (key == 'track')
+                $("#"+key).attr("href", tour[key]);
+            else
+                $("#"+key).text(tour[key]);
+        //populate galleries
         for (var img in tour["images"])
         {
             if (img.includes("Pano"))

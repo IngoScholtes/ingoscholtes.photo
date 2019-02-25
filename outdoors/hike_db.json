@@ -2200,7 +2200,7 @@
         "images": {
             "DSC_6365.jpg": "Zurich Valley",
             "DSC_6429.jpg": "Kloster Fahr",
-            "DSC_6433.jpg": "Limmat"            
+            "DSC_6433.jpg": "Limmat"
         }
     },
     "2018/reppischtal": {
@@ -2222,7 +2222,7 @@
         "text": "A short afternoon walk in the woods close to Zurich.",
         "coverimage": "DSC_7831.jpg",
         "images": {
-            "DSC_7831.jpg": "Wood path"     
+            "DSC_7831.jpg": "Wood path"
         }
     },
     "2018/saentis": {
@@ -2322,15 +2322,15 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "",
+        "text": "A short Sunday afternoon hike with great views of Sihlsee and Einsiedeln.",
         "coverimage": "DSC_4472.jpg",
         "images": {
-            "DSC_4472.jpg": "Linth Valley",
-            "DSC_4489.jpg": "Layers",
-            "DSC_4624-HDR.jpg": "Close and far",
-            "DSC_4691-HDR.jpg": "Close and far",
-            "DSC_4700.jpg": "Close and far",
-            "DSC_4676-HDR.jpg": "Close and far"
+            "DSC_4472.jpg": "Summit cross",
+            "DSC_4489.jpg": "Sihl Valley",
+            "DSC_4624-HDR.jpg": "Sihlsee",
+            "DSC_4691-HDR.jpg": "Back Entrance",
+            "DSC_4700.jpg": "Einsiedeln Monastery",
+            "DSC_4676-HDR.jpg": "Einsiedeln at dusk"
         }
     },
     "2018/sihlbrugg": {
@@ -2349,15 +2349,15 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "A very short but beautiful afternoon stroll along paved roads.",
+        "text": "A very short but beautiful afternoon stroll along paved roads near Hirzl.",
         "coverimage": "DSC_4807.jpg",
         "images": {
-            "DSC_4807.jpg": "Linth Valley",
-            "DSC_4836.jpg": "Layers",
-            "DSC_4857.jpg": "Close and far",
-            "DSC_4911.jpg": "Close and far",
-            "DSC_5044-HDR.jpg": "Close and far",
-            "DSC_5059-HDR.jpg": "Close and far"
+            "DSC_4807.jpg": "Mountain Layers",
+            "DSC_4836.jpg": "Alps in Mist",
+            "DSC_4857.jpg": "Hill and Mountains",
+            "DSC_4911.jpg": "Säntis Massif",
+            "DSC_5044-HDR.jpg": "Glarner Alps",
+            "DSC_5059-HDR.jpg": "Road to the Sunset"
         }
     },
     "2019/flumserberg": {
@@ -2423,10 +2423,10 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "A hike along the long distance hiking trail Via Rhenana, passing by the famous waterfall of Schaffhausen.",
-        "coverimage": "DSC_1467.jpg",
+        "text": "A hike along the long distance hiking trail Via Rhenana, which passes by the famous waterfall of Schaffhausen.",
+        "coverimage": "DSC_1612-HDR.jpg",
         "images": {
-            "DSC_1467.jpg": "Frozen Cascade"
+            "DSC_1612-HDR.jpg": "Rheinfall"
         }
     },
     "2019/vitznau": {
@@ -2446,9 +2446,9 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "A hike through the Riviera of Lake Lucerne at the south face of the Rigi massif.",
-        "coverimage": "DSC_1467.jpg",
+        "coverimage": "DSC_2102.jpg",
         "images": {
-            "DSC_1467.jpg": "Frozen Cascade"
+            "DSC_2102.jpg": "Hill and Mountain"
         }
     }
 }
