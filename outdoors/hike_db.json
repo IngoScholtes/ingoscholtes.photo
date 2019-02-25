@@ -990,6 +990,33 @@
             "DSC_1097.jpg": "Mountain sunset"
         }
     },
+    "2015/sentiermartel": {
+        "title": "Sentier Martel",
+        "region": "Gorges du Verdon",
+        "country": "France",
+        "year": "2015",
+        "month": "June",
+        "category": "Mountain Hike - T3",
+        "distance": 18.2,
+        "ascend": 819,
+        "maxalt": 912,
+        "time_h": 5,
+        "time_m": 41,
+        "track": "sentiermartel.kml",
+        "map_latitude": 43.77335,
+        "map_longitude": 6.36684,
+        "map_zoom": 12,
+        "text": "This is a difficult hike deep in the Gorges du Verdon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_4187.jpg": "Stony path",
+            "DSC_4231.jpg": "Verdon river",
+            "DSC_4321.jpg": "No wrong step",
+            "DSC_4332.jpg": "Stones",
+            "DSC_4748.jpg": "Canyon",
+            "DSC_4170.jpg": "Verdon Canyon"
+        }
+    },
     "2015/mythen": {
         "title": "Grosser Mythen",
         "region": "Schwyz",
@@ -1643,7 +1670,7 @@
         "coverimage": "NA",
         "images": {
             "DSC_2526.jpg": "Wissengubel",
-            "DSC_2775.jpg": "S\u00c3\u00a4ntis",
+            "DSC_2775.jpg": "Säntis",
             "DSC_2528.jpg": "Wissengubel",
             "DSC_2822.jpg": "Paragliders",
             "DSC_2833.jpg": "The Sky is the Limit",
