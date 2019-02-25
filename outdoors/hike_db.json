@@ -1891,7 +1891,7 @@
         }
     },
     "2017/aescher": {
-        "title": "&Auml;scher Ebenalp",
+        "title": "Aescher Ebenalp",
         "region": "Appenzellerland",
         "country": "Switzerland",
         "year": "2017",
@@ -1947,6 +1947,94 @@
             "DSC_9857.jpg": "Gampl\u00c3\u00bct",
             "DSC_0381.jpg": "S\u00c3\u00a4ntis",
             "DSC_0706.jpg": "S\u00c3\u00a4ntisf\u00c3\u00a4lle"
+        }
+    },
+    "2017/benjislaketrail": {
+        "title": "Benjies Lake Trail",
+        "region": "Nova Scotia",
+        "country": "Canada",
+        "year": "2017",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 3.3,
+        "ascend": 45,
+        "maxalt": 420,
+        "time_h": 0,
+        "time_m": 41,
+        "track": "benjislaketrail.kml",
+        "map_latitude": 46.742,
+        "map_longitude": -60.81167,
+        "map_zoom": 15,
+        "text": "A short walk through the woods to Benjis Lake.",
+        "coverimage": "DSC_5834",
+        "images": {
+            "DSC_5834.jpg": "Trail"
+        }
+    },
+    "2017/mcintoshbrooktrail": {
+        "title": "McIntosh Brook Trail",
+        "region": "Nova Scotia",
+        "country": "Canada",
+        "year": "2017",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 3.1,
+        "ascend": 39,
+        "maxalt": 65,
+        "time_h": 1,
+        "time_m": 4,
+        "track": "mcintoshbrooktrail.kml",
+        "map_latitude": 46.81096,
+        "map_longitude": -60.76335,
+        "map_zoom": 14,
+        "text": "A short walk through a forest to the cascades of McIntosh Brook",
+        "coverimage": "DSC_1948",
+        "images": {
+            "DSC_1948.jpg": "Cascade"
+        }
+    },
+    "2017/micahilltrail": {
+        "title": "Mica Hill Trail",
+        "region": "Nova Scotia",
+        "country": "Canada",
+        "year": "2017",
+        "month": "August",
+        "category": "Mountain Hike - T1",
+        "distance": 9.4,
+        "ascend": 271,
+        "maxalt": 409,
+        "time_h": 2,
+        "time_m": 35,
+        "track": "micahilltrail.kml",
+        "map_latitude": 46.82387,
+        "map_longitude": -60.43544,
+        "map_zoom": 13,
+        "text": "A hike through beautiful moorland to Mica Hill, from where we enjoyed a great view towards the Atlantic Ocean.",
+        "coverimage": "DSC_3641",
+        "images": {
+            "DSC_3641.jpg": "White Moss"
+        }
+    },
+    "2017/skylinetrail": {
+        "title": "Skyline Trail",
+        "region": "Nova Scotia",
+        "country": "Canada",
+        "year": "2017",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 10.1,
+        "ascend": 221,
+        "maxalt": 407,
+        "time_h": 2,
+        "time_m": 25,
+        "track": "skylinetrail.kml",
+        "map_latitude": 46.74849,
+        "map_longitude": -60.88699,
+        "map_zoom": 13,
+        "text": "One of the most famous hikes of Cape Breton National Park.",
+        "coverimage": "DSC_6368",
+        "images": {
+            "DSC_6368.jpg": "Cabot Trail"
         }
     },
     "2017/oberblegisee": {
