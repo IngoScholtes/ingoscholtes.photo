@@ -1778,6 +1778,33 @@
             "DSC_6997.jpg": "Spring"
         }
     },
+    "2018/rockenburger": {
+        "title": "Rockenburger Urwaldpfad",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2017",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 13.1,
+        "ascend": 321,
+        "maxalt": 506,
+        "time_h": 3,
+        "time_m": 31,
+        "track": "rockenburger.kml",
+        "map_latitude": 49.74149,
+        "map_longitude": 6.94106,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_0309.jpg",
+        "images": {
+            "DSC_5136.jpg": "Clouds",
+            "DSC_5149.jpg": "Tree",
+            "DJI_0057.jpg": "Drohntal",
+            "DSC_5330.jpg": "Kleine Drohn",
+            "DSC_5414.jpg": "Forest",
+            "DSC_5327.jpg": "Urwald"
+        }
+    },
     "2017/alpenpanoramaweg": {
         "title": "Alpenpanoramaweg Unterägeri",
         "region": "Zug",
