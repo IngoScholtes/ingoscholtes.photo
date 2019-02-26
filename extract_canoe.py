@@ -3,16 +3,8 @@ import json
 from collections import OrderedDict
 
 filenames = [ 
-    '2018/waegitalersee',
-    '2017/vierwaldstaettersee',
-    '2016/eglisau_canoe',
-    '2016/hallwilersee',
-    '2016/vierwaldstaettersee',
-    '2016/zugersee',
-    '2015/aegerisee',
-    '2015/gorgesduverdon',
-    '2015/teufen',
-    '2015/tuerlersee_canoe'
+    '2015/greifensee',
+    '2018/zuerichsee',
 ]
 
 results = OrderedDict()
@@ -24,19 +16,18 @@ for file in filenames:
         parsed_html = BeautifulSoup(html, 'lxml')        
 
         results[file]['title'] = parsed_html.find_all('h3')[1].text.split(',')[0].strip()
-        results[file]['location'] = ''
+        results[file]['region'] = ''
+        results[file]['country'] = ''
         results[file]['year'] = file.split('/')[0].strip()
         results[file]['month'] = parsed_html.find_all('h5')[0].text.split(' ')[0].strip()
-        results[file]['category'] = 'NA'
+        results[file]['category'] = 'Canoe Tour'
 
         travel_report = parsed_html.body.find('article', attrs={'class':'travelreport'})
         lis = travel_report.find_all('li')
-        results[file]['distance'] = float(lis[1].text.replace('km', '').strip())
-        results[file]['ascend'] = int(lis[3].text.replace('m', '').strip())
-        results[file]['maxalt'] = int(lis[5].text.replace('m', '').strip())
-        print()
-        results[file]['time_h'] = int(lis[7].text.split(' ')[0].replace('h', '').strip())
-        results[file]['time_m'] = int(lis[7].text.split(' ')[1].replace('m', '').strip())
+        results[file]['distance'] = float(lis[3].text.replace('km', '').strip())
+        results[file]['launch'] = lis[1].text.strip()
+        results[file]['time_h'] = int(lis[5].text.split(' ')[0].replace('h', '').strip())
+        results[file]['time_m'] = int(lis[5].text.split(' ')[1].replace('m', '').strip())
 
         images = OrderedDict()
         kml = ''
