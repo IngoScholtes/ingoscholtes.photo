@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link type="text/css" href="../css/ModuleStyleSheets.css" rel="styleSheet" />
+<link type="text/css" href="../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../css/layout.css" rel="stylesheet" />
+<script src="../js/slider.js"></script>
+<script src="../js/menu.js"></script>
+<script>
+		$(document).ready(function(){
+            $("#nav_menu_small").load("../menu.html");
+            $("#nav_menu_main").load("../menu.html");
+            $("#nav_menu_footer").load("../menu.html");
+
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../js/outdoors.js" type="text/javascript"></script>
+<link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../js/tripmaps.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-data.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Ingo Scholtes | Canoe Tour Details</title>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="outdoors.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+        </nav>
+        </div>
+
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+		
+		<section class="container">
+        <h3 id="title"></h3>
+        <h4><span id="region"></span>, <span id="country"></span></h4>
+        <h5><span id="month"></span> <span id="year"></span></h5>
+        <article class="travelreport" style="margin-top:10px;">
+            <ul>
+                <li>Category:</li><li><span id="category"></span></li>
+                <li>Launch site:</li><li><span id="launch"></span></li>
+                <li>Distance</li><li><span id="distance"></span></div> km</li>
+                <li>Paddling time:</li><li><span id="time_h"></span>h <span id="time_m"></span>m</li>
+            </ul>
+            <p><a id="track" href="">Download GPS track</a></p>
+            <div id="map" style="height:300px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></div>
+            <p id="text"></p>
+            <div class="album" id="album"></div>
+        </article>
+
+	<script defer>
+    function getQueryParams(qs) {
+        qs = qs.split("+").join(" ");
+        var params = {},
+            tokens,
+            re = /[?&]?([^=]+)=([^&]*)/g;
+
+        while (tokens = re.exec(qs)) {
+            params[decodeURIComponent(tokens[1])]
+                = decodeURIComponent(tokens[2]);
+        }
+
+        return params;
+    }
+    var hike_id = getQueryParams(document.location.search)["id"];
+    console.log(hike_id);
+
+    $.getJSON("canoe_db.json", function(hike_db) {
+        var tour = hike_db[hike_id];
+        // set fields 
+        for  (var key in tour)
+            if (key == 'track')
+                $("#"+key).attr("href", hike_id + "/" + tour["track"]);
+            else
+                $("#"+key).text(tour[key]);
+        //populate galleries
+        for (var img in tour["images"])
+        {
+            if (img.includes("Pano"))
+                addImageTile(hike_id + "/" + img, tour["images"][img], "", "album", panoramic=true);
+            else
+                addImageTile(hike_id + "/" + img, tour["images"][img], "", "album");
+        }
+        showMap(tour["map_latitude"], tour["map_longitude"], tour["map_zoom"], hike_id + "/" + tour["track"], "map");
+
+    });
+</script>       
+</section>
+    <footer>
+    <div class="container">
+    <hr />
+    <div class="nine columns">
+    <nav>
+        <ul id="nav_menu_footer"></ul>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+    </nav>
+    </div>
+    <div class="three columns">
+    &copy; 2012 - 2019 Ingo Scholtes
+    </div>
+    </div>
+    </footer>
+    <!-- <script type="text/javascript" src="../js/retina.js"></script> -->
+</body>
+</html>
