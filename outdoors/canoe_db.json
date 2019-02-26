@@ -290,7 +290,7 @@
         "launch": "Rapperswil",
         "time_h": 4,
         "time_m": 20,
-        "track": "2018_lakezurich.kml",
+        "track": "track.kml",
         "map_latitude": 47.2098,
         "map_longitude": 8.82551,
         "map_zoom": 13,
