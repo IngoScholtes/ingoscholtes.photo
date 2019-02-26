@@ -17,7 +17,7 @@
         "text": "This was our first paddling tour 2018, on a hot spring day in May. We slipped the boat at the northern end of the lake. The water level was quite low, as the spring had been dry. Nevertheless, it turned out to be a beautiful tour, with beautiful vistas of the snow-capped mountains and green hills framing the lake.",
         "coverimage": "NA",
         "images": {
-            "DSC_8544.jpg": "W\u00c3\u00a4gitalersee",
+            "DSC_8544.jpg": "Wägitalersee",
             "DSC_8499.jpg": "Zindlenspitz",
             "DSC_8554.jpg": "View towards South",
             "DSC_8557.jpg": "Canoe",
@@ -254,6 +254,55 @@
             "DSC_3136.jpg": "Tree",
             "DSC_3148.jpg": "Green",
             "DSC_1159.jpg": "Evening silence"
+        }
+    },
+    "2015/greifensee": {
+        "title": "Greifensee",
+        "region": "",
+        "country": "",
+        "year": "2015",
+        "month": "April",
+        "category": "Canoe Tour",
+        "distance": 11.6,
+        "launch": "Niederuster",
+        "time_h": 3,
+        "time_m": 15,
+        "track": "greifensee.kml",
+        "map_latitude": 47.34086,
+        "map_longitude": 8.68565,
+        "map_zoom": 12,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_3025.jpg": "Boat",
+            "DSC_2969.jpg": "Mountains",
+            "DSC_2981.jpg": "Uster"
+        }
+    },
+    "2018/zuerichsee": {
+        "title": "Lake Zurich",
+        "region": "",
+        "country": "",
+        "year": "2018",
+        "month": "August",
+        "category": "Canoe Tour",
+        "distance": 18.0,
+        "launch": "Rapperswil",
+        "time_h": 4,
+        "time_m": 20,
+        "track": "2018_lakezurich.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Great paddling tour across the Upper Lake of Lake Zurich. We started in the town of Rapperswil, paddling eastwards to the monastery of Wurmsbach. We then crossed the lake towards Lachen, continuing westwards to Hurden. On our way back to Rapperswil, we visit the islands of Ufnau and L\u00fctzelau.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_5609.jpg": "Lachen",
+            "DSC_5711.jpg": "Ufnau Island",
+            "DSC_5842.jpg": "View towards Rapperswil",
+            "DSC_5848.jpg": "Lützelau Island",
+            "DSC_5982.jpg": "Rapperswil Castle",
+            "DSC_6105.jpg": "Sunset"
         }
     }
 }
