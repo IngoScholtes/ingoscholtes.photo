@@ -258,8 +258,8 @@
     },
     "2015/greifensee": {
         "title": "Greifensee",
-        "region": "",
-        "country": "",
+        "region": "Zurich",
+        "country": "Switzerland",
         "year": "2015",
         "month": "April",
         "category": "Canoe Tour",
@@ -281,8 +281,8 @@
     },
     "2018/zuerichsee": {
         "title": "Lake Zurich",
-        "region": "",
-        "country": "",
+        "region": "Zurich",
+        "country": "Switzerland",
         "year": "2018",
         "month": "August",
         "category": "Canoe Tour",
