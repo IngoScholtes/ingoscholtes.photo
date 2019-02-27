@@ -26,6 +26,10 @@ function showMap(lat, lng, zoom, kml, divid) {
 	var reader = new H.data.kml.Reader(kml);
 	reader.parse();
 	var layer = reader.getLayer();
+	map_objs = reader.getParsedObjects();
+	for (p in map_objs){
+		print(p.getData())
+	}
 	
 	var platform = new H.service.Platform({
 		app_id: 'WxZYu1p8L4ClnkebR416', 
@@ -42,7 +46,8 @@ function showMap(lat, lng, zoom, kml, divid) {
 	});
 	
 	map.addLayer(layer);
-	
+	// rect = H.geo.Rect.coverLatLngAlts(coords)
+	// map.setViewBounds(rect);
 	
 	// MapEvents enables the event system
 	// Behavior implements default interactions for pan/zoom (also on mobile touch environments)
