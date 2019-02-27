@@ -117,8 +117,8 @@
         for  (var key in tour)
             if (key == 'track')
                 $("#"+key).attr("href", hike_id + "/" + tour["track"]);
-            else
-                $("#"+key).text(tour[key]);
+            else 
+                $("#"+key).html(tour[key]);
         //populate galleries
         for (var img in tour["images"])
         {

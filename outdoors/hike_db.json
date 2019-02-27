@@ -1430,7 +1430,7 @@
         "map_latitude": 47.1559,
         "map_longitude": 9.14273,
         "map_zoom": 13,
-        "text": "Having enjoyed two very nice hikes to Mattstock and Leistchamm in late 2015, we decided to return to the Amden area close to Walensee for another autumn hike. This time our stating point is Arvenb\u00fchl and we take a route via the summit of Gulmen to Amden, from where we took the bus back to Ziegelbr\u00fccke station. We enjoyed a sunny, golden October day, with spectacular views towards the rugged Glarner Alps, the Toggenburg and the S\u00e4ntis massif.",
+        "text": "Having enjoyed two very nice hikes to Mattstock and Leistchamm in late 2015, we decided to return to the Amden area close to Walensee for another autumn hike. This time our stating point is Arvenb\u00fchl and we take a route via the summit of Gulmen to Amden, from where we took the bus back to Ziegelbr\u00fccke station. We enjoyed a sunny, golden October day, with spectacular views towards the rugged Glarner Alps, the Toggenburg and the S&auml;ntis massif.",
         "coverimage": "NA",
         "images": {
             "DSC_6076.jpg": "Golden October",
@@ -1795,7 +1795,7 @@
         "map_latitude": 46.98602,
         "map_longitude": 8.54634,
         "map_zoom": 12,
-        "text": "More soon.",
+        "text": "This hike is one stage of the long distance hiking trail <a href=\"https://www.schweizmobil.ch/en/wanderland/routes/route-098.html\">Waldstätterweg</a>, which leads around Lake Lucerne in seven days.",
         "coverimage": "NA",
         "images": {
             "DSC_7191.jpg": "Pine trees",
@@ -2140,7 +2140,7 @@
         "images": {
             "DSC_5159.jpg": "Clouds",
             "DSC_4775.jpg": "Summit",
-            "DSC_5333.jpg": "Blue Hour"          
+            "DSC_5333.jpg": "Blue Hour"
         }
     },
     "2018/bettmeralp": {
@@ -2255,6 +2255,7 @@
         "year": "2018",
         "month": "April",
         "category": "Mountain Hike - T2",
+        "wanderland": "01448",
         "distance": 18.4,
         "ascend": 727,
         "maxalt": 813,
@@ -2264,7 +2265,7 @@
         "map_latitude": 46.94993,
         "map_longitude": 8.62301,
         "map_zoom": 11,
-        "text": "",
+        "text": "This hike is the third stage of the trail <a href=\"https://www.schweizmobil.ch/de/wanderland/routen/route-099.html\">Weg der Schweiz</a>. It is also one stage of the long distance hiking trail <a href=\"https://www.schweizmobil.ch/en/wanderland/routes/route-098.html\">Waldstätterweg</a>, which leads around Lake Lucerne in seven days.",
         "coverimage": "DSC_1606.jpg",
         "images": {
             "DSC_1606.jpg": "Springtime",
@@ -2282,6 +2283,7 @@
         "year": "2018",
         "month": "April",
         "category": "Easy Hike",
+        "wanderland": "01447",
         "distance": 17.5,
         "ascend": 239,
         "maxalt": 569,
@@ -2291,7 +2293,7 @@
         "map_latitude": 46.94993,
         "map_longitude": 8.62301,
         "map_zoom": 11,
-        "text": "",
+        "text": "This hike is the second stage of the trail <a href=\"https://www.schweizmobil.ch/de/wanderland/routen/route-099.html\">Weg der Schweiz</a>. It is also one stage of the long distance hiking trail <a href=\"https://www.schweizmobil.ch/en/wanderland/routes/route-098.html\">Waldstätterweg</a>, which leads around Lake Lucerne in seven days.",
         "coverimage": "DSC_2712.jpg",
         "images": {
             "DSC_2712.jpg": "Bauen",
