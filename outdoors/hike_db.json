@@ -1608,7 +1608,7 @@
         "maxalt": 1914,
         "time_h": 1,
         "time_m": 29,
-        "track": "gumen.kml",
+        "track": "track.kml",
         "map_latitude": 46.9366,
         "map_longitude": 9.01003,
         "map_zoom": 12,
@@ -1618,7 +1618,7 @@
             "DSC_0931-HDR.jpg": "Ortstock",
             "DSC_0752.jpg": "Outlook",
             "DSC_0678.jpg": "Snow trail",
-            "DSC_1084.jpg": "H\u00c3\u00b6chturm",
+            "DSC_1084.jpg": "Höchturm",
             "DSC_1110.jpg": "Clouds",
             "DSC_1142.jpg": "The Ridge"
         }
