@@ -26,9 +26,9 @@ function showMap(lat, lng, zoom, kml, divid) {
 	var reader = new H.data.kml.Reader(kml);
 	reader.parse();
 	var layer = reader.getLayer();
-	map_objs = reader.getParsedObjects();
+	var map_objs = reader.getParsedObjects();
 	for (p in map_objs){
-		print(p.getData())
+		console.log(p.getData());
 	}
 	
 	var platform = new H.service.Platform({
