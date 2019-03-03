@@ -216,8 +216,8 @@
         "map_latitude": 37.72383,
         "map_longitude": -119.54662,
         "map_zoom": 13,
-        "text": "This is among the most spectacular one-day hikes I have ever done. The vantage point alone is breath-taking: Glacier Point, a peak high above Yosemite valley provides the perfect view over Yosemite valley, its water falls, Half-Dome as well as the Sierra Nevada. From there the trail starts and leads us around the rim of the mountains, passing by several spectacular waterfalls, viewpoints and through pine tree forests. The climax of the day is Nevada Fall, where we stand by the edge, watching the water fall down into the valley. We arrive Yosemite valley at sunset.",
-        "coverimage": "NA",
+        "text": "This hike ranks among the most spectacular one-day hikes we have ever done. The vantage point alone is breath-taking: Glacier Point, a peak high above Yosemite valley provides the perfect view over Yosemite valley, its water falls, Half-Dome as well as the Sierra Nevada. From there the trail starts and leads us around the rim of the mountains, passing by several spectacular waterfalls, viewpoints and through pine tree forests. The climax of the day is Nevada Fall, where we stand by the edge, watching the water fall down into the valley. We arrive Yosemite valley at sunset.",
+        "coverimage": "DSC_0682.jpg",
         "images": {
             "DSC_9910.jpg": "Glacier Point",
             "DSC_9945.jpg": "Forest",
@@ -566,8 +566,8 @@
         "map_latitude": 46.81559,
         "map_longitude": 9.51593,
         "map_zoom": 13,
-        "text": "This was our very first snow shoe hike. Beautiful area, great views from the summit plateau.",
-        "coverimage": "NA",
+        "text": "This was our very first snow shoe hike in a beautiful area around Chur in Graub&uuml;nden. The summit plateau offers really great views of the surrounding Alpine panorama.",
+        "coverimage": "DSC_1842.jpg",
         "images": {
             "DSC_1728.jpg": "Houses",
             "DSC_1842.jpg": "Dreibuendenstein",
@@ -602,12 +602,12 @@
         }
     },
     "2012/laegeren": {
-        "title": "Lägeren",
+        "title": "L&auml;geren",
         "region": "Aargau",
         "country": "Switzerland",
         "year": "2012",
         "month": "July",
-        "category": "Mountain Hike - T2",
+        "category": "Mountain Hike - T3",
         "distance": 15.3,
         "ascend": 611,
         "maxalt": 652,
@@ -617,8 +617,8 @@
         "map_latitude": 47.47365,
         "map_longitude": 8.38305,
         "map_zoom": 12,
-        "text": "Coming soon.",
-        "coverimage": "NA",
+        "text": "The ridge trail across the L&auml;geren mountain is probably one of the most Alpine hikes that you can find in the immediate surrounding of Z&uuml;rich. The mountain hiking trail passes the ridge and is rather narrow and exposed. In some places, you will need to use your hands. This is a very rewarding experience, that can be combined with a visit of the castle Regensberg as well as the old town of Baden.",
+        "coverimage": "DSC_6013.jpg",
         "images": {
             "DSC_5894.jpg": "Summer meadow",
             "DSC_5916.jpg": "Regensberg",
@@ -691,8 +691,8 @@
         "map_latitude": 46.75082,
         "map_longitude": 8.23099,
         "map_zoom": 13,
-        "text": "Coming soon",
-        "coverimage": "NA",
+        "text": "We did this memorable snow shoe hike in the area around Meiringen on a weekend trip to the Bernese Alps. Hasliberg offers great opportunities for all kinds of wintersport, including winter hiking, snow shoe hiking, and skiing.",
+        "coverimage": "DSC_2358-Bearbeitet.jpg",
         "images": {
             "DSC_1796.jpg": "Path to the summit",
             "DSC_1817.jpg": "Cloud limit",
@@ -715,8 +715,8 @@
         "map_latitude": 47.36645,
         "map_longitude": 8.57427,
         "map_zoom": 13,
-        "text": "A group hike across a hill near Zurich.",
-        "coverimage": "NA",
+        "text": "This was a short afternoon hike on a group event, organized by our research group. Starting in downtown Z&uuml;rich, the trail took us across Adlisberg, ending in a restaurant near Hottingen.",
+        "coverimage": "DSC_8829.jpg",
         "images": {
             "DSC_8870.jpg": "Trees",
             "DSC_8829.jpg": "Trail",
@@ -793,8 +793,8 @@
         "map_latitude": 47.05849,
         "map_longitude": 8.65204,
         "map_zoom": 14,
-        "text": "Coming soon.",
-        "coverimage": "NA",
+        "text": "We did this as a quick afternoon hike on a group event organized by our research group. The hike starts at the summit station of the Mostelberg cable car. Despite being easily accessible, on a clear day you will nevertheless see great mountain panoramas. One section of the trail offers also great views onto Lauerzersee.",
+        "coverimage": "DSC_5921.jpg",
         "images": {
             "DSC_5875.jpg": "Valley",
             "DSC_5921.jpg": "Lake Lucerne",
@@ -902,7 +902,7 @@
         "map_longitude": 8.55479,
         "map_zoom": 13,
         "text": "A relaxing hike, passing first through the Wildnispark Lagnau, featuring wolves, bears, lynxes and many other wild animals. The second half of the hike leads through the Sihlwald, a natural reserve just at the footstep of the city of Zurich.",
-        "coverimage": "NA",
+        "coverimage": "DSC_1563.jpg",
         "images": {
             "DSC_1563.jpg": "Wolf",
             "DSC_1774.jpg": "Lynx",
@@ -965,7 +965,7 @@
     },
     "2015/tuerlersee": {
         "title": "T&uuml;rlersee",
-        "region": "Zürich",
+        "region": "Z&uuml;rich",
         "country": "Switzerland",
         "year": "2015",
         "month": "April",
@@ -979,8 +979,8 @@
         "map_latitude": 47.26752,
         "map_longitude": 8.50194,
         "map_zoom": 14,
-        "text": "Coming soon.",
-        "coverimage": "NA",
+        "text": "We did this as a short afternoon hike, following up a short boat tour on T&uuml;rlersee. This is a very easy and short circle around the lake, but the southernmost section provides great views of the Alps. Especially in spring, there is plenty of flowers around.",
+        "coverimage": "DSC_1001.jpg",
         "images": {
             "DSC_1001.jpg": "The path",
             "DSC_1038.jpg": "Grass and mountains",
@@ -1006,8 +1006,8 @@
         "map_latitude": 43.77335,
         "map_longitude": 6.36684,
         "map_zoom": 12,
-        "text": "This is a difficult hike deep in the Gorges du Verdon.",
-        "coverimage": "NA",
+        "text": "This was a difficult full-day hiking tour deep in the Gorges du Verdon, Europe's biggest canyon. The canyon walls are up to 700 meters high and there is no escape route on the way. This makes it absolutely necessary to inform yourself about the weather forecast, as the path can be dangerous in thunderstorms. Some sections of the trail are exposed to height, but the hiker is rewarded by grand landscapes and nature all around.",
+        "coverimage": "DSC_4748.jpg",
         "images": {
             "DSC_4187.jpg": "Stony path",
             "DSC_4231.jpg": "Verdon river",
@@ -1033,8 +1033,8 @@
         "map_latitude": 47.03442,
         "map_longitude": 8.69727,
         "map_zoom": 14,
-        "text": "This is a classical hike up the Grosser Mythen, one of the most famous mountains in the country around Zurich and Zug. On nice sunny days, hundreds of people make their way up to the summit at 1899 m. The pronounced summit offers beautiful views over Lake Lucerne, the Alpthal, Rigi, and the surrounding Alpine panorama. The path is steep and mildly strenuous, but very nicely prepared and maintained.",
-        "coverimage": "NA",
+        "text": "The hike up to the Grosser Mythen, a well-known mountain in the country around Zurich and Zug, is a classic tour. On sunny summer days, hundreds of hikers make their way up to the summit plateau at 1899 m. The pronounced summit provides a great overview of Lake Lucerne, the Alpthal, Rigi, and the surrounding Alpine panorama. The path is steep but not particularly strenuous. It is very nicely prepared and maintained, with only a few exposed sections.",
+        "coverimage": "DSC_6599.jpg",
         "images": {
             "DSC_6599.jpg": "Gate to the mountain",
             "DSC_6645.jpg": "The trail up",
@@ -1090,7 +1090,7 @@
         "map_latitude": 47.42277,
         "map_longitude": 8.45123,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "An afternoon tour from R&uuml;tihof across the summit of Gubrist to the Altberg and back again. This is great tour for a sunny autumn day, when the woods are in full color and mushrooms are plenty.",
         "coverimage": "NA",
         "images": {
             "DSC_8359.jpg": "Foliage",
@@ -1175,8 +1175,8 @@
         "map_latitude": 46.96819,
         "map_longitude": 8.65909,
         "map_zoom": 13,
-        "text": ".",
-        "coverimage": "NA",
+        "text": "A short snow shoe hike from the station of the Stoos funicular to the summit of Fronalpstock. From the summit, you will have a great view onto Lake Lucerne and the surrounding mountains.",
+        "coverimage": "DSC_2657.jpg",
         "images": {
             "DSC_2599.jpg": "Mythen Mountains",
             "DSC_2894.jpg": "Lake Lucerne",
@@ -1332,8 +1332,8 @@
         "map_latitude": 47.41887,
         "map_longitude": 8.48615,
         "map_zoom": 13,
-        "text": "Coming soon.",
-        "coverimage": "NA",
+        "text": "A sunday afternoon tour from H&ouml;ngg, across H&ouml;nggerberg to Chatzensee in Affoltern. On the way to the lake, we pass by the ruins of castle Alt-Regensberg, an abandoned castle situation on a small hill. Around Chatzensee you can find extended bog and protected swamps, with chances to see rare birds and animals.",
+        "coverimage": "DSC_0337.jpg",
         "images": {
             "DSC_0150.jpg": "Castle Alt-Regensberg",
             "DSC_0154.jpg": "Castle Alt-Regensberg",
@@ -2249,7 +2249,7 @@
         }
     },
     "2018/swisspath1": {
-        "title": "Weg der Schweiz: Flüelen - Brunnen",
+        "title": "Waldstätterweg: Flüelen - Brunnen",
         "region": "Uri",
         "country": "Switzerland",
         "year": "2018",
@@ -2277,7 +2277,7 @@
         }
     },
     "2018/swisspath2": {
-        "title": "Weg der Schweiz: Seelisberg - Flüelen",
+        "title": "Waldstätterweg: Seelisberg - Flüelen",
         "region": "Uri",
         "country": "Switzerland",
         "year": "2018",
@@ -2320,7 +2320,7 @@
         "map_latitude": 47.2588,
         "map_longitude": 9.13469,
         "map_zoom": 11,
-        "text": "",
+        "text": "A great hike along the long distance hiking trail Thurweg, which leads from the source to the mouth of the river Thur. On this stage, we pass many cascades, river gorges, and beautiful forests.",
         "coverimage": "DSC_6337.jpg",
         "images": {
             "DSC_6337.jpg": "Thur Gorge",
@@ -2837,7 +2837,6 @@
             "DSC_2561.jpg": "Lake Lucerne Sunset",
             "DSC_2592.jpg": "Last light",
             "DJI_0453-Pano.jpg": "Lake Lucerne Panorama"
-
         }
     }
 }
