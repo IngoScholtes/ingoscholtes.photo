@@ -1,5 +1,10 @@
-// simpleGallery - A simple JavaScript gallery
-// (c) Ingo Scholtes 2012 - 2018
+/*
+* SimpleGallery V1.0
+* Copyright 2012-2018, Ingo Scholtes
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 3/4/2019
+*/
 
 var shopEnabled = false
 
