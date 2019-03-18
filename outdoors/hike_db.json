@@ -2838,5 +2838,31 @@
             "DSC_2592.jpg": "Last light",
             "DJI_0453-Pano.jpg": "Lake Lucerne Panorama"
         }
+    },
+    "2019/sihlwald": {
+        "title": "Sihlwald",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "March",
+        "category": "Mountain Hike - T1",
+        "distance": 8.9,
+        "ascend": 520,
+        "maxalt": 950,
+        "time_h": 2,
+        "time_m": 2,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "An afternoon hike from Sihlwald up to the ridge of the Albis mountains near Zurich.",
+        "coverimage": "DSC_2102.jpg",
+        "images": {
+            "DSC_3206.jpg": "Glarner Alps",
+            "DSC_3219-Pano.jpg": "Panorama",
+            "DSC_3290.jpg": "Säntis Alpenglow",
+            "DSC_3199.jpg": "Zugersee Panorama",
+            "DSC_3331.jpg": "Eiger, Mönch, Jungfrau"
+        }
     }
 }
