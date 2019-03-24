@@ -2864,5 +2864,30 @@
             "DSC_3199.jpg": "Zugersee Panorama",
             "DSC_3331.jpg": "Eiger, Mönch, Jungfrau"
         }
+    },
+    "2019/alpenpanorama": {
+        "title": "Alpenpanoramaweg Einsiedeln",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "March",
+        "category": "Mountain Hike - T1",
+        "distance": 20.1,
+        "ascend": 1068,
+        "maxalt": 1247,
+        "time_h": 6,
+        "time_m": 25,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A long day hike following the Alpenpanoramaweg from Lachen via Stöcklichrüz to Einsiedeln.",
+        "coverimage": "DSC_2102.jpg",
+        "images": {
+            "DSC_3795-Pano.jpg": "Lake Zurich Panorama",
+            "DSC_4079.jpg": "Mountain Backdrop",
+            "DSC_3658.jpg": "Stöcklichrüz",
+            "DSC_3832.jpg": "Sunlit Tree"
+        }
     }
 }
