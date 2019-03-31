@@ -2889,5 +2889,30 @@
             "DSC_3658.jpg": "Stöcklichrüz",
             "DSC_3832.jpg": "Sunlit Tree"
         }
+    },
+    "2019/fischingen": {
+        "title": "Kloster Fischingen",
+        "region": "Thurgau",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "March",
+        "category": "Mountain Hike - T1",
+        "distance": 16.0,
+        "ascend": 755,
+        "maxalt": 996,
+        "time_h": 4,
+        "time_m": 35,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A nice spring hike from Fischingen monastery via St. Iddaburg and Grat back to Fischingen.",
+        "coverimage": "DSC_2102.jpg",
+        "images": {
+            "DSC_3795-Pano.jpg": "Lake Zurich Panorama",
+            "DSC_4079.jpg": "Mountain Backdrop",
+            "DSC_3658.jpg": "Stöcklichrüz",
+            "DSC_3832.jpg": "Sunlit Tree"
+        }
     }
 }
