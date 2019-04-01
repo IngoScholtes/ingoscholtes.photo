@@ -2881,7 +2881,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "A long day hike following the Alpenpanoramaweg from Lachen via Stöcklichrüz to Einsiedeln.",
+        "text": "This hike is a long day tour following the Alpenpanoramaweg from Lachen via Stöcklichrüz to Einsiedeln. The first two hours are pretty steep and exhausting, while the rest of the tour is quite relaxed but long.",
         "coverimage": "DSC_2102.jpg",
         "images": {
             "DSC_3795-Pano.jpg": "Lake Zurich Panorama",
@@ -2906,13 +2906,12 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "A nice spring hike from Fischingen monastery via St. Iddaburg and Grat back to Fischingen.",
-        "coverimage": "DSC_2102.jpg",
+        "text": "This hike from Fischingen monastery via St. Iddaburg and Grat back to Fischingen is a great tour for early spring, when the mountains are still covered in snow.",
+        "coverimage": "DSC_4577.jpg",
         "images": {
-            "DSC_3795-Pano.jpg": "Lake Zurich Panorama",
-            "DSC_4079.jpg": "Mountain Backdrop",
-            "DSC_3658.jpg": "Stöcklichrüz",
-            "DSC_3832.jpg": "Sunlit Tree"
+            "DSC_4577.jpg": "Tree and Statue",
+            "DJI_0540.jpg": "St. Iddaburg",
+            "DSC_4664.jpg": "Fischingen monastery"
         }
     }
 }
