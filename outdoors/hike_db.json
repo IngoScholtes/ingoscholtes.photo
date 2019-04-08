@@ -2913,5 +2913,29 @@
             "DJI_0540.jpg": "St. Iddaburg",
             "DSC_4664.jpg": "Fischingen monastery"
         }
+    },
+    "2019/tamins": {
+        "title": "Senda Sursilvana: Tamins - Chur",
+        "region": "Graubünden",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 15.7,
+        "ascend": 222,
+        "maxalt": 680,
+        "time_h": 4,
+        "time_m": 4,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "This was a relaxed day-hike along the young river Rhine. The path starts at castle Reichenau near the village of Tamins, passes by the impressive landslide near Felsberg and arrives at the main station of Chur.",
+        "coverimage": "DSC_4701.jpg",
+        "images": {
+            "DSC_4677.jpg": "Mountains",
+            "DSC_4701.jpg": "Senda Sursilvana",
+            "DSC_4930.jpg": "Rhine"
+        }
     }
 }
