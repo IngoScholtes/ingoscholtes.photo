@@ -2937,5 +2937,29 @@
             "DSC_4701.jpg": "Senda Sursilvana",
             "DSC_4930.jpg": "Rhine"
         }
+    },
+    "2019/saarschleife": {
+        "title": "Saarschleife Tafeltour",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2019",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 20.0,
+        "ascend": 553,
+        "maxalt": 420,
+        "time_h": 5,
+        "time_m": 10,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_4701.jpg",
+        "images": {
+            "DSC_4677.jpg": "Mountains",
+            "DSC_4701.jpg": "Senda Sursilvana",
+            "DSC_4930.jpg": "Rhine"
+        }
     }
 }
