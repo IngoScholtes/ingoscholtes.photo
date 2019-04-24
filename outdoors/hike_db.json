@@ -2945,8 +2945,8 @@
         "year": "2019",
         "month": "April",
         "category": "Easy Hike",
-        "distance": 20.0,
-        "ascend": 553,
+        "distance": 21.8,
+        "ascend": 598,
         "maxalt": 420,
         "time_h": 5,
         "time_m": 10,
@@ -2955,11 +2955,14 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "Coming soon",
-        "coverimage": "DSC_4701.jpg",
+        "coverimage": "DSC_5883.jpg",
         "images": {
-            "DSC_4677.jpg": "Mountains",
-            "DSC_4701.jpg": "Senda Sursilvana",
-            "DSC_4930.jpg": "Rhine"
+            "DSC_5532.jpg": "Lizard",
+            "DSC_5596.jpg": "Cascade",
+            "DSC_5797.jpg": "Saarschleife",
+            "DSC_5883.jpg": "Saar",
+            "DSC_6029.jpg": "Trail",
+            "DJI_0599.jpg": "Burg Montclair"
         }
     }
 }
