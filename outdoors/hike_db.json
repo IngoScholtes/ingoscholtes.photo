@@ -2964,5 +2964,32 @@
             "DSC_6029.jpg": "Trail",
             "DJI_0599.jpg": "Burg Montclair"
         }
+    },
+    "2019/weiningen": {
+        "title": "Weinigen",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 13.9,
+        "ascend": 226,
+        "maxalt": 501,
+        "time_h": 3,
+        "time_m": 26,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_5883.jpg",
+        "images": {
+            "DSC_5532.jpg": "Lizard",
+            "DSC_5596.jpg": "Cascade",
+            "DSC_5797.jpg": "Saarschleife",
+            "DSC_5883.jpg": "Saar",
+            "DSC_6029.jpg": "Trail",
+            "DJI_0599.jpg": "Burg Montclair"
+        }
     }
 }
