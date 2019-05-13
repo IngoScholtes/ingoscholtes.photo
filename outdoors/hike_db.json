@@ -3018,5 +3018,29 @@
             "DSC_7790-HDR.jpg": "Mountain Creek",
             "DSC_7457.jpg": "Säntis"
         }
+    },
+    "2019/lugano": {
+        "title": "Sentiero Lago di Lugano: Morcote - San Salvatore",
+        "region": "Ticino",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "May",
+        "category": "Mountain Hike - T2",
+        "distance": 11.1,
+        "ascend": 922,
+        "maxalt": 916,
+        "time_h": 3,
+        "time_m": 36,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_9299.jpg",
+        "images": {
+            "DSC_9299.jpg": "Shed",
+            "DSC_7541.jpg": "Wildhuser Schafberg",
+            "DSC_7636.jpg": "Thur Gorge"
+        }
     }
 }
