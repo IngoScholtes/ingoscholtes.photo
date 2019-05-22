@@ -3045,5 +3045,29 @@
             "DSC_9039.jpg": "Signs",
             "DSC_9026.jpg": "Monte San Salvatore"
         }
+    },
+    "2019/kaiserstuhl": {
+        "title": "Kaiserstuhl",
+        "region": "Aargau",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 15.8,
+        "ascend": 355,
+        "maxalt": 548,
+        "time_h": 3,
+        "time_m": 28,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_9670.jpg",
+        "images": {
+            "DSC_9670.jpg": "Kaiserstuhl",
+            "DSC_9862.jpg": "Trees",
+            "DSC_9971.jpg": "Woods"
+        }
     }
 }
