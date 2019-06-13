@@ -6,67 +6,52 @@
 * 3/4/2019
 */
 
-// uses Here.com JS 3.0
-
-function switchMapType(map, platform) {
-	"use strict";	
- 	var aerialMapTileService = platform.getMapTileService({
-		type: 'aerial'
-  	});
-  	var terrainMap = aerialMapTileService.createTileLayer(
-		'maptile',
-		'terrain.day',
-		256,
-		'png8'
-	);
-  	map.setBaseLayer(terrainMap);
-}
+var map; //complex object of type OpenLayers.Map
 
 // Shows a map centered at the given location and zoom, and adds a kml path 
 function showMap(lat, lng, zoom, kml, divid) {
-	"use strict";
 	
-	var div = document.getElementById(divid);
-	div.style.width = '800px';
-	
-	// Parse track data
-	var reader = new H.data.kml.Reader(kml);
-	reader.parse();
-	var layer = reader.getLayer();
-	
-	var platform = new H.service.Platform({
-		app_id: 'WxZYu1p8L4ClnkebR416', 
-		app_code: 'DNvkAh6zMfL88GCGrhNqWA'
-	});
-	
-	var defaultLayers = platform.createDefaultLayers();	
-	
-	var map = new H.Map(div,
-	  defaultLayers.terrain.map,{
-	  center: {lat:lat, lng:lng},
-	  zoom: zoom
-	});
-	
-	map.addLayer(layer);
-	
-	
-	// MapEvents enables the event system
-	// Behavior implements default interactions for pan/zoom (also on mobile touch environments)
-	var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
-	
-	// Create the default UI components
-	// var ui = H.ui.UI.createDefault(map, defaultLayers);
+	var map = new OpenLayers.Map (divid, {
+		controls:[
+			new OpenLayers.Control.Navigation(),
+			new OpenLayers.Control.PanZoomBar(),
+			new OpenLayers.Control.LayerSwitcher(),
+			new OpenLayers.Control.Attribution()],
+		maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
+		maxResolution: 156543.0399,
+		numZoomLevels: 19,
+		units: 'm',
+		projection: new OpenLayers.Projection("EPSG:900913"),
+		displayProjection: new OpenLayers.Projection("EPSG:4326")
+	} );
 
-	// Remove map settings as unnecessary
-	//	ui.removeControl('mapsettings');
-	
-	// Now use the map as required...
-	//switchMapType(map, platform);
-	
-	// Add track to map
-	
-	
-//	layer.getProvider().addEventListener('tap', function(ev) {
-//		console.log(ev.target.getData());
-//	});		  
+	// Define the map layer
+	// Here we use a predefined layer that will be kept up to date with URL changes
+	layerMapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik");
+	map.addLayer(layerMapnik);
+	layerCycleMap = new OpenLayers.Layer.OSM.CycleMap("CycleMap");
+	map.addLayer(layerCycleMap);
+	layerMarkers = new OpenLayers.Layer.Markers("Markers");
+	map.addLayer(layerMarkers);
+
+	// Add the Layer with the GPX Track
+	var lgpx = new OpenLayers.Layer.Vector("Lakeside cycle ride", {
+		strategies: [new OpenLayers.Strategy.Fixed()],
+		protocol: new OpenLayers.Protocol.HTTP({
+			url: kml,
+			format: new OpenLayers.Format.KML()
+		}),
+		style: {strokeColor: "red", strokeWidth: 5, strokeOpacity: 0.5},
+		projection: new OpenLayers.Projection("EPSG:4326")
+	});
+	map.addLayer(lgpx);
+
+	// Add a Layer with Marker
+	var size = new OpenLayers.Size(21, 25);
+	var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+	var icon = new OpenLayers.Icon('https://www.openstreetmap.org/openlayers/img/marker.png',size,offset);
+	layerMarkers.addMarker(new OpenLayers.Marker(lonLat,icon));
+
+	var lonLat = new OpenLayers.LonLat(lng, lat).transform(new OpenLayers.Projection("EPSG:4326"), map.getProjectionObject());
+	map.setCenter(lonLat, zoom);	
 }
