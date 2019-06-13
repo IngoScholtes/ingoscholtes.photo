@@ -13,7 +13,9 @@ function showMap(lat, lng, zoom, kml, divid) {
 		displayProjection: new OpenLayers.Projection("EPSG:4326")
 	} );
 
-	var layerCycleMap = new OpenLayers.Layer.OSM.Mapnik("OpenCycleMap");
+	var layerMapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik");
+	map.addLayer(layerMapnik);
+	var layerCycleMap = new OpenLayers.Layer.OSM.CycleMap("CycleMap");
 	map.addLayer(layerCycleMap);
 
 	var lkml = new OpenLayers.Layer.Vector("Track", {
