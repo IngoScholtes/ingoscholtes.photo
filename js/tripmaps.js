@@ -14,9 +14,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 		displayProjection: new OpenLayers.Projection("EPSG:4326")
 	} );
 
-	var layerMapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik");
-	map.addLayer(layerMapnik);
-	var layerCycleMap = new OpenLayers.Layer.OSM.CycleMap("OpenCycleMap", [
+	var layerCycleMap = new OpenLayers.Layer.OSM("OpenCycleMap", [
         '//a.tile.openstreetmap.org/${z}/${x}/${y}.png',
         '//b.tile.openstreetmap.org/${z}/${x}/${y}.png',
         '//c.tile.openstreetmap.org/${z}/${x}/${y}.png'
