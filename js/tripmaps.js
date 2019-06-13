@@ -1,11 +1,3 @@
-/*
-* SimpleGallery V1.0
-* Copyright 2012-2018, Ingo Scholtes
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 3/4/2019
-*/
-
 // Shows a map centered at the given location and zoom, and adds a kml path 
 function showMap(lat, lng, zoom, kml, divid) {
 	
