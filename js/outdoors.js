@@ -6,7 +6,6 @@
 * 3/4/2019
 */
 
-var map; //complex object of type OpenLayers.Map
 
 // Shows a map centered at the given location and zoom, and adds a kml path 
 function showMap(lat, lng, zoom, kml, divid) {

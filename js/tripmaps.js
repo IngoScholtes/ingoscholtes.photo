@@ -6,8 +6,6 @@
 * 3/4/2019
 */
 
-// uses Here.com JS 3.0
-
 // Shows a map centered at the given location and zoom, and adds a kml path 
 function showMap(lat, lng, zoom, kml, divid) {
 	
