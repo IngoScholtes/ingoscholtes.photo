@@ -30,8 +30,16 @@ function showMap(lat, lng, zoom, kml, divid) {
 		style: {strokeColor: "red", strokeWidth: 5, strokeOpacity: 0.75},
 		projection: new OpenLayers.Projection("EPSG:4326")
 	});
+	lkml.events.register("loadend", lkml,
+	function() {
+	   if (this.visibility) {
+		var dataExtent = lkml.getDataExtent();
+		map.zoomToExtent(dataExtent);
+	   }
+   }
+  );
+
 	map.addLayer(lkml);
 
-	var dataExtent = lkml.getDataExtent();
-	map.zoomToExtent(dataExtent);
+	
 }
