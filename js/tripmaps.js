@@ -13,8 +13,8 @@ function showMap(lat, lng, zoom, kml, divid) {
 		displayProjection: new OpenLayers.Projection("EPSG:4326")
 	} );
 
-	layerMapnik = new OpenLayers.Layer.OSM.Mapnik("OpenCycleMap");
-	map.addLayer(layerMapnik);
+	var layerCycleMap = new OpenLayers.Layer.OSM.Mapnik("OpenCycleMap");
+	map.addLayer(layerCycleMap);
 
 	var lkml = new OpenLayers.Layer.Vector("Track", {
 		strategies: [new OpenLayers.Strategy.Fixed()],
@@ -28,5 +28,5 @@ function showMap(lat, lng, zoom, kml, divid) {
 	map.addLayer(lkml);
 
 	var dataExtent = lkml.getDataExtent();
-	map.zoomToExtent(dataExtent)
+	map.zoomToExtent(dataExtent);
 }
