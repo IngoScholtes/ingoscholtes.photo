@@ -21,8 +21,6 @@ function showMap(lat, lng, zoom, kml, divid) {
 	map.addLayer(layerMapnik);
 	layerCycleMap = new OpenLayers.Layer.OSM.CycleMap("CycleMap");
 	map.addLayer(layerCycleMap);
-	layerMarkers = new OpenLayers.Layer.Markers("Markers");
-	map.addLayer(layerMarkers);
 
 	// Add the Layer with the GPX Track
 	var lgpx = new OpenLayers.Layer.Vector("Lakeside cycle ride", {
@@ -35,13 +33,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 		projection: new OpenLayers.Projection("EPSG:4326")
 	});
 	map.addLayer(lgpx);
+	var dataExtent = lgpx.getDataExtent();
 
-	// Add a Layer with Marker
-	var size = new OpenLayers.Size(21, 25);
-	var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
-	var icon = new OpenLayers.Icon('https://www.openstreetmap.org/openlayers/img/marker.png',size,offset);
-	layerMarkers.addMarker(new OpenLayers.Marker(lonLat,icon));
-
-	var lonLat = new OpenLayers.LonLat(lng, lat).transform(new OpenLayers.Projection("EPSG:4326"), map.getProjectionObject());
-	map.setCenter(lonLat, zoom);	
+	map.zoomToExtent(dataExtent)
 }
