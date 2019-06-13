@@ -1,7 +1,12 @@
 // Shows a map centered at the given location and zoom, and adds a kml path
 function showMap(lat, lng, zoom, kml, divid) {
 	
-	var map = new OpenLayers.Map (divid, {
+	var map = new OpenLayers.Map (divid, [
+        '//a.tile.openstreetmap.org/${z}/${x}/${y}.png',
+        '//b.tile.openstreetmap.org/${z}/${x}/${y}.png',
+        '//c.tile.openstreetmap.org/${z}/${x}/${y}.png'
+		],
+		{ 
 		controls:[
 			new OpenLayers.Control.Navigation(),
 			new OpenLayers.Control.PanZoomBar()],
