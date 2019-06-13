@@ -1,11 +1,7 @@
 // Shows a map centered at the given location and zoom, and adds a kml path
 function showMap(lat, lng, zoom, kml, divid) {
 	
-	var map = new OpenLayers.Map (divid, [
-        '//a.tile.openstreetmap.org/${z}/${x}/${y}.png',
-        '//b.tile.openstreetmap.org/${z}/${x}/${y}.png',
-        '//c.tile.openstreetmap.org/${z}/${x}/${y}.png'
-		],
+	var map = new OpenLayers.Map (divid,
 		{ 
 		controls:[
 			new OpenLayers.Control.Navigation(),
@@ -20,7 +16,11 @@ function showMap(lat, lng, zoom, kml, divid) {
 
 	var layerMapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik");
 	map.addLayer(layerMapnik);
-	var layerCycleMap = new OpenLayers.Layer.OSM.CycleMap("CycleMap");
+	var layerCycleMap = new OpenLayers.Layer.OSM.CycleMap("OpenCycleMap", [
+        '//a.tile.openstreetmap.org/${z}/${x}/${y}.png',
+        '//b.tile.openstreetmap.org/${z}/${x}/${y}.png',
+        '//c.tile.openstreetmap.org/${z}/${x}/${y}.png'
+		]);
 	map.addLayer(layerCycleMap);
 
 	var lkml = new OpenLayers.Layer.Vector("Track", {
