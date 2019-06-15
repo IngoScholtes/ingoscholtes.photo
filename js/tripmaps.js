@@ -15,8 +15,8 @@ function showMap(lat, lng, zoom, kml, divid) {
 		})
 	});
 
-	lkml = new ol.layer.VectorLayer({
-		source: new ol.source.VectorSource({
+	lkml = new ol.layer.Vector({
+		source: new ol.source.Vector({
 			url: kml,
 			format: new ol.format.KML()
 		})
