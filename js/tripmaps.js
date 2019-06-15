@@ -15,16 +15,18 @@ function showMap(lat, lng, zoom, kml, divid) {
 		})
 	});
 
+	kmlSource = new ol.source.Vector({
+		url: kml,
+		format: new ol.format.KML()
+	});
+
 	lkml = new ol.layer.Vector({
-		source: new ol.source.Vector({
-			url: kml,
-			format: new ol.format.KML()
-		})
+		source: kmlSource
 	});
 
 	lkml.once("change", function(e) {
 	   if (lkml.getState() === 'ready') {	
-			map.getView().fit(lkml.getExtent());
+			map.getView().fit(kmlSource.getExtent());
 	   }
    }
   );
