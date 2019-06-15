@@ -11,7 +11,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 		target: divid,
 		view: new ol.View({
 			center: [0, 0],
-			zoom: 2
+			zoom: 1
 		})
 	});
 
