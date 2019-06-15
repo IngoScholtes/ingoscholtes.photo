@@ -1,45 +1,43 @@
+import Map from 'ol/Map.js';
+import View from 'ol/View.js';
+import TileLayer from 'ol/layer/Tile.js';
+import OSM from 'ol/source/OSM.js';
+import KML from 'ol/format/KML.js';
+import VectorSource from 'ol/source/Vector.js';
+import ZoomToExtent from 'ol/control/ZoomToExtent';
+
 // Shows a map centered at the given location and zoom, and adds a kml path
 function showMap(lat, lng, zoom, kml, divid) {
 	
-	var map = new OpenLayers.Map (divid,
-		{ 
-		controls:[
-			new OpenLayers.Control.Navigation(),
-			new OpenLayers.Control.PanZoomBar()],
-		maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
-		maxResolution: 156543.0399,
-		numZoomLevels: 19,
-		units: 'm',
-		projection: new OpenLayers.Projection("EPSG:900913"),
-		displayProjection: new OpenLayers.Projection("EPSG:4326")
-	} );
-
-	var layerCycleMap = new OpenLayers.Layer.OSM("OpenCycleMap", [
-        '//a.tile.openstreetmap.org/${z}/${x}/${y}.png',
-        '//b.tile.openstreetmap.org/${z}/${x}/${y}.png',
-        '//c.tile.openstreetmap.org/${z}/${x}/${y}.png'
-		]);
-	map.addLayer(layerCycleMap);
-
-	var lkml = new OpenLayers.Layer.Vector("Track", {
-		strategies: [new OpenLayers.Strategy.Fixed()],
-		protocol: new OpenLayers.Protocol.HTTP({
-			url: kml,
-			format: new OpenLayers.Format.KML()
-		}),
-		style: {strokeColor: "red", strokeWidth: 5, strokeOpacity: 0.75},
-		projection: new OpenLayers.Projection("EPSG:4326")
+	var map = new Map({
+		layers: [
+			new TileLayer({
+				source: new OSM()
+			})
+		],
+		target: divid,
+		view: new View({
+			center: [0, 0],
+			zoom: 2
+		})
 	});
-	lkml.events.register("loadend", lkml,
-	function() {
-	   if (this.visibility) {
-		var dataExtent = lkml.getDataExtent();
-		map.zoomToExtent(dataExtent);
-	   }
-   }
-  );
+
+	lkml = new VectorLayer({
+		source: new VectorSource({
+			url: kml,
+			format: new KML()
+		})
+	});
+
+	// lkml.events.register("loadend", lkml,
+	// function() {
+	//    if (this.visibility) {
+	// 	var dataExtent = lkml.getDataExtent();
+	// 	map.zoomToExtent(dataExtent);
+	//    }
+  //  }
+  // );
 
 	map.addLayer(lkml);
-
 	
 }
