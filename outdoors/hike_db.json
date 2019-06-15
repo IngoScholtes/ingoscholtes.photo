@@ -3069,5 +3069,58 @@
             "DSC_9862.jpg": "Trees",
             "DSC_9971.jpg": "Woods"
         }
+    },
+    "2019/aegerisee": {
+        "title": "Aegerisee",
+        "region": "Zug",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 9.1,
+        "ascend": 51,
+        "maxalt": 739,
+        "time_h": 3,
+        "time_m": 15,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_1141.jpg",
+        "images": {
+            "DSC_1141.jpg": "Shire",
+            "DSC_0746.jpg": "Shades of Blue",
+            "DSC_0752.jpg": "Lake View",
+            "DSC_0944.jpg": "Shore",
+            "DSC_1012.jpg": "Boathouse",
+            "DSC_0865.jpg": "Snowcapped",
+            "DSC_0911.jpg": "Sparkles",
+            "DJI_0677-Pano.jpg": "Lakeside Panorama"
+        }
+    },
+    "2019/ruwertal": {
+        "title": "Ruwertal",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2019",
+        "month": "June",
+        "category": "Easy Hike",
+        "distance": 8.9,
+        "ascend": 329,
+        "maxalt": 457,
+        "time_h": 3,
+        "time_m": 2,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_1434.jpg",
+        "images": {
+            "DSC_1434.jpg": "Forest stream",
+            "DSC_1445.jpg": "Ruwer",
+            "DSC_1552.jpg": "Woodland path"
+        }
     }
 }
