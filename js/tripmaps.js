@@ -22,15 +22,12 @@ function showMap(lat, lng, zoom, kml, divid) {
 		})
 	});
 
-	// lkml.events.register("loadend", lkml,
-	// function() {
-	//    if (this.visibility) {
-	// 	var dataExtent = lkml.getDataExtent();
-	// 	map.zoomToExtent(dataExtent);
-	//    }
-  //  }
-  // );
+	lkml.once("change", function(e) {
+	   if (lkml.getState() === 'ready') {	
+			map.getView().fit(lkml.getExtent());
+	   }
+   }
+  );
 
 	map.addLayer(lkml);
-	
 }
