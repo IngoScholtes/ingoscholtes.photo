@@ -4,7 +4,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 	
 	var map = new ol.Map({
 		layers: [
-			new ol.layers.TileLayer({
+			new ol.layer.TileLayer({
 				source: new ol.source.OSM()
 			})
 		],
@@ -15,7 +15,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 		})
 	});
 
-	lkml = new ol.VectorLayer({
+	lkml = new ol.layer.VectorLayer({
 		source: new ol.source.VectorSource({
 			url: kml,
 			format: new ol.format.KML()
