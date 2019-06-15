@@ -4,7 +4,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 	
 	var map = new ol.Map({
 		layers: [
-			new ol.TileLayer({
+			new ol.layers.TileLayer({
 				source: new ol.source.OSM()
 			})
 		],
