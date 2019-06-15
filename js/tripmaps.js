@@ -25,9 +25,8 @@ function showMap(lat, lng, zoom, kml, divid) {
 	});
 
 	lkml.once("change", function(e) {
-	   if (lkml.getState() === 'ready') {	
-			map.getView().fit(kmlSource.getExtent());
-	   }
+			var extent = kmlSource.getExtent();
+			map.getView().fit(extent);
    }
   );
 
