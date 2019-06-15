@@ -1,4 +1,3 @@
-import ol from 'ol'
 
 // Shows a map centered at the given location and zoom, and adds a kml path
 function showMap(lat, lng, zoom, kml, divid) {
@@ -16,7 +15,7 @@ function showMap(lat, lng, zoom, kml, divid) {
 		})
 	});
 
-	lkml = new VectorLayer({
+	lkml = new ol.VectorLayer({
 		source: new VectorSource({
 			url: kml,
 			format: new KML()
