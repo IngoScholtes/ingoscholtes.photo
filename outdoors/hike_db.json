@@ -3122,5 +3122,35 @@
             "DSC_1445.jpg": "Ruwer",
             "DSC_1552.jpg": "Woodland path"
         }
+    },
+    "2019/verzasca": {
+        "title": "Valle Verzasca",
+        "region": "Ticino",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "June",
+        "category": "Mountain Hike - T1",
+        "distance": 17.7,
+        "ascend": 561,
+        "maxalt": 759,
+        "time_h": 4,
+        "time_m": 50,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "DSC_1965.jpg",
+        "images": {
+            "DSC_1965.jpg": "Green River",
+            "DSC_2850.jpg": "Lago di Vogorno",
+            "DSC_2588.jpg": "Valle Verzasca",
+            "DSC_2257.jpg": "Verzasca Cascades",
+            "DSC_2163.jpg": "Cascade",
+            "DSC_2475.jpg": "San Bartolomeo",
+            "DSC_2661.jpg": "Bog",
+            "DSC_2770.jpg": "Mergoscia",
+            "DSC_2802.jpg": "Lago Maggiore"
+        }
     }
 }
