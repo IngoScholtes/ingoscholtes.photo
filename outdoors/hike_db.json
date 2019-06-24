@@ -3139,7 +3139,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon",
+        "text": "This is a perfect hike for hot summer days.",
         "coverimage": "DSC_1965.jpg",
         "images": {
             "DSC_1965.jpg": "Green River",
@@ -3151,6 +3151,35 @@
             "DSC_2661.jpg": "Bog",
             "DSC_2770.jpg": "Mergoscia",
             "DSC_2802.jpg": "Lago Maggiore"
+        }
+    },    
+    "2019/pilatus": {
+        "title": "Pilatus",
+        "region": "Obwalden",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "June",
+        "category": "Mountain Hike - T2",
+        "distance": 10.5,
+        "ascend": 1630,
+        "maxalt": 2120,
+        "time_h": 4,
+        "time_m": 30,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A relatively short but steep hike from Alpnachstad to the summit of Pilatus. To date, this was my hike with the largest ascend of more than 1600 meters. The reward is a grand mountain landscape around the area of Mattalp, a view of the world's steepest train track, as well as a superb summit panorama on Lake Lucerne and the surrounding Alps.",
+        "coverimage": "DSC_3980.jpg",
+        "images": {
+            "DSC_3980.jpg": "Mountain Trail",
+            "DSC_3752.jpg": "Mountain Face",
+            "DSC_3534.jpg": "Cow",
+            "DSC_3772.jpg": "Pilatus Railway",
+            "DSC_3421-HDR-Pano.jpg": "Lake Lucerne Panorama",
+            "DSC_3481.jpg": "Sign post",
+            "DSC_4110.jpg": "Brocken Spectre",
+            "DSC_4274.jpg": "Light"
         }
     }
 }
