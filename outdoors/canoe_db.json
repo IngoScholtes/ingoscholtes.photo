@@ -304,5 +304,31 @@
             "DSC_5982.jpg": "Rapperswil Castle",
             "DSC_6105.jpg": "Sunset"
         }
+    },
+    "2019/kloentalersee": {
+        "title": "Kloentalersee",
+        "region": "Glarus",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "June",
+        "category": "Lake Tour",
+        "distance": 10.1,
+        "launch": "Kloental",
+        "time_h": 3,
+        "time_m": 24,
+        "track": "track.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "NA",
+        "images": {
+            "DSC_6696.jpg": "Mountainscape",
+            "DSC_6872.jpg": "Canoe",
+            "DSC_7672.jpg": "Waterfall",
+            "DJI_0792.jpg": "Shoreline",
+            "DSC_6835.jpg": "Cascade",
+            "DSC_6785.jpg": "Azure"
+        }
     }
 }
