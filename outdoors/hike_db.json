@@ -3181,5 +3181,31 @@
             "DSC_4110.jpg": "Brocken Spectre",
             "DSC_4274.jpg": "Light"
         }
+    },    
+    "2019/regensberg": {
+        "title": "Regensberg",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "July",
+        "category": "Mountain Hike - T1",
+        "distance": 9.4,
+        "ascend": 316,
+        "maxalt": 833,
+        "time_h": 2,
+        "time_m": 47,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A short circle around the beautiful town of Regensberg, at the border of the cantons of Zurich and Aargau.",
+        "coverimage": "DSC_5491.jpg",
+        "images": {
+            "DSC_5080.jpg": "Castle Regensberg",
+            "DSC_5323.jpg": "Bird of Prey",
+            "DSC_5491.jpg": "Regensberg",
+            "DSC_4946-Pano.jpg": "Lägeren Hochwacht Panorama",
+            "DSC_5128.jpg": "Regensberg village"
+        }
     }
 }
