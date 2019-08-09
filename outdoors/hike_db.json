@@ -3207,5 +3207,58 @@
             "DSC_4946-Pano.jpg": "Lägeren Hochwacht Panorama",
             "DSC_5128.jpg": "Regensberg village"
         }
+    },    
+    "2019/seealpsee": {
+        "title": "Seealpsee",
+        "region": "Appenzellerland",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "July",
+        "category": "Easy Hike",
+        "distance": 9.7,
+        "ascend": 329,
+        "maxalt": 1165,
+        "time_h": 3,
+        "time_m": 50,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A short circle around the beautiful town of Regensberg, at the border of the cantons of Zurich and Aargau.",
+        "coverimage": "DSC_6033.jpg",
+        "images": {
+            "DSC_6033.jpg": "Seealpsee",
+            "DSC_6236.jpg": "Happy cows",
+            "DSC_5920.jpg": "Alpstein",
+            "DSC_6028-HDR.jpg": "Seealpsee",
+            "DSC_6684.jpg": "Appenzellerland",
+            "DSC_6235.jpg": "Seealpsee Trail"
+        }
+    }
+    ,    
+    "2019/heckelbusch": {
+        "title": "Heckelbuschfelsen",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2019",
+        "month": "August",
+        "category": "Mountain Hike - T1",
+        "distance": 10.4,
+        "ascend": 311,
+        "maxalt": 504,
+        "time_h": 2,
+        "time_m": 34,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A short stroll in the woods around the village of Hentern.",
+        "coverimage": "DSC_8470.jpg",
+        "images": {
+            "DSC_8345.jpg": "Heckelbuschfelsen",
+            "DSC_8382.jpg": "Forest trail",
+            "DSC_8440.jpg": "Mossy rocks",
+            "DSC_8470.jpg": "Trail"
+        }
     }
 }
