@@ -3234,8 +3234,7 @@
             "DSC_6684.jpg": "Appenzellerland",
             "DSC_6235.jpg": "Seealpsee Trail"
         }
-    }
-    ,    
+    },
     "2019/heckelbusch": {
         "title": "Heckelbuschfelsen",
         "region": "Hunsrück",
@@ -3259,6 +3258,32 @@
             "DSC_8382.jpg": "Forest trail",
             "DSC_8440.jpg": "Mossy rocks",
             "DSC_8470.jpg": "Trail"
+        }
+    },
+    "2019/egelsee": {
+        "title": "Egelsee",
+        "region": "Aargau",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 10.7,
+        "ascend": 328,
+        "maxalt": 709,
+        "time_h": 2,
+        "time_m": 36,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "An afternoon hike through the enchanted beech woods around Egelsee, the largest natural lake in the canton of Aargau.",
+        "coverimage": "DSC_8470.jpg",
+        "images": {
+            "DSC_9093.jpg": "Mossy creek",
+            "DSC_9103.jpg": "Beech forest",
+            "DSC_9118.jpg": "Egelsee",
+            "DSC_9073.jpg": "Woodland floor",
+            "DSC_9168-HDR.jpg": "Bogland"
         }
     }
 }
