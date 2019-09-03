@@ -33,3 +33,6 @@ print(time_h, ' hours')
 print(time_m, ' minutes')
 print(dist, ' km')
 print(alt, ' m')
+
+
+#%%
