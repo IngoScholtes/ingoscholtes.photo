@@ -3332,10 +3332,10 @@
         "coverimage": "DSC_8470.jpg",
         "images": {
             "DSC_8470.jpg": "Mossy creek",
-            "DSC_9103.jpg": "Beech forest",
-            "DSC_9118.jpg": "Egelsee",
-            "DSC_9073.jpg": "Woodland floor",
-            "DSC_9168-HDR.jpg": "Bogland"
+            "DSC_1112.jpg": "Beech forest",
+            "DSC_1537.jpg": "Egelsee",
+            "DSC_1432-HDR-Pano.jpg": "Woodland floor",
+            "DSC_1552.jpg": "Bogland"
         }
     },
     "2019/kvalvika": {
@@ -3384,10 +3384,10 @@
         "coverimage": "DSC_2659.jpg",
         "images": {
             "DSC_2659.jpg": "Mossy creek",
-            "DSC_9103.jpg": "Beech forest",
-            "DSC_9118.jpg": "Egelsee",
-            "DSC_9073.jpg": "Woodland floor",
-            "DSC_9168-HDR.jpg": "Bogland"
+            "DJI_0995-Pano.jpg": "Beech forest",
+            "DSC_1942.jpg": "Egelsee",
+            "DSC_2052.jpg": "Woodland floor",
+            "DSC_2395.jpg": "Bogland"
         }
     },
     "2019/unstad": {
@@ -3410,10 +3410,9 @@
         "coverimage": "DSC_6548.jpg",
         "images": {
             "DSC_6548.jpg": "Mossy creek",
-            "DSC_9103.jpg": "Beech forest",
-            "DSC_9118.jpg": "Egelsee",
-            "DSC_9073.jpg": "Woodland floor",
-            "DSC_9168-HDR.jpg": "Bogland"
+            "DSC_6334.jpg": "Beech forest",
+            "DSC_6560.jpg": "Egelsee",
+            "DSC_6155-HDR-Pano.jpg": "Woodland floor"
         }
     }
 }
