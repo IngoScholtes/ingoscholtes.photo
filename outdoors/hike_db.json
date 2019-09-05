@@ -3306,7 +3306,7 @@
         "coverimage": "DSC_0797-HDR.jpg",
         "images": {
             "DSC_0797-HDR.jpg": "Breaking clouds",
-            "DSC_0135.jpg": "Vatnakallen massif",
+            "DSC_0135.jpg": "Vagakallen massif",
             "DJI_0936.jpg": "Glomtinden summit",
             "DSC_0570-HDR-Pano.jpg": "Rorvika Panorama",
             "DSC_0812.jpg": "Rainbow"
@@ -3329,13 +3329,12 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "Coming soon.",
-        "coverimage": "DSC_8470.jpg",
+        "coverimage": "DSC_1112.jpg",
         "images": {
-            "DSC_8470.jpg": "Mossy creek",
             "DSC_1112.jpg": "Beech forest",
             "DSC_1537.jpg": "Egelsee",
-            "DSC_1432-HDR-Pano.jpg": "Woodland floor",
-            "DSC_1552.jpg": "Bogland"
+            "DSC_1552.jpg": "Bogland",
+            "DSC_1432-HDR-Pano.jpg": "Woodland floor"
         }
     },
     "2019/kvalvika": {
