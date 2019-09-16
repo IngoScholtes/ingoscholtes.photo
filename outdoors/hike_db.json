@@ -3413,5 +3413,32 @@
             "DSC_6560.jpg": "Egelsee",
             "DSC_6155-HDR-Pano.jpg": "Woodland floor"
         }
+    },
+    "2019/murgsee": {
+        "title": "Murgsee",
+        "region": "Glarus",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "September",
+        "category": "T2",
+        "distance": 16.7,
+        "ascend": 849,
+        "maxalt": 1985,
+        "time_h": 5,
+        "time_m": 20,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_8527.jpg",
+        "images": {
+            "DSC_8588.jpg": "Mountain Trail",
+            "DSC_8527.jpg": "Mountainscape",
+            "DSC_8474.jpg": "Bogland",
+            "DJI_0210.jpg": "Oberer Murgsee",
+            "DJI_0226.jpg": "Unterer Murgsee",
+            "DSC_8369-Pano.jpg": "River vallez panorama"
+        }
     }
 }
