@@ -3441,5 +3441,34 @@
             "DSC_8781.jpg": "Murgsee Reflection",
             "DSC_8369-Pano.jpg": "River valley panorama"
         }
+    },
+    "2019/firstboden": {
+        "title": "Firstboden",
+        "region": "Glarus",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "September",
+        "category": "T2",
+        "distance": 13.8,
+        "ascend": 805,
+        "maxalt": 1740,
+        "time_h": 3,
+        "time_m": 56,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_8527.jpg",
+        "images": {
+            "DSC_9379-HDR.jpg": "Sunrise in Elm",
+            "DSC_9556-HDR.jpg": "Green trail",
+            "DSC_9474.jpg": "Hausstock",
+            "DSC_9695-HDR-Pano.jpg": "Sernftal Panorama",
+            "DSC_9964.jpg": "Tschlingenhörner",
+            "DSC_9904-Pano.jpg": "Tschligenhörner Panorama",            
+            "DSC_9957.jpg": "Martinsloch",
+            "DSC_0171.jpg": "Tschlingen Gorge"
+        }
     }
 }
