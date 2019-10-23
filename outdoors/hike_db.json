@@ -3498,5 +3498,31 @@
             "DSC_0395.jpg": "Emme Cascade",
             "DJI_0344-Pano.jpg": "Summit Panorama"
         }
+    },
+    "2019/fronalpstock": {
+        "title": "Fronalpstock",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "October",
+        "category": "T2",
+        "distance": 9.7,
+        "ascend": 823,
+        "maxalt": 1920,
+        "time_h": 2,
+        "time_m": 30,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "We originally wanted to hike along the ridge trail from Kligenstock to Fronalpstock. Due to a severe storm, we shortened the tour, hiking to the summit of Fronalpstock.",
+        "coverimage": "DSC_0814.jpg",
+        "images": {
+            "DSC_1618.jpg": "Lake Lucerne",
+            "DSC_1397.jpg": "Rugged peaks",
+            "DSC_1423.jpg": "Hidden peaks",
+            "DSC_1526.jpg": "Alps",            
+            "DSC_1645.jpg": "Lake Lucerne"
+        }
     }
 }
