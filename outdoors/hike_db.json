@@ -3524,5 +3524,34 @@
             "DSC_1526.jpg": "Alps",            
             "DSC_1645.jpg": "Lake Lucerne"
         }
+    },
+    "2019/stanserhorn": {
+        "title": "Stanserhorn",
+        "region": "Nidwalden",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "October",
+        "category": "T2",
+        "distance": 12.9,
+        "ascend": 1054,
+        "maxalt": 1898,
+        "time_h": 4,
+        "time_m": 18,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_0814.jpg",
+        "images": {
+            "DSC_3055-HDR-Pano.jpg": "Alps and Sarnersee",
+            "DSC_2864.jpg": "Trail to Stanserhorn summit",
+            "DSC_2820.jpg": "Stanserhorn summit",
+            "DSC_2793.jpg": "Trail",            
+            "DSC_2739.jpg": "Alps",
+            "DSC_2714.jpg": "Wirzweli",
+            "DSC_2706.jpg": "Mountain",
+            "DSC_2675.jpg": "Meadow"
+        }
     }
 }
