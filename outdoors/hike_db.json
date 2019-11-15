@@ -3553,5 +3553,29 @@
             "DSC_2706.jpg": "Mountain",
             "DSC_2675.jpg": "Meadow"
         }
+    },
+    "2019/altberg": {
+        "title": "Altberg",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "November",
+        "category": "Easy Hike",
+        "distance": 13.4,
+        "ascend": 271,
+        "maxalt": 627,
+        "time_h": 2,
+        "time_m": 56,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_0814.jpg",
+        "images": {
+            "DSC_3539.jpg": "Mushroom",
+            "DSC_3473.jpg": "Autumn Colurs",
+            "DSC_3580.jpg": "Uetliberg"
+        }
     }
 }
