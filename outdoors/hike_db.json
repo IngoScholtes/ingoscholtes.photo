@@ -3577,5 +3577,53 @@
             "DSC_3473.jpg": "Autumn Colurs",
             "DSC_3580.jpg": "Uetliberg"
         }
+    },
+    "2019/hochfelden": {
+        "title": "Hochfelden",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "November",
+        "category": "Easy Hike",
+        "distance": 8.8,
+        "ascend": 128,
+        "maxalt": 486,
+        "time_h": 2,
+        "time_m": 7,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_3767.jpg",
+        "images": {
+            "DSC_3756-HDR.jpg": "Fire in the Sky",
+            "DSC_3732.jpg": "Glatt",
+            "DSC_3767.jpg": "Uetliberg"
+        }
+    },
+    "2019/dietikon": {
+        "title": "Dietikon",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2019",
+        "month": "November",
+        "category": "Easy Hike",
+        "distance": 8.0,
+        "ascend": 26,
+        "maxalt": 427,
+        "time_h": 1,
+        "time_m": 36,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_3921.jpg",
+        "images": {
+            "DSC_3921.jpg": "Bremgarten",
+            "DSC_3864.jpg": "View of the Alps",
+            "DSC_3896.jpg": "Sky"
+        }
     }
 }
