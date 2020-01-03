@@ -3625,5 +3625,32 @@
             "DSC_3864.jpg": "View of the Alps",
             "DSC_3896.jpg": "Sky"
         }
+    },
+    "2019/romikaweg": {
+        "title": "Romika-Weg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2019",
+        "month": "December",
+        "category": "Easy Hike",
+        "distance": 11.0,
+        "ascend": 378,
+        "maxalt": 332,
+        "time_h": 2,
+        "time_m": 55,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_4559-Bearbeitet.jpg",
+        "images": {
+            "DSC_4559-Bearbeitet.jpg": "Fire Salamander",
+            "DSC_4582.jpg": "Forest creek",
+            "DSC_4653.jpg": "Ice",
+            "DSC_4611.jpg": "Former Romika Factory",
+            "DSC_4627.jpg": "Signpost",
+            "DSC_4645.jpg": "Pluwig"
+        }
     }
 }
