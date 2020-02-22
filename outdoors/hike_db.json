@@ -3652,5 +3652,101 @@
             "DSC_4627.jpg": "Signpost",
             "DSC_4645.jpg": "Pluwig"
         }
+    },
+    "2020/stadel": {
+        "title": "Stadel",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "January",
+        "category": "Easy Hike",
+        "distance": 10.1,
+        "ascend": 300,
+        "maxalt": 653,
+        "time_h": 2,
+        "time_m": 20,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_5330.jpg",
+        "images": {
+            "DSC_5296.jpg": "Stadel",
+            "DSC_5326.jpg": "Landing",
+            "DSC_5330.jpg": "Alp View"
+        }
+    },
+    "2020/rigi": {
+        "title": "Rigi",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "January",
+        "category": "Winter Hike",
+        "distance": 10.3,
+        "ascend": 429,
+        "maxalt": 1824,
+        "time_h": 2,
+        "time_m": 50,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_6023.jpg",
+        "images": {
+            "DSC_5522.jpg": "Pine view",
+            "DSC_5627.jpg": "Snow hill",
+            "DSC_6023.jpg": "Icy outlook"
+        }
+    },
+    "2020/chatzensee": {
+        "title": "Chatzensee",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 13.2,
+        "ascend": 293,
+        "maxalt": 568,
+        "time_h": 2,
+        "time_m": 40,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_6145.jpg",
+        "images": {
+            "DSC_6145.jpg": "Bogland",
+            "DSC_6226.jpg": "Swamp",
+            "DSC_6260.jpg": "Chatzensee"
+        }
+    },
+    "2020/moorpfad": {
+        "title": "Moorpfad",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 6.7,
+        "ascend": 198,
+        "maxalt": 913,
+        "time_h": 1,
+        "time_m": 40,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_6492-HDR.jpg",
+        "images": {
+            "DSC_6273.jpg": "Trail",
+            "DSC_6408.jpg": "Moorland",
+            "DSC_6492-HDR": "Fire in the sky"
+        }
     }
 }
