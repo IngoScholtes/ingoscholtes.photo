@@ -3772,5 +3772,29 @@
             "DSC_7405.jpg": "Alps",
             "DSC_7332.jpg": "Saint Martin Monastery"
         }
+    },
+    "2020/kyburg": {
+        "title": "Kyburg",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "March",
+        "category": "Easy Hike",
+        "distance": 11.3,
+        "ascend": 446,
+        "maxalt": 692,
+        "time_h": 2,
+        "time_m": 38,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_7656.jpg",
+        "images": {
+            "DSC_7656.jpg": "Waterfall",
+            "DSC_7442.jpg": "Kyburg castle",
+            "DSC_7728.jpg": "Kyburg town"
+        }
     }
 }
