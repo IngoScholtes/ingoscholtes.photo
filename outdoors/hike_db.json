@@ -3820,5 +3820,106 @@
             "DSC_8083.jpg": "Linn Waterfall",
             "DSC_8080.jpg": "Linn Waterfall"
         }
+    },
+    "2020/ockfenerbachtal": {
+        "title": "Ockfener Bachtal",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2020",
+        "month": "March",
+        "category": "Easy Hike",
+        "distance": 8.6,
+        "ascend": 300,
+        "maxalt": 505,
+        "time_h": 2,
+        "time_m": 3,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9095-bearbeitet.jpg",
+        "images": {
+            "DSC_8983.jpg": "Anemone",
+            "DSC_9002.jpg": "Ockfener Bach",
+            "DSC_9095-bearbeitet.jpg": "Forest creek",
+            "DSC_9223.jpg": "Sunset"
+        }
+    },
+    "2020/frauholle": {
+        "title": "Frau Holle",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2020",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 12.7,
+        "ascend": 375,
+        "maxalt": 507,
+        "time_h": 3,
+        "time_m": 20,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2264-Bearbeitet.jpg",
+        "images": {
+            "DSC_1828.jpg": "Beaver dam",
+            "DSC_1943-Bearbeitet.jpg": "Forest Creek",
+            "DSC_2264-Bearbeitet.jpg": "Beaver lake",
+            "DSC_2293.jpg": "Wadrill",
+            "DSC_2404.jpg": "Frau Holle Rock",
+            "DSC_2100.jpg": "Mating toads"
+        }
+    },
+    "2020/seiferingstein": {
+        "title": "Seiferingstein",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2020",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 12.0,
+        "ascend": 440,
+        "maxalt": 588,
+        "time_h": 2,
+        "time_m": 46,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_0308-Bearbeitet.jpg",
+        "images": {
+            "DSC_0308-Bearbeitet.jpg": "Rauruwer",
+            "DSC_0424.jpg": "Forest trail",
+            "DSC_0444.jpg": "Seiferingstein"
+
+        }
+    },
+    "2020/klinkbachtal": {
+        "title": "Klinkbachtal",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2020",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 8.9,
+        "ascend": 284,
+        "maxalt": 454,
+        "time_h": 2,
+        "time_m": 20,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_3530_HDR.jpg",
+        "images": {
+            "DSC_3235.jpg": "Cherry Blossom",
+            "DSC_3530_HDR.jpg": "Paschel",
+            "DSC_3616.jpg": "Deer"
+        }
     }
 }
