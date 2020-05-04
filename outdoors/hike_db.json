@@ -3923,5 +3923,32 @@
             "DSC_3530-HDR.jpg": "Paschel",
             "DSC_3616.jpg": "Deer"
         }
+    },
+    "2020/sihlsprung": {
+        "title": "Sihlsprung",
+        "region": "Zug",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 12.2,
+        "ascend": 265,
+        "maxalt": 597,
+        "time_h": 3,
+        "time_m": 5,
+        "track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_4637-Bearbeitet.jpg",
+        "images": {
+            "DSC_4549-Bearbeitet.jpg": "Cascade",
+            "DSC_4504.jpg": "Bears Garlic",
+            "DSC_4560-Bearbeitet.jpg": "Creek",
+            "DSC_4637-Bearbeitet.jpg": "Forest Stream",
+            "DSC_4657-Bearbeitet.jpg": "Forest Stream",
+            "DSC_4691.jpg": "Sihlsprung"
+        }
     }
 }
