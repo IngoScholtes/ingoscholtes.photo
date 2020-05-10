@@ -38,6 +38,7 @@
 	table {
 	  border-collapse: collapse;
 	  width: 100%;	  
+	  font-size: 80%;
 	}
 
 	table a {
@@ -159,6 +160,16 @@
 						return mb - ma;
 					}
 				}
+				else if (prop=='year') {
+					var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
+					ma = hikes[a]['year'] * 12 + months.indexOf(hikes[a]['month']);
+					mb = hikes[b]['year'] * 12 + months.indexOf(hikes[b]['month']);
+					if (asc) {
+						return ma - mb;
+					} else {
+						return mb - ma;
+					}
+				}
 				else if (prop=='month') {
 					var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
 					ma = months.indexOf(hikes[a][prop]);
@@ -195,7 +206,7 @@
 			txt += "<th><a href='javascript:sortHikes(`maxalt`, false);displayHikes()'>Altitude</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`ascend`, false);displayHikes()'>Ascend</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`time_h`, false);displayHikes()'>Duration</a></th>";
-			txt += "<th><a href='javascript:sortHikes(`rating`, false);displayHikes()'>Awesomeness</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`rating`, false);displayHikes()'>Vistas</a></th>";
 			txt += "</tr>";
 			total_dist = 0;
 			total_ascend = 0;
@@ -222,15 +233,15 @@
 				txt += "<td>" + hikes[hike].month + "</td>";
 				txt += "<td>" + hikes[hike].year + "</td>";
 				txt += "<td>" + hikes[hike].distance + " km</td>";
-				txt += "<td>" + hikes[hike].maxalt + " m</td>";
-				txt += "<td>" + hikes[hike].ascend + " m</td>";
-				txt += "<td>" + hikes[hike].time_h + "h " +  hikes[hike].time_m + " m</td>";
+				txt += "<td>" + hikes[hike].maxalt + "m</td>";
+				txt += "<td>" + hikes[hike].ascend + "m</td>";
+				txt += "<td>" + hikes[hike].time_h + "h " +  hikes[hike].time_m + "m</td>";
 				txt += "<td>" + ratingToStars(hikes[hike].rating) + "</td>";
 				txt += "</tr>";
 			}
 			txt += "<tr style='border-top: 2px black solid'>";
 			txt += "<td> Tours: " + numtours + "</td>";
-			txt += "<td> Countries:</td><td>" + countries.length + "</td><td></td><td></td>";
+			txt += "<td> Countries:</td><td>" + countries.length + "</td><td></td><td></td><td></td>";
 			txt += "<td>" + Math.floor(total_dist) + " km</td>";
 			txt += "<td>" + maxalt + " m</td>";
 			txt += "<td>" + total_ascend + " m</td>";
