@@ -31,6 +31,10 @@
 	});
 </script>
 <style>
+	.hover_img a { position:relative; }
+	.hover_img span { position:absolute; display:none; z-index:99;}
+	.hover_img:hover span { display:block; width: 250px;}
+
 	table {
 	  border-collapse: collapse;
 	  width: 100%;	  
@@ -187,7 +191,7 @@
 			txt += "<th><a href='javascript:sortHikes(`category`, true);displayHikes()'>Trail type</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`month`, true);displayHikes()'>Month</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`year`, false);displayHikes()'>Year</a></th>";
-			txt += "<th><a href='javascript:sortHikes(`ditance`, false);displayHikes()'>Distance</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`distance`, false);displayHikes()'>Distance</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`maxalt`, false);displayHikes()'>Altitude</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`ascend`, false);displayHikes()'>Ascend</a></th>";
 			txt += "<th><a href='javascript:sortHikes(`time_h`, false);displayHikes()'>Duration</a></th>";
@@ -211,7 +215,7 @@
 				}
 
 				txt += "<tr>";
-				txt += "<td> <a href='outdoors/tour.html?id=" + hike + "'>" + hikes[hike].title + "</a></td>";
+				txt += "<td class='hover_img'><a href='outdoors/tour.html?id=" + hike + "'>" + hikes[hike].title + "</a><span><img src='outdoors/" + hike + "/" + hikes[hike].coverimage + "' alt='image'/></span></td>";
 				txt += "<td>" + hikes[hike].country + "</td>";
 				txt += "<td>" + hikes[hike].region + "</td>";				
 				txt += "<td>" + hikes[hike].category + "</td>";
