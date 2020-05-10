@@ -4100,5 +4100,33 @@
             "DSC_4657-Bearbeitet.jpg": "Forest Stream",
             "DSC_4691.jpg": "Sihlsprung"
         }
+    },
+    "2020/ruostel": {
+        "title": "Ruostel",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "May",
+        "category": "T2",
+        "distance": 13.4,
+        "ascend": 617,
+        "maxalt": 1294,
+        "time_h": 3,
+        "time_m": 25,
+        "rating": 4,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_5680.jpg",
+        "images": {
+            "DSC_5079-Pano.jpg": "Euthal Panorama",
+            "DSC_5131.jpg": "Sihlsee",
+            "DSC_5165.jpg": "Mountain face",
+            "DSC_5615.jpg": "Stony path",
+            "DSC_5680.jpg": "Trail vista"
+        }
     }
+
 }
