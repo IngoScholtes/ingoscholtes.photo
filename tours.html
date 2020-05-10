@@ -94,47 +94,47 @@
 <section class="container">
 <div class="six columns">
 <article>
-<h3>Outdoors</h3>
+<h3>Day Hikes</h3>
 <p>There is no better way to explore, experience and photograph natural landscapes than on trekking or hiking tours. Over the past years, I have done single- and multi-day tours on foot, bike and canoe. Here you can find detailed information for some selected journeys. I also provide some photographic impressions that hopefully inspire you to enjoy the 'great outdoors' by yourself.</p>
 </article>
 </div>		
 <div class="six columns">
-<img alt="" class="featured" src="outdoors/2015/westhighlandway/DSC_9190.jpg" />
-<div style="font-size: 12px; text-align: center">Campsite at Loch Lomond, Scotland</div>
+<img alt="" class="featured" src="outdoors/2019/murgsee/DSC_8588.jpg" />
+<div style="font-size: 12px; text-align: center">Hiking trail in Sardona area, Switzerland</div>
 </div>
 </section>
 <section class="highlight">
 <div class="container">
 <div class="twelve columns">
-<h3>After gazing at the sky for some time, I came to the conclusion that such beauty had been reserved for remote and dangerous places, and that nature has good reasons for demanding special sacrifices from those who dare to contemplate it.</h3>
-<p>Richard E. Byrd</p>
+<h3>I took a walk in the woods and came out taller than trees.</h3>
+<p>Henry David Thoreau</p>
 </div>
 </div>
 </section>
 <section class="container">
 <article class="travelreport" style="margin-top:10px;">
 <p>
-<strong>Disclaimer:</strong> Information and GPS data are provided as-is, with no guarantee for completeness or correctness. Some tours pass through remote and potentially dangerous mountain terrain, or require you to be completely self-sufficient for several days. By using information from this page you understand that you are responsible for your own safety. All indicated walking times include numerous photo stops. So you might find yourself completing the routes faster. For mountain and alpine hikes, tour descriptions contain a reference to the trail difficulty level (T1-T6) according to the <a href="http://www.hikr.org/post2984.html">SAC Hiking Scale</a>. None of the routes on this website require climbing skills. But be aware that hiking trails of T4 and above can be more dangerous than low difficulty climbing routes.<br />
+<!-- <strong>Disclaimer:</strong> Information and GPS data are provided as-is, with no guarantee for completeness or correctness. Some tours pass through remote and potentially dangerous mountain terrain, or require you to be completely self-sufficient for several days. By using information from this page you understand that you are responsible for your own safety. All indicated walking times include numerous photo stops. So you might find yourself completing the routes faster. For mountain and alpine hikes, tour descriptions contain a reference to the trail difficulty level (T1-T6) according to the <a href="http://www.hikr.org/post2984.html">SAC Hiking Scale</a>. None of the routes on this website require climbing skills. But be aware that hiking trails of T4 and above can be more dangerous than low difficulty climbing routes.<br /> -->
 </p>
 <a name="trekking"></a>
-<h3>List of day hikes</h3>
-	<table id="hiketable">
-	</table>	
+	<table id="hiketable"></table>
 	<script type="text/javascript">
 	
-		function getQueryParams(qs) {
-			qs = qs.split("+").join(" ");
-			var params = {},
-				tokens,
-				re = /[?&]?([^=]+)=([^&]*)/g;
+		var hikes = null;
 
-			while (tokens = re.exec(qs)) {
-				params[decodeURIComponent(tokens[1])]
-					= decodeURIComponent(tokens[2]);
-			}
+		// function getQueryParams(qs) {
+		// 	qs = qs.split("+").join(" ");
+		// 	var params = {},
+		// 		tokens,
+		// 		re = /[?&]?([^=]+)=([^&]*)/g;
 
-			return params;
-		}		
+		// 	while (tokens = re.exec(qs)) {
+		// 		params[decodeURIComponent(tokens[1])]
+		// 			= decodeURIComponent(tokens[2]);
+		// 	}
+
+		// 	return params;
+		// }		
 
 		function ratingToStars(rating){
 			var text = "";
@@ -143,13 +143,22 @@
 			return text;
 		}
 		
-		function sortHikes(db, prop, asc) {
+		function sortHikes(prop, asc) {
 			var ordered = {};		
-			Object.keys(db).sort(function(a, b) {
-				if (prop=='month') {
+			Object.keys(hikes).sort(function(a, b) {
+				if (prop=='time_h') {
+					ma = hikes[a]['time_h'] * 60 +hikes[a]['time_m'] ;
+					mb = hikes[b]['time_h'] * 60 +hikes[b]['time_m'] ;
+					if (asc) {
+						return ma - mb;
+					} else {
+						return mb - ma;
+					}
+				}
+				else if (prop=='month') {
 					var months = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
-					ma = months.indexOf(db[a][prop]);
-					mb = months.indexOf(db[b][prop]);
+					ma = months.indexOf(hikes[a][prop]);
+					mb = months.indexOf(hikes[b][prop]);
 					if (asc) {
 						return ma - mb;
 					} else {
@@ -159,44 +168,30 @@
 				else
 				{
 					if (asc) {
-						return (db[a][prop] > db[b][prop]) ? 1 : ((db[a][prop] < db[b][prop]) ? -1 : 0);
+						return (hikes[a][prop] > hikes[b][prop]) ? 1 : ((hikes[a][prop] < hikes[b][prop]) ? -1 : 0);
 					} else {
-						return (db[b][prop] > db[a][prop]) ? 1 : ((db[b][prop] < db[a][prop]) ? -1 : 0);
+						return (hikes[b][prop] > hikes[a][prop]) ? 1 : ((hikes[b][prop] < hikes[a][prop]) ? -1 : 0);
 					}
 				}
 			}).forEach(function(key) {
-				ordered[key] = db[key];
+				ordered[key] = hikes[key];
 			});
-			return ordered;
+			hikes = ordered;
 		}
-		
-		var xmlhttp = new XMLHttpRequest();
-		xmlhttp.onreadystatechange = function() {
-		
-  		if (this.readyState == 4 && this.status == 200) {			
-			var hikes = JSON.parse(this.responseText);
-			var params = getQueryParams(document.location.search);
-			var orderby = params['orderby'];
-			var asc_p = params['asc'];
-			var asc = false;
-			if (orderby=='month'){
-				asc = true;
-			}
-			if (asc_p==1){
-				asc = true;
-			}			
-			hikes = sortHikes(hikes, orderby, asc);
+
+		function displayHikes(){
 			txt = "<tr style='border-bottom: 2px black solid'>";
-			txt +=  "<th><a href='tours.html?orderby=title'>Name</a></th>"
-			txt += "<th><a href='tours.html?orderby=country'>Country</a></th>";
-			txt += "<th><a href='tours.html?orderby=region'>Region</a></th>";			
-			txt += "<th><a href='tours.html?orderby=category'>Trail type</a></th>";
-			txt += "<th><a href='tours.html?orderby=month'>Month</a></th>";
-			txt += "<th><a href='tours.html?orderby=distance'>Distance</a></th>";
-			txt += "<th><a href='tours.html?orderby=maxalt'>Max. Altitude</a></th>";
-			txt += "<th><a href='tours.html?orderby=ascend'>Ascend</a></th>";
-			txt += "<th><a href='tours.html?orderby=time_h'>Duration</a></th>";
-			txt += "<th><a href='tours.html?orderby=rating'>Rating</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`title`, true);displayHikes()'>Name</a></th>"
+			txt += "<th><a href='javascript:sortHikes(`country`, true);displayHikes()'>Country</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`region`, true);displayHikes()'>Region</a></th>";			
+			txt += "<th><a href='javascript:sortHikes(`category`, true);displayHikes()'>Trail type</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`month`, true);displayHikes()'>Month</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`year`, false);displayHikes()'>Year</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`ditance`, false);displayHikes()'>Distance</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`maxalt`, false);displayHikes()'>Altitude</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`ascend`, false);displayHikes()'>Ascend</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`time_h`, false);displayHikes()'>Duration</a></th>";
+			txt += "<th><a href='javascript:sortHikes(`rating`, false);displayHikes()'>Awesomeness</a></th>";
 			txt += "</tr>";
 			total_dist = 0;
 			total_ascend = 0;
@@ -221,6 +216,7 @@
 				txt += "<td>" + hikes[hike].region + "</td>";				
 				txt += "<td>" + hikes[hike].category + "</td>";
 				txt += "<td>" + hikes[hike].month + "</td>";
+				txt += "<td>" + hikes[hike].year + "</td>";
 				txt += "<td>" + hikes[hike].distance + " km</td>";
 				txt += "<td>" + hikes[hike].maxalt + " m</td>";
 				txt += "<td>" + hikes[hike].ascend + " m</td>";
@@ -238,6 +234,15 @@
 			txt += "</tr>";
 			txt += "</table>";
     		document.getElementById('hiketable').innerHTML = txt;
+		}
+		
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+		
+  		if (this.readyState == 4 && this.status == 200) {			
+			hikes = JSON.parse(this.responseText);	
+			sortHikes('rating', false);
+			displayHikes();
   		}
 		};
 		xmlhttp.open("GET", "outdoors/hike_db.json", true);
