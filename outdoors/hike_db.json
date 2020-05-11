@@ -838,7 +838,7 @@
     },
     "2014/jasmund": {
         "title": "Jasmund Nationalpark",
-        "region": "R&uuml:gen",
+        "region": "R&uuml;gen",
         "country": "Germany",
         "year": "2014",
         "month": "July",
@@ -854,14 +854,16 @@
         "map_longitude": 8.99785,
         "map_zoom": 12,
         "text": "Coming soon.",
-        "coverimage": "DSC_5627.jpg",
+        "coverimage": "DSC_4026.jpg",
         "images": {
-            "DSC_5617.jpg": "Mirror"
+            "DSC_3952.jpg": "Koenigsstuhl",
+            "DSC_4026.jpg": "Jasmund Forest",
+            "DSC_4072.jpg": "Chalk Cliffs"
         }
     },
     "2014/lobbe": {
         "title": "G&ouml;hren and Lobbe",
-        "region": "R&uuml:gen",
+        "region": "R&uuml;gen",
         "country": "Germany",
         "year": "2014",
         "month": "July",
@@ -877,9 +879,11 @@
         "map_longitude": 8.99785,
         "map_zoom": 12,
         "text": "Coming soon.",
-        "coverimage": "DSC_5627.jpg",
+        "coverimage": "DSC_3036.jpg",
         "images": {
-            "DSC_5617.jpg": "Mirror"
+            "DSC_3036.jpg": "Göhren Beach",
+            "DSC_3244.jpg": "Baltic Sea",
+            "DSC_3130.jpg": "Coastal Path"
         }
     },
     "2014/kloental": {
@@ -1531,9 +1535,13 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "Coming soon.",
-        "coverimage": "DSC_5680.jpg",
+        "coverimage": "DSC_7008.jpg",
         "images": {
-            "DSC_5079-Pano.jpg": "Euthal Panorama"
+            "DSC_7008.jpg": "Towards the light",
+            "DSC_6655.jpg": "Moorland",
+            "DSC_6833.jpg": "Tree island",
+            "DSC_6530.jpg": "Wide Open",
+            "DSC_6539-Pano.jpg": "Rannoch Moor Panorama"
         }
     },
     "2016/glenetive": {
@@ -1554,9 +1562,10 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "Coming soon.",
-        "coverimage": "DSC_5680.jpg",
+        "coverimage": "DSC_8445.jpg",
         "images": {
-            "DSC_5079-Pano.jpg": "Euthal Panorama"
+            "DSC_8445.jpg": "Coupal River",
+            "DSC_8760-HDR-Pano.jpg": "Glen Coe Valley"
         }
     },
     "2016/gulmen": {
