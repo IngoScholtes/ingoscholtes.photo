@@ -259,14 +259,14 @@ The following table provides a sortable overview of all day hikes that are liste
 				body += "<td class='hover_img'><a href='outdoors/tour.html?id=" + hike + "'>" + hikes[hike].title + "</a><span><img src='outdoors/" + hike + "/" + hikes[hike].coverimage + "' alt='image'/></span></td>";
 				body += "<td>" + hikes[hike].country + "</td>";
 				body += "<td>" + hikes[hike].region + "</td>";				
-				body += "<td>" + hikes[hike].category + "</td>";
+				body += "<td style='text-align: center;'>" + hikes[hike].category + "</td>";
 				body += "<td>" + hikes[hike].month + "</td>";
 				body += "<td>" + hikes[hike].year + "</td>";
 				body += "<td style='text-align: right;'>" + hikes[hike].distance + " km</td>";
 				body += "<td style='text-align: right;'>" + hikes[hike].maxalt + " m</td>";
 				body += "<td style='text-align: right;'>" + hikes[hike].ascend + " m</td>";
 				body += "<td>" + hikes[hike].time_h + "h " +  hikes[hike].time_m + "m</td>";
-				body += "<td>" + ratingToStars(hikes[hike].rating) + "</td>";
+				body += "<td style='text-align: center;'>" + ratingToStars(hikes[hike].rating) + "</td>";
 				body += "</tr>";
 			}
 			body += "<tr style='border-top: 2px black solid'>";
