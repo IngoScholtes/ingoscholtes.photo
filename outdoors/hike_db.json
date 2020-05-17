@@ -4214,7 +4214,7 @@
         "maxalt": 1294,
         "time_h": 3,
         "time_m": 25,
-        "rating": 1,
+        "rating": 2,
 		"track": "track.kml",
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
@@ -4230,6 +4230,34 @@
             "DSC_5680.jpg": "Trail vista",
             "DSC_5110.jpg": "Hills and mountains",
             "DSC_5283.jpg": "Mountain hut"
+        }
+    },
+    "2020/bockmattli": {
+        "title": "Bockmattlipass",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "May",
+        "category": "T2",
+        "distance": 12.8,
+        "ascend": 905,
+        "maxalt": 1809,
+        "time_h": 3,
+        "time_m": 45,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_7120.jpg",
+        "images": {
+            "DSC_7016-HDR.jpg": "Bockmattlipass",
+            "DSC_7076.jpg": "Enzian",
+            "DSC_7120.jpg": "Bockmattli",
+            "DSC_7230.jpg": "Schwarzenegg",
+            "DSC_7215.jpg": "Trail",
+            "DSC_7398.jpg": "Bockmattli"
         }
     }
 }
