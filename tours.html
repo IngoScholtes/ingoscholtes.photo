@@ -40,6 +40,10 @@
  	 color: orange;
 	}
 
+	.unchecked {
+ 	 color: gray;
+	}
+
 	.fa-star {  	
 		font-size: 8px;
 	}
@@ -234,9 +238,9 @@ The following table provides a sortable overview of all day hikes that are liste
 			header += "<th class='year'><a href='javascript:sortHikes(`year`, " + (!sort_asc && sort_by =='year' ? "true" : "false") + ");displayHikes()'>Year" + (sort_by =='year' ? caret : "") + "</a></th>";
 			header += "<th class='distance'><a href='javascript:sortHikes(`distance`, " + (!sort_asc && sort_by =='distance' ? "true" : "false") + ");displayHikes()'>Distance" + (sort_by =='distance' ? caret : "") + "</a></th>";
 			header += "<th class='maxalt'><a href='javascript:sortHikes(`maxalt`, " + (!sort_asc && sort_by =='maxalt' ? "true" : "false") + ");displayHikes()'>Altitude" + (sort_by =='maxalt' ? caret : "") + "</a></th>";
-			header += "<th class='ascend'><a href='javascript:sortHikes(`ascend`, " + (!sort_asc && sort_by =='ascend' ? "true" : "false") + ");displayHikes()'>Ascend" + (sort_by =='ascend' ? caret : "") + "</a></th>";
-			header += "<th class='duration'><a href='javascript:sortHikes(`time_h`, " + (!sort_asc && sort_by =='time_h' ? "true" : "false") + ");displayHikes()'>Duration" + (sort_by =='time_h' ? caret : "") + "</a></th>";
-			header += "<th class='rating'><a href='javascript:sortHikes(`rating`, " + (!sort_asc && sort_by =='rating' ? "true" : "false") + ");displayHikes()'>Top" + (sort_by =='rating' ? caret : "") + "</a></th>";
+			header += "<th class='ascend' style='text-align: right;'><a href='javascript:sortHikes(`ascend`, " + (!sort_asc && sort_by =='ascend' ? "true" : "false") + ");displayHikes()'>Ascend" + (sort_by =='ascend' ? caret : "") + "</a></th>";
+			header += "<th class='duration' style='text-align: right;'><a href='javascript:sortHikes(`time_h`, " + (!sort_asc && sort_by =='time_h' ? "true" : "false") + ");displayHikes()'>Duration" + (sort_by =='time_h' ? caret : "") + "</a></th>";
+			header += "<th class='rating' style='text-align: right;'><a href='javascript:sortHikes(`rating`, " + (!sort_asc && sort_by =='rating' ? "true" : "false") + ");displayHikes()'><span class='fa fa-star unchecked'></span><span class='fa fa-star unchecked'></span><span class='fa fa-star unchecked'></span>" + (sort_by =='rating' ? caret : "") + "</a></th>";
 			header += "</tr>";
 			total_dist = 0;
 			total_ascend = 0;
@@ -265,7 +269,7 @@ The following table provides a sortable overview of all day hikes that are liste
 				body += "<td style='text-align: right;'>" + hikes[hike].distance + " km</td>";
 				body += "<td style='text-align: right;'>" + hikes[hike].maxalt + " m</td>";
 				body += "<td style='text-align: right;'>" + hikes[hike].ascend + " m</td>";
-				body += "<td>" + hikes[hike].time_h + "h " +  hikes[hike].time_m + "m</td>";
+				body += "<td style='text-align: right;'>" + hikes[hike].time_h + "h " +  hikes[hike].time_m + "m</td>";
 				body += "<td style='text-align: center;'>" + ratingToStars(hikes[hike].rating) + "</td>";
 				body += "</tr>";
 			}
