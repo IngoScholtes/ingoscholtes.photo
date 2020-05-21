@@ -330,5 +330,31 @@
             "DSC_6853.jpg": "Cascade",
             "DSC_6785.jpg": "Azure"
         }
+    },
+    "2020/walensee": {
+        "title": "Walensee",
+        "region": "St. Gallen",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "May",
+        "category": "Lake Tour",
+        "distance": 7.5,
+        "launch": "Murg",
+        "time_h": 1,
+        "time_m": 53,
+        "track": "track.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Coming soon",
+        "coverimage": "NA",
+        "images": {
+            "DSC_7763.jpg": "Lonely Bay",
+            "DSC_7759.jpg": "Churfirsten",
+            "DSC_7713.jpg": "Walensee East View",
+            "DSC_8270.jpg": "Canoe",
+            "DSC_8233.jpg": "Murg Beach",
+            "DSC_7950.jpg": "Quinten"
+        }
     }
 }
