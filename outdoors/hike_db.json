@@ -4259,5 +4259,30 @@
             "DSC_7215.jpg": "Trail",
             "DSC_7398.jpg": "Bockmattli"
         }
+    },
+    "2020/baarburg": {
+        "title": "Baarburg",
+        "region": "Zug",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 13.3,
+        "ascend": 358,
+        "maxalt": 692,
+        "time_h": 3,
+        "time_m": 26,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_8510.jpg",
+        "images": {
+            "DSC_8510.jpg": "Baarburgboden",
+            "DSC_8545.jpg": "Zugerberg",
+            "DSC_8565.jpg": "Baarburg View"
+        }
     }
 }
