@@ -4284,5 +4284,35 @@
             "DSC_8545.jpg": "Zugerberg",
             "DSC_8565.jpg": "Baarburg View"
         }
+    },
+    "2020/gnipen": {
+        "title": "Gnipen",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "May",
+        "category": "T3",
+        "distance": 13.6,
+        "ascend": 1012,
+        "maxalt": 1568,
+        "time_h": 5,
+        "time_m": 30,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9705.jpg",
+        "images": {
+            "DSC_8882.jpg": "Cliff",
+            "DSC_9122.jpg": "Rock slide trail",
+            "DSC_9325.jpg": "Mythen Backdrop",
+            "DSC_9366.jpg": "Tree",
+            "DSC_9614.jpg": "Summit trail",
+            "DSC_9705.jpg": "Alm trail",
+            "DSC_0052.jpg": "Mythen glow",
+            "DSC_9230-Pano.jpg": "Panoramic View"
+        }
     }
 }
