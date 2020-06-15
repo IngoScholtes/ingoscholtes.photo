@@ -4314,5 +4314,30 @@
             "DSC_0052.jpg": "Mythen glow",
             "DSC_9230-Pano.jpg": "Panoramic View"
         }
+    },
+    "2020/wadrilltal": {
+        "title": "Wadrilltal Tafeltour",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2020",
+        "month": "June",
+        "category": "Easy Hike",
+        "distance": 12.4,
+        "ascend": 360,
+        "maxalt": 534,
+        "time_h": 3,
+        "time_m": 6,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_1257.jpg",
+        "images": {
+            "DSC_1257.jpg": "Wadrill river",
+            "DSC_1338.jpg": "Wadrill village",
+            "DSC_1420.jpg": "Trail"
+        }
     }
 }
