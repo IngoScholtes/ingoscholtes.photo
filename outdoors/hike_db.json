@@ -4339,5 +4339,33 @@
             "DSC_1338.jpg": "Wadrill village",
             "DSC_1420.jpg": "Trail"
         }
+    },
+    "2020/gisliflue": {
+        "title": "Gisliflue",
+        "region": "Jura",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "June",
+        "category": "T1",
+        "distance": 13.6,
+        "ascend": 646,
+        "maxalt": 778,
+        "time_h": 4,
+        "time_m": 21,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2595.jpg",
+        "images": {
+            "DSC_2439.jpg": "Tree",
+            "DSC_2595.jpg": "Jura mountains",
+            "DSC_2721.jpg": "Schloss Biberstein",
+            "DSC_1999.jpg": "View",
+            "DSC_2009.jpg": "Forest trail",
+            "DSC_1824.jpg": "Castle Schenkenberg"
+        }
     }
 }
