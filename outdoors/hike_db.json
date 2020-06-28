@@ -4367,5 +4367,33 @@
             "DSC_2009.jpg": "Forest trail",
             "DSC_1824.jpg": "Castle Schenkenberg"
         }
+    },
+    "2020/heitersberg": {
+        "title": "Heitersberg",
+        "region": "Aargau",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "June",
+        "category": "T1",
+        "distance": 11.4,
+        "ascend": 266,
+        "maxalt": 709,
+        "time_h": 3,
+        "time_m": 3,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2595.jpg",
+        "images": {
+            "DSC_2439.jpg": "Tree",
+            "DSC_2595.jpg": "Jura mountains",
+            "DSC_2721.jpg": "Schloss Biberstein",
+            "DSC_1999.jpg": "View",
+            "DSC_2009.jpg": "Forest trail",
+            "DSC_1824.jpg": "Castle Schenkenberg"
+        }
     }
 }
