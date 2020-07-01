@@ -4386,14 +4386,11 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "Coming soon.",
-        "coverimage": "DSC_2595.jpg",
+        "coverimage": "DSC_2738.jpg",
         "images": {
-            "DSC_2439.jpg": "Tree",
-            "DSC_2595.jpg": "Jura mountains",
-            "DSC_2721.jpg": "Schloss Biberstein",
-            "DSC_1999.jpg": "View",
-            "DSC_2009.jpg": "Forest trail",
-            "DSC_1824.jpg": "Castle Schenkenberg"
+            "DSC_2738.jpg": "Trail",
+            "DSC_2794.jpg": "Tree",
+            "DSC_2901.jpg": "Fields of gold"
         }
     }
 }
