@@ -4392,5 +4392,36 @@
             "DSC_2794.jpg": "Tree",
             "DSC_2901.jpg": "Fields of gold"
         }
+    },
+    "2020/fuerstein": {
+        "title": "Fürstein",
+        "region": "Obwalden",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "July",
+        "category": "T2",
+        "distance": 11.1,
+        "ascend": 640,
+        "maxalt": 2040,
+        "time_h": 4,
+        "time_m": 10,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_4099.jpg",
+        "images": {
+            "DSC_3847.jpg": "Trees",
+            "DSC_4491.jpg": "Fürstein Summit",
+            "DSC_4516.jpg": "Path",
+            "DSC_4819.jpg": "Flowers",
+            "DSC_4891.jpg": "River Valley",
+            "DSC_3662.jpg": "Seewenseeli",
+            "DSC_3635.jpg": "Chapel",
+            "DSC_4099.jpg": "Trail",
+            "DSC_4024.jpg": "Bog"
+        }
     }
 }
