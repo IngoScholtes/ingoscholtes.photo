@@ -2186,10 +2186,14 @@
         "map_latitude": 46.82387,
         "map_longitude": -60.43544,
         "map_zoom": 13,
-        "text": "A hike through beautiful moorland to Mica Hill, from where we enjoyed a great view towards the Atlantic Ocean.",
-        "coverimage": "DSC_3641.jpg",
+        "text": "A hike through beautiful moorland to a hill covered with glittering mica. From here we enjoyed a great view towards the Atlantic Ocean.",
+        "coverimage": "DSC_3877.jpg",
         "images": {
-            "DSC_3641.jpg": "White Moss"
+            "DSC_3641.jpg": "White Moss",
+            "DSC_3877.jpg": "Bogland Trail",
+            "DSC_3792.jpg": "Ocean View",
+            "DSC_3381-Pano.jpg": "Paquet's Lake",
+            "DSC_4090.jpg": "Bog Lake"
         }
     },
     "2017/skylinetrail": {
