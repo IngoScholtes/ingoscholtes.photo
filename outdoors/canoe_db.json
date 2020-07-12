@@ -356,5 +356,31 @@
             "DSC_8233.jpg": "Murg Beach",
             "DSC_7950.jpg": "Quinten"
         }
+    },
+    "2020/schluchsee": {
+        "title": "Schluchsee",
+        "region": "Black Forest",
+        "country": "Germany",
+        "year": "2020",
+        "month": "July",
+        "category": "Lake Tour",
+        "distance": 12.8,
+        "launch": "Schluchsee Dam",
+        "time_h": 2,
+        "time_m": 53,
+        "track": "track.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_5326.jpg": "Schluchsee Beach",
+            "DSC_5239.jpg": "Black Forest House",            
+            "DSC_5369.jpg": "Vorderaha",
+            "DSC_5337.jpg": "Beach",
+            "DSC_5406.jpg": "Rock",
+            "DJI_0741.jpg": "Schluchsee Aerial View"
+        }
     }
 }
