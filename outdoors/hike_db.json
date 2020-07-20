@@ -4427,5 +4427,33 @@
             "DSC_4099.jpg": "Trail",
             "DSC_4024.jpg": "Bog"
         }
+    },
+    "2020/geissenpfad": {
+        "title": "Geissenpfad",
+        "region": "Black Forest",
+        "country": "Germany",
+        "year": "2020",
+        "month": "July",
+        "category": "T2",
+        "distance": 11.1,
+        "ascend": 345,
+        "maxalt": 1034,
+        "time_h": 4,
+        "time_m": 5,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_6218-HDR.jpg",
+        "images": {
+            "DSC_6218-HDR.jpg": "Menzenschwander Wasserfälle",
+            "DSC_6288-Bearbeitet.jpg": "Menzenschwander Wasserfälle",
+            "DSC_6179.jpg": "Trees",
+            "DSC_6161-HDR.jpg": "Moorland",
+            "DSC_6045-HDR.jpg": "Path",
+            "DSC_5986.jpg": "Path"
+        }
     }
 }
