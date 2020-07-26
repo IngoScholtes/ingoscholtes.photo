@@ -4455,5 +4455,39 @@
             "DSC_6045-HDR.jpg": "Path",
             "DSC_5986.jpg": "Path"
         }
+    },
+    "2020/hoehrohnen": {
+        "title": "Höhrohnen",
+        "region": "Zug",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "July",
+        "category": "T1",
+        "distance": 18.7,
+        "ascend": 793,
+        "maxalt": 1210,
+        "time_h": 5,
+        "time_m": 35,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_7485.jpg",
+        "images": {
+            "DSC_7225-Bearbeitet.jpg": "Finstersee Water Falls",
+            "DSC_7311.jpg": "Lake Zurich View",
+            "DSC_7391.jpg": "Forest Path",
+            "DSC_7418.jpg": "Fern Woodland",
+            "DSC_7485.jpg": "Bellevue",
+            "DSC_7503.jpg": "Mountain View",
+            "DSC_7755.jpg": "Mountain Panorama",
+            "DSC_7846.jpg": "Forest path",
+            "DSC_7993.jpg": "Hill View",
+            "DSC_8063.jpg": "Zurich",
+            "DSC_8148.jpg": "Hill Landscape",
+            "DSC_8268.jpg": "Sihl River"
+        }
     }
 }
