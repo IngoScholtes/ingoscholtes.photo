@@ -382,5 +382,34 @@
             "DSC_5406.jpg": "Rock",
             "DJI_0741.jpg": "Schluchsee Aerial View"
         }
+    },
+    "2020/bodensee": {
+        "title": "Bodensee",
+        "region": "Thurgau",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "August",
+        "category": "Lake Tour",
+        "distance": 12.5,
+        "launch": "Steckborn",
+        "time_h": 3,
+        "time_m": 2,
+        "track": "track.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_9551.jpg": "Green",         
+            "DSC_9720.jpg": "Beach",
+            "DSC_9897.jpg": "Mannenbach",
+            "DSC_0024.jpg": "Lake Constance",
+            "DSC_0055.jpg": "Sailboat",
+            "DSC_0109.jpg": "Berlingen",
+            "DSC_9997.jpg": "Sparkles",
+            "DSC_0180.jpg": "Sunset",
+            "DSC_9754-HDR.jpg": "Beach"
+        }
     }
 }
