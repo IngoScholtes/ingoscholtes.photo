@@ -4671,5 +4671,33 @@
             "DSC_3600.jpg": "Fern Creek",
             "DSC_3428.jpg": "Lake"
         }
+    },
+    "2020/hunnenring": {
+        "title": "Celtic Hillfort",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2020",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 4.2,
+        "ascend": 179,
+        "maxalt": 620,
+        "time_h": 1,
+        "time_m": 5,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A short tour around the Celtic Hillfort of Otzenhausen, which was built more than 2000 years ago. With a height of ten meters and a circumference of 2.5 kilometers, the Hillfort is one of Europe's most impressive archeological sites of Celtic origin.",
+        "coverimage": "DSC_4317.jpg",
+        "images": {
+            "DSC_4270.jpg": "Path along the Wall",
+            "DSC_4317.jpg": "Main Wall",
+            "DSC_4363-HDR.jpg": "King's Stairs",
+            "DSC_4377.jpg": "Hillfort",
+            "DSC_4556.jpg": "National Park",
+            "DSC_4683.jpg": "Celtic Village"
+        }
     }
 }
