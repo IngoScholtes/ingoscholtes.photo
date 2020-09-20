@@ -4699,5 +4699,33 @@
             "DSC_4556.jpg": "National Park",
             "DSC_4683.jpg": "Celtic Village"
         }
+    },
+    "2020/laegeren": {
+        "title": "Lägeren Burgkopf",
+        "region": "Zurich",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "September",
+        "category": "T3",
+        "distance": 11.0,
+        "ascend": 529,
+        "maxalt": 859,
+        "time_h": 3,
+        "time_m": 15,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "...",
+        "coverimage": "DSC_5367-HDR.jpg",
+        "images": {
+            "DSC_5558.jpg": "Ridge Trail",
+            "DSC_5599.jpg": "Burghorn",
+            "DSC_5285.jpg": "Ladder",
+            "DSC_5253.jpg": "Walhalla Cave",
+            "DSC_5176.jpg": "Fireplace",
+            "DSC_5367-HDR.jpg": "Trail"
+        }
     }
 }
