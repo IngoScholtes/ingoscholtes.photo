@@ -4727,5 +4727,33 @@
             "DSC_5176.jpg": "Fireplace",
             "DSC_5367-HDR.jpg": "Trail"
         }
+    },
+    "2020/egelsee": {
+        "title": "Egelsee",
+        "region": "Aargau",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "September",
+        "category": "Easy Hike",
+        "distance": 7.7,
+        "ascend": 275,
+        "maxalt": 794,
+        "time_h": 2,
+        "time_m": 15,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "...",
+        "coverimage": "DSC_6013-Bearbeitet.jpg",
+        "images": {
+            "DSC_5845-HDR.jpg": "Egelsee",
+            "DSC_5881.jpg": "Mushrooms",
+            "DSC_6013-Bearbeitet.jpg": "Mushroom",
+            "DSC_6035.jpg": "View",
+            "DSC_5895.jpg": "Path",
+            "DSC_5902-Bearbeitet.jpg": "Mushrooms"
+        }
     }
 }
