@@ -1,0 +1,218 @@
+{
+    "ruwer": {
+        "label": "Ruwer",
+        "image": "projects/img/DSC_3997-Bearbeitet.jpg",
+        "pos": [49.66170, 6.7155],
+        "mepos": [0, 0]
+    },
+        "tree2": {
+        "label": "Tree",
+        "image": "portfolio/img/DSC_7775.jpg",
+        "pos": [49.6457, 6.775],
+        "mepos": [49.65602, 6.6952]
+    },
+    "rollinghills": {
+        "label": "Rolling Hills",
+        "image": "projects/img/DSC_1334.jpg",
+        "pos": [49.6627, 6.69880],
+        "mepos": [1794, 1516]
+    },
+    "ice": {
+        "label": "Ice",
+        "image": "projects/img/DSC_0581.jpg",
+        "pos": [49.64429, 6.69433],
+        "mepos": [49.65602, 6.6952]
+    },
+    "ockfenerbach": {
+        "label": "Ockfener Bach",
+        "image": "projects/img/DSC_9095-Bearbeitet.jpg",
+        "pos": [49.612, 6.65],
+        "mepos": [49.65602, 6.6952]
+    },
+    "ice2": {
+        "label": "Ice",
+        "image": "projects/img/DSC_4540.jpg",
+        "pos": [49.69, 6.72],
+        "mepos": [49.65602, 6.6952]
+    },
+    "beaver_dam": {
+        "label": "Beaver Dam",
+        "image": "projects/img/DSC_2264-Bearbeitet.jpg",
+        "pos": [49.64181, 6.86891],
+        "mepos": [49.65602, 6.6952]
+    },
+    "burgheid1": {
+        "label": "Burg Heid",
+        "image": "projects/img/DJI_0749.jpg",
+        "pos": [49.64134, 6.7139],
+        "mepos": [49.65602, 6.6952]
+    },
+    "heckelbusch": {
+        "label": "Heckelbuschfelsen",
+        "image": "projects/img/DSC_8345.jpg",
+        "pos": [49.61351, 6.71820],
+        "mepos": [49.65602, 6.6952]
+    },
+    "fern": {
+        "label": "Fern",
+        "image": "projects/img/DSC_4234-Bearbeitet.jpg",
+        "pos": [49.642, 6.6984],
+        "mepos": [3441, 2701]
+    },
+    "ruwer5": {
+        "label": "Ruwer",
+        "image": "projects/img/DSC_9582.jpg",
+        "pos": [49.64457, 6.72804],
+        "mepos": [1938, 2030]
+    },
+    "trees": {
+        "label": "Woods",
+        "image": "projects/img/DJI_0280.jpg",
+        "pos": [49.644, 6.701],
+        "mepos": [4400, 1680]
+    },
+    "ruwer2": {
+        "label": "Ruwer",
+        "image": "portfolio/img/DSC_1434.jpg",
+        "pos": [[49, 38, 7.7693], [6, 43, 7.0144]],
+        "mepos": [4400, 1680]
+    },
+    "tree": {
+        "label": "Lonely Tree",
+        "image": "portfolio/img/DSC_5268.jpg",
+        "pos": [[49, 39, 13.64],[6, 41, 41.13]],
+        "mepos": [4400, 1680]
+    },
+    "ruwer3": {
+        "label": "Ruwer",
+        "image": "portfolio/img/DSC_9636.jpg",
+        "pos": [[49, 38, 30.3383], [6, 43, 13.8531]],
+        "mepos": [4400, 1680]
+    },
+    "lampaden": {
+        "label": "Lampaden",
+        "image": "projects/img/DJI_0981-Pano.jpg",
+        "pos": [[49, 38, 39.792],[6, 42, 0.17]],
+        "mepos": [4400, 1680]
+    },
+    "lampaden2": {
+        "label": "Lampaden",
+        "image": "projects/img/DSC_1158.jpg",
+        "pos": [[49,38,38.5312],[6,42, 1.4519]],
+        "mepos": [4400, 1680]
+    },
+    "goldenforest": {
+        "label": "Golden Forest",
+        "image": "projects/img/DSC_1807.jpg",
+        "pos": [[49, 38, 37.4509], [6, 43, 4.2472]],
+        "mepos": [4400, 1680]
+    },
+    "windenergy": {
+        "label": "Wind Energy",
+        "image": "projects/img/DSC_5818.jpg",
+        "pos": [[49, 38, 30.3174], [6, 40, 57.5738]],
+        "mepos": [4400, 1680]
+    },
+    "vierherrenborn": {
+        "label": "Vierherrenborn",
+        "image": "projects/img/DSC_8892.jpg",
+        "pos": [[49, 36, 34.6983],[6, 39, 42.4544]],
+        "mepos": [4400, 1680]
+    },
+    "frost": {
+        "label": "Frost morning",
+        "image": "projects/img/DSC_0346.jpg",
+        "pos": [[49, 38, 49.7452], [6, 42, 7.2472]],
+        "mepos": [4400, 1680]
+    },
+    "lampadenfog": {
+        "label": "Lampaden",
+        "image": "projects/img/DSC_5195.jpg",
+        "pos": [[49, 38, 39.1438],[6, 42, 37.3191]],
+        "mepos": [4400, 1680]
+    },
+    "forestfloor": {
+        "label": "Forest floor",
+        "image": "projects/img/_DSC5070.jpg",
+        "pos": [49.61193, 6.71838],
+        "mepos": [4400, 1680]
+    },
+    "bridge": {
+        "label": "Bridge",
+        "image": "projects/img/DSC_3621.jpg",
+        "pos": [[49, 39, 31.9211],[6, 48, 47.7131]],
+        "mepos": [4400, 1680]
+    },
+    "trees2": {
+        "label": "Trees",
+        "image": "projects/img/DSC_3809.jpg",
+        "pos": [[49, 39, 37.3739],[6, 49, 48.1965]],
+        "mepos": [4400, 1680]
+    },
+    "field": {
+        "label": "Fields of Light",
+        "image": "projects/img/DSC_3851.jpg",
+        "pos": [[49, 38, 59.491], [6, 49, 19.0898]],
+        "mepos": [4400, 1680]
+    },
+    "oldstation": {
+        "label": "Old Station",
+        "image": "projects/img/DSC_4198.jpg",
+        "pos": [[49, 37, 58.6344],[6, 49, 32.1843]],
+        "mepos": [4400, 1680]
+    },
+    "milkyway": {
+        "label": "Milky Way",
+        "image": "projects/img/DSC_0267.jpg",
+        "pos": [[49, 38, 51.1426], [6, 42, 6.8735]],
+        "mepos": [4400, 1680]
+    },
+    "clouds": {
+        "label": "Clouds",
+        "image": "projects/img/DSC_0535.jpg",
+        "pos": [[49, 38, 26.5641],[6, 40, 12.9316]],
+        "mepos": [4400, 1680]
+    },
+    "windmills": {
+        "label": "Windmills",
+        "image": "projects/img/DSC_0586.jpg",
+        "pos": [[49, 38, 43.5189],[6, 40, 30.289]],
+        "mepos": [4400, 1680]
+    },
+    "grass": {
+        "label": "Grass",
+        "image": "projects/img/DSC_1481.jpg",
+        "pos": [[49, 40, 32.9582],[6, 41, 10.0993]],
+        "mepos": [4400, 1680]
+    },
+    "ruwer4": {
+        "label": "Ruwer",
+        "image": "projects/img/DSC_2241.jpg",
+        "pos": [[49, 39, 55.9938],[6, 43, 18.7277]],
+        "mepos": [4400, 1680]
+    },
+    "horses": {
+        "label": "Horses",
+        "image": "projects/img/DSC_2858.jpg",
+        "pos": [[49, 38, 47.7246],[6, 42, 4.3336]],
+        "mepos": [4400, 1680]
+    },
+    "sunlittrees": {
+        "label": "Sunlit Trees",
+        "image": "projects/img/DSC_1698-HDR.jpg",
+        "pos": [[49, 37, 39.9722],[6, 43, 23.3674]],
+        "mepos": [4400, 1680]
+    },
+    "enterbach": {
+        "label": "Enterbach",
+        "image": "projects/img/DSC_0809.jpg",
+        "pos": [[49, 40, 20.4034],[6, 45, 1.4835]],
+        "mepos": [4400, 1680]
+    },
+    "burgheid": {
+        "label": "Burg Heid",
+        "image": "projects/img/DJI_0917.jpg",
+        "pos": [[49, 38, 30.0868],[6, 43, 33.9747]],
+        "mepos": [4400, 1680]
+    }
+}
