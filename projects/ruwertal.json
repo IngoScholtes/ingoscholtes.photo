@@ -227,5 +227,10 @@
         "label": "Forest path",
         "image": "projects/img/DSC_1625-HDR.jpg",
         "pos": [[49, 37, 37.7889],[6, 43, 46.4119]]
+    },
+    "rauruwer": {
+        "label": "Rauruwer",
+        "image": "projects/img/DSC_0308-Bearbeitet.jpg",
+        "pos": [[49, 39, 40.7275],[6, 43, 35.5807]]
     }
 }
