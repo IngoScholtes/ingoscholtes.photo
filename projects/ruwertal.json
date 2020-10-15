@@ -17,12 +17,6 @@
         "pos": [49.6627, 6.69880],
         "mepos": [1794, 1516]
     },
-    "ice": {
-        "label": "Ice",
-        "image": "projects/img/DSC_0581.jpg",
-        "pos": [49.64429, 6.69433],
-        "mepos": [49.65602, 6.6952]
-    },
     "ockfenerbach": {
         "label": "Ockfener Bach",
         "image": "projects/img/DSC_9095_bearbeitet.jpg",
@@ -39,12 +33,6 @@
         "label": "Beaver Dam",
         "image": "projects/img/DSC_2264-Bearbeitet.jpg",
         "pos": [49.64181, 6.86891],
-        "mepos": [49.65602, 6.6952]
-    },
-    "burgheid1": {
-        "label": "Burg Heid",
-        "image": "projects/img/DJI_0749.jpg",
-        "pos": [49.64134, 6.7139],
         "mepos": [49.65602, 6.6952]
     },
     "heckelbusch": {
@@ -72,8 +60,8 @@
         "mepos": [4400, 1680]
     },
     "ruwer2": {
-        "label": "Ruwer",
-        "image": "portfolio/img/DSC_1434.jpg",
+        "label": "Ruwer Ice",
+        "image": "portfolio/img/DSC_8509.jpg",
         "pos": [[49, 38, 7.7693], [6, 43, 7.0144]],
         "mepos": [4400, 1680]
     },
@@ -98,7 +86,7 @@
     "lampaden2": {
         "label": "Lampaden",
         "image": "projects/img/DSC_1158.jpg",
-        "pos": [[49,38,38.5312],[6,42, 1.4519]],
+        "pos": [[49, 38, 46.2],[6, 41, 36.672]],
         "mepos": [4400, 1680]
     },
     "goldenforest": {
@@ -214,5 +202,30 @@
         "image": "projects/img/DJI_0917.jpg",
         "pos": [[49, 38, 30.0868],[6, 43, 33.9747]],
         "mepos": [4400, 1680]
+    },
+    "mushroom": {
+        "label": "Mushroom",
+        "image": "projects/img/DSC_6748-Bearbeitet.jpg",
+        "pos": [[49, 38, 8.4669], [6, 42, 29.3367]]
+    },
+    "mushroom2": {
+        "label": "Mushroom",
+        "image": "projects/img/DSC_0623.jpg",
+        "pos": [[49, 38, 29.7823],[6, 41, 58.501]]
+    },
+    "frostleaves": {
+        "label": "Frost Leaves",
+        "image": "projects/img/DSC_4979-Bearbeitet.jpg",
+        "pos": [[49, 38, 21.3716],[6, 42, 33.6644]]
+    },
+    "fog": {
+        "label": "Foggy morning",
+        "image": "projects/img/DSC_0463.jpg",
+        "pos": [[49, 40, 32.454],[6, 41, 57.324]]
+    },
+    "trail": {
+        "label": "Forest path",
+        "image": "projects/img/DSC_1625-HDR.jpg",
+        "pos": [[49, 37, 37.7889],[6, 43, 46.4119]]
     }
 }
