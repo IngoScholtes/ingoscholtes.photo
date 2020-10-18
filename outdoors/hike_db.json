@@ -4755,5 +4755,30 @@
             "DSC_5895.jpg": "Path",
             "DSC_5902-Bearbeitet.jpg": "Mushrooms"
         }
+    },
+    "2020/etzlpass": {
+        "title": "Etzlpass",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2020",
+        "month": "October",
+        "category": "Easy Hike",
+        "distance": 6.0,
+        "ascend": 315,
+        "maxalt": 1098,
+        "time_h": 1,
+        "time_m": 44,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "A short afternoon hike from St. Meinrad's chapel at the Etzpass up to the Etzl summit. Views weren't as great as expected due to dull weather. On a clear day there's great views of Sihlsee, Lake Zurich and the Alps.",
+        "coverimage": "DSC_7172-HDR.jpg",
+        "images": {
+            "DSC_7172-HDR.jpg": "St. Meinrad Chapel",
+            "DSC_7088.jpg": "Tree",
+            "DSC_6986.jpg": "Mushroom"
+        }
     }
 }
