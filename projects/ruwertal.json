@@ -232,5 +232,30 @@
         "label": "Rauruwer",
         "image": "projects/img/DSC_0308-Bearbeitet.jpg",
         "pos": [[49, 39, 40.7275],[6, 43, 35.5807]]
+    },
+    "fieldsofgold": {
+        "label": "Fields of Gold",
+        "image": "projects/img/DSC_8553.jpg",
+        "pos": [[49, 39, 21.6641],[6, 42, 0.168]]
+    },
+    "frauholle": {
+        "label": "Frau Holle",
+        "image": "projects/img/DSC_2404.jpg",
+        "pos": [[49, 39, 44.0549],[6, 52, 15.3887]]
+    },
+    "schoemerich": {
+        "label": "Schoemerich",
+        "image": "projects/img/DJI_0456.jpg",
+        "pos": [[49, 38, 17.199],[6, 41, 54.5216]]
+    },
+    "bridge2": {
+        "label": "Ruwer Bridge",
+        "image": "projects/img/DSC_3713.jpg",
+        "pos": [[49, 39, 45.4121],[6, 43, 5.1414]]
+    },
+    "rainbow": {
+        "label": "Rainbow",
+        "image": "projects/img/DSC_0636.jpg",
+        "pos": [[49, 39, 5.1442],[6, 41, 25.4807]]
     }
 }
