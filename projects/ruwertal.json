@@ -257,5 +257,10 @@
         "label": "Rainbow",
         "image": "projects/img/DSC_0636.jpg",
         "pos": [[49, 39, 5.1442],[6, 41, 25.4807]]
+    },
+    "snow": {
+        "label": "Snow",
+        "image": "projects/img/DSC_1148.jpg",
+        "pos": [[49, 38, 34.5537],[6, 40, 57.8989]]
     }
 }
