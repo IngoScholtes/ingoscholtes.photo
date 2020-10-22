@@ -262,5 +262,15 @@
         "label": "Snow",
         "image": "projects/img/DSC_1148.jpg",
         "pos": [[49, 38, 34.5537],[6, 40, 57.8989]]
+    },
+    "burgheid2": {
+        "label": "Burg Heid",
+        "image": "projects/img/DSC_0377.jpg",
+        "pos": [[49, 38, 29.6016],[6, 43, 43.1177]]
+    },
+    "layers": {
+        "label": "Geisemerich",
+        "image": "projects/img/DSC_9321.jpg",
+        "pos": [[49, 39, 21.28],[6, 42, 2.14]]
     }
 }
