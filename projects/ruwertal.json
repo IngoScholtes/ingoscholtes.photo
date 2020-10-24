@@ -277,5 +277,10 @@
         "label": "Ice",
         "image": "projects/img/DSC_0549.jpg",
         "pos": [[49, 38, 29.547],[6, 41, 55.9545]]
+    },
+    "trunks": {
+        "label": "Trunks",
+        "image": "projects/img/DSC_5048.jpg",
+        "pos": [[49, 38, 33.6093],[6, 42, 46.5586]]
     }
 }
