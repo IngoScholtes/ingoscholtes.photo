@@ -282,5 +282,25 @@
         "label": "Trunks",
         "image": "projects/img/DSC_5048.jpg",
         "pos": [[49, 38, 33.6093],[6, 42, 46.5586]]
+    },
+    "ruwer6": {
+        "label": "Ruwer",
+        "image": "projects/img/DSC_1434.jpg",
+        "pos": [[49, 38, 4.5442],[6, 43, 8.1122]]
+    },
+    "ruwer7": {
+        "label": "Ruwer",
+        "image": "projects/img/DSC_9353-HDR.jpg",
+        "pos": [[49, 38, 28.5697],[6, 43, 11.8485]]
+    },
+    "geizenburg": {
+        "label": "Geizenburg",
+        "image": "projects/img/DSC_0540.jpg",
+        "pos": [[49, 40, 3.6745],[6, 44, 1.8071]]
+    },
+    "path": {
+        "label": "Path",
+        "image": "projects/img/DSC_6874.jpg",
+        "pos": [[49, 38, 11.2933],[6, 41, 54.7594]]
     }
 }
