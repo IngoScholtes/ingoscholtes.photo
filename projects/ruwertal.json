@@ -302,5 +302,10 @@
         "label": "Path",
         "image": "projects/img/DSC_6874.jpg",
         "pos": [[49, 38, 11.2933],[6, 41, 54.7594]]
+    },
+    "celticfort": {
+        "label": "Celtic Fort",
+        "image": "projects/img/DSC_5630.jpg",
+        "pos": [[49, 38, 19.8976],[6, 42, 56.9817]]
     }
 }
