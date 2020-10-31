@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "C:\\Users\\ingos\\Anaconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\ingos\\Anaconda3\\python.exe",
+    "liveServer.settings.port": 5501,
+    "python.testing.promptToConfigure": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false
 }
