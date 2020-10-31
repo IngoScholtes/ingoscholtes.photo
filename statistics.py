@@ -1,11 +1,10 @@
 #%%
 import json
+from io import StringIO
 import pandas as pd
 
-with open('outdoors/hike_db.json', 'r') as f:
-    hikes = pd.read_json(f.read())
-with open('outdoors/canoe_db.json', 'r') as f:
-    canoe = pd.read_json(f.read())
+hikes = pd.read_json('outdoors/hike_db.json')
+canoe = pd.read_json('outdoors/canoe_db.json')
 
 #%%
 dist = 653 + 855 + 35 + 140 + 123 + 33 + 123 + 20 + 37
