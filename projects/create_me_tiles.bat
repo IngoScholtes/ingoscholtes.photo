@@ -1,0 +1,1 @@
+python C:\Users\ingos\Downloads\gdal2tiles-leaflet\gdal2tiles-multiprocess.py -p raster -z 0-6 -w all -l me_map.png me_tiles

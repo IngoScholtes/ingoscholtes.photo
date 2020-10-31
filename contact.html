@@ -13,6 +13,27 @@
 <script src="js/slider.js"></script>
 <script src="js/menu.js"></script>
 <script>
+    function UnCryptMailto( s )
+    {
+        var n = 0;
+        var r = "";
+        for( var i = 0; i < s.length; i++)
+        {
+            n = s.charCodeAt( i );
+            if( n >= 8364 )
+            {
+                n = 128;
+            }
+            r += String.fromCharCode( n - 1 );
+        }
+        return r;
+    }
+
+    function linkTo_UnCryptMailto( s )
+    {
+        location.href=UnCryptMailto( s );
+    }
+
 		$(document).ready(function(){			
 			$("#nav_menu_small").load("menu.html");
             $("#nav_menu_main").load("menu.html");
@@ -67,6 +88,7 @@
     <section class="container">
     <div class="six columns">
     <h3>Contact</h3>
+    <i class="far fa-envelope"></i><span style="white-space: pre;">    </span><a href="javascript:linkTo_UnCryptMailto('nbjmup;johptApvumppl/dpn');"style="text-decoration: none;">Send E-Mail</a> <br />
     <i class="fab fa-instagram"></i><span style="white-space: pre;">    </span><a href="https://www.instagram.com/ingoscholtes/" style="text-decoration: none;">@ingoscholtes</a> <br />
     <i class="fab fa-twitter"></i><span style="white-space: pre;">    </span><a href="https://twitter.com/ingo_s" style="text-decoration: none;">@ingo_s</a> <br />
     <i class="fab fa-youtube"></i><span style="white-space: pre;">    </span><a href="https://www.youtube.com/user/IngoScholtes/" style="text-decoration: none;">IngoScholtes</a> <br />
@@ -74,8 +96,9 @@
     </div>
     <div class="six columns">
     <article>            
-    <p>For information on my scientific works and further contact data please refer to my <a href="https://www.ingoscholtes.net">academic website</a>.</p>
-    <p>The content on this website is protected under copyright law. It must not be copied, altered, or commercially used without prior written consent of the owner.</p>
+    <p>This is a private and non-commercial website and the sole purpose of the effort I have put into its creation is your personal enjoyment.</p>
+    <p>For information on my scientific work please refer to my <a href="https://www.ingoscholtes.net">academic website</a>.</p>
+    <p>The photographs shown on this website are protected under copyright law. They must not be copied, altered, or commercially used without prior written consent.</p>
     </article>
     </div>
     </section>

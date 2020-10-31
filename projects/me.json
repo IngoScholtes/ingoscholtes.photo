@@ -1,0 +1,388 @@
+{
+    "caradhras": {
+        "label": "Caradhras",
+        "image": "projects/img/DSC_2149.jpg",
+        "pos": [[47, 3, 17.592], [8, 28, 34.7988]],
+        "mepos": [498, 845]
+    },
+    "emynmuil": {
+        "label": "Emyn Muil",
+        "image": "projects/img/DSC_9578-HDR-Pano-Bearbeitet.jpg",
+        "pos": [[47, 15, 42.084], [9, 21, 28.626]],
+        "mepos": [760, 1084]
+    },
+    "midgewater": {
+        "label": "Midgewater",
+        "image": "portfolio/img/DSC_6655.jpg",
+        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "mepos": [380, 621]
+    },
+    "deadmarshes": {
+        "label": "Dead Marshes",
+        "image": "portfolio/img/DSC_9577.jpg",
+        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "mepos": [824, 1077]
+    },
+    "LoneLands": {
+        "label": "Lone-Lands",
+        "image": "portfolio/img/DSC_1921-Pano.jpg",
+        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "mepos": [370, 709]
+    },
+    "cascade": {
+        "label": "Withywindle",
+        "image": "outdoors/2020/sihlsprung/DSC_4637-Bearbeitet.jpg",
+        "pos": [[47, 12, 18.9735],  [8, 36, 30.0715]],
+        "mepos": [446, 535]
+    },
+    "lonelymountain": {
+        "label": "Erebor",
+        "image": "portfolio/img/DSC_6076.jpg",
+        "pos": [[47, 9, 12.2234], [9, 9, 33.8544]],
+        "mepos": [260, 1124]
+    },
+    "misty_mountains": {
+        "label": "Misty Mountains",
+        "image": "portfolio/img/DSC_1289.jpg",
+        "pos": [[47, 3, 18.777], [8, 29, 1.7314]],
+        "mepos": [250, 867]
+    },
+    "forest_stream": {
+        "label": "Forest River",
+        "image": "portfolio/img/DSC_6337.jpg",
+        "pos": [[47, 15, 8.5981], [9, 9, 26.7485]],
+        "mepos": [274, 1081]
+    },
+    "wilderland": {
+        "label": "Trollshaws",
+        "image": "outdoors/2019/murgsee/DSC_8527.jpg",
+        "pos": [[47, 3, 1.925], [9, 8, 51.2146]],
+        "mepos": [295, 831]
+    },
+    "wilderland2": {
+        "label": "Trollshaws",
+        "image": "outdoors/2015/roggenstock/DSC_7529.jpg",
+        "pos": [[47, 1, 12.3204], [8, 47, 22.5636]],
+        "mepos": [342, 808]
+    },
+    "wilderland3": {
+        "label": "North Ithilien",
+        "image": "projects/img/DSC_8369-Pano.jpg",
+        "pos": [[47, 3, 28.893], [9, 8, 58.489]],
+        "mepos": [970, 1142]
+    },
+    "shire1": {
+        "label": "Shire",
+        "image": "portfolio/img/DSC_7865.jpg",
+        "pos": [[47, 7, 40.1333], [8, 45, 16.5333]],
+        "mepos": [388, 394]
+    },
+    "shire2": {
+        "label": "Hobbiton",
+        "image": "outdoors/2017/entlebuch/DSC_6541.jpg",
+        "pos": [[46, 58, 55.9622], [8, 3, 49.6205]],
+        "mepos": [379, 462]
+    },
+    "misty_mountains2": {
+        "label": "Misty Mountains",
+        "image": "portfolio/img/DSC_6009-HDR.jpg",
+        "pos": [[47, 17, 1.41],[9, 29, 5.705]],
+        "mepos": [438, 846]
+    },
+    "shire3": {
+        "label": "Shire",
+        "image": "projects/img/DSC_5154.jpg",
+        "pos": [[47, 22, 7.3738], [9, 16, 57.2288]],
+        "mepos": [408, 475]
+    },
+    "lake": {
+        "label": "Esgaroth",
+        "image": "portfolio/img/DSC_0205.jpg",
+        "pos": [[47, 16, 8.304],[9, 24, 19.11]],
+        "mepos": [276, 1165]
+    },
+    "shire4": {
+        "label": "Smial",
+        "image": "projects/img/DSC_1163.jpg",
+        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "mepos": [391, 446]
+    },
+    "ruwer5": {
+        "label": "Brandywine",
+        "image": "projects/img/DSC_9582.jpg",
+        "pos": [49.64457, 6.72804],
+        "mepos": [335, 494]
+    },
+    "goldenforest": {
+        "label": "Golden Forest",
+        "image": "projects/img/DSC_1807.jpg",
+        "pos": [49.64576, 6.71791],
+        "mepos": [555, 885]
+    },
+    "fern": {
+        "label": "Fangorn",
+        "image": "projects/img/DSC_4234-Bearbeitet.jpg",
+        "pos": [49.642, 6.6984],
+        "mepos": [672, 850]
+    },
+    "trees": {
+        "label": "Woods",
+        "image": "projects/img/DJI_0280.jpg",
+        "pos": [49.644, 6.701],
+        "mepos": [422, 1125]
+    },
+    "rollinghills": {
+        "label": "Rolling Hills",
+        "image": "projects/img/DSC_1334.jpg",
+        "pos": [49.6627, 6.69880],
+        "mepos": [385, 357]
+    },
+    "tree": {
+        "label": "Tree",
+        "image": "portfolio/img/DSC_5268.jpg",
+        "pos": [49.65602, 6.6952],
+        "mepos": [464, 349]
+    },
+    "ruwer2": {
+        "label": "Enchanted River",
+        "image": "portfolio/img/DSC_1434.jpg",
+        "pos": [49.6290, 6.7150],
+        "mepos": [298, 1072]
+    },
+    "ruwer3": {
+        "label": "Brandywine",
+        "image": "portfolio/img/DSC_9636.jpg",
+        "pos": [49.64179, 6.72062],
+        "mepos": [501, 491]
+    },
+    "rohan1": {
+        "label": "Westfold",
+        "image": "projects/img/DJI_0240.jpg",
+        "pos": [[47, 1, 14.058], [9, 8, 16.224]],
+        "mepos": [877, 910]
+    },
+    "bruinen": {
+        "label": "Bruinen",
+        "image": "outdoors/2019/firstboden/DSC_0171.jpg",
+        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "mepos": [418, 792]
+    },
+    "rohan2": {
+        "label": "Eastfold",
+        "image": "outdoors/2015/westhighlandway/DSC_1488.jpg",
+        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "mepos": [839, 971]
+    },
+    "ithilien2": {
+        "label": "South Ithilien",
+        "image": "outdoors/2016/glenetive/DSC_8445.jpg",
+        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "mepos": [1099, 1099]
+    },
+    "lastbridge": {
+        "label": "The Last Bridge",
+        "image": "projects/img/DSC_0922.jpg",
+        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "mepos": [373, 735]
+    },
+    "rivendell": {
+        "label": "Rivendell",
+        "image": "projects/img/DSC_3481.jpg",
+        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "mepos": [375, 823]
+    },
+    "weathertop": {
+        "label": "Weathertop",
+        "image": "projects/img/DSC_1725.jpg",
+        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "mepos": [381, 662]
+    },
+    "ettenmoors": {
+        "label": "Ettenmoors",
+        "image": "projects/img/DSC_8057.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [239, 754]
+    },
+    "edoras": {
+        "label": "Edoras",
+        "image": "projects/img/DSC_5998.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [837, 862]
+    },
+    "redhornpass": {
+        "label": "Redhorn pass",
+        "image": "projects/img/DSC_8940.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [538, 830]
+    },
+    "ironhills": {
+        "label": "Iron Hills",
+        "image": "projects/img/DSC_3180-Pano-Bearbeitet.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [282, 1324]
+    },
+    "brownlands": {
+        "label": "Brown Lands",
+        "image": "projects/img/DSC_9591.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [676, 1126]
+    },
+    "evendim": {
+        "label": "Lake Evendim",
+        "image": "projects/img/DSC_9714-Pano-Bearbeitet.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [274, 451]
+    },
+    "fangorn2": {
+        "label": "Edge of Fangorn",
+        "image": "projects/img/DSC_3567-HDR.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [657, 797]
+    },
+    "forestriver": {
+        "label": "Forest River",
+        "image": "projects/img/DSC_6195-Pano.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [241, 997]
+    },
+    "highpass": {
+        "label": "High Pass",
+        "image": "projects/img/DSC_2417-HDR.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [325, 889]
+    },
+    "redhorn": {
+        "label": "Redhorn Pass",
+        "image": "projects/img/DSC_5542.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [536, 821]
+    },
+    "northdown": {
+        "label": "North Downs",
+        "image": "projects/img/DSC_6420.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [275, 577]
+    },
+    "mirrormere": {
+        "label": "Mirrormere",
+        "image": "projects/img/DSC_5261-Pano.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [550, 852]
+    },
+    "angmar": {
+        "label": "Angmar",
+        "image": "projects/img/DSC_0437-Pano.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [153, 716]
+    },
+    "nurnen": {
+        "label": "Nurnen",
+        "image": "projects/img/DSC_1353-Pano.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [1049, 1415]
+    },
+    "gladdenfields": {
+        "label": "Gladden Fields",
+        "image": "projects/img/DSC_1077.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [470, 946]
+    },
+    "northmoors": {
+        "label": "North Moors",
+        "image": "projects/img/DSC_8529-Pano.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],        
+        "mepos": [340, 390]
+    },
+    "zirakzigil": {
+        "label": "Zirakzigil",
+        "image": "projects/img/DSC_6111.jpg",
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "mepos": [560, 830]
+    },
+    "beorn": {
+        "label": "Beorn's Hall",
+        "image": "outdoors/2020/fuerstein/DSC_4891.jpg",        
+        "mepos": [357, 976],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    
+    },
+    "weatherhills": {
+        "label": "Weather Hills",
+        "image": "projects/img/DSC_7008.jpg",        
+        "mepos": [298, 650],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    
+    },
+    "evendimhills": {
+        "label": "Evendim Hills",
+        "image": "projects/img/DSC_3269.jpg",        
+        "mepos": [270, 413],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "lothlorien": {
+        "label": "Lothlorien",
+        "image": "projects/img/DSC_1698-HDR.jpg",        
+        "mepos": [575, 924],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "treeroots": {
+        "label": "Three is Company",
+        "image": "projects/img/DSC_4576-HDR.jpg",        
+        "mepos": [394, 469],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "chetwood": {
+        "label": "Chetwood",
+        "image": "projects/img/DSC_4556.jpg",        
+        "mepos": [362, 573],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "andrath": {
+        "label": "Andrath",
+        "image": "projects/img/DSC_7391.jpg",        
+        "mepos": [428, 570],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "erednimrais": {
+        "label": "Ered Nimrais",
+        "image": "projects/img/DSC_9723.jpg",        
+        "mepos": [802, 789],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "enedwaith": {
+        "label": "Enedwaith",
+        "image": "projects/img/DSC_0877.jpg",        
+        "mepos": [693, 587],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "mushroom": {
+        "label": "Mirkwood Mushroom",
+        "image": "projects/img/DSC_6748-Bearbeitet.jpg",        
+        "mepos": [340, 1040],
+        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "text": ""
+    },
+    "bluemountains": {
+        "label": "Blue Mountains",
+        "image": "projects/img/DSC_7328.jpg",        
+        "mepos": [193, 206.6],
+        "pos": [[46, 23, 46.2571], [8, 2, 52.6866]],
+        "text": ""
+    },
+    "bluemountains2": {
+        "label": "Blue Mountains",
+        "image": "projects/img/DSC_1951.jpg",        
+        "mepos": [252.5, 247.8],
+        "pos": [[47, 15, 39.12], [9, 27, 14.18]],
+        "text": ""
+    }
+}

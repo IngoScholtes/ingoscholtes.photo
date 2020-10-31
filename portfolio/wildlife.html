@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ingo Scholtes | Wildlife</title>
+    <script src="../js/simpleGallery.js" type="text/javascript"></script>
+    <link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+    <meta name="description" />
+    <meta name="author" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/skeleton.css" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="..//js/slider.js"></script>
+    <script src="../js/menu.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+    $(document).ready(function(){
+        
+        $("#nav_menu_small").load("../menu.html");
+        $("#nav_menu_main").load("../menu.html");
+        $("#nav_menu_footer").load("../menu.html");
+        
+        $('.expand-menu').click(function(e){
+            e.preventDefault();
+            $(this).toggleClass('open');
+            if($('nav.small.top ul').is(':hidden')){
+                $('nav.small.top ul').slideDown();
+            }else{
+                $('nav.small.top ul').slideUp();
+            }
+            
+        });
+        $('.slider').startSlider();        
+    });
+</script>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="contact.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+            </nav>
+            <section class="container">
+            <div class="eleven columns">
+            <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+            </nav>
+            </div>
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+
+        <section class="container">
+        <h3>Wildlife</h3>
+        <p>I am seriously fascinated and humbled by the achievements of accomplished artists specializing in wildlife photography, which to me appears to be the photographical discipline most challenging to master. Due to the elusiveness of its subjects, it requires skill, perseverance, an ability to endure hardship in the wild, and &mdash; quite frankly &mdash; a good portion of luck to get a good shot. My personal approach to wildlife photography is driven by happenstance and I do not consider myself accomplished in that discipline by any standards. Nevertheless, below I dare to present my favorite results. In line with wildlife phtography ethics, all images show free-ranging animals in their natural habitat, i.e. no captive animals in confining environments.</p>
+        <div class="album" id="galleryRoot">
+        </div>
+        <script type="text/javascript">
+            addImageTile('img/DSC_3670.jpg', 'Juvenile European herring gull', 'Lofoten, Norway', 'galleryRoot', false);
+            addImageTile('img/DSC_3830.jpg', 'White-tailed Eagle', 'Lofoten, Norway', 'galleryRoot', false);
+            addImageTile('img/DSC_6121.jpg', 'Madeiran Chaffinch', 'Madeira, Portugal', 'galleryRoot', false);
+
+            addImageTile('img/DSC_4559-Bearbeitet.jpg', 'Fire Salamander', 'Hunsrück, Germany', 'galleryRoot', false);
+            addImageTile('img/DSC_6199.jpg', 'Madeiran Chaffinch', 'Madeira, Portugal', 'galleryRoot', false);
+            addImageTile('img/DSC_6048.jpg', 'Grey Seal', 'Pembrokeshire, Wales, UK', 'galleryRoot', false);
+            
+            addImageTile('img/DSC_3861.jpg', 'White-tailed Eagle', 'Lofoten, Norway', 'galleryRoot', false);
+            addImageTile('img/DSC_5995.jpg', 'Humpback Whale', 'Cape Cod, MA, USA', 'galleryRoot', false);
+            addImageTile('img/DSC_5561.jpg', 'Hunting White Stork', 'Alsace, France', 'galleryRoot', false);
+		</script>
+        </section>
+
+        <footer>
+                <div class="container">
+                <hr />
+                <div class="nine columns">
+                <nav>
+                        <ul id="nav_menu_footer"></ul>
+                        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+                </nav>
+                </div>
+                <div class="three columns">
+                &copy; 2012 - 2020 Ingo Scholtes
+                </div>
+                </div>
+                </footer>
+                <!-- Script for retina images -->
+                <!-- <script type="text/javascript" src="/js/retina.js"></script> -->
+            </body>
+        </html>

@@ -255,7 +255,7 @@ function showFullImage(pictureSrc, pictureTitle, footerText, fhpID, printID) {
 	 }
 	 else 
 	 {
-		  buyInfo.appendChild(document.createTextNode(" no print available"));
+		  buyInfo.appendChild(document.createTextNode(""));
 	 }
 	 
 	 var fivehundredpixInfo = document.createElement('div');

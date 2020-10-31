@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ingo Scholtes | Photographing Middle-Earth</title>
+    <link type="text/css" href="../css/ModuleStyleSheets.css" rel="StyleSheet" />
+    <script type="text/javascript">var jslang='DE';</script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/skeleton.css" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/menu.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#nav_menu_small").load("../menu.html");
+            $("#nav_menu_main").load("../menu.html");
+            $("#nav_menu_footer").load("../menu.html");
+            
+            $('.expand-menu').click(function(e){
+                e.preventDefault();
+                $(this).toggleClass('open');
+                if($('nav.small.top ul').is(':hidden')){
+                    $('nav.small.top ul').slideDown();
+                }else{
+                    $('nav.small.top ul').slideUp();
+                }				
+            });
+        
+            $('.slider').startSlider();
+        });
+    </script>
+    <script src="../js/simpleGallery.js" type="text/javascript"></script>
+    <link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+    <link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>    
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+    <meta charset="utf-8" />
+    <meta name="description" />
+    <meta name="author" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <style>
+        /* fix for white lines between tiles, credited to https://github.com/Leaflet/Leaflet/issues/3575 */
+        .leaflet-tile-container img {
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+        }
+
+        #mapid { width: 100%; height: 600px; border: 1px solid black }
+
+        #imgpanel {
+            width: 100%;
+            border: 1px solid black;
+            margin-top: 1cm;
+            position: absolute;
+            opacity: 1;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<nav class="small top">
+		<a class="expand-menu" href="outdoors.html#"></a>
+		<div class="clear"></div>
+		<ul id="nav_menu_small"></ul>
+		<script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+</nav>
+<section class="container">
+<div class="eleven columns">
+<nav class="main top">
+		<ul id="nav_menu_main"></ul>
+		<script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+</nav>
+</div>
+</section>
+<header class="main">
+<div class="container">
+<div class="twelve columns">
+<h2>Ingo Scholtes Photography</h2>
+<h3>Bringing the great outdoors inside.</h3>
+</div>
+</div>
+</header>
+
+<section class="container">
+    <div class="six columns">
+        <article>
+            <h3>Photographing Middle Earth</h3>
+            <p>When I first discovered the mythological creation of J.R.R. Tolkien more than 20 years ago, it had a profound impact on me. The deep appreciation of nature that speaks out of his literary work strongly influenced my approach to landscape photography. Paying tribute to J.R.R. Tolkien's genius and the power of his imagination, below you can find my personal photographic interpretation of the imaginary world he has created.</p>
+        </article>
+    </div>		
+    <div class="six columns">
+        <img alt="" class="featured" src="../portfolio/img/DSC_6076.jpg" />
+        <div style="font-size: 12px; text-align: center">The Lonely Mountain</div>
+    </div>
+</section>
+<section class="highlight">
+    <div class="container">
+        <div class="twelve columns">
+            <h3>&laquo; It's a dangerous business, Frodo, going out your door [&hellip;] You step into the Road, and if you don't keep your feet, there's no knowing where you might be swept off to. &raquo;</h3>
+            <p>J.R.R. Tolkien, The Lord of the Rings, The Fellowship of the Ring</p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <p>Please pan, zoom and click the map to explore Middle Earth.</p>
+    <div id="mapid"></div>
+    <script>
+
+        L.Control.MousePosition = L.Control.extend({
+        options: {
+            position: 'bottomleft',
+            separator: ' : ',
+            emptyString: 'Unavailable',
+            lngFirst: false,
+            numDigits: 1,
+            lngFormatter: undefined,
+            latFormatter: undefined,
+            prefix: ""
+        },
+
+        onAdd: function (map) {
+            this._container = L.DomUtil.create('div', 'leaflet-control-mouseposition');
+            L.DomEvent.disableClickPropagation(this._container);
+            map.on('mousemove', this._onMouseMove, this);
+            this._container.innerHTML=this.options.emptyString;
+            return this._container;
+        },
+
+        onRemove: function (map) {
+            map.off('mousemove', this._onMouseMove)
+        },
+
+        _onMouseMove: function (e) {
+            var lng = this.options.lngFormatter ? this.options.lngFormatter(e.latlng.lng) : L.Util.formatNum(e.latlng.lng, this.options.numDigits);
+            var lat = this.options.latFormatter ? this.options.latFormatter(e.latlng.lat) : L.Util.formatNum(e.latlng.lat, this.options.numDigits);
+            var value = this.options.lngFirst ? lng + this.options.separator + lat : lat + this.options.separator + lng;
+            var prefixAndValue = this.options.prefix + ' ' + value;
+            this._container.innerHTML = prefixAndValue;
+        }
+
+        });
+
+        L.Map.mergeOptions({
+            positionControl: false
+        });
+
+        L.Map.addInitHook(function () {
+            if (this.options.positionControl) {
+                this.positionControl = new L.Control.MousePosition();
+                this.addControl(this.positionControl);
+            }
+        });
+
+        L.control.mousePosition = function (options) {
+            return new L.Control.MousePosition(options);
+        };
+
+        //var width = 7017;
+        //var height = 4780;
+
+        // https://stackoverflow.com/questions/34638887/leaflet-custom-coordinates-on-image
+        L.CRS.MySimple = L.extend({}, L.CRS.Simple, {
+      //                      coefficients: a      b    c     d
+      transformation: new L.Transformation(1/8, 0, 1/8, 0) // Compute a and c coefficients so that  tile 0/0/0 is from [0, 0] to [img]
+    });
+
+        // ME coordinates:
+        // (0,0)            (width, 0)
+        // (0,height)       (width, height)
+
+        // leaflet coordinates:
+        // (height,0)       (height,width)
+        // (0,0)            (0,width)
+
+        // transform ME coordinate into leaflet coordinate
+        function ME_coordinate(coord){
+            // return L.latLng(height-coord[1], coord[0]);
+            return [height-coord[1], coord[0]];
+        }
+
+        var bounds = [[-200, -200], [1300, 1800]];        
+
+        // create map
+        var map = L.map('mapid', {
+            fullscreenControl: {
+                pseudoFullscreen: true // if true, fullscreen to page width and height
+            },
+            // maxBounds: L.latLngBounds([[-100, -100], [height+100, width+100]]),
+            maxBounds: bounds,
+            crs: L.CRS.MySimple,
+            minZoom: 2.75,
+            maxZoom: 5.75,
+            zoomDelta: 0.5,
+            wheelPxPerZoomLevel: 2000,
+            wheelDebounceTime: 100
+        });
+
+        // create imageOverlay
+        //L.imageOverlay('me_map.png', bounds).addTo(map);
+        layer = L.tileLayer('me_tiles/{z}/{x}/{y}.png', {
+            tms: true, 
+            zoomOffset: 0, 
+            attribution: 'Ingo Scholtes 2020', 
+            bounds: bounds, 
+            noWrap: true
+        });
+        map.addLayer(layer);        
+        
+        var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                
+                // parse JSON and add markers with images
+                var spots = JSON.parse(this.responseText);
+                for (s in spots) {
+
+                    var marker = L.marker(spots[s]['mepos']);
+                    marker.properties = spots[s];                    
+                    
+                    var popup = L.popup();
+                    marker.bindPopup(popup);
+                    marker.properties.id = s;
+                    marker.properties.popup = popup;
+
+                    marker.on("click", function(e){
+                        var clickedMarker = e.target;                      
+
+                        if (map.isFullscreen()){
+
+                            h4 = document.createElement("h4");
+                            h4.textContent = clickedMarker.properties.label;
+                            img = document.createElement("img");
+                            img.src = '../' + clickedMarker.properties.image;
+                            img.style = "height: 400px; width: auto;";
+
+                            img.onload = function () {
+                                clickedMarker.properties.popup.setContent(h4.outerHTML + img.outerHTML);
+                                clickedMarker.properties.popup.options.maxHeight = "auto";
+                                clickedMarker.properties.popup.options.maxWidth = "auto";
+                                clickedMarker.properties.popup.update();
+                                clickedMarker.properties.popup.openOn(map);
+                            };
+                        }
+                        else {
+                            clickedMarker.properties.popup.options.minWidth = 120;
+                            clickedMarker.properties.popup.setContent('<h4>' + clickedMarker.properties.label + '</h4>').openOn(map);                        
+                            $("#imgpanel").fadeOut("fast", "linear", function(){
+                                    $(this).attr("src", '../' + clickedMarker.properties.image).fadeIn("fast", "linear");
+                                });
+                        }
+                    });
+                    marker.addTo(map);
+                }
+                // document.querySelector(".leaflet-popup-pane").addEventListener("load", function (event) {
+                // var tagName = event.target.tagName,
+                //     popup = map._popup; // Currently open popup, if any.
+
+                // if (tagName === "IMG" && popup) {
+                //     console.log('x');
+                //     popup.update();
+                // }
+                // }, true);
+            }
+        };
+
+        L.control.mousePosition().addTo(map);
+
+        // load geo data
+		xmlhttp.open("GET", "me.json", true);
+		xmlhttp.send();        
+
+        //map.fitBounds(bounds);
+        map.setView([402, 432], 4.5);
+        // map.setView([400, 500], 3.5);
+        //map.setView(ME_coordinate([800, 800]), 2.75);
+    </script>    
+    <img id="imgpanel" src=""></img>
+    <p style="font-size: smaller;">Map self-created based on Sketchy Cartography Brushes by <a href="https://www.deviantart.com/starraven/art/Sketchy-Cartography-Brushes-198264358">StarRaven</a> (<a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC 3.0</a>) and parchment texture by <a href="https://www.flickr.com/photos/calebkimbrough/4691644631/">Caleb Kimbrough</a> (<a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons BY 2.0</a>).</p>
+    <p style="font-size: smaller;">Disclaimer: Places, characters and events depicted in the works of J.R.R. Tolkien are intellectual property of Middle-earth Enterprises. This non-commercial project is not authorised, licensed, or endorsed by J.R.R. Tolkien's heir or estate, nor by the publishers or distributors of the works of J.R.R. Tolkien, nor by the producers of the films based on J.R.R. Tolkien's works.</p>
+</section>
+
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+        <ul id="nav_menu_footer"></ul>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2012 - 2020 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- Script for retina images -->
+<!-- <script type="text/javascript" src="js/retina.js"></script> -->
+</body>
+</html>
