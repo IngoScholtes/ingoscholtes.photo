@@ -372,7 +372,7 @@
         "text": ""
     },
     "bluemountains": {
-        "label": "Blue Mountains",
+        "label": "Foggy Peaks",
         "image": "projects/img/DSC_7328.jpg",        
         "mepos": [193, 206.6],
         "pos": [[46, 23, 46.2571], [8, 2, 52.6866]],
@@ -382,6 +382,27 @@
         "label": "Blue Mountains",
         "image": "projects/img/DSC_1951.jpg",        
         "mepos": [252.5, 247.8],
+        "pos": [[47, 15, 39.12], [9, 27, 14.18]],
+        "text": ""
+    },
+    "ashmountains": {
+        "label": "Ash Mountains",
+        "image": "projects/img/DSC_1414.jpg",        
+        "mepos": [852, 1289],
+        "pos": [[47, 15, 39.12], [9, 27, 14.18]],
+        "text": ""
+    },
+    "angmar2": {
+        "label": "Angmar",
+        "image": "projects/img/DSC_2763.jpg",        
+        "mepos": [162, 750],
+        "pos": [[47, 15, 39.12], [9, 27, 14.18]],
+        "text": ""
+    },
+    "methedras": {
+        "label": "Methedras",
+        "image": "projects/img/DJI_0012.jpg",        
+        "mepos": [725, 762],
         "pos": [[47, 15, 39.12], [9, 27, 14.18]],
         "text": ""
     }
