@@ -1,0 +1,227 @@
+{
+    "rainbow": {
+        "label": "Rainbow",
+        "image": "projects/img/DSC_1608.jpg",
+        "pos": [[68, 11, 33.1435], [14, 20, 28.9389]]
+    },
+    "reinefjord": {
+        "label": "Reinefjord",
+        "image": "projects/img/DSC_7043.jpg",
+        "pos": [[67, 55, 42.4912], [13, 5, 11.8052]]
+    },
+    "reinepano": {
+        "label": "Reine Panorama",
+        "image": "projects/img/DJI_0109-Pano.jpg",
+        "pos": [[67, 56, 5.127], [13, 5, 57.625]]
+    },
+    "sildpollnes": {
+        "label": "Sildpollnes",
+        "image": "projects/img/DSC_5948.jpg",
+        "pos": [[68, 19, 0.875], [14, 43, 1.4806]]
+    },
+    "uttakleiv": {
+        "label": "Uttakleiv",
+        "image": "projects/img/DJI_0156.jpg",
+        "pos": [[68, 12, 36.3407], [13, 29, 30.9915]]
+    },
+    "uttakleiv2": {
+        "label": "Uttakleiv",
+        "image": "projects/img/DSC_2659.jpg",
+        "pos": [[68, 12, 37.198], [13, 30, 7.0078]]
+    },
+    "kvalvika": {
+        "label": "Kvalvika",
+        "image": "projects/img/DSC_4864-HDR.jpg",
+        "pos": [[68, 5, 10.0974], [13, 5, 48.8741]]
+    },
+    "kvalvika2": {
+        "label": "Kvalvika",
+        "image": "projects/img/DSC_5053-HDR.jpg",
+        "pos": [[68, 4, 48.271], [13, 5, 59.069]]
+    },
+    "kvalvika3": {
+        "label": "Kvalvika",
+        "image": "projects/img/DSC_4819-HDR.jpg",
+        "pos": [[68, 5, 19.1983], [13, 5, 33.8231]]
+    },
+    "fredvang": {
+        "label": "Fredvang Bridge",
+        "image": "projects/img/DJI_0037.jpg",
+        "pos": [[68, 4, 25.7846], [13, 11, 29.0537]]
+    },
+    "haugbukta": {
+        "label": "Haugbukta",
+        "image": "projects/img/DSC_4101-Pano.jpg",
+        "pos": [[68, 8, 44.274], [13, 32, 38.272]]
+    },
+    "unstad": {
+        "label": "Unstad Beach",
+        "image": "projects/img/DSC_6525.jpg",
+        "pos": [[68, 16, 13.4735], [13, 34, 58.4525]]
+    },
+    "hoven": {
+        "label": "Hoven",
+        "image": "projects/img/DSC_3046.jpg",
+        "pos": [[68, 17, 5.508], [14, 6, 7.8702]]
+    },
+    "rekvika": {
+        "label": "Rekvika",
+        "image": "projects/img/DSC_4016-Bearbeitet.jpg",
+        "pos": [[68, 14, 36.0653], [14, 36, 31.0015]]
+    },
+    "knutshola": {
+        "label": "Knutshola",
+        "image": "projects/img/DSC_5552.jpg",
+        "pos": [[68, 12, 45.6862], [14, 13, 8.3621]]
+    },
+    "gimsoya": {
+        "label": "Gimsoya",
+        "image": "projects/img/DSC_1077.jpg",
+        "pos": [[68, 18, 3.2311], [14, 10, 3.6175]]
+    },
+    "hoven2": {
+        "label": "Mount Hoven",
+        "image": "projects/img/DSC_1112.jpg",
+        "pos": [[68, 18, 45.2225], [14, 5, 39.3157]]
+    },
+    "austvagoya": {
+        "label": "Austvagoya",
+        "image": "projects/img/DSC_1591.jpg",
+        "pos": [[68, 14, 50.7026], [14, 8, 46.9338]]
+    },
+    "glomtinden": {
+        "label": "Glomtinden",
+        "image": "projects/img/DSC_0797-HDR.jpg",
+        "pos": [[68, 12, 21.6119], [14, 18, 22.7736]]
+    },
+    "haukland": {
+        "label": "Haukland Bay",
+        "image": "projects/img/DSC_2933-HDR-Pano.jpg",
+        "pos": [[68, 11, 57.8553], [13, 30, 42.527]]
+    },
+    "flakstad": {
+        "label": "Flakstad Beach",
+        "image": "projects/img/DSC_7240.jpg",
+        "pos": [[68, 6, 17.5719], [13, 17, 27.8202]]
+    },
+    "henningsvaer": {
+        "label": "Henningsvaer",
+        "image": "projects/img/DSC_7651.jpg",
+        "pos": [[68, 9, 18.7419], [14, 12, 20.2643]]
+    },
+    "reinefjord2": {
+        "label": "Reine Fjord",
+        "image": "projects/img/DSC_7069.jpg",
+        "pos": [[67, 55, 43.7317], [13, 5, 5.4074]]
+    },
+    "eggloysa": {
+        "label": "Eggloysa",
+        "image": "projects/img/DSC_3206.jpg",
+        "pos": [[68, 15, 7.3965], [14, 43, 45.9476]]
+    },
+    "seagull": {
+        "label": "Sea Gull",
+        "image": "projects/img/DSC_3670.jpg",
+        "pos": [[68, 19, 14.5848], [14, 55, 17.9802]]
+    },
+    "island": {
+        "label": "Island",
+        "image": "projects/img/DJI_0091.jpg",
+        "pos": [[67, 57, 47.6143], [13, 9, 1.45]]
+    },
+    "trail": {
+        "label": "Trail",
+        "image": "projects/img/DSC_5093.jpg",
+        "pos": [[68, 4, 56.501], [13, 7, 57.4984]]
+    },
+    "borgpollan": {
+        "label": "Borgpollan",
+        "image": "projects/img/DSC_9679.jpg",
+        "pos": [[68, 15, 31.8881], [13, 49, 12.8485]]
+    },
+    "seaeagle": {
+        "label": "Sea Eagle",
+        "image": "projects/img/DSC_3861.jpg",
+        "pos": [[68, 16, 43.7078], [14, 48, 1.9845]]
+    },
+    "kvalvika4": {
+        "label": "Kvalvika",
+        "image": "projects/img/DSC_4990.jpg",
+        "pos": [[68, 4, 43.0314], [13, 5, 52.019]]
+    },
+    "austvagoya2": {
+        "label": "Austvagoya",
+        "image": "projects/img/DSC_6680-Pano.jpg",
+        "pos": [[68, 15, 28.324], [14, 12, 34.084]]
+    },
+    "reine": {
+        "label": "Reine",
+        "image": "projects/img/DSC_7003-Pano.jpg",
+        "pos": [[67, 55, 48.186], [13, 4, 54.369]]
+    },
+    "flakstad2": {
+        "label": "Flakstad",
+        "image": "projects/img/DSC_6823.jpg",
+        "pos": [[68, 6, 12.9057], [13, 17, 2.913]]
+    },
+    "reine2": {
+        "label": "Reine",
+        "image": "projects/img/DSC_7119-HDR-Pano.jpg",
+        "pos": [[67, 56, 6.069], [13, 5, 37.0447]]
+    },
+    "steine": {
+        "label": "Steine",
+        "image": "projects/img/DSC_7422-HDR-Pano.jpg",
+        "pos": [[68, 7, 10.768], [13, 46, 57.22]]
+    },
+    "skifjorden": {
+        "label": "Skifjorden",
+        "image": "projects/img/DSC_7457.jpg",
+        "pos": [[68, 9, 22.4256], [13, 46, 48.8433]]
+    },
+    "malnesvika": {
+        "label": "Malnesvika",
+        "image": "projects/img/DJI_0128.jpg",
+        "pos": [[68, 13, 34.0938], [14, 3, 52.7839]]
+    },
+    "borg": {
+        "label": "Borg",
+        "image": "projects/img/DSC_5998.jpg",
+        "pos": [[68, 14, 41.9729], [13, 45, 26.0043]]
+    },
+    "brustranda": {
+        "label": "Brustranda",
+        "image": "projects/img/DSC_7349-Bearbeitet.jpg",
+        "pos": [[68, 12, 5.9945], [13, 52, 56.8178]]
+    },
+    "hoven3": {
+        "label": "Hoven",
+        "image": "projects/img/DSC_1378-Pano.jpg",
+        "pos": [[68, 19, 49.8154], [14, 6, 20.3191]]
+    },
+    "osen": {
+        "label": "Osen",
+        "image": "projects/img/DSC_4046.jpg",
+        "pos": [[68, 14, 47.4836], [14, 39, 30.1063]]
+    },
+    "trollfjorden": {
+        "label": "Trollfjorden",
+        "image": "projects/img/DSC_3447.jpg",
+        "pos": [[68, 21, 51.1213], [14, 58, 41.3898]]
+    },
+    "svolvaer": {
+        "label": "Svolvaer",
+        "image": "projects/img/DSC_3107.jpg",
+        "pos": [[68, 13, 54.758], [14, 34, 1.0358]]
+    },
+    "vareid": {
+        "label": "Vareid",
+        "image": "projects/img/DSC_4136.jpg",
+        "pos": [[68, 6, 39.0063], [13, 20, 30.0736]]
+    },
+    "flakstadpollen": {
+        "label": "Flakstadpollen",
+        "image": "projects/img/DSC_4163-Bearbeitet.jpg",
+        "pos": [[68, 4, 31.5774], [13, 19, 11.9783]]
+    }
+}

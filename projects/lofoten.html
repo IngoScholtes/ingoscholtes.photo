@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ingo Scholtes | Lofoten</title>
+    <link type="text/css" href="../css/ModuleStyleSheets.css" rel="StyleSheet" />
+    <script type="text/javascript">var jslang='DE';</script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/skeleton.css" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/menu.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#nav_menu_small").load("../menu.html");
+            $("#nav_menu_main").load("../menu.html");
+            $("#nav_menu_footer").load("../menu.html");
+            
+            $('.expand-menu').click(function(e){
+                e.preventDefault();
+                $(this).toggleClass('open');
+                if($('nav.small.top ul').is(':hidden')){
+                    $('nav.small.top ul').slideDown();
+                }else{
+                    $('nav.small.top ul').slideUp();
+                }				
+            });
+        
+            $('.slider').startSlider();
+        });
+    </script>
+    <script src="../js/simpleGallery.js" type="text/javascript"></script>
+    <link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+    <link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+    <meta charset="utf-8" />
+    <meta name="description" />
+    <meta name="author" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <style>
+        /* fix for white lines between tiles, credited to https://github.com/Leaflet/Leaflet/issues/3575 */
+        .leaflet-tile-container img {
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+        }
+
+        #mapid { width: 100%; height: 700px; border: 1px solid black }
+
+        #imgpanel {
+            width: 100%;
+            border: 1px solid black;
+            margin-top: 1cm;
+            position: absolute;
+            opacity: 1;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<nav class="small top">
+		<a class="expand-menu" href="outdoors.html#"></a>
+		<div class="clear"></div>
+		<ul id="nav_menu_small"></ul>
+		<script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+</nav>
+<section class="container">
+<div class="eleven columns">
+<nav class="main top">
+		<ul id="nav_menu_main"></ul>
+		<script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+</nav>
+</div>
+</section>
+<header class="main">
+<div class="container">
+<div class="twelve columns">
+<h2>Ingo Scholtes Photography</h2>
+<h3>Bringing the great outdoors inside.</h3>
+</div>
+</div>
+</header>
+
+<section class="container">
+    <div class="six columns">
+        <article>
+            <h3>Lofoten</h3>
+            <p>High up on the Artic Circle, the Lofoten archipelago is a natural gem at Norway's western coast. Probably referring to the islands' peculiarly shaped coastline, the Old Norse name <em>L&oacute;f&oacute;t</em> translates to <em>lynx's foot</em>. The combination of rugged mountains, spectacular seascapes, and unique light conditions with midnight sun in summer and polar light in winter turns Lofoten into one of the world's dream locations for landscape photography - a place of such overwhelming beauty that it is hard to believe and even harder to forget.</p>
+        </article>
+    </div>		
+    <div class="six columns">
+        <img alt="" class="featured" src="../portfolio/img/DSC_5053-HDR.jpg" />
+        <div style="font-size: 12px; text-align: center">Kvalvika Beach</div>
+    </div>
+</section>
+<section class="highlight">
+    <div class="container">
+        <div class="twelve columns">
+            <h3>&laquo; The Science is the North, a Picture of Rigor and Severity: [...] the most beautiful Symbol for the Immutability and Identity of Self-Confidence, which is the Foundation of all Science and philosophical Evidence.  &raquo;</h3>
+            <p>August Wilhelm Schlegel </p> <!-- Vorlesungen über schöne Literatur und Kunst</p>  -->
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <article>
+        <p>Please pan, zoom and click the map to explore Lofoten.</p>
+    <div id="mapid"></div>
+    <script>
+        // map calibration data: 
+        // 12.73 68.47851 15.07589 67.78542
+        var bounds = L.latLngBounds([[67.78542, 12.73], [68.47851, 15.07589]]);
+        bounds = bounds.pad(.15);
+
+        function rad2deg(pos) {
+
+            degrees_lat = pos[0][0] + (pos[0][1]/60) + (pos[0][2]/3600);
+            degrees_lon = pos[1][0] + (pos[1][1]/60) + (pos[1][2]/3600);
+            return [degrees_lat, degrees_lon]
+        }
+
+        function coordinate(coord){
+            if (coord[0].length==3)
+                coord = rad2deg(coord);
+            return L.latLng(coord[0], coord[1]);
+        }
+
+        // create map
+        var map = L.map('mapid', {
+            fullscreenControl: {
+                pseudoFullscreen: true // if true, fullscreen to page width and height
+            },
+            maxBounds: bounds,
+            minZoom: 9,
+            maxZoom: 12.5,
+            zoomDelta: 0.5,
+            wheelPxPerZoomLevel: 2000,
+            wheelDebounceTime: 100
+        });        
+
+        // create imageOverlay
+        //L.imageOverlay('hunsrueck_map.png', bounds).addTo(map);
+        layer = L.tileLayer('lofoten_tiles/{z}/{x}/{y}.png', {
+            tms: true, 
+            noWrap: false, 
+            bounds: bounds, 
+            attribution: 'Ingo Scholtes 2020'
+        });
+        map.addLayer(layer);
+        
+        var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                
+                // parse JSON and add markers with images
+                var spots = JSON.parse(this.responseText);
+                for (s in spots) {
+
+                    var marker = L.marker(coordinate(spots[s]['pos']));
+                    marker.properties = spots[s];                    
+                    
+                    var popup = L.popup();
+                    marker.bindPopup(popup);
+                    marker.properties.id = s;
+                    marker.properties.popup = popup;
+
+                    marker.on("click", function(e){
+                        var clickedMarker = e.target;                      
+
+                        if (map.isFullscreen()){
+                            h4 = document.createElement("h4");
+                            h4.textContent = clickedMarker.properties.label;
+                            img = document.createElement("img");
+                            img.src = '../' + clickedMarker.properties.image;
+                            img.style = "height: 400px; width: auto;";
+
+                            img.onload = function () {
+                                console.log('image loaded');                                
+                                
+                                clickedMarker.properties.popup.setContent(h4.outerHTML + img.outerHTML);                                
+                                clickedMarker.properties.popup.options.maxHeight = "auto";
+                                clickedMarker.properties.popup.options.maxWidth = "auto";
+                                clickedMarker.properties.popup.update();
+                                clickedMarker.properties.popup.openOn(map);
+                            };
+                        }
+                        else {
+                            clickedMarker.properties.popup.options.minWidth = 100;
+                            clickedMarker.properties.popup.setContent('<h4>' + clickedMarker.properties.label + '</h4>').openOn(map);
+                            $("#imgpanel").fadeOut("fast", "linear", function(){
+                                    $(this).attr("src", '../' + clickedMarker.properties.image).fadeIn("fast", "linear");
+                                });
+                        }
+                    });
+                    marker.addTo(map);
+                }
+            }
+        };
+
+        // load geo data
+		xmlhttp.open("GET", "lofoten.json", true);
+		xmlhttp.send();        
+        map.setView([68.05, 13.1645978], 11.0);
+        //map.fitBounds(bounds);
+    </script>
+    <img id="imgpanel" src=""></img>
+    <p style="font-size: smaller;">Map self-created based on Sketchy Cartography Brushes by <a href="https://www.deviantart.com/starraven/art/Sketchy-Cartography-Brushes-198264358">StarRaven</a> (<a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC 3.0</a>) and parchment texture by <a href="https://www.flickr.com/photos/calebkimbrough/4691644631/">Caleb Kimbrough</a> (<a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons BY 2.0</a>).</p>
+    </article>
+</section>
+
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+        <ul id="nav_menu_footer"></ul>
+        <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2012 - 2020 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- Script for retina images -->
+<!-- <script type="text/javascript" src="js/retina.js"></script> -->
+</body>
+</html>
