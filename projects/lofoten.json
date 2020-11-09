@@ -238,5 +238,10 @@
         "label": "Vatterfjorden",
         "image": "projects/img/DSC_4060.jpg",
         "pos": [[68, 16, 55.6906], [14, 39, 37.9833]]
+    },
+    "stone": {
+        "label": "Stone",
+        "image": "projects/img/DSC_0011.jpg",
+        "pos": [[68, 11, 21.774], [14, 20, 45.7297]]
     }
 }
