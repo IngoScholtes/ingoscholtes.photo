@@ -57,7 +57,7 @@
     "unstad": {
         "label": "Unstad Beach",
         "image": "projects/img/DSC_6525.jpg",
-        "pos": [[68, 16, 13.4735], [13, 34, 58.4525]]
+        "pos": [[68, 16, 5.4735], [13, 34, 48.4525]]
     },
     "hoven": {
         "label": "Hoven",
@@ -223,5 +223,20 @@
         "label": "Flakstadpollen",
         "image": "projects/img/DSC_4163-Bearbeitet.jpg",
         "pos": [[68, 4, 31.5774], [13, 19, 11.9783]]
+    },
+    "vareid2": {
+        "label": "Vareid",
+        "image": "projects/img/DSC_6734.jpg",
+        "pos": [[68, 6, 29.8517], [13, 20, 31.0889]]
+    },
+    "unstad2": {
+        "label": "Unstad",
+        "image": "projects/img/DSC_6048.jpg",
+        "pos": [[68, 16, 13.0041], [13, 34, 57.6507]]
+    },
+    "vatterfjorden": {
+        "label": "Vatterfjorden",
+        "image": "projects/img/DSC_4060.jpg",
+        "pos": [[68, 16, 55.6906], [14, 39, 37.9833]]
     }
 }
