@@ -405,5 +405,11 @@
         "mepos": [725, 762],
         "pos": [[47, 15, 39.12], [9, 27, 14.18]],
         "text": ""
+    },
+    "weatherhills2": {
+        "label": "Weather Hills",
+        "image": "portfolio/img/DSC_2266.jpg",        
+        "mepos": [346.8, 643],
+        "text": ""
     }
 }
