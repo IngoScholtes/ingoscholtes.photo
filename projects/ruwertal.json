@@ -307,5 +307,10 @@
         "label": "Celtic Fort",
         "image": "projects/img/DSC_5630.jpg",
         "pos": [[49, 38, 19.8976],[6, 42, 56.9817]]
+    },
+    "schoemerich2": {
+        "label": "Schoemerich",
+        "image": "projects/img/DJI_0266.jpg",
+        "pos": [[49, 38, 42.4731],[6, 42, 0.1981]]
     }
 }
