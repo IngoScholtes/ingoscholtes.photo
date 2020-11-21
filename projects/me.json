@@ -30,10 +30,10 @@
         "mepos": [370, 709]
     },
     "cascade": {
-        "label": "Withywindle",
+        "label": "Entwash",
         "image": "outdoors/2020/sihlsprung/DSC_4637-Bearbeitet.jpg",
         "pos": [[47, 12, 18.9735],  [8, 36, 30.0715]],
-        "mepos": [446, 535]
+        "mepos": [731, 804.4]
     },
     "lonelymountain": {
         "label": "Erebor",
@@ -144,10 +144,10 @@
         "mepos": [464, 349]
     },
     "ruwer2": {
-        "label": "Enchanted River",
+        "label": "Withywindle",
         "image": "portfolio/img/DSC_1434.jpg",
         "pos": [49.6290, 6.7150],
-        "mepos": [298, 1072]
+        "mepos": [436.5, 538.7]
     },
     "ruwer3": {
         "label": "Brandywine",
