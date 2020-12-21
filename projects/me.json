@@ -411,5 +411,11 @@
         "image": "portfolio/img/DSC_2266.jpg",        
         "mepos": [346.8, 643],
         "text": ""
+    },
+    "eregion": {
+        "label": "Eregion",
+        "image": "portfolio/img/DSC_1601.jpg",        
+        "mepos": [533, 792],
+        "text": ""
     }
 }
