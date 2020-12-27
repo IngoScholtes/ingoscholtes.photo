@@ -318,9 +318,24 @@
         "image": "projects/img/DSC_8188.jpg",
         "pos": [[49, 38, 28.7349], [6, 43, 44.2109]]
     },
-    "fog": {
+    "fog2": {
         "label": "Foggy night",
         "image": "projects/img/DSC_8470.jpg",
         "pos": [[49, 40, 27.1366], [6, 41, 56.7984]]
+    },
+    "burgheid4": {
+        "label": "Burg Heid",
+        "image": "projects/img/DSC_8208.jpg",
+        "pos": [[49, 38, 26.7966], [6, 43, 47.8614]]
+    },
+    "roots": {
+        "label": "Roots",
+        "image": "projects/img/DSC_8370.jpg",
+        "pos": [[49, 38, 3.0804], [6, 44, 22.2298]]
+    },
+    "gold": {
+        "label": "Gold",
+        "image": "projects/img/DSC_8237.jpg",
+        "pos": [[49, 38, 7.3807], [6, 44, 31.2929]]
     }
 }
