@@ -417,5 +417,11 @@
         "image": "projects/img/DSC_1601.jpg",        
         "mepos": [533, 792],
         "text": ""
+    },
+    "fangorn": {
+        "label": "Fangorn",
+        "image": "projects/img/DSC_8969-HDR-Bearbeitet.jpg",        
+        "mepos": [726, 862],
+        "text": ""
     }
 }
