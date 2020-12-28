@@ -26,8 +26,7 @@
     "ice2": {
         "label": "Ice",
         "image": "projects/img/DSC_4540.jpg",
-        "pos": [49.69, 6.72],
-        "mepos": [49.65602, 6.6952]
+        "pos": [49.69, 6.72]
     },
     "beaver_dam": {
         "label": "Beaver Dam",
@@ -62,8 +61,7 @@
     "ruwer2": {
         "label": "Ruwer Ice",
         "image": "portfolio/img/DSC_8509.jpg",
-        "pos": [[49, 38, 7.7693], [6, 43, 7.0144]],
-        "mepos": [4400, 1680]
+        "pos": [[49, 38, 7.7693], [6, 43, 8.3144]]
     },
     "tree": {
         "label": "Lonely Tree",
@@ -337,5 +335,15 @@
         "label": "Gold",
         "image": "projects/img/DSC_8237.jpg",
         "pos": [[49, 38, 7.3807], [6, 44, 31.2929]]
+    },
+    "mossytrees": {
+        "label": "Mossy trees",
+        "image": "projects/img/DSC_8969-HDR-Bearbeitet.jpg",
+        "pos": [[49, 38, 8.9307], [6, 43, 5.0525]]
+    },
+    "reinerterfloesschen": {
+        "label": "Reinerter Flösschen",
+        "image": "projects/img/DSC_9075-Bearbeitet.jpg",
+        "pos": [[49, 38, 34.3456],[6, 41, 54.5687]]
     }
 }
