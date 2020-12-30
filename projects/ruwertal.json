@@ -84,7 +84,7 @@
     "lampaden2": {
         "label": "Lampaden",
         "image": "projects/img/DSC_1158.jpg",
-        "pos": [[49, 38, 46.2],[6, 41, 36.672]],
+        "pos": [[49, 38, 45.7],[6, 41, 35.672]],
         "mepos": [4400, 1680]
     },
     "goldenforest": {
@@ -345,5 +345,10 @@
         "label": "Reinerter Flösschen",
         "image": "projects/img/DSC_9075-Bearbeitet.jpg",
         "pos": [[49, 38, 34.3456],[6, 41, 54.5687]]
+    },
+    "waysidecross": {
+        "label": "Wayside Cross",
+        "image": "projects/img/DSC_9441.jpg",
+        "pos": [[49, 38, 46.1649],[6, 41, 37.6611]]
     }
 }
