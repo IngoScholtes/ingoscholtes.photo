@@ -350,5 +350,20 @@
         "label": "Wayside Cross",
         "image": "portfolio/img/DSC_9441.jpg",
         "pos": [[49, 38, 46.1649],[6, 41, 37.6611]]
+    },
+    "whitehills": {
+        "label": "White Hills",
+        "image": "projects/img/DJI_0060.jpg",
+        "pos": [[49, 38, 31],[6, 42, 49]]
+    },
+    "frozenland": {
+        "label": "Frozen Land",
+        "image": "projects/img/DSC_0850-HDR.jpg",
+        "pos": [[49, 39, 9.96],[6, 41, 46.5253]]
+    },
+    "reinerterfloesschen2": {
+        "label": "Reinerter Flösschen",
+        "image": "projects/img/DSC_0123-Bearbeitet-Bearbeitet.jpg",
+        "pos": [[49, 38, 35.4994],[6, 41, 52.5283]]
     }
 }
