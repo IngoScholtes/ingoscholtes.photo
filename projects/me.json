@@ -265,8 +265,7 @@
     },
     "mirrormere": {
         "label": "Mirrormere",
-        "image": "projects/img/DSC_5261-Pano.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "image": "projects/img/DSC_2134-Pano.jpg",
         "mepos": [550, 852]
     },
     "angmar": {
@@ -301,7 +300,7 @@
     },
     "beorn": {
         "label": "Beorn's Hall",
-        "image": "outdoors/2020/fuerstein/DSC_4891.jpg",        
+        "image": "outdoors/2020/fuerstein/DSC_4891.jpg",
         "mepos": [357, 976],
         "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
         "text": ""
