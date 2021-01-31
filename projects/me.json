@@ -434,5 +434,11 @@
         "image": "projects/img/DSC_0123-Bearbeitet-Bearbeitet.jpg",        
         "mepos": [753, 815],
         "text": ""
+    },
+    "enchantedriver": {
+        "label": "Enchanted River",
+        "image": "projects/img/DSC_2279-Bearbeitet-Bearbeitet.jpg",        
+        "mepos": [319, 1091],
+        "text": ""
     }
 }
