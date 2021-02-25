@@ -370,5 +370,20 @@
         "label": "Icicles",
         "image": "projects/img/DSC_3673-Bearbeitet-Bearbeitet.jpg",
         "pos": [[49, 39, 9.2948],[6, 44, 38.8728]]
+    },
+    "dreikopf": {
+        "label": "Dreikopf",
+        "image": "projects/img/DJI_0311-Pano.jpg",
+        "pos": [[49, 39, 18.8914],[6, 41, 49.5458]]
+    },
+    "snow_trees": {
+        "label": "Snow Trees",
+        "image": "projects/img/DSC_2078.jpg",
+        "pos": [[49, 38, 52.205],[6, 40, 51.7371]]
+    },
+    "snow_plain": {
+        "label": "Snow and Clouds",
+        "image": "projects/img/DSC_0613-Bearbeitet.jpg",
+        "pos": [[49, 38, 44.502],[6, 41, 24.3812]]
     }
 }
