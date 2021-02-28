@@ -385,5 +385,15 @@
         "label": "Snow and Clouds",
         "image": "projects/img/DSC_0613-Bearbeitet.jpg",
         "pos": [[49, 38, 44.502],[6, 41, 24.3812]]
+    },
+    "sunset_hills": {
+        "label": "Sunset Hills",
+        "image": "projects/img/DJI_0415-Pano.jpg",
+        "pos": [[49, 39, 45.5103],[6, 41, 8.2024]]
+    },
+    "forest_light": {
+        "label": "Forest Light",
+        "image": "projects/img/DSC_6060-HDR-Bearbeitet.jpg",
+        "pos": [[49, 39, 3.236],[6,44,7.7831]]
     }
 }

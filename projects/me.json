@@ -440,5 +440,11 @@
         "image": "projects/img/DSC_2279-Bearbeitet-Bearbeitet.jpg",        
         "mepos": [319, 1091],
         "text": ""
+    },
+    "lothlorien3": {
+        "label": "Lothlorien",
+        "image": "projects/img/DSC_6060-HDR-Bearbeitet.jpg",
+        "mepos": [603,855],
+        "text": ""
     }
 }
