@@ -4823,7 +4823,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "A short tour ...",
+        "text": "Coming soon.",
         "coverimage": "DSC_3985-HDR.jpg",
         "images": {
             "DSC_4102.jpg": "Wadrill",
@@ -4848,12 +4848,37 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "A short tour around the Celtic Hillfort of Otzenhausen, which was built more than 2000 years ago. With a height of ten meters and a circumference of 2.5 kilometers, the Hillfort is one of Europe's most impressive archeological sites of Celtic origin.",
+        "text": "Coming soon.",
         "coverimage": "DSC_4843.jpg",
         "images": {
             "DSC_4398.jpg": "Birch trees",
             "DSC_4812.jpg": "Stag",
             "DSC_4843.jpg": "Holzbach"
+        }
+    },
+    "2021/burgheid": {
+        "title": "Burg Heid",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 12.4,
+        "ascend": 402,
+        "maxalt": 466,
+        "time_h": 2,
+        "time_m": 53,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_4843.jpg",
+        "images": {
+            "DSC_6060-HDR-Bearbeitet.jpg": "Birch trees",
+            "DSC_6086-HDR.jpg": "Heid Castle",
+            "DSC_5902.jpg": "Hinzenburg"
         }
     }
 }
