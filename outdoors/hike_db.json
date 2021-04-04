@@ -4874,11 +4874,36 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "Coming soon.",
-        "coverimage": "DSC_4843.jpg",
+        "coverimage": "DSC_6060-HDR-Bearbeitet.jpg",
         "images": {
             "DSC_6060-HDR-Bearbeitet.jpg": "Woodland light",
             "DSC_6086-HDR.jpg": "Heid Castle",
             "DSC_5902.jpg": "Hinzenburg"
+        }
+    },
+    "2021/schieferwacken": {
+        "title": "Schiefer-Wackenweg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 13.4,
+        "ascend": 420,
+        "maxalt": 419,
+        "time_h": 3,
+        "time_m": 20,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_7244-HDR.jpg",
+        "images": {
+            "DSC_7344.jpg": "Trail",
+            "DSC_7377.jpg": "Slate Quarry",
+            "DSC_7244-HDR.jpg": "Herler Wacken"
         }
     }
 }
