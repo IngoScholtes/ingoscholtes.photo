@@ -4905,5 +4905,30 @@
             "DSC_7377.jpg": "Slate Quarry",
             "DSC_7244-HDR.jpg": "Herler Wacken"
         }
+    },
+    "2021/teufelskeller": {
+        "title": "Teufelskeller",
+        "region": "Aargau",
+        "country": "Switzerland",
+        "year": "2021",
+        "month": "April",
+        "category": "T1",
+        "distance": 8.8,
+        "ascend": 319,
+        "maxalt": 592,
+        "time_h": 2,
+        "time_m": 10,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9173-HDR.jpg",
+        "images": {
+            "DSC_9173-HDR.jpg": "Teufelskeller",
+            "DSC_9121.jpg": "Baden",
+            "DSC_9272-Bearbeitet.jpg": "Blue Flowers"
+        }
     }
 }
