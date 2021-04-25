@@ -4930,5 +4930,31 @@
             "DSC_9121.jpg": "Baden",
             "DSC_9272-Bearbeitet.jpg": "Blue Flowers"
         }
+    },
+    "2021/alplihorn": {
+        "title": "Alplihorn",
+        "region": "Zug",
+        "country": "Switzerland",
+        "year": "2021",
+        "month": "April",
+        "category": "T3",
+        "distance": 9.0,
+        "ascend": 559,
+        "maxalt": 1372,
+        "time_h": 2,
+        "time_m": 26,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9483-HDR.jpg",
+        "images": {
+            "DSC_9865.jpg": "Unterägeri",
+            "DSC_0383.jpg": "Waterfall",
+            "DSC_0406.jpg": "Trees",
+            "DSC_9483-HDR.jpg": "Tree-topped Hill"
+        }
     }
 }
