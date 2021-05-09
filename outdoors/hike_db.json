@@ -4978,11 +4978,39 @@
         "coverimage": "DSC_0618.jpg",
         "images": {
             "DSC_1279.jpg": "Eiger and Mönch",
-            "DSC_0848.jpg": "Trees",
+            "DSC_0848.jpg": "Green Hill",
             "DSC_1414-Bearbeitet.jpg": "Eiger, Mönch, Jungfrau",            
             "DSC_0618.jpg": "Pilatus massif",
             "DSC_0702.jpg": "Crocus",
             "DSC_1589.jpg": "Tree line"
+        }
+    },
+    "2021/roemerkeltenpfad": {
+        "title": "Römer-Keltenpfad",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 14.4,
+        "ascend": 451,
+        "maxalt": 672,
+        "time_h": 3,
+        "time_m": 34,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2192.jpg",
+        "images": {
+            "DSC_2183.jpg": "Start",
+            "DSC_2192.jpg": "Woodland Path",
+            "DSC_2386.jpg": "Signpost",
+            "DSC_2216.jpg": "Trail",            
+            "DSC_2303.jpg": "Trail",
+            "DSC_2315.jpg": "Menhir"
         }
     }
 }
