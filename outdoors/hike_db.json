@@ -5012,5 +5012,30 @@
             "DSC_2303.jpg": "Trail",
             "DSC_2315.jpg": "Menhir"
         }
+    },
+    "2021/wilhelmskopf": {
+        "title": "Wilhelmskopf",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 14.4,
+        "ascend": 316,
+        "maxalt": 508,
+        "time_h": 3,
+        "time_m": 23,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_3009-HDR.jpg",
+        "images": {
+            "DSC_3038.jpg": "Green land",
+            "DSC_3009-HDR.jpg": "Ockfener Bach",
+            "DSC_2991-HDR.jpg": "Green Path"
+        }
     }
 }
