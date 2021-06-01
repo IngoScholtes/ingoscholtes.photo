@@ -5065,5 +5065,35 @@
             "DSC_5107-HDR.jpg": "Höllbachfall",
             "DSC_5066-HDR.jpg": "Höllbachfall"
         }
+    },
+    "2021/feldbergsteig": {
+        "title": "Feldbergsteig",
+        "region": "Black Forest",
+        "country": "Germany",
+        "year": "2021",
+        "month": "May",
+        "category": "T2",
+        "distance": 15.3,
+        "ascend": 592,
+        "maxalt": 1495,
+        "time_h": 4,
+        "time_m": 35,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_5899.jpg",
+        "images": {
+            "DSC_6754-HDR-Pano.jpg": "Feldsee",
+            "DSC_6180-HDR.jpg": "Roots and Beginnings",
+            "DSC_6085.jpg": "Feldbergtower",
+            "DSC_5899.jpg": "Feldberg Summit",
+            "DSC_6223.jpg": "Windflowers",
+            "DSC_6102.jpg": "Black Forest and Alps",
+            "DSC_6825-HDR.jpg": "Tree Roots",
+            "DSC_6355.jpg": "Black Forest"
+        }
     }
 }
