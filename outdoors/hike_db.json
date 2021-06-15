@@ -5095,5 +5095,58 @@
             "DSC_6825-HDR.jpg": "Tree Roots",
             "DSC_6355.jpg": "Black Forest"
         }
+    },
+    "2021/neunhaeuser": {
+        "title": "Neunhäuser Wald",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "June",
+        "category": "Easy Hike",
+        "distance": 15.6,
+        "ascend": 506,
+        "maxalt": 5359,
+        "time_h": 3,
+        "time_m": 34,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_7085.jpg",
+        "images": {
+            "DSC_7085.jpg": "Forest floor",
+            "DSC_7040.jpg": "Bunker",
+            "DSC_6941.jpg": "Crossing"
+        }
+    },
+    "2021/scharzberg": {
+        "title": "Wiltinger Scharzberg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "June",
+        "category": "Easy Hike",
+        "distance": 16.3,
+        "ascend": 417,
+        "maxalt": 501,
+        "time_h": 4,
+        "time_m": 0,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_8442-HDR.jpg",
+        "images": {
+            "DSC_8442-HDR.jpg": "Saar Valley Sunset",
+            "DSC_8415-HDR.jpg": "Windmill",
+            "DSC_8222.jpg": "Dreikopf",
+            "DSC_8057.jpg": "Waycross",
+            "DSC_8003.jpg": "Scharzhof",
+            "DSC_7935.jpg": "Oberemmel"
+        }
     }
 }

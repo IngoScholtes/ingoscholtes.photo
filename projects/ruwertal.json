@@ -395,5 +395,10 @@
         "label": "Forest Light",
         "image": "projects/img/DSC_6060-HDR-Bearbeitet.jpg",
         "pos": [[49, 39, 3.236],[6,44,7.7831]]
+    },
+    "dreikopf_sunset": {
+        "label": "Dreikopf Sunset",
+        "image": "outdoors/2021/scharzberg/DSC_8442-HDR.jpg",
+        "pos": [[49, 38, 51.6531], [6, 39, 45.1668]]
     }
 }
