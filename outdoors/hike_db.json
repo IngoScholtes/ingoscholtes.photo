@@ -5148,5 +5148,35 @@
             "DSC_8003.jpg": "Scharzhof",
             "DSC_7935.jpg": "Oberemmel"
         }
+    },
+    "2021/chlischijen": {
+        "title": "Chli Schijen",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2021",
+        "month": "June",
+        "category": "T5",
+        "distance": 14.4,
+        "ascend": 527,
+        "maxalt": 1531,
+        "time_h": 3,
+        "time_m": 17,
+        "rating": 2,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9358-HDR.jpg",
+        "images": {
+            "DSC_8620.jpg": "Orchid",
+            "DSC_8916.jpg": "Forest floor",
+            "DSC_8953.jpg": "Mountain path",
+            "DSC_9219-HDR.jpg": "Vierwaldstättersee",
+            "DSC_9291-HDR.jpg": "Chli Schijen",
+            "DSC_9358-HDR.jpg": "Chli Schijen"
+        }
     }
+
+    
 }
