@@ -446,5 +446,11 @@
         "image": "projects/img/DSC_6060-HDR-Bearbeitet.jpg",
         "mepos": [603,855],
         "text": ""
+    },
+    "greyhavens": {
+        "label": "Grey Havens",
+        "image": "projects/img/DSC_4154-Bearbeitet.jpg",
+        "mepos": [370,310],
+        "text": ""
     }
 }
