@@ -5177,6 +5177,31 @@
             "DSC_9291-HDR.jpg": "Chli Schijen",
             "DSC_9358-HDR.jpg": "Chli Schijen"
         }
+    },
+    "2021/hentern": {
+        "title": "Hentern",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 13.6,
+        "ascend": 296,
+        "maxalt": 453,
+        "time_h": 3,
+        "time_m": 9,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_0630-HDR.jpg",
+        "images": {
+            "DSC_0630-HDR.jpg": "Field of Gold",
+            "DSC_0642.jpg": "Old Mill",
+            "DSC_0736-HDR.jpg": "Klinkbachtal"
+        }
     }
 
     
