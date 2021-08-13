@@ -411,5 +411,31 @@
             "DSC_0180.jpg": "Sunset",
             "DSC_9754-HDR.jpg": "Beach"
         }
+    },
+    "2021/altesaar": {
+        "title": "Alte Saar",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "August",
+        "category": "River Tour",
+        "distance": 14.9,
+        "launch": "Schoden",
+        "time_h": 3,
+        "time_m": 26,
+        "track": "track.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_1783-HDR.jpg": "Vineyards",
+            "DSC_1811-HDR.jpg": "Old Saar",
+            "DSC_2063.jpg": "Schoden",
+            "DSC_1996-HDR.jpg": "Saarburg",
+            "DSC_1857-HDR.jpg": "Old Saar",
+            "DSC_2082-HDR.jpg": "Schoden Slip"
+        }
     }
 }
