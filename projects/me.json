@@ -452,5 +452,11 @@
         "image": "projects/img/DSC_4154-Bearbeitet.jpg",
         "mepos": [370,310],
         "text": ""
+    },
+    "celduin": {
+        "label": "River Running",
+        "image": "projects/img/DSC_1771-HDR.jpg",
+        "mepos": [512,1431],
+        "text": ""
     }
 }
