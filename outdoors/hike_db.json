@@ -5233,6 +5233,34 @@
             "DSC_1163-HDR.jpg": "Old road",
             "DSC_1117-HDR.jpg": "Pond"
         }
+    },
+    "2021/dreimuehlen": {
+        "title": "Dreimühlen-Wasserfall",
+        "region": "Eifel",
+        "country": "Germany",
+        "year": "2021",
+        "month": "August",
+        "category": "T1",
+        "distance": 12.2,
+        "ascend": 235,
+        "maxalt": 463,
+        "time_h": 3,
+        "time_m": 33,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2467-HDR.jpg",
+        "images": {
+            "DSC_2467-HDR.jpg": "Dreimühlen Wasserfall",
+            "DSC_2330.jpg": "Corn Maze",
+            "DSC_2505-HDR.jpg": "Dreimühlen Wasserfall",
+            "DSC_2530.jpg": "Ahbach Path",
+            "DSC_2536.jpg": "Flooded Chapel",
+            "DSC_2612-HDR.jpg": "Niederehe Monastery"
+        }
     }
 
     
