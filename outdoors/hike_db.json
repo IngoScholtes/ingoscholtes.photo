@@ -5261,7 +5261,33 @@
             "DSC_2536.jpg": "Flooded Chapel",
             "DSC_2612-HDR.jpg": "Niederehe Monastery"
         }
+    },
+    "2021/boedmeren": {
+        "title": "Boedmeren",
+        "region": "Schwyz",
+        "country": "Switzerland",
+        "year": "2021",
+        "month": "August",
+        "category": "T3",
+        "distance": 12.2,
+        "ascend": 591,
+        "maxalt": 1378,
+        "time_h": 4,
+        "time_m": 37,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "This was an unplanned tour, due to a technical failure of my car. En route to Eigliswald we unexpectedly had to stop and park the car near Fedli. We took the next hiking trail, which led us to Gschwändhütte.",
+        "coverimage": "DSC_2467-HDR.jpg",
+        "images": {
+            "DSC_2467-HDR.jpg": "Dreimühlen Wasserfall",
+            "DSC_2330.jpg": "Corn Maze",
+            "DSC_2505-HDR.jpg": "Dreimühlen Wasserfall",
+            "DSC_2530.jpg": "Ahbach Path",
+            "DSC_2536.jpg": "Flooded Chapel",
+            "DSC_2612-HDR.jpg": "Niederehe Monastery"
+        }
     }
-
-    
 }
