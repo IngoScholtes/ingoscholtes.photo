@@ -5263,7 +5263,7 @@
         }
     },
     "2021/boedmeren": {
-        "title": "Boedmeren",
+        "title": "Bödmeren",
         "region": "Schwyz",
         "country": "Switzerland",
         "year": "2021",
@@ -5279,13 +5279,14 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "This was an unplanned tour, due to a technical failure of my car. En route to Eigliswald we unexpectedly had to stop and park the car near Fedli. We took the next hiking trail, which led us to Gschwändhütte.",
+        "text": "This was an unplanned tour, inspired by a technical failure of my car en route to Eigliswald in Bödmerenwald. We unexpectedly had to stop near Fedli, from which we took the next hiking trail towards Bödmeren. After a hike to Rasishütte, we returned to Fedli via Untergschwänd. We passed the exposed trail along the Gross Band cliff range, which gave spectacular views into Bisisthal.",
         "coverimage": "DSC_4176-HDR.jpg",
         "images": {
-            "DSC_4176-HDR.jpg": "Dreimühlen Wasserfall",
+            "DSC_4176-HDR.jpg": "Obergschwend",
             "DSC_2938.jpg": "Fedli",
-            "DSC_3755.jpg": "xxx",            
-            "DJI_0906-HDR-Pano.jpg": "Boedmeren Forest",
+            "DSC_3755.jpg": "Rasishütte",            
+            "DJI_0906-HDR-Pano.jpg": "Bödmeren Forest",
+            "DSC_4124-HDR.jpg": "Forstberg and Druesberg",
             "DSC_4303.jpg": "Bisisthal",
             "DSC_4397-HDR.jpg": "Gross Band Trail",
             "DSC_4489-HDR.jpg": "Muotathal Sunset"
