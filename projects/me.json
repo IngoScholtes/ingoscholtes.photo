@@ -458,5 +458,11 @@
         "image": "projects/img/DSC_1771-HDR.jpg",
         "mepos": [512,1431],
         "text": ""
+    },
+    "mirkwood": {
+        "label": "Mirkwood",
+        "image": "projects/img/DJI_0894.jpg",
+        "mepos": [234,1084],
+        "text": ""
     }
 }
