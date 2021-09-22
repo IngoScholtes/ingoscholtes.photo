@@ -5292,6 +5292,34 @@
             "DSC_4489-HDR.jpg": "Muotathal Sunset"
         }
     },
+    "2021/heidkopf": {
+        "title": "Heidkopf",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "September",
+        "category": "Easy Hike",
+        "distance": 15.1,
+        "ascend": 451,
+        "maxalt": 506,
+        "time_h": 3,
+        "time_m": 47,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "",
+        "coverimage": "DSC_5494.jpg",
+        "images": {
+            "DSC_5421-HDR.jpg": "Forest floor",
+            "DSC_5428-HDR.jpg": "Albtal View",
+            "DSC_5494.jpg": "Trees",
+            "DSC_5606-HDR.jpg": "Path",
+            "DSC_5407.jpg": "Alb",
+            "DSC_5483.jpg": "Sunset"
+        }
+    },
     "2021/albtal": {
         "title": "Albtal",
         "region": "Black Forest",
@@ -5309,8 +5337,8 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "This was an unplanned tour, inspired by a technical failure of my car en route to Eigliswald in Bödmerenwald. We unexpectedly had to stop near Fedli, from which we took the next hiking trail towards Bödmeren. After a hike to Rasishütte, we returned to Fedli via Untergschwänd. We passed the exposed trail along the Gross Band cliff range, which gave spectacular views into Bisisthal.",
-        "coverimage": "DSC_4176-HDR.jpg",
+        "text": "Coming soon.",
+        "coverimage": "DSC_6435-HDR.jpg",
         "images": {
             "DSC_6435-HDR.jpg": "Forest floor",
             "DSC_6412-HDR.jpg": "Albtal View",
