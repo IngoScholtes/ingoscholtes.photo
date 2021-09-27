@@ -5347,5 +5347,33 @@
             "DSC_6027.jpg": "Alb",
             "DSC_6666-HDR.jpg": "Sunset"
         }
+    },
+    "2021/gipfelkopp": {
+        "title": "Gipfelkopp",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "September",
+        "category": "Easy Hike",
+        "distance": 15.8,
+        "ascend": 386,
+        "maxalt": 499,
+        "time_h": 3,
+        "time_m": 42,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_8676.jpg",
+        "images": {
+            "DSC_8219.jpg": "Summer Sky",
+            "DSC_8514.jpg": "Rumpertbach Valley",
+            "DSC_8625.jpg": "Trees",
+            "DSC_8676.jpg": "Gipfelkopp Path",
+            "DSC_8112.jpg": "Schömerich Sunflower",
+            "DSC_8082-HDR.jpg": "Forest Edge"
+        }
     }
 }
