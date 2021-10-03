@@ -5375,5 +5375,33 @@
             "DSC_8112.jpg": "Schömerich Sunflower",
             "DSC_8082-HDR.jpg": "Forest Edge"
         }
+    },
+    "2021/altschlossfelsen": {
+        "title": "Altschlossfelsen",
+        "region": "Pfalz",
+        "country": "Germany",
+        "year": "2021",
+        "month": "October",
+        "category": "Easy Hike",
+        "distance": 7.4,
+        "ascend": 173,
+        "maxalt": 380,
+        "time_h": 1,
+        "time_m": 39,
+        "rating": 2,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9039-HDR.jpg",
+        "images": {
+            "DSC_9255-HDR.jpg": "Altschlossfelsen",
+            "DSC_9266-HDR.jpg": "Altschlossfels Plateau",
+            "DSC_9039-HDR.jpg": "Hohler Felsen",
+            "DSC_8957-HDR.jpg": "Natural Table",
+            "DSC_9185-HDR.jpg": "Altschlossfelsen",
+            "DSC_9196-HDR.jpg": "Sandstone roots"
+        }
     }
 }
