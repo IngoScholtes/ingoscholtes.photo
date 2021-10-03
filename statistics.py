@@ -18,9 +18,11 @@ alt += hikes.loc['ascend'].sum()
 time_h += hikes.loc['time_h'].sum()
 time_m += hikes.loc['time_m'].sum()
 num += len(hikes.columns)
+print(len(hikes.columns))
 
 dist += canoe.loc['distance'].sum()
 num += len(canoe.columns)
+print(len(canoe.columns))
 time_h += canoe.loc['time_h'].sum()
 time_m += canoe.loc['time_m'].sum()
 
@@ -113,6 +115,8 @@ def region_stats(region):
 
 region_stats(['Hunsrück', 'Hunsr&uuml;ck', 'Eifel', 'Pfalz'])
 
+region_stats(['R&uuml;gen'])
+
 region_stats(['Black Forest'])
 
 region_stats(['Madeira'])
@@ -122,6 +126,8 @@ country_stats(['Switzerland'])
 country_stats(['Sweden', 'Norway', 'Denmark'])
 
 country_stats(['USA', 'Canada'])
+
+region_stats(['Scotland'])
 
 country_stats(['France', 'Italy', 'Spain'])
 
