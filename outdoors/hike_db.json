@@ -1568,6 +1568,56 @@
             "DSC_8760-HDR-Pano.jpg": "Glen Coe Valley"
         }
     },
+    "2016/oldmanofstorr": {
+        "title": "Old Man of Storr",
+        "region": "Scotland",
+        "country": "UK",
+        "year": "2016",
+        "month": "August",
+        "category": "T2",
+        "distance": 5.3,
+        "ascend": 415,
+        "maxalt": 522,
+        "time_h": 1,
+        "time_m": 22,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2214.jpg",
+        "images": {
+            "DSC_2214.jpg": "Old Man of Storr",
+            "DSC_2060.jpg": "Storr Pillars",
+            "DSC_2103.jpg": "Lochan"
+        }
+    },
+    "2016/fairypools": {
+        "title": "Fairy Pools",
+        "region": "Scotland",
+        "country": "UK",
+        "year": "2016",
+        "month": "August",
+        "category": "T2",
+        "distance": 4.6,
+        "ascend": 167,
+        "maxalt": 157,
+        "time_h": 1,
+        "time_m": 16,
+        "rating": 2,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2855.jpg",
+        "images": {
+            "DSC_2855.jpg": "Fairy Pools",
+            "DSC_2901.jpg": "Cascade",
+            "DSC_2763.jpg": "Black Cuilins"
+        }
+    },
     "2016/gulmen": {
         "title": "Gulmen",
         "region": "St. Gallen",
