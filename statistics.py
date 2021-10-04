@@ -113,7 +113,7 @@ def region_stats(region):
     print(time_m, ' minutes')
     print('----')
 
-region_stats(['Hunsrück', 'Hunsr&uuml;ck', 'Eifel', 'Pfalz'])
+country_stats(['Germany'])
 
 region_stats(['R&uuml;gen'])
 
