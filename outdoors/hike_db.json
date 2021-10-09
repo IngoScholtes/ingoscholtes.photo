@@ -5453,5 +5453,33 @@
             "DSC_9185-HDR.jpg": "Altschlossfelsen",
             "DSC_9196-HDR.jpg": "Sandstone roots"
         }
+    },
+    "2021/karlskopf": {
+        "title": "Karlskopf",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "October",
+        "category": "Easy Hike",
+        "distance": 11.3,
+        "ascend": 335,
+        "maxalt": 480,
+        "time_h": 2,
+        "time_m": 39,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_9973-HDR.jpg",
+        "images": {
+            "DSC_9973-HDR.jpg": "Konzer Tälchen",
+            "DSC_0367.jpg": "Lizard",
+            "DSC_0494.jpg": "Dreikopf",
+            "DSC_0073-HDR.jpg": "Scharzberg",
+            "DSC_9951-HDR.jpg": "Maple",
+            "DSC_9878-HDR.jpg": "Forest gate"
+        }
     }
 }
