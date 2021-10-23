@@ -400,5 +400,15 @@
         "label": "Dreikopf Sunset",
         "image": "outdoors/2021/scharzberg/DSC_8442-HDR.jpg",
         "pos": [[49, 38, 51.6531], [6, 39, 45.1668]]
+    },
+    "konzer_taelchen": {
+        "label": "Konzer Tälchen",
+        "image": "outdoors/2021/karlskopf/DSC_0073-HDR.jpg",
+        "pos": [[49, 40, 20.5208], [6, 38, 49.7656]]
+    },
+    "mushrooms": {
+        "label": "Mushrooms",
+        "image": "outdoors/2021/heddert/DSC_1002-Bearbeitet.jpg",
+        "pos": [[49, 38, 15.4029], [6, 43, 57.8276]]
     }
 }
