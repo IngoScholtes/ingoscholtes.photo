@@ -5506,5 +5506,30 @@
             "DSC_0930-Bearbeitet.jpg": "Mushroom Family",
             "DSC_1048-HDR.jpg": "Heidkopf"
         }
+    },
+    "2021/siebenbornweiher": {
+        "title": "Siebenbornweiher",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "October",
+        "category": "Easy Hike",
+        "distance": 12.3,
+        "ascend": 304,
+        "maxalt": 684,
+        "time_h": 3,
+        "time_m": 25,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_1300-Bearbeitet.jpg",
+        "images": {
+            "DSC_1300-Bearbeitet.jpg": "Siebenbornweiher",
+            "DSC_1500-Bearbeitet.jpg": "Holzbach",
+            "DSC_1634-HDR.jpg": "Last sunrays"
+        }
     }
 }
