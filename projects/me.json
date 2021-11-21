@@ -464,5 +464,11 @@
         "image": "projects/img/DJI_0894.jpg",
         "mepos": [234,1084],
         "text": ""
+    },
+    "Bindbole": {
+        "label": "Bindbole Wood",
+        "image": "projects/img/DSC_2824-HDR-Bearbeitet.jpg",
+        "mepos": [348,450],
+        "text": ""
     }
 }

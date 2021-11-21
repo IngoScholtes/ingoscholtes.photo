@@ -5531,5 +5531,33 @@
             "DSC_1500-Bearbeitet.jpg": "Holzbach",
             "DSC_1634-HDR.jpg": "Last sunrays"
         }
+    },
+    "2021/greimerath": {
+        "title": "Greimerather Höhenweg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2021",
+        "month": "November",
+        "category": "Easy Hike",
+        "distance": 13.1,
+        "ascend": 328,
+        "maxalt": 517,
+        "time_h": 3,
+        "time_m": 3,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_2824-HDR-Bearbeitet.jpg",
+        "images": {
+            "DSC_2820.jpg": "Path",
+            "DSC_2824-HDR-Bearbeitet.jpg": "Forest",
+            "DSC_2707.jpg": "Greimerath",
+            "DSC_2669.jpg": "Fields",
+            "DSC_2918-HDR.jpg": "Golden Hour",
+            "DSC_2798-HDR-Bearbeitet.jpg": "Forest"
+        }
     }
 }
