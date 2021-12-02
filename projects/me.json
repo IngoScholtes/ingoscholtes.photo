@@ -470,5 +470,11 @@
         "image": "projects/img/DSC_2824-HDR-Bearbeitet.jpg",
         "mepos": [348,450],
         "text": ""
-    }
+    },
+    "mirkwood2": {
+        "label": "Mirkwood",
+        "image": "outdoors/2021/greimerath/DSC_2798-HDR-Bearbeitet.jpg",
+        "mepos": [552,1043],
+        "text": ""
+    }    
 }

@@ -410,5 +410,15 @@
         "label": "Mushrooms",
         "image": "outdoors/2021/heddert/DSC_1002-Bearbeitet.jpg",
         "pos": [[49, 38, 15.4029], [6, 43, 57.8276]]
-    }
+    },
+    "darkwood1": {
+        "label": "Dark Wood",
+        "image": "outdoors/2021/greimerath/DSC_2824-HDR-Bearbeitet.jpg",
+        "pos": [[49, 35, 52.4],[6, 42, 10.2]]
+    },
+    "darkwood2": {
+        "label": "Dark Wood",
+        "image": "outdoors/2021/greimerath/DSC_2798-HDR-Bearbeitet.jpg",
+        "pos": [[49, 35, 46.1],[6, 42, 38.7]]
+    }    
 }
