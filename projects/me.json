@@ -186,7 +186,7 @@
         "mepos": [373, 735]
     },
     "rivendell": {
-        "label": "Rivendell",
+        "label": "Bruinen Valley",
         "image": "projects/img/DSC_3481.jpg",
         "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
         "mepos": [375, 823]
@@ -475,6 +475,18 @@
         "label": "Mirkwood",
         "image": "outdoors/2021/greimerath/DSC_2798-HDR-Bearbeitet.jpg",
         "mepos": [552,1043],
+        "text": ""
+    },
+    "imladris": {
+        "label": "Imladris",
+        "image": "projects/img/DSC_0451.jpg",
+        "mepos": [350,875],
+        "text": ""
+    },
+    "starkhorn": {
+        "label": "Starkhorn",
+        "image": "projects/img/DSC_7902.jpg",
+        "mepos": [863,788],
         "text": ""
     }    
 }
