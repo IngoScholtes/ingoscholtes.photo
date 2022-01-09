@@ -5559,5 +5559,30 @@
             "DSC_2918-HDR.jpg": "Golden Hour",
             "DSC_2798-HDR-Bearbeitet.jpg": "Forest"
         }
+    },
+    "2022/ruwerschleife": {
+        "title": "Ruwerschleife",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "January",
+        "category": "Easy Hike",
+        "distance": 10.0,
+        "ascend": 274,
+        "maxalt": 408,
+        "time_h": 2,
+        "time_m": 27,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_4222-Bearbeitet.jpg",
+        "images": {
+            "DSC_4153.jpg": "White Woods",
+            "DSC_4222-Bearbeitet.jpg": "Cascade",
+            "DSC_4195-Bearbeitet.jpg": "Fern in Rain"
+        }
     }
 }
