@@ -5584,5 +5584,30 @@
             "DSC_4222-Bearbeitet.jpg": "Cascade",
             "DSC_4195-Bearbeitet.jpg": "Fern in Rain"
         }
+    },
+    "2022/bonerath": {
+        "title": "Talsperre Riveris",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "March",
+        "category": "Easy Hike",
+        "distance": 13.5,
+        "ascend": 321,
+        "maxalt": 410,
+        "time_h": 3,
+        "time_m": 4,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "DSC_7043-HDR.jpg",
+        "images": {
+            "DSC_7043-HDR.jpg": "Forest",
+            "DSC_7084-HDR.jpg": "Tree Shadows",
+            "DSC_7205-HDR.jpg": "Sunset Hills"
+        }
     }
 }
