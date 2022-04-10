@@ -420,5 +420,15 @@
         "label": "Dark Wood",
         "image": "outdoors/2021/greimerath/DSC_2798-HDR-Bearbeitet.jpg",
         "pos": [[49, 35, 46.1],[6, 42, 38.7]]
-    }    
+    },
+    "siebenbornweiher": {
+        "label": "Siebenbornweiher",
+        "image": "outdoors/2021/siebenbornweiher/DSC_1300-Bearbeitet.jpg",
+        "pos": [[49, 35, 22.89],[6, 46, 27.0616]]
+    },
+    "fleschfelsen": {
+        "label": "Fleschfelsen",
+        "image": "projects/img/DSC_9005-HDR.jpg",
+        "pos": [[49, 36, 54.1154],[6, 44, 54.1594]]
+    }
 }
