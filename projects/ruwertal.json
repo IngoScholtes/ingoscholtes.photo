@@ -430,5 +430,15 @@
         "label": "Fleschfelsen",
         "image": "projects/img/DSC_9005-HDR.jpg",
         "pos": [[49, 36, 54.1154],[6, 44, 54.1594]]
+    },
+    "fairytaleforest": {
+        "label": "Fairy Tale Forest",
+        "image": "projects/img/DSC_7084-HDR-Bearbeitet.jpg",
+        "pos": [[49, 41, 21.2159],[6, 47, 1.8374]]
+    },
+    "creek": {
+        "label": "Creek",
+        "image": "outdoors/2022/narzissenwiese/DSC_9111.jpg",
+        "pos": [[49, 36, 51.5222],[6, 44, 8.3621]]
     }
 }

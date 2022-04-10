@@ -5609,5 +5609,33 @@
             "DSC_7084-HDR.jpg": "Tree Shadows",
             "DSC_7205-HDR.jpg": "Sunset Hills"
         }
+    },
+    "2022/narzissenwiese": {
+        "title": "Narzissenwiese",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 12.4,
+        "ascend": 216,
+        "maxalt": 500,
+        "time_h": 2,
+        "time_m": 53,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_9111.jpg",
+        "images": {
+            "DSC_9133.jpg": "Narcissus",
+            "DSC_9111.jpg": "Creek",
+            "DSC_8896-HDR.jpg": "Sun and Ice",
+            "DSC_9005-HDR.jpg": "Fleschfelsen",
+            "DSC_9028-HDR.jpg": "Forest floor",
+            "DSC_8863-HDR.jpg": "Stausee Flonterbach"
+        }
     }
 }
