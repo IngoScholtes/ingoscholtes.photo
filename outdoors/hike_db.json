@@ -5637,5 +5637,36 @@
             "DSC_9028-HDR.jpg": "Forest floor",
             "DSC_8863-HDR.jpg": "Stausee Flonterbach"
         }
+    },
+    "2022/klinkbachruwer": {
+        "title": "Klinkbach-Ruwer-Schleife",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 16.8,
+        "ascend": 465,
+        "maxalt": 456,
+        "time_h": 4,
+        "time_m": 4,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_9111.jpg",
+        "images": {
+            "DSC_0731.jpg": "Toad Couple",
+            "DSC_0596-HDR.jpg": "Path, Trees and Sky ",
+            "DSC_0188.jpg": "Paschel",
+            "DSC_0214-HDR.jpg": "Apple Blossom",
+            "DSC_0510.jpg": "Fir forest",
+            "DSC_0587-HDR-Bearbeitet.jpg": "Forest light",
+            "DSC_0659.jpg": "Ruwer",
+            "DSC_0762.jpg": "Burg Heid",
+            "DSC_0054.jpg": "Säuwies"
+        }
     }
 }
