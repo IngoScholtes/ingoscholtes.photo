@@ -266,11 +266,6 @@
         "image": "projects/img/DSC_0377.jpg",
         "pos": [[49, 38, 29.6016],[6, 43, 43.1177]]
     },
-    "layers": {
-        "label": "Geisemerich",
-        "image": "projects/img/DSC_9321.jpg",
-        "pos": [[49, 39, 21.28],[6, 42, 2.14]]
-    },
     "ice": {
         "label": "Ice",
         "image": "projects/img/DSC_0549.jpg",
@@ -445,5 +440,10 @@
         "label": "Rapeseed Fields",
         "image": "projects/img/DSC_1835-HDR.jpg",
         "pos": [[49, 38, 48.3988],[6, 40, 37.8327]]
+    },
+    "springtimehills": {
+        "label": "Springtime Hills",
+        "image": "projects/img/DSC_1634.jpg",
+        "pos": [[49, 39, 29.2945],[6, 42, 7.2832]]
     }
 }
