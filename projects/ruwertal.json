@@ -440,5 +440,10 @@
         "label": "Creek",
         "image": "outdoors/2022/narzissenwiese/DSC_9111.jpg",
         "pos": [[49, 36, 51.5222],[6, 44, 8.3621]]
+    },
+    "rapeseed": {
+        "label": "Rapeseed Fields",
+        "image": "projects/img/DSC_1835-HDR.jpg",
+        "pos": [[49, 38, 48.3988],[6, 40, 37.8327]]
     }
 }

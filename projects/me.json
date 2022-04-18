@@ -488,5 +488,17 @@
         "image": "projects/img/DSC_7902.jpg",
         "mepos": [863,788],
         "text": ""
-    }    
+    },
+    "tookland": {
+        "label": "Tookland",
+        "image": "projects/img/DSC_1835-HDR.jpg",
+        "mepos": [415,378],
+        "text": ""
+    },
+    "greenhillcounty": {
+        "label": "Green-hill Country",
+        "image": "projects/img/DSC_1616.jpg",
+        "mepos": [410,425],
+        "text": ""
+    }
 }
