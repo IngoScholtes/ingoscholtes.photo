@@ -5656,10 +5656,10 @@
         "map_longitude": 9.12647,
         "map_zoom": 13,
         "text": "No description.",
-        "coverimage": "DSC_9111.jpg",
+        "coverimage": "DSC_0188.jpg",
         "images": {
             "DSC_0731.jpg": "Toad Couple",
-            "DSC_0596-HDR.jpg": "Path, Trees and Sky ",
+            "DSC_0596-HDR.jpg": "Path, Trees and Sky",
             "DSC_0188.jpg": "Paschel",
             "DSC_0214-HDR.jpg": "Apple Blossom",
             "DSC_0510.jpg": "Fir forest",
@@ -5667,6 +5667,31 @@
             "DSC_0659.jpg": "Ruwer",
             "DSC_0762.jpg": "Burg Heid",
             "DSC_0054.jpg": "Säuwies"
+        }
+    },
+    "2022/oleigenbach": {
+        "title": "Oleigenbach",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 9.1,
+        "ascend": 197,
+        "maxalt": 503,
+        "time_h": 1,
+        "time_m": 58,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_1835-HDR.jpg",
+        "images": {
+            "DSC_1621.jpg": "Springtime",
+            "DSC_1761-HDR.jpg": "In the shadow",
+            "DSC_1835-HDR.jpg": "Flowering Rapeseed"
         }
     }
 }
