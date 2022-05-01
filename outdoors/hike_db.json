@@ -951,7 +951,7 @@
         "category": "Winter Hike",
         "distance": 5.3,
         "ascend": 563,
-        "maxalt": 99,
+        "maxalt": 1798,
         "time_h": 1,
         "time_m": 48,
         "rating": 1,
@@ -1844,7 +1844,7 @@
         "category": "Winter Hike",
         "distance": 9.2,
         "ascend": 282,
-        "maxalt": 1649,
+        "maxalt": 1798,
         "time_h": 2,
         "time_m": 15,
         "rating": 0,
@@ -2363,7 +2363,7 @@
         "category": "Winter Hike",
         "distance": 5.5,
         "ascend": 549,
-        "maxalt": 1789,
+        "maxalt": 1798,
         "time_h": 1,
         "time_m": 45,
         "rating": 0,
@@ -3981,7 +3981,7 @@
         "category": "Winter Hike",
         "distance": 10.3,
         "ascend": 429,
-        "maxalt": 1824,
+        "maxalt": 1798,
         "time_h": 2,
         "time_m": 50,
         "rating": 0,
@@ -5692,6 +5692,31 @@
             "DSC_1621.jpg": "Springtime",
             "DSC_1761-HDR.jpg": "In the shadow",
             "DSC_1835-HDR.jpg": "Flowering Rapeseed"
+        }
+    },
+    "2022/lonzenburg": {
+        "title": "Lonzenburg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 11.9,
+        "ascend": 279,
+        "maxalt": 436,
+        "time_h": 2,
+        "time_m": 39,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_2341.jpg",
+        "images": {
+            "DSC_2341.jpg": "Spring meadows",
+            "DSC_2284.jpg": "Tree and cloud",
+            "DSC_2660.jpg": "Forest path"
         }
     }
 }
