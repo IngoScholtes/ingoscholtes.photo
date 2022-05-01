@@ -445,5 +445,10 @@
         "label": "Springtime Hills",
         "image": "projects/img/DSC_1634.jpg",
         "pos": [[49, 39, 29.2945],[6, 42, 7.2832]]
-    }
+    },
+    "springmeadow": {
+        "label": "Spring Meadow",
+        "image": "outdoors/2022/lonzenburg/DSC_2341.jpg",
+        "pos": [[49, 41, 9.3732],[6, 44, 17.8895]]
+    }    
 }
