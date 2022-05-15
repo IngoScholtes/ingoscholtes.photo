@@ -450,5 +450,15 @@
         "label": "Spring Meadow",
         "image": "outdoors/2022/lonzenburg/DSC_2341.jpg",
         "pos": [[49, 41, 9.3732],[6, 44, 17.8895]]
+    },
+    "dandelions": {
+        "label": "Dandelions",
+        "image": "projects/img/DSC_4014-HDR.jpg",
+        "pos": [[49, 37, 5.227],[6,41,26.4184]]
+    },
+    "grasspath": {
+        "label": "Grassy path",
+        "image": "projects/img/DSC_3769-HDR.jpg",
+        "pos": [[49, 37, 0.5334],[6,40,45.4384]] 
     }    
 }
