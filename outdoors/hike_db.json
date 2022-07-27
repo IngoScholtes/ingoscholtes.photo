@@ -5718,5 +5718,30 @@
             "DSC_2284.jpg": "Tree and cloud",
             "DSC_2660.jpg": "Forest path"
         }
+    },
+    "2022/hafenlohrtal": {
+        "title": "Hafenlohrtal",
+        "region": "Spessart",
+        "country": "Germany",
+        "year": "2022",
+        "month": "July",
+        "category": "Easy Hike",
+        "distance": 19.6,
+        "ascend": 397,
+        "maxalt": 585,
+        "time_h": 4,
+        "time_m": 54,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_0118-HDR.jpg",
+        "images": {
+            "DSC_9852.jpg": "Spessart Forest",
+            "DSC_0118-HDR.jpg": "Hafenlohrtal",
+            "DSC_0290-HDR.jpg": "Rohrwiesenbach"
+        }
     }
 }
