@@ -437,5 +437,31 @@
             "DSC_1857-HDR.jpg": "Old Saar",
             "DSC_2082-HDR.jpg": "Schoden Slip"
         }
+    },
+    "2022/saarschleife": {
+        "title": "Saarschleife",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "August",
+        "category": "River Tour",
+        "distance": 13.2,
+        "launch": "Dreisbach",
+        "time_h": 3,
+        "time_m": 17,
+        "track": "track.kml",
+        "map_latitude": 47.2098,
+        "map_longitude": 8.82551,
+        "map_zoom": 13,
+        "text": "Coming soon.",
+        "coverimage": "NA",
+        "images": {
+            "DSC_2150-HDR.jpg": "Saar",
+            "DSC_2344.jpg": "River Bank",
+            "DSC_2477-HDR.jpg": "Oxbow",
+            "DSC_2038.jpg": "Water lily",
+            "DSC_1859.jpg": "Great Saar Bend",
+            "DSC_1887.jpg": "Cloef Viewpoint"
+        }
     }
 }
