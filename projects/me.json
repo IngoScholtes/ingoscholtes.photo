@@ -500,5 +500,11 @@
         "image": "projects/img/DSC_1616.jpg",
         "mepos": [410,425],
         "text": ""
+    },
+    "goldenforest2": {
+        "label": "Golden forest",
+        "image": "projects/img/DSC_7084-HDR-Bearbeitet.jpg",
+        "mepos": [576,905],
+        "text": ""
     }
 }
