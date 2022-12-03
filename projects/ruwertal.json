@@ -460,5 +460,16 @@
         "label": "Grassy path",
         "image": "projects/img/DSC_3769-HDR.jpg",
         "pos": [[49, 37, 0.5334],[6,40,45.4384]] 
+    },
+    "mushroom3": {
+        "label": "Illuminated Mushroom",
+        "image": "projects/img/DSC_2723-Bearbeitet.jpg",
+        "pos": [[49, 38, 34.614],[6,41,50.834]]
+    },
+    "paschel": {
+        "label": "Paschel",
+        "image": "projects/img/DSC_3086.jpg",
+        "pos": [[49, 38, 0.7743],[6,41,29.1]]
     }    
+
 }
