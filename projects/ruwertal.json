@@ -93,12 +93,6 @@
         "pos": [[49, 38, 37.4509], [6, 43, 4.2472]],
         "mepos": [4400, 1680]
     },
-    "windenergy": {
-        "label": "Wind Energy",
-        "image": "projects/img/DSC_5818.jpg",
-        "pos": [[49, 38, 30.3174], [6, 40, 57.5738]],
-        "mepos": [4400, 1680]
-    },
     "vierherrenborn": {
         "label": "Vierherrenborn",
         "image": "projects/img/DSC_8892.jpg",
@@ -470,6 +464,20 @@
         "label": "Paschel",
         "image": "projects/img/DSC_3086.jpg",
         "pos": [[49, 38, 0.7743],[6,41,29.1]]
-    }    
-
+    },
+    "windpower": {
+        "label": "Wind Power",
+        "image": "projects/img/DSC_3161-HDR.jpg",
+        "pos": [[49, 38, 30.3544],[6,40,57.3204]]
+    },
+    "crop": {
+        "label": "Crop Fields",
+        "image": "projects/img/DSC_4735-HDR.jpg",
+        "pos": [[49, 38, 48.4385],[6,40,47.6777]]
+    },
+    "woodlandpath": {
+        "label": "Woodland Path",
+        "image": "projects/img/DSC_6540-HDR.jpg",
+        "pos": [[49, 37, 49.4718],[6,43,11.8307]]
+    }
 }
