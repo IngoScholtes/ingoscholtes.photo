@@ -5743,5 +5743,55 @@
             "DSC_0118-HDR.jpg": "Hafenlohrtal",
             "DSC_0290-HDR.jpg": "Rohrwiesenbach"
         }
+    },
+    "2022/domburg": {
+        "title": "Domburg Beach",
+        "region": "Zeeland",
+        "country": "Netherlands",
+        "year": "2022",
+        "month": "September",
+        "category": "Easy Hike",
+        "distance": 14.3,
+        "ascend": 50,
+        "maxalt": 10,
+        "time_h": 3,
+        "time_m": 6,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_8594-HDR.jpg",
+        "images": {
+            "DSC_8594-HDR.jpg": "Lighthouse Westkapelle",
+            "DSC_8683.jpg": "Beach",
+            "DSC_8548.jpg": "Westkapelle"
+        }
+    },
+    "2022/zoutelande": {
+        "title": "Zoutelande",
+        "region": "Zeeland",
+        "country": "Netherlands",
+        "year": "2022",
+        "month": "September",
+        "category": "Easy Hike",
+        "distance": 10.6,
+        "ascend": 70,
+        "maxalt": 10,
+        "time_h": 2,
+        "time_m": 29,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_6672-HDR.jpg",
+        "images": {
+            "DSC_6672-HDR.jpg": "Westkapelle Beach",
+            "DSC_9594.jpg": "Westkapelle Beach",
+            "DSC_0528.jpg": "Zoutelande Beach"
+        }
     }
 }

@@ -129,6 +129,8 @@ country_stats(['USA', 'Canada'])
 
 region_stats(['Scotland'])
 
+country_stats(['Netherlands', 'Luxembourg', 'Belgium'])
+
 country_stats(['France', 'Italy', 'Spain'])
 
 canoe_stats()
