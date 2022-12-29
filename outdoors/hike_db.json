@@ -5443,7 +5443,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "No description.",
         "coverimage": "DSC_9039-HDR.jpg",
         "images": {
             "DSC_9255-HDR.jpg": "Altschlossfelsen",
@@ -5471,7 +5471,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "No description.",
         "coverimage": "DSC_9973-HDR.jpg",
         "images": {
             "DSC_9973-HDR.jpg": "Konzer Tälchen",
@@ -5499,7 +5499,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "No description.",
         "coverimage": "DSC_1002-Bearbeitet.jpg",
         "images": {
             "DSC_1002-Bearbeitet.jpg": "Mushrooms",
@@ -5524,7 +5524,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "No description.",
         "coverimage": "DSC_1300-Bearbeitet.jpg",
         "images": {
             "DSC_1300-Bearbeitet.jpg": "Siebenbornweiher",
@@ -5549,7 +5549,7 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "No description.",
         "coverimage": "DSC_2824-HDR-Bearbeitet.jpg",
         "images": {
             "DSC_2820.jpg": "Path",
@@ -5577,12 +5577,62 @@
         "map_latitude": 47.01687,
         "map_longitude": 9.12647,
         "map_zoom": 13,
-        "text": "Coming soon.",
+        "text": "No description.",
         "coverimage": "DSC_4222-Bearbeitet.jpg",
         "images": {
             "DSC_4153.jpg": "White Woods",
             "DSC_4222-Bearbeitet.jpg": "Cascade",
             "DSC_4195-Bearbeitet.jpg": "Fern in Rain"
+        }
+    },
+    "2022/schillingen": {
+        "title": "Schillinger Runde",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 12.8,
+        "ascend": 214,
+        "maxalt": 426,
+        "time_h": 2,
+        "time_m": 50,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_6125-HDR.jpg",
+        "images": {
+            "DSC_6125-HDR.jpg": "Plain",
+            "DSC_6046-HDR.jpg": "Clouds",
+            "DSC_6150.jpg": "Cycle Route"
+        }
+    },
+    "2022/sommerau": {
+        "title": "Sommerau Panoramaweg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 9.7,
+        "ascend": 242,
+        "maxalt": 362,
+        "time_h": 2,
+        "time_m": 22,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_6672-HDR.jpg",
+        "images": {
+            "DSC_6672-HDR.jpg": "Sommerau",
+            "DSC_6571-HDR.jpg": "Forest path",
+            "DSC_6527.jpg": "Field"
         }
     },
     "2022/bonerath": {
@@ -5717,6 +5767,106 @@
             "DSC_2341.jpg": "Spring meadows",
             "DSC_2284.jpg": "Tree and cloud",
             "DSC_2660.jpg": "Forest path"
+        }
+    },
+    "2022/rumperterbach": {
+        "title": "Rumperterbach",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 5.8,
+        "ascend": 118,
+        "maxalt": 484,
+        "time_h": 1,
+        "time_m": 15,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_4014-HDR.jpg",
+        "images": {
+            "DSC_4014-HDR.jpg": "Dandelions",
+            "DSC_3769-HDR.jpg": "Tree and cloud",
+            "DSC_3777-HDR.jpg": "Forest path"
+        }
+    },
+    "2022/kell": {
+        "title": "Kell am See",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 8.5,
+        "ascend": 127,
+        "maxalt": 446,
+        "time_h": 1,
+        "time_m": 38,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_5542-HDR.jpg",
+        "images": {
+            "DSC_5542-HDR.jpg": "Spring meadows",
+            "DSC_5487.jpg": "Tree and cloud",
+            "DSC_5397.jpg": "Forest path"
+        }
+    },
+    "2022/kimmlerhof": {
+        "title": "Kimmlerhof",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "June",
+        "category": "Easy Hike",
+        "distance": 10.4,
+        "ascend": 270,
+        "maxalt": 402,
+        "time_h": 2,
+        "time_m": 21,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_6540-HDR.jpg",
+        "images": {
+            "DSC_6540-HDR.jpg": "Spring meadows",
+            "DSC_6663.jpg": "Tree and cloud",
+            "DSC_6697.jpg": "Forest path"
+        }
+    },
+    "2022/schoemerich": {
+        "title": "Klinkbachschleife",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2022",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 9.4,
+        "ascend": 245,
+        "maxalt": 491,
+        "time_h": 2,
+        "time_m": 11,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_4940-HDR.jpg",
+        "images": {
+            "DSC_4940-HDR.jpg": "Spring meadows",
+            "DSC_5022-HDR.jpg": "Tree and cloud",
+            "DSC_5189.jpg": "Forest path"
         }
     },
     "2022/hafenlohrtal": {
