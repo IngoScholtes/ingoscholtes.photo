@@ -5871,7 +5871,7 @@
     },
     "2022/hafenlohrtal": {
         "title": "Hafenlohrtal",
-        "region": "Spessart",
+        "region": "Franconia",
         "country": "Germany",
         "year": "2022",
         "month": "July",
@@ -5942,6 +5942,59 @@
             "DSC_6672-HDR.jpg": "Westkapelle Beach",
             "DSC_9594.jpg": "Westkapelle Beach",
             "DSC_0528.jpg": "Zoutelande Beach"
+        }
+    },
+    "2023/marktbreit": {
+        "title": "Traumrunde Marktbreit",
+        "region": "Franconia",
+        "country": "Germany",
+        "year": "2023",
+        "month": "February",
+        "category": "Easy Hike",
+        "distance": 11.1,
+        "ascend": 269,
+        "maxalt": 271,
+        "time_h": 2,
+        "time_m": 35,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_1444.jpg",
+        "images": {
+            "DSC_8786.jpg": "Obernbreit Old Town",
+            "DSC_8941-HDR.jpg": "Obernbreit",
+            "DSC_8994-HDR.jpg": "Marktbreit"            
+        }
+    },
+    "2023/ockfenerbachtal": {
+        "title": "Ockfener Bachtal",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2023",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 17.6,
+        "ascend": 414,
+        "maxalt": 482,
+        "time_h": 3,
+        "time_m": 55,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_1444.jpg",
+        "images": {
+            "DSC_1444.jpg": "Outlook",
+            "DSC_1638-HDR.jpg": "Old Oak",
+            "DSC_1310.jpg": "Saarburg",
+            "DSC_1260.jpg": "Sunspot",
+            "DSC_1104.jpg": "Ockfener Bach",
+            "DSC_1042.jpg": "Woodland Path"
         }
     }
 }
