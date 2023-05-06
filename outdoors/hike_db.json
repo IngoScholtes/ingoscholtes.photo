@@ -5996,5 +5996,32 @@
             "DSC_1104.jpg": "Ockfener Bach",
             "DSC_1042.jpg": "Woodland Path"
         }
+    },
+    "2023/enterbachtal": {
+        "title": "Enterbachtal",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2023",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 16.6,
+        "ascend": 455,
+        "maxalt": 592,
+        "time_h": 4,
+        "time_m": 50,
+        "rating": 0,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_3100-HDR.jpg",
+        "images": {
+            "DSC_3100-HDR.jpg": "Enterbach",
+            "DSC_3229-HDR.jpg": "Holzerather See",
+            "DSC_3255-HDR.jpg": "Enterbach Cascade",
+            "DSC_3460-HDR.jpg": "Enterbachtal",
+            "DSC_3510.jpg": "Forest"
+        }
     }
 }
