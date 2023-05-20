@@ -6023,5 +6023,61 @@
             "DSC_3460-HDR.jpg": "Enterbachtal",
             "DSC_3510.jpg": "Forest"
         }
+    },
+    "2023/dollbergschleife": {
+        "title": "Dollbergschleife",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2023",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 12.4,
+        "ascend": 315,
+        "maxalt": 695,
+        "time_h": 3,
+        "time_m": 35,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_6250.jpg",
+        "images": {
+            "DSC_6250.jpg": "Spring forest trail",
+            "DSC_6152.jpg": "Celtic Hillfort",
+            "DSC_6012.jpg": "Primstalsperre",
+            "DSC_6669-HDR.jpg": "Altbach Cascade",
+            "DSC_6835-HDR.jpg": "Forest pond",
+            "DSC_6330.jpg": "Celtic Hillfort"
+        }
+    },
+    "2023/borgafjaell": {
+        "title": "Borgafjäll",
+        "region": "Västerbotten",
+        "country": "Sweden",
+        "year": "2023",
+        "month": "May",
+        "category": "Easy Hike",
+        "distance": 3.9,
+        "ascend": 107,
+        "maxalt": 670,
+        "time_h": 1,
+        "time_m": 3,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_4630_HDR.jpg",
+        "images": {
+            "DSC_4603-HDR.jpg": "Windbent Birches",
+            "DSC_4471-HDR.jpg": "Trees",
+            "DSC_4990.jpg": "Outlook",
+            "DSC_4630-HDR.jpg": "Klöverfjället",
+            "DSC_4401.jpg": "Jiengejehtseme",
+            "DSC_4857-HDR.jpg": "Stream"
+        }
     }
 }
