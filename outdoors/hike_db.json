@@ -6030,7 +6030,7 @@
         "country": "Germany",
         "year": "2023",
         "month": "May",
-        "category": "Easy Hike",
+        "category": "T1",
         "distance": 12.4,
         "ascend": 315,
         "maxalt": 695,
@@ -6078,6 +6078,37 @@
             "DSC_4630-HDR.jpg": "Klöverfjället",
             "DSC_4401.jpg": "Jiengejehtseme",
             "DSC_4857-HDR.jpg": "Stream"
+        }
+    },
+    "2023/hubertusrunde": {
+        "title": "Hubertusrunde",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2023",
+        "month": "May",
+        "category": "T1",
+        "distance": 11.8,
+        "ascend": 370,
+        "maxalt": 570,
+        "time_h": 1,
+        "time_m": 3,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_8886-HDR.jpg",
+        "images": {
+            "DSC_8886-HDR.jpg": "Windbent Birches",
+            "DSC_8728-HDR.jpg": "Trees",
+            "DSC_8563.jpg": "Outlook",
+            "DSC_8503-HDR.jpg": "Klöverfjället",
+            "DSC_8112-HDR.jpg": "Jiengejehtseme",
+            "DSC_8100.jpg": "Stream",
+            "DSC_7790-HDR.jpg": "Stream",
+            "DSC_7707.jpg": "Stream",
+            "DSC_7699.jpg": "Stream"
         }
     }
 }
