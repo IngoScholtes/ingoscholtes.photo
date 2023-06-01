@@ -501,10 +501,22 @@
         "mepos": [410,425],
         "text": ""
     },
-    "goldenforest2": {
-        "label": "Golden forest",
-        "image": "projects/img/DSC_7084-HDR-Bearbeitet.jpg",
-        "mepos": [576,905],
+    "woodyend": {
+        "label": "Woody End",
+        "image": "projects/img/DSC_6250.jpg",
+        "mepos": [471,421],
+        "text": ""
+    },
+    "simbelmyne": {
+        "label": "Simbelmyne",
+        "image": "projects/img/DSC_6968.jpg",
+        "mepos": [847,851],
+        "text": ""
+    },
+    "forochel": {
+        "label": "Forochel",
+        "image": "projects/img/DSC_5580-HDR.jpg",
+        "mepos": [151,430],
         "text": ""
     }
 }
