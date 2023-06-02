@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ingo Scholtes | Outdoors</title>
+<link type="text/css" href="../css/ModuleStyleSheets.css" rel="StyleSheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link href="../css/fonts.css" rel="stylesheet" />
+<link href="../css/base.css" rel="stylesheet" />
+<link href="../css/skeleton.css" rel="stylesheet" />
+<link href="../css/layout.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="../js/slider.js"></script>
+<script src="../js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#nav_menu_small").load("../menu.html");
+		$("#nav_menu_main").load("../menu.html");
+		$("#nav_menu_footer").load("../menu.html");
+		
+		$('.expand-menu').click(function(e){
+			e.preventDefault();
+			$(this).toggleClass('open');
+			if($('nav.small.top ul').is(':hidden')){
+				$('nav.small.top ul').slideDown();
+			}else{
+				$('nav.small.top ul').slideUp();
+			}				
+		});
+	
+		$('.slider').startSlider();
+	});
+</script>
+<script src="../js/simpleGallery.js" type="text/javascript"></script>
+<link href="../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<link href="../css/outdoors.css" rel="stylesheet" type="text/css" />
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+	<nav class="small top">
+		<a class="expand-menu" href="outdoors.html#"></a>
+		<div class="clear"></div>
+		<ul id="nav_menu_small"></ul>
+		<script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+	</nav>
+
+	<section class="container">
+		<div class="eleven columns">
+			<nav class="main top">
+					<ul id="nav_menu_main"></ul>
+					<script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+			</nav>
+		</div>
+	</section>
+
+<header class="main">
+	<div class="container">
+		<div class="twelve columns">
+		<h2>Ingo Scholtes Photography</h2>
+		<h3>Bringing the great outdoors inside.</h3>
+		</div>
+	</div>
+</header>
+
+<!-- <section class="container"> -->
+<!-- <div class="six columns">
+<article>
+<h3>Karfreitag</h3>
+<p>There is no better way to explore, experience and photograph natural landscapes than on trekking or hiking tours. Over the past years, I have done single- and multi-day tours on foot, bike and canoe. Here you can find detailed information for some selected journeys. I also provide some photographic impressions that hopefully inspire you to enjoy the 'great outdoors' by yourself.</p>
+</article>
+</div>		 -->
+<!-- <div class="six columns">
+<img alt="" class="featured" src="2014/oppiggraetweg/DSC_5269.jpg" />
+<div style="font-size: 12px; text-align: center">Trail near Rimlingen</div>
+</div>
+</section> -->
+<!-- <section class="highlight">
+<div class="container">
+<div class="eleven columns">
+<h3>&laquo; I watched the sky a long time, concluding that such beauty was reserved for distant, dangerous places, and that nature has good reason for exacting her own special sacrifices from those determined to witness them. &raquo; </h3>
+<p>Richard E. Byrd, Alone</p>
+</div>
+</div>
+</section> -->
+<section class="container">
+<article class="travelreport" style="margin-top:10px;">
+
+  <h4 id="hikes_hunsrueck">Traumschleifen </h4>
+	<div class="album" id="hikeshunsrueck"></div>
+    <script type="text/javascript">
+
+	addHikeTile('2011/kastelerfelsenpfad/DSC_2270.jpg', '', 'Kasteler Felsenpfad', 'Kastel-Staadt', '8.5 km', 'tour.html?id=2011/kastelerfelsenpfad', 'hikeshunsrueck');
+	addHikeTile('2011/waldsaumweg/DSC_2596.jpg', '', 'Waldsaumweg', 'Hausbach', '10.8 km', 'tour.html?id=2011/waldsaumweg', 'hikeshunsrueck');
+	addHikeTile('2011/felsenweg/DSC_3285.jpg', '', 'Felsenweg', 'Scheiden', '15.4 km', 'tour.html?id=2011/felsenweg', 'hikeshunsrueck');	
+
+	addHikeTile('2012/ruwerhochwaldschleife/DSC_3133.jpg', '', 'Ruwer-Hochwald-Schleife', 'Hentern', '13.5 km',  'tour.html?id=2012/ruwerhochwaldschleife', 'hikeshunsrueck');	
+
+    addHikeTile('2013/bergener/DSC_5531.jpg', '', 'Der Bergener', 'Bergen', '11.5 km', 'tour.html?id=2013/bergener', 'hikeshunsrueck');
+
+	addHikeTile('2014/oppiggraetweg/DSC_5269.jpg', '', 'Oppig-Grät-Weg', 'Rimlingen', '13.4 km', 'tour.html?id=2014/oppiggraetweg', 'hikeshunsrueck');
+
+	addHikeTile('2015/koenigsfeldschleife/DSC_0500.jpg', '', 'Königsfeldschleife', 'Rascheid', '14 km', 'tour.html?id=2015/koenigsfeldschleife', 'hikeshunsrueck');
+	
+	addHikeTile('2016/schluchtenpfad/DSC_5245.jpg', '', 'Schluchtenpfad', 'Rissenthal', '11.1 km', 'tour.html?id=2016/schluchtenpfad', 'hikeshunsrueck');	
+	
+	addHikeTile('2017/rockenburger/DSC_5330.jpg', '', 'Rockenburger Urwaldpfad', 'Beuren', '13.1 km', 'tour.html?id=2017/rockenburger', 'hikeshunsrueck');
+		
+	
+	addHikeTile('2018/steinhauerweg/DSC_0346.jpg', '', 'Steinhauerweg', 'Britten', '11.9 km', 'tour.html?id=2018/steinhauerweg', 'hikeshunsrueck');
+
+	addHikeTile('2019/saarschleife/DSC_5883.jpg', '', 'Saarschleife Tafeltour', 'Mettlach', '21.8 km', 'tour.html?id=2019/saarschleife', 'hikeshunsrueck');		
+	addHikeTile('2019/romikaweg/DSC_4559-Bearbeitet.jpg', '', 'Romika-Weg', 'Pluwig', '11.0 km', 'tour.html?id=2019/romikaweg', 'hikeshunsrueck');
+	addHikeTile('2020/wadrilltal/DSC_1257.jpg', '', 'Wadrilltal Tafeltour', 'Sitzerath', '12.4 km', 'tour.html?id=2020/wadrilltal', 'hikeshunsrueck');
+	addHikeTile('2020/hochwaldacht/DSC_3809.jpg', '', 'Hochwaldacht', 'Kell am See', '24.6 km', 'tour.html?id=2020/hochwaldacht', 'hikeshunsrueck');
+	addHikeTile('2021/almglueck/DSC_3985-HDR.jpg', '', 'Almglück', 'Wadrill', '7.8 km', 'tour.html?id=2021/almglueck', 'hikeshunsrueck');
+	addHikeTile('2021/zweitaelerweg/DSC_4843.jpg', '', 'Zwei-Täler-Weg', 'Weisskirchen', '9.0 km', 'tour.html?id=2021/zweitaelerweg', 'hikeshunsrueck');
+	addHikeTile('2021/schieferwacken/DSC_7244-HDR.jpg', '', 'Schiefer-Wackenweg', 'Thomm', '13.4 km', 'tour.html?id=2021/schieferwacken', 'hikeshunsrueck');
+	addHikeTile('2021/roemerkeltenpfad/DSC_2192.jpg', '', 'Römer-Keltenpfad', 'Farschweiler', '14.4 km', 'tour.html?id=2021/roemerkeltenpfad', 'hikeshunsrueck');
+	addHikeTile('2021/hahnenbachtal/DJI_0696-HDR.jpg', '', 'Hahnenbachtal', 'Bundenbach', '13.2 km', 'tour.html?id=2021/hahnenbachtal', 'hikeshunsrueck')
+	addHikeTile('2021/greimerath/DSC_2824-HDR-Bearbeitet.jpg', '', 'Greimerather Höhenweg', 'Greimerath', '13.1 km', 'tour.html?id=2021/greimerath', 'hikeshunsrueck');
+
+	addHikeTile('2023/dollbergschleife/DSC_6250.jpg', '', 'Dollbergschleife', 'Otzenhausen', '12.4 km', 'tour.html?id=2023/dollbergschleife', 'hikeshunsrueck');
+	addHikeTile('2023/hubertusrunde/DSC_8886-HDR.jpg', '', 'Hubertusrunde', 'Otzenhausen', '11.8 km', 'tour.html?id=2023/hubertusrunde', 'hikeshunsrueck');
+	
+	</script>
+
+	</article>
+	</section>
+
+	<footer>
+	<div class="container">
+	<hr />
+	<div class="nine columns">
+	<nav>
+			<ul id="nav_menu_footer"></ul>
+			<script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+	</nav>
+	</div>
+	<div class="three columns">
+	&copy; 2012 - 2023 Ingo Scholtes
+	</div>
+	</div>
+	</footer>
+	<!-- Script for retina images -->
+	<!-- <script type="text/javascript" src="js/retina.js"></script> -->
+</body>
+</html>
