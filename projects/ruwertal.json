@@ -479,5 +479,15 @@
         "label": "Woodland Path",
         "image": "projects/img/DSC_6540-HDR.jpg",
         "pos": [[49, 37, 49.4718],[6,43,11.8307]]
+    },
+    "greenfields": {
+        "label": "Green fields",
+        "image": "projects/img/DSC_7296-HDR.jpg",
+        "pos": [[49, 38, 58.0445],[6,41,48.9057]]
+    },
+    "windysunset": {
+        "label": "Windy sunset",
+        "image": "projects/img/DSC_9260-HDR.jpg",
+        "pos": [[49, 39, 3.5765],[6,42,17.3255]]
     }
 }

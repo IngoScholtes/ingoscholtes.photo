@@ -518,5 +518,11 @@
         "image": "projects/img/DSC_5580-HDR.jpg",
         "mepos": [151,430],
         "text": ""
+    },
+    "greenhillcounty2": {
+        "label": "Green-hill country",
+        "image": "projects/img/DSC_7296-HDR.jpg",
+        "mepos": [384,422],
+        "text": ""
     }
 }
