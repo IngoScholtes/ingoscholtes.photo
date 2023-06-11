@@ -6110,5 +6110,33 @@
             "DSC_7707.jpg": "Stream",
             "DSC_7699.jpg": "Stream"
         }
+    },
+    "2023/panoramaweg": {
+        "title": "Schillinger Panoramaweg",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2023",
+        "month": "June",
+        "category": "Easy Hike",
+        "distance": 16.7,
+        "ascend": 318,
+        "maxalt": 550,
+        "time_h": 4,
+        "time_m": 25,
+        "rating": 1,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_0747.jpg",
+        "images": {
+            "DSC_0747.jpg": "Thunderstorm",
+            "DSC_0725.jpg": "Solitary Tree",
+            "DSC_0001.jpg": "Steps",
+            "DSC_0032-Bearbeitet.jpg": "Forest",
+            "DSC_0139.jpg": "Corn field",
+            "DSC_0244-HDR.jpg": "Kell Reservoir"
+        }
     }
 }
