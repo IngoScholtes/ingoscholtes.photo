@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" rel="stylesheet" />
+<script type="text/javascript">var jslang='DE';</script>
+<link type="text/css" href="../../../css/ModuleStyleSheets.css" rel="styleSheet" />
+<link type="text/css" href="../../../css/base.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/skeleton.css" rel="stylesheet" />
+<link type="text/css" href="../../../css/layout.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+<script src="../../../js/slider.js"></script>
+<script src="../../../js/menu.js"></script>
+<script>
+		$(document).ready(function(){
+            $("#nav_menu_small").load("../../../menu.html");
+            $("#nav_menu_main").load("../../../menu.html");
+            $("#nav_menu_footer").load("../../../menu.html");
+
+			$('.expand-menu').click(function(e){
+				e.preventDefault();
+				$(this).toggleClass('open');
+				if($('nav.small.top ul').is(':hidden')){
+					$('nav.small.top ul').slideDown();
+				}else{
+					$('nav.small.top ul').slideUp();
+				}
+				
+			});
+			$('.slider').startSlider();
+		});
+</script>
+
+<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+<link href="../../../css/outdoors.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/outdoors.js" type="text/javascript"></script>
+<link href="../../../css/simpleGallery.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/simpleGallery.js" type="text/javascript"></script>
+<script src="../../../js/tripmaps.js" type="text/javascript"></script>
+
+
+<meta charset="utf-8" />
+<meta name="description" />
+<meta name="author" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Ingo Scholtes | Tour Details</title>
+</head>
+<body>
+        <nav class="small top">
+                <a class="expand-menu" href="../../../outdoors.html#"></a>
+                <div class="clear"></div>
+                <ul id="nav_menu_small"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_small');</script>
+        </nav>
+        <section class="container">
+        <div class="eleven columns">
+        <nav class="main top">
+                <ul id="nav_menu_main"></ul>
+                <script type="text/javascript">catSetSelectedCSSItem('nav_menu_main');</script>
+        </nav>
+        </div>
+
+        </section>
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <h2>Ingo Scholtes Photography</h2>
+        <h3>Bringing the great outdoors inside.</h3>
+        </div>
+        </div>
+        </header>
+
+		<section class="container">
+		<h3>Vulkamaarpfad: Manderscheid - Manderscheid
+        <h4>Eifel, Germany</h4>
+        <h4>August 2023</h4>
+        <article class="travelreport" style="margin-top:10px;">
+                <ul>
+                    <li>Distance</li><li>35.2 km</li>
+                    <li>Ascend:</li><li>1530 m</li>
+					<li>Max. altitude:</li><li>525 m</li>
+                    <li>Walking time:</li><li>9h 40m</li>
+                    <li>Days:</li><li>2</li>
+                </ul>
+			<p></p>
+                <p><a href="track.kml">Download GPS track</a></p>
+                
+                <div id="map" style="height:320px; width:auto;max-width: 800px; border-radius: 2px; border: 1px solid darkgray; min-width: 320px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></div>
+             
+        	<h5>Day 1: From Manderscheid to Meerfelder Maar</h5>
+             <ul style="height:108px;">
+             	<li>Start:</li><li>Manderscheid</li>
+             	<li>End:</li><li>Deudesbach</li>
+            	<li>Distance:</li><li>19.8 km</li>
+                <li>Walking time:</li><li>5h 35m</li>
+                <li>Ascend:</li><li>862 m</li>
+                <li>Max. altitude</li><li>525 m</li>
+            </ul>
+             <p></p>
+            <div class="album" id="day1"></div>
+            
+        	<h5>Day 2: From Meerfelder Maar to Manderscheid</h5>
+            <ul style="height:108px;">
+                <li>Start:</li><li>Deudesfeld</li>
+             	<li>End:</li><li>Manderscheid</li>
+            	<li>Distance:</li><li>15.5 km</li>
+                <li>Walking time:</li><li>4h 05m </li>
+                <li>Ascend:</li><li>668 m</li>
+                <li>Max. altitude:</li><li>525 m</li>
+            </ul>
+              <p></p>
+            <div class="album" id="day2"></div>
+        </article>
+
+<script defer>
+
+	//populate galleries	
+    addImageTile('DSC_9123.jpg', 'Manderscheid Castle', '', 'day1');
+    addImageTile('DSC_9391.jpg', 'Trail', '', 'day1');
+	addImageTile('DSC_9667-HDR.jpg', 'Cascade', '', 'day1');
+	addImageTile('DSC_9702.jpg', 'Kleine Kyll', '', 'day1');
+	addImageTile('DSC_9941-HDR.jpg', 'Volcanic Wasteland', '', 'day1');	
+    addImageTile('DSC_0646-HDR.jpg', 'Meerfelder Maar', '', 'day1');
+
+    addImageTile('DSC_1190.jpg', 'Meerfelder Maar', '', 'day2');	
+    addImageTile('DSC_1700.jpg', 'Landesblick Tower', '', 'day2');	
+    addImageTile('DSC_1858-HDR.jpg', 'Kleine Kyll', '', 'day2');	
+	addImageTile('DSC_1475-HDR-Pano.jpg', 'Landesblick Panorama', '', 'day2', true);
+	addImageTile('DSC_2442-HDR.jpg', 'Stony Path', '', 'day2');	
+	
+	showMap(46.96856,8.39285, 12, 'track.kml', 'map');
+</script>
+</section>
+<footer>
+<div class="container">
+<hr />
+<div class="nine columns">
+<nav>
+    <ul id="nav_menu_footer"></ul>
+    <script type="text/javascript">catSetSelectedCSSItem('nav_menu_footer');</script>
+</nav>
+</div>
+<div class="three columns">
+&copy; 2023 Ingo Scholtes
+</div>
+</div>
+</footer>
+<!-- <script type="text/javascript" src="../js/retina.js"></script> -->
+</body>
+</html>
