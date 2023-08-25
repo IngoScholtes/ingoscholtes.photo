@@ -489,5 +489,15 @@
         "label": "Windy sunset",
         "image": "projects/img/DSC_9260-HDR.jpg",
         "pos": [[49, 39, 3.5765],[6,42,17.3255]]
+    },
+    "ruwerflow": {
+        "label": "River flow",
+        "image": "projects/img/DSC_2975-HDR.jpg",
+        "pos": [[49, 38, 30.4126],[6,43,22.4494]]
+    },
+    "riverbank": {
+        "label": "River bank",
+        "image": "projects/img/DSC_3084-HDR.jpg",
+        "pos": [[49, 38, 35.6006],[6, 43, 30.789]]
     }
 }
