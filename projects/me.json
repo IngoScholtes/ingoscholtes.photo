@@ -524,5 +524,11 @@
         "image": "projects/img/DSC_7296-HDR.jpg",
         "mepos": [384,422],
         "text": ""
+    },
+    "forestpath": {
+        "label": "Get off the road!",
+        "image": "projects/img/DSC_2185.jpg",
+        "mepos": [400,458],
+        "text": ""
     }
 }
