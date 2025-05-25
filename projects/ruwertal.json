@@ -499,5 +499,15 @@
         "label": "River bank",
         "image": "projects/img/DSC_3084-HDR.jpg",
         "pos": [[49, 38, 35.6006],[6, 43, 30.789]]
+    },
+    "foggypath": {
+        "label": "Foggy Path",
+        "image": "projects/img/DSC_8968.jpg",
+        "pos": [[49, 38, 12.8419],[6, 42, 0.4259]]
+    },
+    "fireandice": {
+        "label": "Fire and Ice",
+        "image": "projects/img/DSC_8411-HDR.jpg",
+        "pos": [[49, 38, 52.6416], [6, 40, 35.3712]]
     }
 }

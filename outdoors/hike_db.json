@@ -6138,5 +6138,30 @@
             "DSC_0139.jpg": "Corn field",
             "DSC_0244-HDR.jpg": "Kell Reservoir"
         }
+    },
+    "2025/wegderstille": {
+        "title": "Weg der Stille",
+        "region": "Hunsrück",
+        "country": "Germany",
+        "year": "2025",
+        "month": "April",
+        "category": "Easy Hike",
+        "distance": 7.5,
+        "ascend": 277,
+        "maxalt": 454,
+        "time_h": 1,
+        "time_m": 45,
+        "rating": 2,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_1648.jpg",
+        "images": {
+            "DSC_1556.jpg": "Rapeseed",
+            "DSC_1612.jpg": "Ruwer",
+            "DSC_1648.jpg": "Fire Salamander"
+        }
     }
 }
