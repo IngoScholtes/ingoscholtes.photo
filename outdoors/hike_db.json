@@ -6163,5 +6163,30 @@
             "DSC_1612.jpg": "Ruwer",
             "DSC_1648.jpg": "Fire Salamander"
         }
+    },
+    "2025/capecod": {
+        "title": "Cape Cod",
+        "region": "Massachusetts",
+        "country": "USA",
+        "year": "2025",
+        "month": "October",
+        "category": "Easy Hike",
+        "distance": 25.0,
+        "ascend": 262,
+        "maxalt": 252,
+        "time_h": 4,
+        "time_m": 55,
+        "rating": 3,
+		"track": "track.kml",
+        "map_latitude": 47.01687,
+        "map_longitude": 9.12647,
+        "map_zoom": 13,
+        "text": "No description.",
+        "coverimage": "DSC_5481.jpg",
+        "images": {
+            "DSC_4568.jpg": "Provincetown",
+            "DSC_4699.jpg": "Salt Marshes",
+            "DSC_5481.jpg": "Race Beach"
+        }
     }
 }
