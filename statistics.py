@@ -13,16 +13,18 @@ time_h = 46 + 8 + 34 + 29 + 9 + 32 + 6 + 10 + 9
 time_m = 7 + 38 + 43 + 32 + 39 + 31 + 3 + 5 + 40
 num = 10
 
+print('Total')
+
 dist += hikes.loc['distance'].sum()
 alt += hikes.loc['ascend'].sum()
 time_h += hikes.loc['time_h'].sum()
 time_m += hikes.loc['time_m'].sum()
 num += len(hikes.columns)
-print(len(hikes.columns))
+# print(len(hikes.columns))
 
 dist += canoe.loc['distance'].sum()
 num += len(canoe.columns)
-print(len(canoe.columns))
+# print(len(canoe.columns))
 time_h += canoe.loc['time_h'].sum()
 time_m += canoe.loc['time_m'].sum()
 
@@ -34,6 +36,8 @@ print(time_h, ' hours')
 print(time_m, ' minutes')
 print(dist, ' km')
 print(alt, ' m')
+
+print('----')
 
 
 #%%
@@ -132,6 +136,8 @@ region_stats(['Scotland'])
 country_stats(['Netherlands', 'Luxembourg', 'Belgium'])
 
 country_stats(['France', 'Italy', 'Spain'])
+
+country_stats(['New Zealand'])
 
 canoe_stats()
     
