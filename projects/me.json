@@ -205,8 +205,7 @@
     },
     "edoras": {
         "label": "Edoras",
-        "image": "projects/img/DSC_5998.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "image": "projects/img/DJI_0451.jpg",
         "mepos": [837, 862]
     },
     "redhornpass": {
@@ -529,6 +528,12 @@
         "label": "Get off the road!",
         "image": "projects/img/DSC_2185.jpg",
         "mepos": [400,458],
+        "text": ""
+    },
+    "gollumpool": {
+        "label": "Gollum's Pool",
+        "image": "projects/img/DSC_5372-HDR.jpg",
+        "mepos": [900,1128],
         "text": ""
     }
 }
