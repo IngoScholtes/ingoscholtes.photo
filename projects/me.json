@@ -535,5 +535,11 @@
         "image": "projects/img/DSC_5372-HDR.jpg",
         "mepos": [900,1128],
         "text": ""
+    },
+    "mountdoom": {
+        "label": "Mount Doom",
+        "image": "projects/img/DSC_4071.jpg",
+        "mepos": [906,1235],
+        "text": ""
     }
 }
