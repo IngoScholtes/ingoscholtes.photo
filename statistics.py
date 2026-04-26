@@ -139,6 +139,8 @@ country_stats(['France', 'Italy', 'Spain'])
 
 country_stats(['New Zealand'])
 
+country_stats(['China', 'Taiwan'])
+
 canoe_stats()
     
 # hunsrueck = hikes.unstack()
