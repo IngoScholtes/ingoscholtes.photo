@@ -6,7 +6,7 @@ $root    = Split-Path $PSScriptRoot -Parent
 $dbPath  = Join-Path $root 'outdoors\hike_db.json'
 $outBase = Join-Path $root 'outdoors'
 
-$json = Get-Content $dbPath -Raw | ConvertFrom-Json
+$json = [System.IO.File]::ReadAllText($dbPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json
 
 $updated  = 0
 $notfound = 0
@@ -53,5 +53,5 @@ foreach ($prop in $json.PSObject.Properties) {
     $updated++
 }
 
-$json | ConvertTo-Json -Depth 10 | Set-Content $dbPath -Encoding utf8
+[System.IO.File]::WriteAllText($dbPath, ($json | ConvertTo-Json -Depth 10), (New-Object System.Text.UTF8Encoding $false))
 Write-Host "Done - updated: $updated | KML not found: $notfound | no coords: $nocoords"

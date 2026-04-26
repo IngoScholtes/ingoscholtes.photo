@@ -57,12 +57,13 @@ function markerStyle(country, type, highlighted) {
                     geometry: new ol.geom.Point(
                         ol.proj.fromLonLat([h.map_longitude, h.map_latitude])
                     ),
-                    hikeId:  id,
-                    title:   h.title,
-                    region:  h.region,
-                    country: h.country,
-                    type:    h.type || 'hike',
-                    link:    h.link || null
+                    hikeId:     id,
+                    title:      h.title,
+                    region:     h.region,
+                    country:    h.country,
+                    type:       h.type || 'hike',
+                    link:       h.link || null,
+                    coverimage: h.coverimage ? ('outdoors/' + id + '/' + h.coverimage) : null
                 });
                 f.setStyle(markerStyle(h.country, h.type, false));
                 features.push(f);
@@ -97,9 +98,14 @@ function markerStyle(country, type, highlighted) {
         if (feature) {
             overlay.setPosition(feature.getGeometry().getCoordinates());
             var label = feature.get('type') === 'trek' ? ' <em style="color:#2b6cb0">(multi-day)</em>' : '';
-            popupEl.innerHTML =
+            var img = feature.get('coverimage')
+                ? '<img src="' + feature.get('coverimage') + '" loading="lazy">'
+                : '';
+            popupEl.innerHTML = img +
+                '<div class="map-popup-text">' +
                 '<strong>' + feature.get('title') + '</strong>' + label +
-                '<br><span>' + feature.get('region') + ', ' + feature.get('country') + '</span>';
+                '<br><span>' + feature.get('region') + ', ' + feature.get('country') + '</span>' +
+                '</div>';
             map.getTargetElement().style.cursor = 'pointer';
         } else {
             overlay.setPosition(undefined);
