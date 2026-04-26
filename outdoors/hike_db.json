@@ -6414,7 +6414,7 @@
                            "map_latitude":  -39.11063,
                            "map_longitude":  175.62241,
                            "map_zoom":  12,
-                           "text":  "No description.",
+                           "text":  "New Zealand's most popular one-way alpine crossing, traversing the active volcanic landscape of Tongariro National Park — a UNESCO World Heritage site and the oldest national park in the country. The route climbs steeply from the Mangatepopo Valley past the perfectly conical flanks of Mount Ngauruhoe, across the eerie moonscape of the South Crater, and over the steaming Red Crater at 1,868 m. The highlight is the descent to the vividly coloured Emerald Lakes, their turquoise water stained by geothermal minerals against a backdrop of rust-red and ochre volcanic rock. The trail finishes through open tussock with sweeping views towards Lake Taupo.",
                            "coverimage":  "DSC_4835.jpg",
                            "images":  {
                                           "DSC_4835.jpg":  "Mount Ruapehu",
@@ -6424,7 +6424,7 @@
                                           "DSC_4290.jpg":  "Mount Ruapehu",
                                           "DSC_4634.jpg":  "Emerald Lakes",
                                           "DSC_4659.jpg":  "Emerald Lakes",
-                                          "DSC_5177.jpg":  ""
+                                          "DSC_5177.jpg":  "Ketetahi Descent"
                                       }
                        },
     "2026/waitonga":  {
@@ -6600,7 +6600,7 @@
                              "map_latitude":  -43.54826,
                              "map_longitude":  170.90025,
                              "map_zoom":  13,
-                             "text":  "No description.",
+                             "text":  "A short climb to the summit of Mount Sunday, the isolated rocky hill in the Hakatere Conservation Park that Peter Jackson chose as the filming location for Edoras in The Lord of the Rings. Rising from the vast golden tussock plains of the Rangitata valley, the hill commands a sweeping panorama of braided glacial rivers and the encircling peaks of the Southern Alps — a landscape that feels as remote and cinematic as the films suggest. Best visited at sunrise, when warm light floods the valley and the mountains cast long shadows across the plain.",
                              "coverimage":  "DJI_0451.jpg",
                              "images":  {
                                             "DJI_0451.jpg":  "Mount Sunday",
@@ -6630,7 +6630,7 @@
                             "map_latitude":  -43.185,
                             "map_longitude":  171.742,
                             "map_zoom":  14,
-                            "text":  "No description.",
+                            "text":  "A short but rewarding scramble among the iconic limestone formations of Kura Tawhiti (Castle Hill) in the Canterbury foothills. Dozens of weathered boulders and tors rise dramatically from the tussock grassland, shaped over millions of years by wind and rain. The track climbs above the valley floor, offering sweeping views of the surrounding Southern Alps and the wide Canterbury plains beyond.",
                             "coverimage":  "DSC_1563.jpg",
                             "images":  {
                                            "DSC_1214.jpg":  "Limestone Formations",
@@ -6656,7 +6656,7 @@
                           "map_latitude":  -42.42776,
                           "map_longitude":  173.70964,
                           "map_zoom":  13,
-                          "text":  "No description.",
+                          "text":  "A coastal stroll around the Kaikōura Peninsula, where the rugged Pacific shoreline meets one of New Zealand's most dramatic mountain backdrops. The walk passes rocky tide pools frequented by fur seals, with the snow-streaked peaks of the Seaward Kaikōura Range rising abruptly from the sea just inland. The area's rich marine upwelling makes Kaikōura a world-renowned spot for whales, dolphins, and seabirds — wildlife encounters are common even from the shore.",
                           "coverimage":  "DSC_2103.jpg",
                           "images":  {
                                          "DSC_1944.jpg":  "KaikÅÂura Peninsula",
@@ -6682,7 +6682,7 @@
                         "map_latitude":  -43.98464,
                         "map_longitude":  170.47098,
                         "map_zoom":  13,
-                        "text":  "No description.",
+                        "text":  "A circular walk to the summit of Mount John above the turquoise shores of Lake Tekapo in the Mackenzie Basin. The track winds through lupins and tussock to the University of Canterbury Observatory at 1,016 m, rewarding hikers with a sweeping 360° panorama: the vivid glacial blue of Lake Tekapo below, the wide Mackenzie Basin stretching to the horizon, and the snowcapped peaks of the Southern Alps filling the western skyline. The Mackenzie Basin is part of the Aoraki Mackenzie International Dark Sky Reserve, making this one of the finest stargazing locations in the Southern Hemisphere.",
                         "coverimage":  "DSC_7444.jpg",
                         "images":  {
                                        "DSC_6847.jpg":  "Lake Tekapo",
@@ -6824,7 +6824,7 @@
                                   "map_latitude":  -38.02906,
                                   "map_longitude":  175.82759,
                                   "map_zoom":  14,
-                                  "text":  "No description.",
+                                  "text":  "A gentle walk along the crystal-clear Waihou River near Putaruru in the Waikato. The spring water, emerging at a constant 11°C, gives the river its striking turquoise colour and is among the purest in New Zealand. The flat trail passes through native bush and farmland, with the vivid blue water visible throughout.",
                                   "coverimage":  "DSC_4231.jpg",
                                   "images":  {
                                                  "DSC_4231.jpg":  "Champagne Pool",
@@ -7246,6 +7246,72 @@
                           "coverimage":  "DSC_9418-HDR.jpg",
                           "images":  {
                                          "DSC_9418-HDR.jpg":  "River"
+                                     }
+                      },
+    "2025/eluanbi":  {
+                         "title":  "Eluanbi",
+                         "region":  "Pingtung",
+                         "country":  "Taiwan",
+                         "month":  "November",
+                         "year":  "2025",
+                         "track":  "track.kml",
+                         "map_latitude":  21.90172,
+                         "map_longitude":  120.85063,
+                         "map_zoom":  10,
+                         "distance":  3.6,
+                         "ascend":  113,
+                         "maxalt":  47,
+                         "time_h":  0,
+                         "time_m":  49,
+                         "category":  "Easy Hike",
+                         "text":  "No description.",
+                         "coverimage":  "DSC_0456.jpg",
+                         "images":  {
+                                        "DSC_0456.jpg":  "Eluanbi Coast"
+                                    }
+                     },
+    "2025/birnfeld":  {
+                          "title":  "Birnfeld",
+                          "region":  "Franconia",
+                          "country":  "Germany",
+                          "month":  "September",
+                          "year":  "2025",
+                          "track":  "track.kml",
+                          "map_latitude":  50.19091,
+                          "map_longitude":  10.44782,
+                          "map_zoom":  10,
+                          "distance":  8.3,
+                          "ascend":  179,
+                          "maxalt":  587,
+                          "time_h":  1,
+                          "time_m":  46,
+                          "category":  "Easy Hike",
+                          "text":  "No description.",
+                          "coverimage":  "DSC_0752.jpg",
+                          "images":  {
+                                         "DSC_0752.jpg":  "Birnfeld"
+                                     }
+                      },
+    "2025/pfaender":  {
+                          "title":  "Pfaender",
+                          "region":  "Vorarlberg",
+                          "country":  "Austria",
+                          "month":  "August",
+                          "year":  "2025",
+                          "track":  "track.kml",
+                          "map_latitude":  47.51289,
+                          "map_longitude":  9.78317,
+                          "map_zoom":  10,
+                          "distance":  5.0,
+                          "ascend":  125,
+                          "maxalt":  1050,
+                          "time_h":  1,
+                          "time_m":  5,
+                          "category":  "Easy Hike",
+                          "text":  "No description.",
+                          "coverimage":  "DSC_6878.jpg",
+                          "images":  {
+                                         "DSC_6878.jpg":  "Pfaender"
                                      }
                       }
 }
