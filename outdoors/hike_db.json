@@ -6884,6 +6884,7 @@
                                          }
                           },
     "2006/southfrance":  {
+                             "hidden":  true,
                              "title":  "Bike Tour through South France",
                              "region":  "Provence",
                              "country":  "France",
@@ -6905,6 +6906,7 @@
                              "category":  "Trekking Tour"
                          },
     "2009/corsica":  {
+                         "hidden":  true,
                          "title":  "Bike Tour around Corsica",
                          "region":  "Corse",
                          "country":  "France",

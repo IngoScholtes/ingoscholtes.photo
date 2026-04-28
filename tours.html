@@ -118,7 +118,7 @@
 <section class="container">
 <div class="six columns">
 <article>
-<h3>Activity Database</h3>
+<h3>Hike Database</h3>
 <p>Philosophers, scientists, and writers have instinctively noted the deep connection between walking and thinking for more than two millennia. Recent studies corroborate this intuition, showing that regular walks through nature improve our ability to think, help us to develop creative solutions and support both physical and mental health. To benefit from those positive effects, I go on day hikes whenever I can and wherever I am. On this page, I share a collection of my favorite routes that I have discovered over the past years.</p>
 </article>
 </div>		
@@ -138,9 +138,8 @@
 <section class="container">	
 <article class="travelreport" style="margin-top:10px;">
 <p>
-This table gives a sortable overview of all activities listed on the <a href="outdoors.html">Outdoor Activities</a> page. Favorite day hikes are marked with <span class="fa fa-star checked"></span> ratings. A click on the name of the tour takes you to a page with detailed information. For mountain hikes, the trail type column contains the difficulty level (T1-T6) according to the <a href="http://www.hikr.org/post2984.html">SAC Hiking Scale</a>. Tours in the "Easy Hike" level are below T1 level and should thus be suitable for anyone. Tours in the "Winter Hike" category pass along prepared winter hiking trails.</p>
+This table gives a sortable overview of all single- and multi-day hikes listed on the <a href="outdoors.html">Outdoor Activities</a> page. Favorite hikes are marked with <span class="fa fa-star checked"></span> ratings. A click on the name of the hike takes you to a page with detailed information. For mountain hikes, the trail type column contains the difficulty level (T1-T6) according to the <a href="http://www.hikr.org/post2984.html">SAC Hiking Scale</a>. Tours in the "Easy Hike" level are below T1 level and should thus be suitable for anyone. Tours in the "Winter Hike" category pass along prepared winter hiking trails.</p>
 <p>To get an approximate idea which hikes are possible without snow shoes or skiing equipment at a given time of the year, you can sort the table by month (and check the indicated maximum altitude). Please check weather reports, web cams, and snow reports before you start. All information and GPS data are provided as-is, with no guarantee for completeness or correctness. Some tours pass through remote and potentially dangerous mountain terrain. By using information from this page you understand that you are responsible for your own safety.</p>
-<!-- <strong>Disclaimer:</strong> Information and GPS data are provided as-is, with no guarantee for completeness or correctness. Some tours pass through remote and potentially dangerous mountain terrain, or require you to be completely self-sufficient for several days. By using information from this page you understand that you are responsible for your own safety. All indicated walking times include numerous photo stops. So you might find yourself completing the routes faster. For mountain and alpine hikes, tour descriptions contain a reference to the trail difficulty level (T1-T6) according to the <a href="http://www.hikr.org/post2984.html">SAC Hiking Scale</a>. None of the routes on this website require climbing skills. But be aware that hiking trails of T4 and above can be more dangerous than low difficulty climbing routes.<br /> -->
 </p>
 <a name="trekking"></a>
 	<table style="width: 100%; border-collapse: collapse; font-size: 80%;">
@@ -251,6 +250,7 @@ This table gives a sortable overview of all activities listed on the <a href="ou
 			countries = [];
 			body = "";
 			for (hike in hikes) {
+				if (hikes[hike].hidden) continue;
 				total_dist += hikes[hike].distance;
 				total_ascend += hikes[hike].ascend;
 				total_duration += 60 * hikes[hike].time_h + hikes[hike].time_m;
