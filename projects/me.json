@@ -71,17 +71,11 @@
         "pos": [[47, 3, 28.893], [9, 8, 58.489]],
         "mepos": [970, 1142]
     },
-    "shire1": {
-        "label": "Shire",
-        "image": "portfolio/img/DSC_7865.jpg",
-        "pos": [[47, 7, 40.1333], [8, 45, 16.5333]],
-        "mepos": [388, 394]
-    },
     "shire2": {
-        "label": "Hobbiton",
-        "image": "outdoors/2017/entlebuch/DSC_6541.jpg",
+        "label": "Bagend",
+        "image": "projects/img/DSC_3595.jpg",
         "pos": [[46, 58, 55.9622], [8, 3, 49.6205]],
-        "mepos": [379, 462]
+        "mepos": [384, 458]
     },
     "misty_mountains2": {
         "label": "Misty Mountains",
@@ -89,11 +83,11 @@
         "pos": [[47, 17, 1.41],[9, 29, 5.705]],
         "mepos": [438, 846]
     },
-    "shire3": {
-        "label": "Shire",
-        "image": "projects/img/DSC_5154.jpg",
-        "pos": [[47, 22, 7.3738], [9, 16, 57.2288]],
-        "mepos": [408, 475]
+    "greendragon": {
+        "label": "Green Dragon Inn",
+        "image": "projects/img/DSC_5201-HDR.jpg",
+        "pos": [[47, 7, 40.1333], [8, 45, 16.5333]],
+        "mepos": [397, 442]
     },
     "lake": {
         "label": "Esgaroth",
@@ -102,8 +96,8 @@
         "mepos": [276, 1165]
     },
     "shire4": {
-        "label": "Smial",
-        "image": "projects/img/DSC_1163.jpg",
+        "label": "Hobbiton",
+        "image": "projects/img/DSC_5176-HDR.jpg",
         "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
         "mepos": [391, 446]
     },
@@ -320,13 +314,6 @@
         "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
         "text": ""
     },
-    "lothlorien": {
-        "label": "Lothlorien",
-        "image": "projects/img/DSC_1698-HDR.jpg",        
-        "mepos": [575, 924],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
-        "text": ""
-    },
     "treeroots": {
         "label": "Three is Company",
         "image": "projects/img/DSC_4576-HDR.jpg",        
@@ -540,6 +527,55 @@
         "label": "Mount Doom",
         "image": "projects/img/DSC_4071.jpg",
         "mepos": [906,1235],
+        "text": ""
+    },
+    "barrowdowns": {
+        "label": "Barrow-downs",
+        "image": "outdoors/2026/castlehill/DSC_1448.jpg",
+        "pos": [[-43, 10, 12], [171, 43, 42]],
+        "mepos": [385, 542],
+        "text": ""
+    },
+    "isengard": {
+        "label": "Wizards Vale",
+        "image": "projects/img/DJI_0626.jpg",
+        "pos": [[-38, 18, 33], [176, 21, 47]],
+        "mepos": [784, 770],
+        "text": ""
+    },
+    "harrowdale": {
+        "label": "Harrowdale",
+        "image": "projects/img/DSC_0212.jpg",
+        "pos": [[-43, 49, 0], [170, 50, 0]],
+        "mepos": [845, 872],
+        "text": ""
+    },
+    "eastemnet": {
+        "label": "Eastemnet",
+        "image": "projects/img/DSC_0330.jpg",
+        "pos": [[-43, 49, 0], [170, 50, 0]],
+        "mepos": [870, 940],
+        "text": ""
+    },
+    "gorgoroth": {
+        "label": "Gorgoroth",
+        "image": "projects/img/DSC_5624.jpg",
+        "pos": [[-39, 10, 48], [175, 33, 0]],
+        "mepos": [895, 1195],
+        "text": ""
+    },
+    "riddermark": {
+        "label": "Riddermark",
+        "image": "outdoors/2026/mountsunday/DSC_0183.jpg",
+        "pos": [[-43, 36, 0], [170, 50, 0]],
+        "mepos": [858, 902],
+        "text": ""
+    },
+    "stewedrabbit": {
+        "label": "Of Herbs and Stewed Rabbit",
+        "image": "projects/img/DSC_1861.jpg",
+        "pos": [[-45, 2, 24], [168, 40, 48]],
+        "mepos": [882, 1123],
         "text": ""
     }
 }

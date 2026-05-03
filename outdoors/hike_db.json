@@ -6187,6 +6187,32 @@
                                              "DSC_1648.jpg":  "Fire Salamander"
                                          }
                           },
+    "2026/wegdeswassers":  {
+                               "title":  "Weg des Wassers",
+                               "region":  "Hunsrück",
+                               "country":  "Germany",
+                               "year":  "2026",
+                               "month":  "May",
+                               "category":  "Easy Hike",
+                               "distance":  9.0,
+                               "ascend":  267,
+                               "maxalt":  451,
+                               "time_h":  1,
+                               "time_m":  57,
+                               "rating":  1,
+                               "track":  "track.kml",
+                               "map_latitude":  49.64405,
+                               "map_longitude":  6.70879,
+                               "map_zoom":  13,
+                               "text":  "No description.",
+                               "coverimage":  "DSC_2039.jpg",
+                               "images":  {
+                                              "DSC_2039.jpg":  "Ruwer Valley",
+                                              "DSC_2088.jpg":  "Hunsrück Village",
+                                              "DSC_6213.jpg":  "Forest Path",
+                                              "DSC_6304.jpg":  "Rapeseed Fields"
+                                          }
+                           },
     "2025/rauruwer":  {
                           "title":  "Rauruwer - Burg Heid",
                           "region":  "Hunsrück",
@@ -6338,13 +6364,13 @@
                            "map_latitude":  -36.86073,
                            "map_longitude":  174.76681,
                            "map_zoom":  14,
-                           "text":  "A walk up Maungawhau/Mount Eden, the highest of Auckland's 53 volcanic cones at 196 m, rising from the inner suburbs just minutes from the city centre. The summit is dominated by a perfectly circular crater — a deep, steep-sided bowl of smooth green grass that drops sharply from the rim path. From the top, Auckland's isthmus geography is fully revealed: the Sky Tower pins the CBD in the middle, with the Waitemata Harbour and Rangitoto Island stretching to the east and the Manukau Harbour visible to the west. The city is uniquely built on and between its own volcanoes, and the view from Mount Eden makes that clearer than anywhere else.",
+                           "text":  "A walk up Maungawhau/Mount Eden, the highest of Auckland\u0027s 53 volcanic cones at 196 m, rising from the inner suburbs just minutes from the city centre. The summit is dominated by a perfectly circular crater — a deep, steep-sided bowl of smooth green grass that drops sharply from the rim path. From the top, Auckland\u0027s isthmus geography is fully revealed: the Sky Tower pins the CBD in the middle, with the Waitemata Harbour and Rangitoto Island stretching to the east and the Manukau Harbour visible to the west. The city is uniquely built on and between its own volcanoes, and the view from Mount Eden makes that clearer than anywhere else.",
                            "coverimage":  "DSC_0289-HDR.jpg",
                            "images":  {
-                   "DSC_0289-HDR.jpg":  "Auckland from the Summit",
-                   "DSC_0283-HDR-Pano.jpg":  "Auckland Isthmus Panorama",
-                   "DSC_0198.jpg":  "Volcanic Crater"
-               }
+                                          "DSC_0289-HDR.jpg":  "Auckland from the Summit",
+                                          "DSC_0283-HDR-Pano.jpg":  "Auckland Isthmus Panorama",
+                                          "DSC_0198.jpg":  "Volcanic Crater"
+                                      }
                        },
     "2026/mercerbay":  {
                            "title":  "Mercer Bay Loop Track",
@@ -6366,9 +6392,9 @@
                            "text":  "A loop walk on the wild west coast cliffs of the Waitākere Ranges, just an hour from central Auckland. The track follows the clifftop through native scrub and cabbage trees with long views along the rugged Tasman coastline, before descending steeply to the lookout above Mercer Bay — a dramatic black sand cove hemmed in by sheer green cliffs. The raw, exposed character of the west Auckland coast is on full display throughout.",
                            "coverimage":  "DSC_1474.jpg",
                            "images":  {
-                   "DSC_1474.jpg":  "West Coast Clifftop Trail",
-                   "DSC_1603.jpg":  "Mercer Bay Black Sand Beach"
-               }
+                                          "DSC_1474.jpg":  "West Coast Clifftop Trail",
+                                          "DSC_1603.jpg":  "Mercer Bay Black Sand Beach"
+                                      }
                        },
     "2026/pinnacles":  {
                            "title":  "Pinnacles Walk",
@@ -6390,12 +6416,12 @@
                            "text":  "A demanding climb through the Coromandel Forest Park to the distinctive rocky pinnacles that crown the range at 823 m. The track begins in lush subtropical forest of kauri, nikau palms, and tree ferns before breaking into open scrub and gaining height steeply via ladders and steps cut into the rock face. The summit rewards with a panoramic view across densely forested ridgelines, with the Firth of Thames visible to the west on clear days. The Pinnacles hut nearby makes this a popular overnight destination.",
                            "coverimage":  "DSC_2316.jpg",
                            "images":  {
-                   "DSC_2316.jpg":  "Pinnacles Summit",
-                   "DSC_2097-HDR-Pano.jpg":  "Coromandel Ranges Panorama",
-                   "DSC_2135.jpg":  "Steps to the Summit",
-                   "DSC_2286.jpg":  "Summit View",
-                   "DSC_1818.jpg":  "Kauri Forest"
-               }
+                                          "DSC_2316.jpg":  "Pinnacles Summit",
+                                          "DSC_2097-HDR-Pano.jpg":  "Coromandel Ranges Panorama",
+                                          "DSC_2135.jpg":  "Steps to the Summit",
+                                          "DSC_2286.jpg":  "Summit View",
+                                          "DSC_1818.jpg":  "Kauri Forest"
+                                      }
                        },
     "2026/tongariro":  {
                            "title":  "Tongariro Alpine Crossing",
@@ -6414,7 +6440,7 @@
                            "map_latitude":  -39.11063,
                            "map_longitude":  175.62241,
                            "map_zoom":  12,
-                           "text":  "New Zealand's most popular one-way alpine crossing, traversing the active volcanic landscape of Tongariro National Park — a UNESCO World Heritage site and the oldest national park in the country. The route climbs steeply from the Mangatepopo Valley past the perfectly conical flanks of Mount Ngauruhoe, across the eerie moonscape of the South Crater, and over the steaming Red Crater at 1,868 m. The highlight is the descent to the vividly coloured Emerald Lakes, their turquoise water stained by geothermal minerals against a backdrop of rust-red and ochre volcanic rock. The trail finishes through open tussock with sweeping views towards Lake Taupo.",
+                           "text":  "New Zealand\u0027s most popular one-way alpine crossing, traversing the active volcanic landscape of Tongariro National Park — a UNESCO World Heritage site and the oldest national park in the country. The route climbs steeply from the Mangatepopo Valley past the perfectly conical flanks of Mount Ngauruhoe, across the eerie moonscape of the South Crater, and over the steaming Red Crater at 1,868 m. The highlight is the descent to the vividly coloured Emerald Lakes, their turquoise water stained by geothermal minerals against a backdrop of rust-red and ochre volcanic rock. The trail finishes through open tussock with sweeping views towards Lake Taupo.",
                            "coverimage":  "DSC_4835.jpg",
                            "images":  {
                                           "DSC_4835.jpg":  "Mount Ruapehu",
@@ -6444,14 +6470,14 @@
                           "map_latitude":  -39.33055,
                           "map_longitude":  175.50315,
                           "map_zoom":  14,
-                          "text":  "A short track descending from the upper slopes of Mount Ruapehu through some of Tongariro National Park's finest subalpine scenery. The route begins among kaikawaka (mountain cedar) and tussock scrub at over 1,200 m, then crosses a boggy plateau on a long winding boardwalk with open views across the wetlands toward the snow-streaked summit of Ruapehu. A small alpine tarn mirrors the volcano on calm days. The track then drops steeply through beech forest to Waitonga Falls, the highest waterfall in the national park, fed by snowmelt cascading over a rock face into a boulder-strewn stream below.",
+                          "text":  "A short track descending from the upper slopes of Mount Ruapehu through some of Tongariro National Park\u0027s finest subalpine scenery. The route begins among kaikawaka (mountain cedar) and tussock scrub at over 1,200 m, then crosses a boggy plateau on a long winding boardwalk with open views across the wetlands toward the snow-streaked summit of Ruapehu. A small alpine tarn mirrors the volcano on calm days. The track then drops steeply through beech forest to Waitonga Falls, the highest waterfall in the national park, fed by snowmelt cascading over a rock face into a boulder-strewn stream below.",
                           "coverimage":  "DSC_5533.jpg",
                           "images":  {
-                   "DSC_5502.jpg":  "Subalpine Shrubland",
-                   "DSC_5504.jpg":  "Boardwalk through the Wetlands",
-                   "DSC_5533.jpg":  "Mount Ruapehu Reflected",
-                   "DSC_5559.jpg":  "Mountain Stream"
-               }
+                                         "DSC_5502.jpg":  "Subalpine Shrubland",
+                                         "DSC_5504.jpg":  "Boardwalk through the Wetlands",
+                                         "DSC_5533.jpg":  "Mount Ruapehu Reflected",
+                                         "DSC_5559.jpg":  "Mountain Stream"
+                                     }
                       },
     "2026/castlepoint":  {
                              "title":  "Castlepoint Lighthouse Track",
@@ -6470,7 +6496,7 @@
                              "map_latitude":  -40.8992,
                              "map_longitude":  176.22476,
                              "map_zoom":  14,
-                             "text":  "A short walk out along the narrow reef peninsula of Castlepoint on the remote Wairarapa coast, one of the most dramatic stretches of New Zealand's North Island Pacific shoreline. The track climbs to the 1913 lighthouse perched at the tip of the reef, with open ocean on one side and the sheltered lagoon and long sweep of beach on the other. The dominant landmark is Castle Rock — the imposing flat-topped monolith that gives the settlement its name, rising from the water just beyond the lighthouse. Best visited at sunset, when the lighthouse begins to glow against the fading sky and the Rock is silhouetted in deep orange above the Pacific.",
+                             "text":  "A short walk out along the narrow reef peninsula of Castlepoint on the remote Wairarapa coast, one of the most dramatic stretches of New Zealand\u0027s North Island Pacific shoreline. The track climbs to the 1913 lighthouse perched at the tip of the reef, with open ocean on one side and the sheltered lagoon and long sweep of beach on the other. The dominant landmark is Castle Rock — the imposing flat-topped monolith that gives the settlement its name, rising from the water just beyond the lighthouse. Best visited at sunset, when the lighthouse begins to glow against the fading sky and the Rock is silhouetted in deep orange above the Pacific.",
                              "coverimage":  "DSC_6475.jpg",
                              "images":  {
                                             "DSC_6243.jpg":  "Castlepoint Beach",
@@ -6498,16 +6524,16 @@
                              "map_latitude":  -40.9074,
                              "map_longitude":  176.22136,
                              "map_zoom":  14,
-                             "text":  "A short but steep coastal scramble on the Hawke's Bay coast, dropping down to the secluded horseshoe of Deliverance Cove. The track climbs over exposed headlands where wind-eroded limestone formations frame sweeping views along the coastline, before descending sharply to a sandy beach enclosed by white cliffs and sea stacks. The turquoise water inside the cove is remarkably calm compared to the open ocean beyond the rocky outcrops — a hidden gem reached by barely more than a kilometre of rough trail from the road.",
+                             "text":  "A short but steep coastal scramble on the Hawke\u0027s Bay coast, dropping down to the secluded horseshoe of Deliverance Cove. The track climbs over exposed headlands where wind-eroded limestone formations frame sweeping views along the coastline, before descending sharply to a sandy beach enclosed by white cliffs and sea stacks. The turquoise water inside the cove is remarkably calm compared to the open ocean beyond the rocky outcrops — a hidden gem reached by barely more than a kilometre of rough trail from the road.",
                              "coverimage":  "DSC_6571-HDR-Pano.jpg",
                              "images":  {
-                   "DSC_7363.jpg":  "Deliverance Cove",
-                   "DSC_6571-HDR-Pano.jpg":  "Cove Panorama",
-                   "DSC_6804.jpg":  "Hawke's Bay Coastline",
-                   "DSC_6971.jpg":  "Limestone Rock Formation",
-                   "DSC_7085.jpg":  "Descent to the Cove",
-                   "DSC_7336.jpg":  "Cove at Low Tide"
-               }
+                                            "DSC_7363.jpg":  "Deliverance Cove",
+                                            "DSC_6571-HDR-Pano.jpg":  "Cove Panorama",
+                                            "DSC_6804.jpg":  "Hawke\u0027s Bay Coastline",
+                                            "DSC_6971.jpg":  "Limestone Rock Formation",
+                                            "DSC_7085.jpg":  "Descent to the Cove",
+                                            "DSC_7336.jpg":  "Cove at Low Tide"
+                                        }
                          },
     "2026/mountvictoria":  {
                                "title":  "Mount Victoria",
@@ -6526,7 +6552,7 @@
                                "map_latitude":  -41.29834,
                                "map_longitude":  174.78909,
                                "map_zoom":  14,
-                               "text":  "A short walk through the forested slopes and open summit of Mount Victoria, the 196 m hill that rises directly above Wellington's city centre. The Outer Green Belt trail passes through a hollow in the pine forest that Peter Jackson used as the 'Get off the road!' hiding spot in The Fellowship of the Ring — the sunken bank and overhanging roots are instantly recognisable to fans. The summit lookout above offers one of New Zealand's finest urban panoramas: Wellington Harbour, the CBD, and the surrounding hills laid out below, particularly spectacular at dusk when the city lights begin to reflect off the water.",
+                               "text":  "A short walk through the forested slopes and open summit of Mount Victoria, the 196 m hill that rises directly above Wellington\u0027s city centre. The Outer Green Belt trail passes through a hollow in the pine forest that Peter Jackson used as the \u0027Get off the road!\u0027 hiding spot in The Fellowship of the Ring — the sunken bank and overhanging roots are instantly recognisable to fans. The summit lookout above offers one of New Zealand\u0027s finest urban panoramas: Wellington Harbour, the CBD, and the surrounding hills laid out below, particularly spectacular at dusk when the city lights begin to reflect off the water.",
                                "coverimage":  "DSC_8136.jpg",
                                "images":  {
                                               "DSC_7964.jpg":  "Hobbit Hideout",
@@ -6551,12 +6577,12 @@
                                "map_latitude":  -41.29935,
                                "map_longitude":  174.82448,
                                "map_zoom":  14,
-                               "text":  "A quiet walk through the forested hills of the Miramar Peninsula on Wellington's eastern edge, largely off the tourist trail. The track weaves through dense regenerating bush where overarching branches close overhead to form a green tunnel, giving the path an almost enchanted quality. Emerging from the trees, the summit opens to views across Wellington Harbour toward the colourful hillside suburbs on the far shore, a different and more intimate perspective on the city than the better-known Mount Victoria lookout nearby.",
+                               "text":  "A quiet walk through the forested hills of the Miramar Peninsula on Wellington\u0027s eastern edge, largely off the tourist trail. The track weaves through dense regenerating bush where overarching branches close overhead to form a green tunnel, giving the path an almost enchanted quality. Emerging from the trees, the summit opens to views across Wellington Harbour toward the colourful hillside suburbs on the far shore, a different and more intimate perspective on the city than the better-known Mount Victoria lookout nearby.",
                                "coverimage":  "DSC_8204.jpg",
                                "images":  {
-                   "DSC_8204.jpg":  "Forest Tunnel",
-                   "DSC_8235.jpg":  "Wellington Harbour View"
-               }
+                                              "DSC_8204.jpg":  "Forest Tunnel",
+                                              "DSC_8235.jpg":  "Wellington Harbour View"
+                                          }
                            },
     "2026/craterrim":  {
                            "title":  "Crater Rim Walkway",
@@ -6656,7 +6682,7 @@
                           "map_latitude":  -42.42776,
                           "map_longitude":  173.70964,
                           "map_zoom":  13,
-                          "text":  "A coastal stroll around the Kaikōura Peninsula, where the rugged Pacific shoreline meets one of New Zealand's most dramatic mountain backdrops. The walk passes rocky tide pools frequented by fur seals, with the snow-streaked peaks of the Seaward Kaikōura Range rising abruptly from the sea just inland. The area's rich marine upwelling makes Kaikōura a world-renowned spot for whales, dolphins, and seabirds — wildlife encounters are common even from the shore.",
+                          "text":  "A coastal stroll around the Kaikōura Peninsula, where the rugged Pacific shoreline meets one of New Zealand\u0027s most dramatic mountain backdrops. The walk passes rocky tide pools frequented by fur seals, with the snow-streaked peaks of the Seaward Kaikōura Range rising abruptly from the sea just inland. The area\u0027s rich marine upwelling makes Kaikōura a world-renowned spot for whales, dolphins, and seabirds — wildlife encounters are common even from the shore.",
                           "coverimage":  "DSC_2103.jpg",
                           "images":  {
                                          "DSC_1944.jpg":  "KaikÅÂura Peninsula",
@@ -6713,7 +6739,7 @@
                               "map_latitude":  -43.71404,
                               "map_longitude":  170.0936,
                               "map_zoom":  13,
-                              "text":  "An easy but spectacular walk up the Hooker Valley at the foot of Aoraki/Mount Cook, New Zealand's highest peak. The flat trail crosses a series of swing bridges over the braided Hooker River, passing through golden tussock meadows with glaciated walls rising on both sides. Aoraki dominates the skyline throughout, and on still days forms spectacularly in lenticular clouds that wrap around its summit.",
+                              "text":  "An easy but spectacular walk up the Hooker Valley at the foot of Aoraki/Mount Cook, New Zealand\u0027s highest peak. The flat trail crosses a series of swing bridges over the braided Hooker River, passing through golden tussock meadows with glaciated walls rising on both sides. Aoraki dominates the skyline throughout, and on still days forms spectacularly in lenticular clouds that wrap around its summit.",
                               "coverimage":  "DSC_9036-HDR.jpg",
                               "images":  {
                                              "DSC_9036-HDR.jpg":  "Muller Lake",
@@ -6743,7 +6769,7 @@
                           "map_latitude":  -44.6835,
                           "map_longitude":  169.0586,
                           "map_zoom":  13,
-                          "text":  "One of the South Island's most celebrated day hikes, climbing 1,264 m of open tussock ridge above Wanaka to a summit at 1,578 m. The relentless ascent offers no shelter but rewards hikers at every turn: Lake Wanaka slowly reveals itself far below, its deep blue surface flanked by receding ranges. Near the top, the path narrows to a T4 grade trail on a knife-edge ridge, with the full length of the lake and the glacier-carved peaks of the Southern Alps spread across the horizon. Hardy speargrass plants line the upper path, and in clear conditions the view from the summit is one of the finest in New Zealand.",
+                          "text":  "One of the South Island\u0027s most celebrated day hikes, climbing 1,264 m of open tussock ridge above Wanaka to a summit at 1,578 m. The relentless ascent offers no shelter but rewards hikers at every turn: Lake Wanaka slowly reveals itself far below, its deep blue surface flanked by receding ranges. Near the top, the path narrows to a T4 grade trail on a knife-edge ridge, with the full length of the lake and the glacier-carved peaks of the Southern Alps spread across the horizon. Hardy speargrass plants line the upper path, and in clear conditions the view from the summit is one of the finest in New Zealand.",
                           "coverimage":  "DSC_0573.jpg",
                           "images":  {
                                          "DSC_0225.jpg":  "Lake Wanaka",
@@ -6771,11 +6797,11 @@
                                  "text":  "A peaceful out-and-back walk along the shore of Lake Wakatipu, starting from Twelve Mile Creek just west of Queenstown. The track winds through native kānuka and beech forest before opening onto the clear, glacier-fed waters of the lake. Views across to the jagged peaks of the Remarkables and the surrounding mountains accompany hikers throughout.",
                                  "coverimage":  "DSC_1557.jpg",
                                  "images":  {
-                   "DSC_1557.jpg":  "Lake Wakatipu",
-                   "DSC_1785.jpg":  "Lake Wakatipu Shoreline",
-                   "DSC_1861.jpg":  "Historic Slate Quarry",
-                   "DSC_2004.jpg":  "Native Bush View"
-               }
+                                                "DSC_1557.jpg":  "Lake Wakatipu",
+                                                "DSC_1785.jpg":  "Lake Wakatipu Shoreline",
+                                                "DSC_1861.jpg":  "Historic Slate Quarry",
+                                                "DSC_2004.jpg":  "Native Bush View"
+                                            }
                              },
     "2026/hobbiton":  {
                           "title":  "Hobbiton",
@@ -6794,7 +6820,7 @@
                           "map_latitude":  -37.85839,
                           "map_longitude":  175.68105,
                           "map_zoom":  14,
-                          "text":  "A guided walk through the original Hobbiton movie set on a sheep farm near Matamata in the Waikato, built for Peter Jackson's Lord of the Rings and Hobbit trilogies and kept permanently intact. Forty-four Hobbit holes are scattered across the immaculately maintained hillside, each with its own garden, washing line, and props. Visited on the evening banquet tour, the set takes on a particularly magical quality as the sun fades: warm light spills from round windows, coloured lanterns sway outside the Green Dragon Inn, and the whole village reflects in the mill pond below — a scene that looks almost more real at dusk than in daylight.",
+                          "text":  "A guided walk through the original Hobbiton movie set on a sheep farm near Matamata in the Waikato, built for Peter Jackson\u0027s Lord of the Rings and Hobbit trilogies and kept permanently intact. Forty-four Hobbit holes are scattered across the immaculately maintained hillside, each with its own garden, washing line, and props. Visited on the evening banquet tour, the set takes on a particularly magical quality as the sun fades: warm light spills from round windows, coloured lanterns sway outside the Green Dragon Inn, and the whole village reflects in the mill pond below — a scene that looks almost more real at dusk than in daylight.",
                           "coverimage":  "DSC_5176-HDR.jpg",
                           "images":  {
                                          "DSC_4821.jpg":  "Hobbit Hole",
@@ -6847,13 +6873,13 @@
                           "map_latitude":  -38.3586,
                           "map_longitude":  176.36863,
                           "map_zoom":  13,
-                          "text":  "A walk through Wai-O-Tapu Thermal Wonderland near Rotorua, one of New Zealand's most colourful geothermal parks. The centrepiece is the Champagne Pool — a 65-metre-wide hot spring at 74°C whose turquoise surface steams above a vivid orange rim of antimony sulphide deposits, the whole scene framed by a bleached silica terrace. Nearby, the Devil's Bath sits in a natural crater filled with an almost fluorescent lime-green water, coloured by a mix of sulphur and ferrous salts. The surreal palette of reds, oranges, greens and whites feels more like a chemistry experiment than a landscape.",
+                          "text":  "A walk through Wai-O-Tapu Thermal Wonderland near Rotorua, one of New Zealand\u0027s most colourful geothermal parks. The centrepiece is the Champagne Pool — a 65-metre-wide hot spring at 74°C whose turquoise surface steams above a vivid orange rim of antimony sulphide deposits, the whole scene framed by a bleached silica terrace. Nearby, the Devil\u0027s Bath sits in a natural crater filled with an almost fluorescent lime-green water, coloured by a mix of sulphur and ferrous salts. The surreal palette of reds, oranges, greens and whites feels more like a chemistry experiment than a landscape.",
                           "coverimage":  "DSC_4498.jpg",
                           "images":  {
-                   "DSC_4498.jpg":  "Champagne Pool",
-                   "DSC_4529.jpg":  "Champagne Pool Orange Rim",
-                   "DSC_4668.jpg":  "Devil's Bath"
-               }
+                                         "DSC_4498.jpg":  "Champagne Pool",
+                                         "DSC_4529.jpg":  "Champagne Pool Orange Rim",
+                                         "DSC_4668.jpg":  "Devil\u0027s Bath"
+                                     }
                       },
     "2026/mannebach111":  {
                               "title":  "Mannebach 111",
@@ -7158,7 +7184,7 @@
                               "coverimage":  "DSC_9592.jpg",
                               "images":  {
                                              "DSC_9592.jpg":  "Hong Hong Harbour",
-                                             "DSC_9570-HDR-Pano.jpg": "Harbour Panorama"
+                                             "DSC_9570-HDR-Pano.jpg":  "Harbour Panorama"
                                          }
                           },
     "2025/niutoushan":  {
