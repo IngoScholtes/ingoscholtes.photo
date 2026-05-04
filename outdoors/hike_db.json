@@ -7275,6 +7275,31 @@
                                          "DSC_9418-HDR.jpg":  "River"
                                      }
                       },
+    "2024/losheim":  {
+                         "title":  "Stausee Tafeltour",
+                         "region":  "Saarland",
+                         "country":  "Germany",
+                         "year":  "2024",
+                         "month":  "May",
+                         "category":  "Easy Hike",
+                         "distance":  12.8,
+                         "ascend":  265,
+                         "maxalt":  440,
+                         "time_h":  3,
+                         "time_m":  15,
+                         "rating":  0,
+                         "track":  "track.kml",
+                         "map_latitude":  49.53392,
+                         "map_longitude":  6.72960,
+                         "map_zoom":  13,
+                         "text":  "A scenic loop around the Losheimer Stausee in the Saarland. The route follows forest trails and meadow paths through a gently rolling landscape. In late spring, the paths are lined with yellow-flowering broom.",
+                         "coverimage":  "DSC_6291.jpg",
+                         "images":  {
+                                        "DSC_6291.jpg":  "Forest trail",
+                                        "DSC_6421.jpg":  "Trail through meadow",
+                                        "DSC_6581.jpg":  "Broom in bloom"
+                                    }
+                     },
     "2024/vancouver":  {
                            "title":  "Vancouver Seawall",
                            "region":  "British Columbia",
