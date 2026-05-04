@@ -7275,6 +7275,29 @@
                                          "DSC_9418-HDR.jpg":  "River"
                                      }
                       },
+    "2024/vancouver":  {
+                           "title":  "Vancouver Seawall",
+                           "region":  "British Columbia",
+                           "country":  "Canada",
+                           "month":  "December",
+                           "year":  "2024",
+                           "track":  "track.kml",
+                           "map_latitude":  49.292,
+                           "map_longitude":  -123.123,
+                           "map_zoom":  14,
+                           "distance":  13.5,
+                           "ascend":  79,
+                           "maxalt":  30,
+                           "time_h":  3,
+                           "time_m":  30,
+                           "category":  "Easy Hike",
+                           "rating":  0,
+                           "text":  "No description.",
+                           "coverimage":  "DSC_5658.jpg",
+                           "images":  {
+                            "DSC_5658.jpg": ""
+                           }
+                       },
     "2025/eluanbi":  {
                          "title":  "Eluanbi",
                          "region":  "Pingtung",
