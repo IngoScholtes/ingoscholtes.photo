@@ -51,7 +51,7 @@ def country_stats(country):
     time_m = 0
 
     for x in hikes.keys():    
-        if hikes[x]['country'] in country:
+        if hikes[x]['country'] in country and hikes[x]['type'] != 'trek':
             num += 1
             dist += hikes[x]['distance']
             ascend += hikes[x]['ascend']
@@ -100,7 +100,7 @@ def region_stats(region):
     time_m = 0
 
     for x in hikes.keys():    
-        if hikes[x]['region'] in region:
+        if hikes[x]['region'] in region and hikes[x]['type'] != 'trek':
             num += 1
             dist += hikes[x]['distance']
             ascend += hikes[x]['ascend']
