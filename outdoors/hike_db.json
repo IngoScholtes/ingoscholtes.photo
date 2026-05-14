@@ -6372,6 +6372,56 @@
                                           "DSC_0198.jpg":  "Volcanic Crater"
                                       }
                        },
+    "2026/auckland":  {
+                          "title":  "Auckland Domain and Harbour Walk",
+                          "region":  "North Island",
+                          "country":  "New Zealand",
+                          "year":  "2026",
+                          "month":  "February",
+                          "category":  "Easy Hike",
+                          "distance":  13.8,
+                          "ascend":  256,
+                          "maxalt":  84,
+                          "time_h":  3,
+                          "time_m":  29,
+                          "rating":  2,
+                          "track":  "track.kml",
+                          "map_latitude":  -36.85054,
+                          "map_longitude":  174.76796,
+                          "map_zoom":  13,
+                          "text":  "A city walk connecting two of Auckland\u0027s most distinct faces — the leafy parkland of the Auckland Domain and the illuminated waterfront of the Viaduct Harbour. The Domain, New Zealand\u0027s oldest park, occupies a former volcanic crater and offers sweeping lawns, specimen trees, and a sheltered stand of native nikau palms whose boardwalk threads through subtropical rainforest. The walk descends through Parnell to the Waitematā Harbour foreshore and follows the waterfront promenade west to the Viaduct and Wynyard Quarter — best timed for dusk, when the Sky Tower lights up over the marina and the city\u0027s reflections settle into still water.",
+                          "coverimage":  "DSC_0918.jpg",
+                          "images":  {
+                                         "DSC_0792.jpg":  "Auckland Domain",
+                                         "DSC_0853.jpg":  "Nikau Palm Forest",
+                                         "DSC_0918.jpg":  "Auckland Waterfront at Night"
+                                     }
+                      },
+    "2026/pihabeach":  {
+                           "title":  "Piha Beach",
+                           "region":  "North Island",
+                           "country":  "New Zealand",
+                           "year":  "2026",
+                           "month":  "February",
+                           "category":  "Easy Hike",
+                           "distance":  3.5,
+                           "ascend":  41,
+                           "maxalt":  10,
+                           "time_h":  0,
+                           "time_m":  52,
+                           "rating":  3,
+                           "track":  "track.kml",
+                           "map_latitude":  -36.95467,
+                           "map_longitude":  174.46845,
+                           "map_zoom":  14,
+                           "text":  "Auckland\u0027s wild western coast, where the Waitākere Ranges meet the Tasman Sea in a collision of black iron-sand beaches, thundering surf, and basalt sea stacks. Piha is the city\u0027s most beloved surf beach — a long crescent of dark volcanic sand divided by Lion Rock (Te Piha), a 101-metre basalt monolith whose silhouette has become an icon of New Zealand\u0027s west coast.",
+                           "coverimage":  "DJI_0188-2.jpg",
+                           "images":  {
+                                          "DJI_0188-2.jpg":  "Lion Rock from Above",
+                                          "DSC_0999.jpg":  "Piha Coastline",
+                                          "DSC_1157.jpg":  "Lion Rock"
+                                      }
+                       },
     "2026/mercerbay":  {
                            "title":  "Mercer Bay Loop Track",
                            "region":  "North Island",
@@ -6453,6 +6503,31 @@
                                           "DSC_5177.jpg":  "Ketetahi Descent"
                                       }
                        },
+    "2026/tawhaifalls":  {
+                             "title":  "Tawhai Falls",
+                             "region":  "North Island",
+                             "country":  "New Zealand",
+                             "year":  "2026",
+                             "month":  "February",
+                             "category":  "Easy Hike",
+                             "distance":  1.0,
+                             "ascend":  30,
+                             "maxalt":  820,
+                             "time_h":  0,
+                             "time_m":  20,
+                             "rating":  3,
+                             "track":  "track.kml",
+                             "map_latitude":  -39.17403,
+                             "map_longitude":  175.51424,
+                             "map_zoom":  15,
+                             "text":  "A short detour from Whakapapa road in Tongariro National Park, following a well-formed path through native beech forest to one of the park\u0027s most photogenic waterfalls. Tawhai Falls — colloquially known as Gollum\u0027s Pool — plunges 13 metres into a vividly turquoise plunge pool enclosed by overhanging moss and fern. The symmetry of the falls, the deep jade colour of the water, and the encircling green canopy create a scene of otherworldly calm. At only a kilometre return, the walk is one of the easiest in the national park, but few short trails in New Zealand deliver  such a payoff.",
+                             "coverimage":  "DSC_5345-HDR.jpg",
+                             "images":  {
+                                            "DSC_5345-HDR.jpg":  "Tawhai Falls",
+                                            "DSC_5323-HDR.jpg":  "Gollum\u0027s Pool",
+                                            "DSC_5385.jpg":  "Track through the Bush"
+                                        }
+                         },
     "2026/waitonga":  {
                           "title":  "Waitonga Falls Track",
                           "region":  "North Island",
@@ -6653,8 +6728,8 @@
                             "time_m":  57,
                             "rating":  3,
                             "track":  "track.kml",
-                            "map_latitude":  -43.185,
-                            "map_longitude":  171.742,
+                            "map_latitude":  -43.22641,
+                            "map_longitude":  171.71637,
                             "map_zoom":  14,
                             "text":  "A short but rewarding scramble among the iconic limestone formations of Kura Tawhiti (Castle Hill) in the Canterbury foothills. Dozens of weathered boulders and tors rise dramatically from the tussock grassland, shaped over millions of years by wind and rain. The track climbs above the valley floor, offering sweeping views of the surrounding Southern Alps and the wide Canterbury plains beyond.",
                             "coverimage":  "DSC_1563.jpg",
@@ -7290,7 +7365,7 @@
                          "rating":  0,
                          "track":  "track.kml",
                          "map_latitude":  49.53392,
-                         "map_longitude":  6.72960,
+                         "map_longitude":  6.7296,
                          "map_zoom":  13,
                          "text":  "A scenic loop around the Losheimer Stausee in the Saarland. The route follows forest trails and meadow paths through a gently rolling landscape. In late spring, the paths are lined with yellow-flowering broom.",
                          "coverimage":  "DSC_6291.jpg",
@@ -7307,8 +7382,8 @@
                            "month":  "December",
                            "year":  "2024",
                            "track":  "track.kml",
-                           "map_latitude":  49.292,
-                           "map_longitude":  -123.123,
+                           "map_latitude":  49.29275,
+                           "map_longitude":  -123.12223,
                            "map_zoom":  14,
                            "distance":  13.5,
                            "ascend":  79,
@@ -7320,8 +7395,8 @@
                            "text":  "No description.",
                            "coverimage":  "DSC_5658.jpg",
                            "images":  {
-                            "DSC_5658.jpg": ""
-                           }
+                                          "DSC_5658.jpg":  ""
+                                      }
                        },
     "2025/eluanbi":  {
                          "title":  "Eluanbi",
