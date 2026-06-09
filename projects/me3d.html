@@ -27,7 +27,7 @@
     #title p { margin: 3px 0 0; font-size: 12.5px; opacity: .65; }
 
     /* --- Controls --- */
-    #panelUI { position: fixed; top: 18px; right: 18px; z-index: 10; display: flex; flex-direction: column;
+    #panelUI { position: fixed; top: 18px; right: 18px; z-index: 40; display: flex; flex-direction: column;
         gap: 8px; align-items: flex-end; }
     .btn { pointer-events: auto; cursor: pointer; background: rgba(32,27,17,.82); color: #ecd9aa;
         border: 1px solid #5a4a2c; border-radius: 8px; padding: 8px 13px; font-family: inherit;
@@ -49,7 +49,7 @@
         box-shadow: 0 4px 14px rgba(0,0,0,.5); }
 
     /* --- Photo panel --- */
-    #card { position: fixed; z-index: 30; right: 22px; bottom: 22px; width: 420px; max-width: 46vw;
+    #card { position: fixed; z-index: 30; right: 22px; bottom: 22px; width: 504px; max-width: 55vw;
         background: rgba(22,18,11,.94); border: 1px solid #6a572f; border-radius: 12px; overflow: hidden;
         box-shadow: 0 12px 40px rgba(0,0,0,.6); display: none; backdrop-filter: blur(6px); }
     #card img { width: 100%; display: block; background: #000; min-height: 120px; }
@@ -438,9 +438,9 @@ document.getElementById('cardClose').onclick = () => card.style.display = 'none'
 const FRODO_COLOR = '#7fb2ff', HUNTER_COLOR = '#ff7a3d';
 const ROUTES = {
     frodo: { color: 0x7fb2ff, order: [
-        'shire4','forestpath','treeroots','ruwer3','ruwer2','barrowdowns',
-        'midgewater','LoneLands','weathertop','lastbridge','rivendell','caradhras',
-        'mirrormere','lothlorien3','emynmuil','deadmarshes','wilderland3','ithilien2','gollumpool',
+        'shire2','shire4','forestpath','treeroots','ruwer3','ruwer2','barrowdowns',
+        'midgewater','weathertop','LoneLands','lastbridge','trollshaws','rivendell','caradhras','eregion',
+        'mirrormere','lothlorien3','emynmuil','deadmarshes','wilderland3','stewedrabbit','gollumpool',
         'gorgoroth','mountdoom'] },
     hunters: { color: 0xff7a3d, order: [
         'emynmuil','eastemnet','riddermark','fangorn2','fangorn','isengard','edoras','simbelmyne',
@@ -455,7 +455,7 @@ const crumbGeo = new THREE.SphereGeometry(7, 14, 12);
 function clearTrail() {
     if (!trailGroup) return;
     scene.remove(trailGroup);
-    if (trailMat) { trailMat.dispose(); trailMat = null; }Goll
+    if (trailMat) { trailMat.dispose(); trailMat = null; }
     crumbs = []; trailGroup = null;
 }
 function buildTrail(groundPts, color) {
@@ -716,7 +716,12 @@ function animate() {
         }
     } else if (touring && tourCurve) {
         tourT += dt / (tourSpots.length * 3.4);    // ~3.4s per waypoint
-        if (tourT >= 1) { tourT = 1; stopTour(); }
+        if (tourT >= 1) {
+            tourT = 1;
+            const last = tourSpots.length - 1;       // make sure the final photo shows
+            if (lastTourIdx !== last) { lastTourIdx = last; openCard(tourSpots[last]); }
+            stopTour();
+        }
         else {
             camera.position.copy(tourCurve.getPoint(tourT));
             camera.lookAt(lookCurve.getPoint(Math.min(tourT + 0.02, 1)));
