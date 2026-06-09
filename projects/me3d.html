@@ -370,7 +370,9 @@ function realPlace(pos) {
     let country = 'somewhere on Earth';
     if (lat < -30) country = 'New Zealand';
     else if (lng < -50) country = 'Canada';
-    else if (lat > 54) country = 'Scotland';
+    else if (lat > 66.5 && lng > 8 && lng < 20) country = 'Norway';
+    else if (lat > 55 && lng > 10 && lng < 25) country = 'Sweden';
+    else if (lat > 54 && lng < 0) country = 'Scotland';
     else if (lat > 49 && lat < 50.6 && lng > 6 && lng < 7.6) country = 'Germany / Luxembourg';
     else if (lat > 45 && lat < 48 && lng > 6.5 && lng < 10.5) country = 'Switzerland';
     else if (lat > 41 && lat < 43 && lng > 8 && lng < 10) country = 'Corsica';
@@ -526,6 +528,7 @@ function startTour(key) {
     if (globeMode || transitioning) {            // leave globe mode before a journey
         globeMode = false; transitioning = false; applyGlobeVisuals(0); setGlobeBtn();
         controls.maxPolarAngle = Math.PI * 0.49;
+        controls.rotateSpeed = 1.0; controls.zoomSpeed = 1.0;
     }
     activeRoute = key;
     buildRoute(key);
@@ -552,6 +555,7 @@ document.getElementById('resetBtn').onclick = () => {
     clearTrail(); activeRoute = null;
     controls.enabled = true;
     controls.maxPolarAngle = Math.PI * 0.49;     // back to map tilt limit
+    controls.rotateSpeed = 1.0; controls.zoomSpeed = 1.0;
     camera.position.copy(HOME);
     controls.target.copy(CENTER);
     setTourButtons();
@@ -583,7 +587,9 @@ function globeCamPos() {                          // frame the European cluster 
 }
 
 let globe = null, morphDots = [], dotPick = [], stars = null;
-const QUAT_UP = new THREE.Quaternion();          // identity = pole pointing +Y
+const QUAT_UP = new THREE.Quaternion();          // identity = pin pointing +Y
+const pinStemGeo = new THREE.CylinderGeometry(1.1, 1.1, 22, 8);
+const pinHeadGeo = new THREE.SphereGeometry(10, 18, 14);
 const theFog = scene.fog;
 
 function addStars() {
@@ -604,11 +610,13 @@ function buildGlobe(spots) {
     globe.position.copy(globeCenter); globe.visible = false;
     scene.add(globe);
     new THREE.TextureLoader().setCrossOrigin('anonymous').load(
-        'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r160/examples/textures/planets/earth_atmos_2048.jpg',
-        (tex) => { tex.colorSpace = THREE.SRGBColorSpace; mat.map = tex;
+        'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg',   // 4096x2048
+        (tex) => { tex.colorSpace = THREE.SRGBColorSpace;
+            tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+            mat.map = tex;
             mat.emissiveMap = tex; mat.emissiveIntensity = 0.85;   // self-lit so it reads brightly
             mat.color.set(0xffffff); mat.needsUpdate = true; });
-    // a flying flag-pin for every spot that has a real-world position
+    // a flying red-headed map pin for every spot that has a real-world position
     const UP = new THREE.Vector3(0, 1, 0);
     for (const k in spots) {
         const s = spots[k]; if (!s.mepos || !s.pos) continue;
@@ -616,20 +624,20 @@ function buildGlobe(spots) {
         const flat = new THREE.Vector3(s.mepos[1], heightAt(s.mepos[1], s.mepos[0]) * relief + 12, s.mepos[0]);
         const gp = latLngToVec3(rp.lat, rp.lng, GLOBE_R).add(globeCenter);   // planted on the surface
         const grp = new THREE.Group();
-        const poleMatT = new THREE.MeshStandardMaterial({ color: 0x2a2018, roughness: 0.85,
+        const stemMatT = new THREE.MeshStandardMaterial({ color: 0xf2f2f2, roughness: 0.6,
             transparent: true, opacity: 0 });
-        const flagMatT = new THREE.MeshStandardMaterial({ color: flagColor, emissive: flagColor,
-            emissiveIntensity: 0.7, roughness: 0.5, side: THREE.DoubleSide, transparent: true, opacity: 0 });
-        const pole = new THREE.Mesh(poleGeo, poleMatT); pole.position.y = POLE_H / 2;
-        const flag = new THREE.Mesh(flagGeo, flagMatT);
+        const headMatT = new THREE.MeshStandardMaterial({ color: 0xe23b3b, emissive: 0xe23b3b,
+            emissiveIntensity: 0.55, roughness: 0.4, transparent: true, opacity: 0 });
+        const stem = new THREE.Mesh(pinStemGeo, stemMatT); stem.position.y = 11;
+        const head = new THREE.Mesh(pinHeadGeo, headMatT); head.position.y = 27;
         const click = { spot: s };
-        pole.userData = click; flag.userData = click;
-        grp.add(pole); grp.add(flag);
+        stem.userData = click; head.userData = click;
+        grp.add(stem); grp.add(head);
         grp.position.copy(flat); grp.visible = false;
-        const n = gp.clone().sub(globeCenter).normalize();   // surface normal = where the pole points
+        const n = gp.clone().sub(globeCenter).normalize();   // surface normal = where the pin points
         grp.userData = { spot: s, flat, gp, quatGlobe: new THREE.Quaternion().setFromUnitVectors(UP, n),
-            mats: [poleMatT, flagMatT] };
-        scene.add(grp); morphDots.push(grp); dotPick.push(pole, flag);
+            mats: [stemMatT, headMatT] };
+        scene.add(grp); morphDots.push(grp); dotPick.push(stem, head);
     }
 }
 
@@ -718,6 +726,8 @@ function animate() {
             // globe mode: let the world spin all the way round (reach the southern hemisphere / NZ)
             controls.minPolarAngle = 0;
             controls.maxPolarAngle = globeMode ? Math.PI : Math.PI * 0.49;
+            controls.rotateSpeed = globeMode ? 0.6 : 1.0;   // gentler drag/zoom on the globe
+            controls.zoomSpeed = globeMode ? 0.65 : 1.0;
         }
     } else if (touring && tourCurve) {
         tourT += dt / (tourSpots.length * 3.4);    // ~3.4s per waypoint

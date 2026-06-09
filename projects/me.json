@@ -206,55 +206,55 @@
     "redhornpass": {
         "label": "Redhorn pass",
         "image": "projects/img/DSC_8940.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [46.50, 8.04],
         "mepos": [538, 830]
     },
     "ironhills": {
         "label": "Iron Hills",
         "image": "projects/img/DSC_3180-Pano-Bearbeitet.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.07, 9.10],
         "mepos": [282, 1324]
     },
     "brownlands": {
         "label": "Brown Lands",
         "image": "projects/img/DSC_9591.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [57.29, -6.18],
         "mepos": [676, 1126]
     },
     "evendim": {
         "label": "Lake Evendim",
         "image": "projects/img/DSC_9714-Pano-Bearbeitet.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [56.13, -4.58],
         "mepos": [274, 451]
     },
     "fangorn2": {
         "label": "Edge of Fangorn",
         "image": "projects/img/DSC_3567-HDR.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.29, 9.43],
         "mepos": [657, 797]
     },
     "forestriver": {
         "label": "Forest River",
         "image": "projects/img/DSC_6195-Pano.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.59, 8.57],
         "mepos": [241, 997]
     },
     "highpass": {
         "label": "High Pass",
         "image": "projects/img/DSC_2417-HDR.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.07, 9.10],
         "mepos": [325, 889]
     },
     "redhorn": {
         "label": "Redhorn Pass",
         "image": "projects/img/DSC_5542.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [46.40, 8.06],
         "mepos": [536, 821]
     },
     "northdown": {
         "label": "North Downs",
         "image": "projects/img/DSC_6420.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.10, 8.92],
         "mepos": [275, 577]
     },
     "mirrormere": {
@@ -266,19 +266,19 @@
     "angmar": {
         "label": "Angmar",
         "image": "projects/img/DSC_0437-Pano.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [57.20, -6.15],
         "mepos": [153, 716]
     },
     "nurnen": {
         "label": "Nurnen",
         "image": "projects/img/DSC_1353-Pano.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [57.20, -6.15],
         "mepos": [1049, 1415]
     },
     "gladdenfields": {
         "label": "Gladden Fields",
         "image": "projects/img/DSC_1077.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [68.32, 14.15],
         "mepos": [470, 946]
     },
     "northmoors": {
@@ -290,72 +290,72 @@
     "zirakzigil": {
         "label": "Zirakzigil",
         "image": "projects/img/DSC_6111.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.12, 9.20],
         "mepos": [560, 830]
     },
     "beorn": {
         "label": "Beorn's Hall",
         "image": "outdoors/2020/fuerstein/DSC_4891.jpg",
         "mepos": [357, 976],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [46.85, 8.07],
         "text": ""
     
     },
     "weatherhills": {
         "label": "Weather Hills",
-        "image": "projects/img/DSC_7008.jpg",        
+        "image": "projects/img/DSC_7008.jpg",
         "mepos": [298, 650],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [56.61, -4.77],
         "text": ""
     
     },
     "evendimhills": {
         "label": "Evendim Hills",
-        "image": "projects/img/DSC_3269.jpg",        
+        "image": "projects/img/DSC_3269.jpg",
         "mepos": [270, 413],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [46.85, 8.07],
         "text": ""
     },
     "treeroots": {
         "label": "Three is Company",
-        "image": "projects/img/DSC_4576-HDR.jpg",        
+        "image": "projects/img/DSC_4576-HDR.jpg",
         "mepos": [394, 469],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [49.61, 6.96],
         "text": ""
     },
     "chetwood": {
         "label": "Chetwood",
-        "image": "projects/img/DSC_4556.jpg",        
+        "image": "projects/img/DSC_4556.jpg",
         "mepos": [362, 573],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [49.61, 6.96],
         "text": ""
     },
     "andrath": {
         "label": "Andrath",
-        "image": "projects/img/DSC_7391.jpg",        
+        "image": "projects/img/DSC_7391.jpg",
         "mepos": [428, 570],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [47.13, 8.78],
         "text": ""
     },
     "erednimrais": {
         "label": "Ered Nimrais",
-        "image": "projects/img/DSC_9723.jpg",        
+        "image": "projects/img/DSC_9723.jpg",
         "mepos": [802, 789],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [57.18, -6.10],
         "text": ""
     },
     "enedwaith": {
         "label": "Enedwaith",
-        "image": "projects/img/DSC_0877.jpg",        
+        "image": "projects/img/DSC_0877.jpg",
         "mepos": [693, 587],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [57.20, -6.15],
         "text": ""
     },
     "mushroom": {
         "label": "Mirkwood Mushroom",
-        "image": "projects/img/DSC_6748-Bearbeitet.jpg",        
+        "image": "projects/img/DSC_6748-Bearbeitet.jpg",
         "mepos": [340, 1040],
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [49.66, 6.95],
         "text": ""
     },
     "bluemountains": {
@@ -395,7 +395,8 @@
     },
     "weatherhills2": {
         "label": "Weather Hills",
-        "image": "portfolio/img/DSC_2266.jpg",        
+        "image": "portfolio/img/DSC_2266.jpg",
+        "pos": [56.61, -4.77],
         "mepos": [346.8, 643],
         "text": ""
     },
@@ -443,6 +444,7 @@
     "greyhavens": {
         "label": "Grey Havens",
         "image": "projects/img/DSC_4154-Bearbeitet.jpg",
+        "pos": [42.27, 8.70],
         "mepos": [370,310],
         "text": ""
     },
@@ -515,6 +517,7 @@
     "forochel": {
         "label": "Forochel",
         "image": "projects/img/DSC_5580-HDR.jpg",
+        "pos": [64.82, 15.08],
         "mepos": [151,430],
         "text": ""
     },
@@ -556,7 +559,7 @@
     "isengard": {
         "label": "Wizards Vale",
         "image": "projects/img/DJI_0626.jpg",
-        "pos": [[-38, 18, 33], [176, 21, 47]],
+        "pos": [-44.67, 168.27],
         "mepos": [784, 770],
         "text": ""
     },
