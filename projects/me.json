@@ -14,7 +14,7 @@
     "midgewater": {
         "label": "Midgewater",
         "image": "portfolio/img/DSC_6655.jpg",
-        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "pos": [56.61, -4.77],
         "mepos": [380, 621]
     },
     "deadmarshes": {
@@ -26,7 +26,7 @@
     "LoneLands": {
         "label": "Lone-Lands",
         "image": "portfolio/img/DSC_1921-Pano.jpg",
-        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "pos": [56.61, -4.77],
         "mepos": [370, 709]
     },
     "cascade": {
@@ -188,18 +188,19 @@
     "weathertop": {
         "label": "Weathertop",
         "image": "projects/img/DSC_1725.jpg",
-        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "pos": [56.61, -4.77],
         "mepos": [381, 662]
     },
     "ettenmoors": {
         "label": "Ettenmoors",
         "image": "projects/img/DSC_8057.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],
+        "pos": [56.61, -4.77],
         "mepos": [239, 754]
     },
     "edoras": {
         "label": "Edoras",
         "image": "projects/img/DJI_0451.jpg",
+        "pos": [-43.605, 170.835],
         "mepos": [837, 862]
     },
     "redhornpass": {
@@ -259,6 +260,7 @@
     "mirrormere": {
         "label": "Mirrormere",
         "image": "projects/img/DSC_2134-Pano.jpg",
+        "pos": [46.50, 7.73],
         "mepos": [550, 852]
     },
     "angmar": {
@@ -282,7 +284,7 @@
     "northmoors": {
         "label": "North Moors",
         "image": "projects/img/DSC_8529-Pano.jpg",
-        "pos": [[56, 37, 39.2304], [4, 50, 28.733]],        
+        "pos": [44.65, -63.57],
         "mepos": [340, 390]
     },
     "zirakzigil": {
@@ -399,19 +401,22 @@
     },
     "eregion": {
         "label": "Eregion",
-        "image": "projects/img/DSC_1601.jpg",        
+        "image": "projects/img/DSC_1601.jpg",
+        "pos": [46.9375, 8.9956],
         "mepos": [533, 792],
         "text": ""
     },
     "fangorn": {
         "label": "Fangorn",
-        "image": "projects/img/DSC_8969-HDR-Bearbeitet.jpg",        
+        "image": "projects/img/DSC_8969-HDR-Bearbeitet.jpg",
+        "pos": [49.658, 6.783],
         "mepos": [726, 862],
         "text": ""
     },
     "lothlorien2": {
         "label": "Lothlorien",
-        "image": "projects/img/DSC_8370.jpg",        
+        "image": "projects/img/DSC_8370.jpg",
+        "pos": [49.658, 6.783],
         "mepos": [613.5, 887],
         "text": ""
     },
@@ -423,13 +428,15 @@
     },
     "enchantedriver": {
         "label": "Enchanted River",
-        "image": "projects/img/DSC_2279-Bearbeitet-Bearbeitet.jpg",        
+        "image": "projects/img/DSC_2279-Bearbeitet-Bearbeitet.jpg",
+        "pos": [49.658, 6.783],
         "mepos": [319, 1091],
         "text": ""
     },
     "lothlorien3": {
         "label": "Lothlorien",
         "image": "projects/img/DSC_6060-HDR-Bearbeitet.jpg",
+        "pos": [49.70, 6.92],
         "mepos": [603,855],
         "text": ""
     },
@@ -454,18 +461,21 @@
     "Bindbole": {
         "label": "Bindbole Wood",
         "image": "projects/img/DSC_2824-HDR-Bearbeitet.jpg",
+        "pos": [49.62, 6.87],
         "mepos": [348,450],
         "text": ""
     },
     "mirkwood2": {
         "label": "Mirkwood",
         "image": "outdoors/2021/greimerath/DSC_2798-HDR-Bearbeitet.jpg",
+        "pos": [49.62, 6.87],
         "mepos": [552,1043],
         "text": ""
     },
     "imladris": {
         "label": "Imladris",
         "image": "projects/img/DSC_0451.jpg",
+        "pos": [46.495, 7.672],
         "mepos": [350,875],
         "text": ""
     },
@@ -478,18 +488,21 @@
     "tookland": {
         "label": "Tookland",
         "image": "projects/img/DSC_1835-HDR.jpg",
+        "pos": [49.62, 6.95],
         "mepos": [415,378],
         "text": ""
     },
     "greenhillcounty": {
         "label": "Green-hill Country",
         "image": "projects/img/DSC_1616.jpg",
+        "pos": [49.658, 6.783],
         "mepos": [410,425],
         "text": ""
     },
     "woodyend": {
         "label": "Woody End",
         "image": "projects/img/DSC_6250.jpg",
+        "pos": [49.605, 6.94],
         "mepos": [471,421],
         "text": ""
     },
@@ -508,24 +521,28 @@
     "greenhillcounty2": {
         "label": "Green-hill country",
         "image": "projects/img/DSC_7296-HDR.jpg",
+        "pos": [49.658, 6.783],
         "mepos": [384,422],
         "text": ""
     },
     "forestpath": {
         "label": "Get off the road!",
         "image": "projects/img/DSC_2185.jpg",
+        "pos": [50.2, 6.6],
         "mepos": [400,458],
         "text": ""
     },
     "gollumpool": {
         "label": "Gollum's Pool",
         "image": "projects/img/DSC_5372-HDR.jpg",
+        "pos": [-39.198, 175.552],
         "mepos": [900,1128],
         "text": ""
     },
     "mountdoom": {
         "label": "Mount Doom",
         "image": "projects/img/DSC_4071.jpg",
+        "pos": [-39.157, 175.632],
         "mepos": [906,1235],
         "text": ""
     },
