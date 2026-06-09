@@ -20,7 +20,7 @@
     "deadmarshes": {
         "label": "Dead Marshes",
         "image": "portfolio/img/DSC_9577.jpg",
-        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "pos": [57.29, -6.18],
         "mepos": [824, 1077]
     },
     "LoneLands": {
@@ -74,7 +74,7 @@
     "shire2": {
         "label": "Bagend",
         "image": "projects/img/DSC_3595.jpg",
-        "pos": [[46, 58, 55.9622], [8, 3, 49.6205]],
+        "pos": [-37.872, 175.683],
         "mepos": [384, 458]
     },
     "misty_mountains2": {
@@ -86,7 +86,7 @@
     "greendragon": {
         "label": "Green Dragon Inn",
         "image": "projects/img/DSC_5201-HDR.jpg",
-        "pos": [[47, 7, 40.1333], [8, 45, 16.5333]],
+        "pos": [-37.872, 175.683],
         "mepos": [397, 442]
     },
     "lake": {
@@ -98,7 +98,7 @@
     "shire4": {
         "label": "Hobbiton",
         "image": "projects/img/DSC_5176-HDR.jpg",
-        "pos": [[47, 10, 47.3946], [8, 40, 47.9719]],
+        "pos": [-37.872, 175.683],
         "mepos": [391, 446]
     },
     "ruwer5": {
@@ -164,7 +164,7 @@
     "rohan2": {
         "label": "Eastfold",
         "image": "outdoors/2015/westhighlandway/DSC_1488.jpg",
-        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "pos": [56.64, -4.81],
         "mepos": [839, 971]
     },
     "ithilien2": {
@@ -176,7 +176,7 @@
     "lastbridge": {
         "label": "The Last Bridge",
         "image": "projects/img/DSC_0922.jpg",
-        "pos": [[46, 54, 39.6254], [9, 11, 24.4305]],
+        "pos": [56.61, -4.77],
         "mepos": [373, 735]
     },
     "rivendell": {
@@ -381,9 +381,9 @@
     },
     "angmar2": {
         "label": "Angmar",
-        "image": "projects/img/DSC_2763.jpg",        
+        "image": "projects/img/DSC_2763.jpg",
         "mepos": [162, 750],
-        "pos": [[47, 15, 39.12], [9, 27, 14.18]],
+        "pos": [57.29, -6.18],
         "text": ""
     },
     "methedras": {
@@ -423,7 +423,8 @@
     },
     "fangorn3": {
         "label": "Fangorn",
-        "image": "projects/img/DSC_0123-Bearbeitet-Bearbeitet.jpg",        
+        "image": "projects/img/DSC_0123-Bearbeitet-Bearbeitet.jpg",
+        "pos": [49.658, 6.783],
         "mepos": [753, 815],
         "text": ""
     },
@@ -451,12 +452,14 @@
     "celduin": {
         "label": "River Running",
         "image": "projects/img/DSC_1771-HDR.jpg",
+        "pos": [49.66, 6.58],
         "mepos": [512,1431],
         "text": ""
     },
     "mirkwood": {
         "label": "Mirkwood",
         "image": "projects/img/DJI_0894.jpg",
+        "pos": [46.97, 8.86],
         "mepos": [234,1084],
         "text": ""
     },
