@@ -18,63 +18,45 @@ var shopEnabled = false
 // galleryURL: url of page to open when tile is clicked
 // divID: ID of the div to add the tile to, default is 'galleryRoot'
 // panoramic: whether or not to generate a panoramic tile (twice the size of a normal one)
-function addGalleryTile(pictureSrc, altText, footerText, galleryURL, divID, panoramic) {
+function addGalleryTile(pictureSrc, altText, footerText, galleryURL, subtitle, divID, panoramic) {
 	"use strict";
-	if (typeof panoramic === 'undefined')
-	{
-		panoramic = false;
-	}
-		
-	if (typeof divID === 'undefined')
-	{
-		divID = 'galleryRoot';
-	}
-	
+	if (typeof panoramic === 'undefined') { panoramic = false; }
+	if (typeof divID === 'undefined') { divID = 'galleryRoot'; }
+	if (typeof subtitle === 'undefined') { subtitle = ''; }
+
 	var imageTile = document.createElement('div');
-	
-	if (panoramic)
-	{
-		imageTile.setAttribute('class', 'imageTilePano');
-	}
-	else
-	{
-		imageTile.setAttribute('class', 'imageTile');
-	}
-	
+	imageTile.setAttribute('class', panoramic ? 'imageTilePano' : 'imageTile');
+
 	var image = document.createElement('div');
-	if (panoramic)
-	{
-		image.setAttribute('class', 'imagePano');	
-	}
-	else
-	{
-		image.setAttribute('class', 'image');
-	}
-	imageTile.appendChild(image);	
+	image.setAttribute('class', panoramic ? 'imagePano' : 'image');
+	imageTile.appendChild(image);
 
 	var href = document.createElement('a');
 	href.setAttribute('href', galleryURL);
-	
+
 	var img = document.createElement('img');
 	img.setAttribute('src', pictureSrc);
-	img.setAttribute('alt', altText);	
+	img.setAttribute('alt', altText);
 
 	image.appendChild(href);
-	href.appendChild(img);		
-	
+	href.appendChild(img);
+
 	var footer = document.createElement('div');
-	
-	if (panoramic)
-	{
-		footer.setAttribute('class', 'footerPano');
+	footer.setAttribute('class', panoramic ? 'footerPano' : 'footer');
+
+	var titleEl = document.createElement('span');
+	titleEl.setAttribute('class', 'footer-title');
+	titleEl.appendChild(document.createTextNode(footerText));
+	footer.appendChild(titleEl);
+
+	if (subtitle) {
+		var subtitleEl = document.createElement('span');
+		subtitleEl.setAttribute('class', 'footer-sub');
+		subtitleEl.appendChild(document.createTextNode(subtitle));
+		footer.appendChild(subtitleEl);
 	}
-	else 
-	{
-		footer.setAttribute('class', 'footer');
-	}
-	footer.appendChild(document.createTextNode(footerText));
+
 	imageTile.appendChild(footer);
-	
 	document.getElementById(divID).appendChild(imageTile);
 }
 

@@ -29,7 +29,8 @@
 	text-align: center;
 	line-height: normal;
 	padding: 0px;
-	border: none;	
+	border: none;
+	overflow: hidden;
 	cursor: pointer;
 }
 
@@ -42,7 +43,8 @@
 	line-height: normal;
 	padding: 0px;
 	border: none;
-	cursor: pointer;	
+	overflow: hidden;
+	cursor: pointer;
 }
 
 .pictureOverlay
@@ -165,12 +167,18 @@
 .album .imageTile .image img {
 	height: 200px;
 	width: 300px;
+	transition: transform 0.35s ease;
 }
 
-.album .imageTilePano .imagePano  img {
+.album .imageTilePano .imagePano img {
 	width: 616px;
 	height: 200px;
-	align: center;
+	transition: transform 0.35s ease;
+}
+
+.album .imageTile:hover .image img,
+.album .imageTilePano:hover .imagePano img {
+	transform: scale(1.05);
 }
 
 .imageTile:hover .hoverFooter{ visibility:visible; 
@@ -268,17 +276,30 @@
 }
 
 .album .footer {
-	text-align: center;
-	width: 300px;
-	background-color: rgba(0,0,0,0.85);
-	color: #FFF;
-	border-top: none;
-	font-weight: bold;
-	font-size: 10pt;
-	line-height: normal;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	margin-top: 0px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 36px 12px 10px;
+	background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.72) 100%);
+	color: #fff;
+	text-align: left;
+}
+
+.album .footer-title {
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.album .footer-sub {
+	display: block;
+	margin-top: 3px;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 15px;
+	color: rgba(255,255,255,0.82);
 }
 
 .album .hikefooter {
@@ -296,14 +317,12 @@
 }
 
 .album .footerPano {
-	text-align: center;
-	width: 614px;
-	border-top: none;
-	background-color: rgba(0,0,0,0.85);
-	color: #FFF;
-	font-size: 10pt;
-	font-weight: bold;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	margin-top: 0px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 36px 12px 10px;
+	background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.72) 100%);
+	color: #fff;
+	text-align: left;
 }
