@@ -73,6 +73,7 @@
 
 <div id="panelUI">
     <button class="btn" id="closeBtn">&#10005; Close 3D</button>
+    <button class="btn" id="tourBilbo"><span style="color:#63c763">&#9679;</span> Bilbo&rsquo;s Journey</button>
     <button class="btn" id="tourFrodo"><span style="color:#7fb2ff">&#9679;</span> Frodo &amp; Sam</button>
     <button class="btn" id="tourHunters"><span style="color:#ff7a3d">&#9679;</span> The Three Hunters</button>
     <button class="btn" id="globeBtn">&#127757; Back to Earth</button>
@@ -435,8 +436,11 @@ function openCard(s) {
 document.getElementById('cardClose').onclick = () => card.style.display = 'none';
 
 // =====================  journeys + growing trail  =========================
-const FRODO_COLOR = '#7fb2ff', HUNTER_COLOR = '#ff7a3d';
+const FRODO_COLOR = '#7fb2ff', HUNTER_COLOR = '#ff7a3d', BILBO_COLOR = '#63c763';
 const ROUTES = {
+    bilbo: { color: 0x63c763, order: [
+        'shire2','greendragon','chetwood','wilderland2','rivendell','highpass','beorn','enchantedriver',
+        'forest_stream','lake','lonelymountain'] },
     frodo: { color: 0x7fb2ff, order: [
         'shire2','shire4','forestpath','treeroots','ruwer3','ruwer2','barrowdowns',
         'midgewater','weathertop','LoneLands','lastbridge','trollshaws','rivendell','caradhras','eregion',
@@ -503,6 +507,9 @@ function buildRoute(key) {
 }
 
 function setTourButtons() {
+    document.getElementById('tourBilbo').innerHTML =
+        '<span style="color:' + BILBO_COLOR + '">●</span> ' +
+        (touring && activeRoute === 'bilbo' ? '■ Stop' : 'Bilbo&rsquo;s Journey');
     document.getElementById('tourFrodo').innerHTML =
         '<span style="color:' + FRODO_COLOR + '">●</span> ' +
         (touring && activeRoute === 'frodo' ? '■ Stop' : 'Frodo &amp; Sam');
@@ -532,6 +539,7 @@ document.getElementById('closeBtn').onclick = () => {
     if (history.length > 1 && document.referrer) history.back();
     else location.href = 'me.html';
 };
+document.getElementById('tourBilbo').onclick = () => startTour('bilbo');
 document.getElementById('tourFrodo').onclick = () => startTour('frodo');
 document.getElementById('tourHunters').onclick = () => startTour('hunters');
 document.getElementById('resetBtn').onclick = () => {
