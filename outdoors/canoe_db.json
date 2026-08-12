@@ -463,5 +463,28 @@
             "DSC_1859.jpg": "Great Saar Bend",
             "DSC_1887.jpg": "Cloef Viewpoint"
         }
+    },
+    "2026/wiesent": {
+        "title": "Wiesent",
+        "region": "Franconia",
+        "country": "Germany",
+        "year": "2026",
+        "month": "July",
+        "category": "River Tour",
+        "distance": 5.0,
+        "launch": "Waischenfeld",
+        "time_h": 1,
+        "time_m": 30,
+        "track": "track.kml",
+        "map_latitude": 49.82342,
+        "map_longitude": 11.32115,
+        "map_zoom": 13,
+        "text": "A short morning paddle down the Wiesent, the river that cut the valleys of the Fränkische Schweiz into the Franconian Jura and still runs shallow, clear and green between wooded limestone slopes. From the launch at Waischenfeld the river winds downstream below Burg Rabeneck, which stands on its crag high above the water, to the hamlet of Doos — five kilometres of slow current, gravel bars and overhanging banks thick with reed and Himalayan balsam. The Wiesent is one of the calmest rivers we have paddled, and quiet enough that a beaver let the boat drift past within a few metres before slipping under.",
+        "coverimage": "DSC_0220.jpg",
+        "images": {
+            "DSC_0220.jpg": "Burg Rabeneck",
+            "DSC_0304.jpg": "Wiesent Valley",
+            "DSC_0290.jpg": "Beaver"
+        }
     }
 }

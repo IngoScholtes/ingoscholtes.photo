@@ -7479,5 +7479,87 @@
         "images": {
             "DSC_6878.jpg": "Pfaender"
         }
+    },
+    "2025/sommerhausen": {
+        "title": "Sommerhausen",
+        "region": "Franconia",
+        "country": "Germany",
+        "year": "2025",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 8.4,
+        "ascend": 152,
+        "maxalt": 265,
+        "time_h": 2,
+        "time_m": 9,
+        "rating": 0,
+        "track": "track.kml",
+        "map_latitude": 49.68751,
+        "map_longitude": 10.04447,
+        "map_zoom": 13,
+        "text": "A short summer circuit on the wooded plateau above Sommerhausen, the small walled wine town on the right bank of the Main south of Würzburg. The route follows field and forest tracks over the shell-limestone tableland, passing an abandoned quarry whose floor has been left to become dry grassland — thin, stony, full of low wildflowers, with stones laid out in circles across the turf — and a quiet pond held in a fold of the hillside. August leaves the plateau parched and the woodland shade welcome, and the walk ends where it is most worth ending: at the gate tower of Sommerhausen itself, one of the most completely preserved small townscapes on this stretch of the Main.",
+        "coverimage": "DSC_6379.jpg",
+        "images": {
+            "DSC_6293.jpg": "Abandoned Quarry",
+            "DSC_6299.jpg": "Stone Circles",
+            "DSC_6375.jpg": "Pond",
+            "DSC_6379.jpg": "Sommerhausen Gate"
+        }
+    },
+    "2026/baernfels": {
+        "title": "Bärnfels",
+        "region": "Franconia",
+        "country": "Germany",
+        "year": "2026",
+        "month": "July",
+        "category": "Easy Hike",
+        "distance": 8.7,
+        "ascend": 282,
+        "maxalt": 582,
+        "time_h": 2,
+        "time_m": 22,
+        "rating": 1,
+        "track": "track.kml",
+        "map_latitude": 49.70999,
+        "map_longitude": 11.35741,
+        "map_zoom": 13,
+        "text": "A summer evening circuit from Bärnfels, one of the villages of Obertrubach in the heart of the Fränkische Schweiz, where the dolomite of the Franconian Jura breaks out of the beech forest in weathered towers and blocks. The route climbs from the village onto the open plateau of fields and meadows, then drops back into woodland where mossy rock outcrops line the slopes and sunken hollow ways lead down through the trees. July has the grain standing ripe on the plateau and the low evening light reaching far into the forest, and a rock terrace above the valley opens the one wide view of the walk, out over an unbroken sea of woodland.",
+        "coverimage": "DSC_0492.jpg",
+        "images": {
+            "DSC_0492.jpg": "Rock Terrace Viewpoint",
+            "DSC_0376.jpg": "Plateau above Bärnfels",
+            "DSC_0430.jpg": "Grain Field",
+            "DSC_0440.jpg": "Rocks and Wood",
+            "DSC_0416.jpg": "Forest Track",
+            "DSC_0540.jpg": "Hollow Way"
+        }
+    },
+    "2026/randersacker": {
+        "title": "Randersacker",
+        "region": "Franconia",
+        "country": "Germany",
+        "year": "2026",
+        "month": "August",
+        "category": "Easy Hike",
+        "distance": 15.8,
+        "ascend": 422,
+        "maxalt": 300,
+        "time_h": 3,
+        "time_m": 48,
+        "rating": 1,
+        "track": "track.kml",
+        "map_latitude": 49.74953,
+        "map_longitude": 10.00245,
+        "map_zoom": 13,
+        "text": "A long late-summer round above Randersacker, the wine village on the Main just upstream of Würzburg whose steep terraced slopes are among the best known vineyard sites in Franconia. The walk leaves the village past its churchyard square, climbs through the vines to the shell-limestone plateau, and then alternates for hours between open field land and shaded beech woodland before dropping back to the river. Above the vineyards the thin limestone turf is kept open by grazing goats, and the dry August grassland, the old field barns standing at the edge of harvested fields, and the Spätburgunder colouring on the vine give the route its character — a working landscape of wine, stone and heat.",
+        "coverimage": "DSC_0324.jpg",
+        "images": {
+            "DSC_0324.jpg": "Ripening Grapes",
+            "DSC_0264.jpg": "Randersacker",
+            "DSC_0304.jpg": "Grazing Goats",
+            "DSC_0316.jpg": "Field Barn",
+            "DSC_0338.jpg": "Beech Forest",
+            "DSC_0336.jpg": "Evening Track"
+        }
     }
 }
